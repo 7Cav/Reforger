@@ -1,0 +1,21 @@
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_bIsVehiclePatrol 1
+  }
+ }
+ coords 2556.958 19.063 3087.735
+ angleY -88.381
+ {
+  GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+   components {
+    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+     m_eGroupType TEAM_TRUCK
+     m_bIsVehicleGroup 1
+    }
+   }
+   coords -0.285 -0.008 -1.58
+   angleY 88.381
+  }
+ }
+}

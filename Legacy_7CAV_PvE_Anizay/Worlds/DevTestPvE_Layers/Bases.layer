@@ -1,0 +1,78 @@
+GenericEntity : "{29EB05B954BCACEF}Prefabs/Systems/MilitaryBase/MOB.et" {
+ coords 918.788 39.001 2639.01
+}
+$grp GenericEntity : "{7022F1A36DC9510C}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_SideSquareWide.et" {
+ {
+  coords 86.309 0 16.215
+  angleZ -92.034
+ }
+ {
+  coords 82.603 -0.127 16.254
+  angleZ -92.034
+ }
+ {
+  coords 82.623 -0.154 19.983
+  angleZ -92.034
+ }
+ {
+  coords 86.328 -0.027 19.944
+  angleZ -92.034
+ }
+ {
+  coords 82.634 -0.146 23.753
+  angleZ -92.034
+ }
+ {
+  coords 82.654 -0.173 27.482
+  angleZ -92.034
+ }
+ {
+  coords 86.34 -0.019 23.714
+  angleZ -92.034
+ }
+ {
+  coords 86.359 -0.046 27.443
+  angleZ -92.034
+ }
+ {
+  coords 93.811 -0.011 27.391
+  angleZ -92.034
+ }
+ {
+  coords 90.075 -0.119 19.931
+  angleZ -92.034
+ }
+ {
+  coords 93.78 0.008 19.892
+  angleZ -92.034
+ }
+ {
+  coords 90.086 -0.111 23.701
+  angleZ -92.034
+ }
+ {
+  coords 90.106 -0.138 27.43
+  angleZ -92.034
+ }
+ {
+  coords 90.055 -0.092 16.202
+  angleZ -92.034
+ }
+ {
+  coords 93.792 0.016 23.662
+  angleZ -92.034
+ }
+}
+GenericEntity : "{CFD5587A6EBE8DBB}Prefabs/Systems/MilitaryBase/ConflictMilitaryBaseUSSR.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bCanBeHQ 1
+   m_sBaseName "#AR-Campaign_MapLocation_MOB"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+  }
+  SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+   "faction affiliation" "USSR"
+  }
+ }
+ coords 90.413 0.043 21.944
+}

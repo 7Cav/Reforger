@@ -1,0 +1,19 @@
+GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ coords 1465.555 39.299 2945.853
+}
+GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ coords 1467.812 38 2946.237
+ angleY -161
+ {
+  GenericEntity {
+   ID "5D4539393E1536C3"
+   {
+    GenericEntity {
+     ID "5D45393936823FC3"
+     coords 1.182 -0.001 0.211
+     angleY 179.947
+    }
+   }
+  }
+ }
+}
