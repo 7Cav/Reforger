@@ -1,0 +1,31 @@
+StaticModelEntity : "{3A6623EADBD13358}Prefabs/Structures/Military/Camps/TentSmallUS_01/TentSmallUS_01_Base.et" {
+ ID "527A8AD695FFFB56"
+ components {
+  SCR_DeployableInventoryItemReplacementComponent "{663B09744EB7D78E}" {
+   m_vItemPosition PointInfo "{663B09744A38E758}" {
+    Offset 0 0 0
+   }
+  }
+  Hierarchy "{663B0973913B2AB1}" {
+  }
+  SCR_HealSupportStationComponent "{663B097CFD0A8164}" {
+   m_sOnUseSoundEffectFile "{7BACA57AF41F033D}Sounds/SupportStations/SupportStations_Character.acp"
+   m_sOnUseSoundEffectEventName "SOUND_HEAL_DONE"
+   m_sCharacterVoiceEventOnUse "SOUND_VOICE_PAIN_RELIEVE_DELAY"
+   m_sOnHealUpdateSoundEffectEventName "SOUND_HEAL_PARTIAL"
+   m_sOnHealBloodUpdateSoundEffectEventName "SOUND_HEAL_PARTIAL"
+   m_eSupportStationPriority MEDIUM
+   m_fRange 7.5
+   m_vOffset 0 0 0
+   m_eFactionUsageCheck 0
+   m_iDamageHealedEachExecution 100
+   m_iSupplyCostDamageHealed 1
+   m_aDoTTypesHealed {
+    0
+   }
+   m_eMaxHealDone HEAL_MAX_HEALABLE_HEALTH_REACHED_FIELD
+   m_iBloodHealedEachExecute 500
+  }
+ }
+ coords 851.798 39 2764.897
+}

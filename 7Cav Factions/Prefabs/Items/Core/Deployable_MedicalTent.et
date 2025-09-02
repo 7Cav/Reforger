@@ -1,0 +1,100 @@
+GenericEntity {
+ ID "663B097334D08BF8"
+ components {
+  MeshObject "{663B0971D944436C}" {
+   Object "{B8AA18B725C167A5}Assets/Structures/Military/Camps/Canvas_Cover/CanvasCover_Folded.xob"
+   InheritVisibility 1
+   ObjectHeightmapBias 0
+   ObjectHeightmapTraceBias 0
+  }
+  SCR_BaseDeployableInventoryItemComponent "{663B09712E27A839}" {
+   m_sReplacementPrefab "{D75C57D7A887F7A6}Prefabs/Structures/Military/Camps/TentSmallUS_01/DeployableMedicalTent_Replacement.et"
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{663B09701FEF863D}" {
+   Attributes SCR_ItemAttributeCollection "{663B097066EEFDD0}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "Medical Tent"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 2
+     ItemVolume 100
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0.03 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5F1AEE47D6FC5779}" {
+     AllowInspection 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{663B097DC46A621B}" {
+      CameraPreset Back
+      CameraOrbitAngles 25 -25 180
+      CameraDistanceToItem 5.5
+      FOV 10
+      AspectRatio 1
+      PreviewModel "{B8AA18B725C167A5}Assets/Structures/Military/Camps/Canvas_Cover/CanvasCover_Folded.xob"
+     }
+    }
+    m_Size SLOT_2x2
+    m_eQuickSlotSize SLOT_1x1
+    m_SlotType SLOT_GADGETS_STORAGE
+    m_bStackable 0
+   }
+  }
+  ActionsManagerComponent "{663B097334D08BDB}" {
+   Enabled 1
+   ActionContexts {
+    UserActionContext "{663B097334D08A24}" {
+     ContextName "default"
+     Position PointInfo "{663B097334D08A26}" {
+     }
+     Radius 1
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{663B097334D08A2E}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{663B097334D08A2F}" {
+      Name "#AR-Inventory_PickUp"
+     }
+     "Sort Priority" 2
+    }
+    SCR_DeployInventoryItemAction "{663B097EC3FF5AE2}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{663B097EDFDD2635}" {
+      Name "Deploy Medical Tent"
+     }
+     ActionTitle "Assemble Medical Tent"
+     Duration 1
+     "Sort Priority" 1
+    }
+    SCR_DismantleInventoryItemBaseAction "{663B097ECE92E9C9}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{663B097E19B4CD4B}" {
+      Name "Dismantle Medical Tent"
+     }
+     ActionTitle "Dismantle Medical Tent"
+     Duration 1
+     "Sort Priority" 2
+    }
+   }
+  }
+  RplComponent "{663B097334D08A3E}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{663B097334D08A38}" {
+  }
+ }
+ coords 849.138 39 2772.538
+}
