@@ -3,5 +3,9 @@ SCR_PlayerController {
  components {
   HMD_HudMarkerIffClientSinkComponent "{68FE02180000F011}" {
   }
+  ParachuteComponentExtended "{65932336581E53D0}" {
+   m_fSafeRadius 1
+   m_fMinimumAltitude 30
+  }
  }
 }

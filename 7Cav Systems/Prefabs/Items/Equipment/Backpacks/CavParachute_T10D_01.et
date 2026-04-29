@@ -1,0 +1,26 @@
+GenericEntity : "{E0FBDCC3182A886F}Prefabs/Items/Equipment/Backpacks/ParachuteBag_T10_Base.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Object "{8EB173EC6C62969A}Assets/Parachute_Rig.xob"
+  }
+  ParachuteItemComponentExtended "{6594945265DDB21D}" {
+   m_ParachutePrefab "{B1C2D3E4F5A6B7C8}Prefabs/DeployedParachutes/Core/DeployedParachuteMK4Extended.et"
+   m_ExtendedParachutePrefab "{B1C2D3E4F5A6B7C8}Prefabs/DeployedParachutes/Core/DeployedParachuteMK4Extended.et"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
+    ItemDisplayName UIInfo "{5222CB03904B414C}" {
+     Name "Cav Issued T-10D Parachute"
+     Description "Wait 3-5 seconds before deploying, minimum altitude 150m"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   ItemModel "{F63FB77CF5C853D7}Assets/Items/Equipment/Backpacks/Backpack_Kolobok/Backpack_Kolobok_item.xob"
+   OffsetShoulderLeft 0
+   OffsetShoulderRight 0
+  }
+ }
+ coords 1412.498 38 2906.367
+}
