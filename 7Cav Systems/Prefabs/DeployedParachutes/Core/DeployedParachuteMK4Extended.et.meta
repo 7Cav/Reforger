@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B1C2D3E4F5A6B7C8}Prefabs/DeployedParachutes/Core/DeployedParachuteMK4Extended.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
