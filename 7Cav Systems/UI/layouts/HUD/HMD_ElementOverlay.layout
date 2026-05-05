@@ -1,0 +1,1132 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ Slot FrameWidgetSlot "{69000002000000FE}" {
+  Anchor 0 0 1 1
+  OffsetLeft 0
+  OffsetTop 0
+  OffsetRight 0
+  OffsetBottom 0
+ }
+ {
+  ImageWidgetClass "{690000020C000000}" {
+   Name "MarkerDot0"
+   Slot FrameWidgetSlot "{690000020D000000}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   Texture "{266AE3BC015F539B}Assets/LaserUI/IFF_Marker.edds"
+   Size 32 32
+   Opacity 0.5
+   Range 1
+  }
+  ImageWidgetClass "{690000020C000001}" {
+   Name "MarkerDot1"
+   Slot FrameWidgetSlot "{690000020D000001}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000002}" {
+   Name "MarkerDot2"
+   Slot FrameWidgetSlot "{690000020D000002}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000003}" {
+   Name "MarkerDot3"
+   Slot FrameWidgetSlot "{690000020D000003}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000004}" {
+   Name "MarkerDot4"
+   Slot FrameWidgetSlot "{690000020D000004}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000005}" {
+   Name "MarkerDot5"
+   Slot FrameWidgetSlot "{690000020D000005}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000006}" {
+   Name "MarkerDot6"
+   Slot FrameWidgetSlot "{690000020D000006}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000007}" {
+   Name "MarkerDot7"
+   Slot FrameWidgetSlot "{690000020D000007}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000008}" {
+   Name "MarkerDot8"
+   Slot FrameWidgetSlot "{690000020D000008}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000009}" {
+   Name "MarkerDot9"
+   Slot FrameWidgetSlot "{690000020D000009}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C00000A}" {
+   Name "MarkerDot10"
+   Slot FrameWidgetSlot "{690000020D00000A}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C00000B}" {
+   Name "MarkerDot11"
+   Slot FrameWidgetSlot "{690000020D00000B}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C00000C}" {
+   Name "MarkerDot12"
+   Slot FrameWidgetSlot "{690000020D00000C}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C00000D}" {
+   Name "MarkerDot13"
+   Slot FrameWidgetSlot "{690000020D00000D}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C00000E}" {
+   Name "MarkerDot14"
+   Slot FrameWidgetSlot "{690000020D00000E}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C00000F}" {
+   Name "MarkerDot15"
+   Slot FrameWidgetSlot "{690000020D00000F}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000010}" {
+   Name "MarkerDot16"
+   Slot FrameWidgetSlot "{690000020D000010}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000011}" {
+   Name "MarkerDot17"
+   Slot FrameWidgetSlot "{690000020D000011}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000012}" {
+   Name "MarkerDot18"
+   Slot FrameWidgetSlot "{690000020D000012}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000013}" {
+   Name "MarkerDot19"
+   Slot FrameWidgetSlot "{690000020D000013}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000014}" {
+   Name "MarkerDot20"
+   Slot FrameWidgetSlot "{690000020D000014}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000015}" {
+   Name "MarkerDot21"
+   Slot FrameWidgetSlot "{690000020D000015}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000016}" {
+   Name "MarkerDot22"
+   Slot FrameWidgetSlot "{690000020D000016}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000017}" {
+   Name "MarkerDot23"
+   Slot FrameWidgetSlot "{690000020D000017}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000018}" {
+   Name "MarkerDot24"
+   Slot FrameWidgetSlot "{690000020D000018}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C000019}" {
+   Name "MarkerDot25"
+   Slot FrameWidgetSlot "{690000020D000019}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C00001A}" {
+   Name "MarkerDot26"
+   Slot FrameWidgetSlot "{690000020D00001A}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C00001B}" {
+   Name "MarkerDot27"
+   Slot FrameWidgetSlot "{690000020D00001B}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C00001C}" {
+   Name "MarkerDot28"
+   Slot FrameWidgetSlot "{690000020D00001C}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C00001D}" {
+   Name "MarkerDot29"
+   Slot FrameWidgetSlot "{690000020D00001D}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C00001E}" {
+   Name "MarkerDot30"
+   Slot FrameWidgetSlot "{690000020D00001E}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  ImageWidgetClass "{690000020C00001F}" {
+   Name "MarkerDot31"
+   Slot FrameWidgetSlot "{690000020D00001F}" {
+    PositionX 0
+    PositionY 0
+    SizeX 32
+    SizeY 32
+   }
+   "Is Visible" 0
+   Texture "{73B3D8BBB785B5B9}UI/Textures/Common/circleFull.edds"
+   Size 32 32
+   Opacity 0.5
+  }
+  TextWidgetClass "{690000020E000000}" {
+   Name "MarkerLabel0"
+   Slot FrameWidgetSlot "{690000020F000000}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000000}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000001}" {
+   Name "MarkerLabel1"
+   Slot FrameWidgetSlot "{690000020F000001}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000001}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000002}" {
+   Name "MarkerLabel2"
+   Slot FrameWidgetSlot "{690000020F000002}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000002}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000003}" {
+   Name "MarkerLabel3"
+   Slot FrameWidgetSlot "{690000020F000003}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000003}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000004}" {
+   Name "MarkerLabel4"
+   Slot FrameWidgetSlot "{690000020F000004}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000004}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000005}" {
+   Name "MarkerLabel5"
+   Slot FrameWidgetSlot "{690000020F000005}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000005}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000006}" {
+   Name "MarkerLabel6"
+   Slot FrameWidgetSlot "{690000020F000006}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000006}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000007}" {
+   Name "MarkerLabel7"
+   Slot FrameWidgetSlot "{690000020F000007}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000007}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000008}" {
+   Name "MarkerLabel8"
+   Slot FrameWidgetSlot "{690000020F000008}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000008}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000009}" {
+   Name "MarkerLabel9"
+   Slot FrameWidgetSlot "{690000020F000009}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000009}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E00000A}" {
+   Name "MarkerLabel10"
+   Slot FrameWidgetSlot "{690000020F00000A}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{690000021000000A}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E00000B}" {
+   Name "MarkerLabel11"
+   Slot FrameWidgetSlot "{690000020F00000B}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{690000021000000B}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E00000C}" {
+   Name "MarkerLabel12"
+   Slot FrameWidgetSlot "{690000020F00000C}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{690000021000000C}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E00000D}" {
+   Name "MarkerLabel13"
+   Slot FrameWidgetSlot "{690000020F00000D}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{690000021000000D}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E00000E}" {
+   Name "MarkerLabel14"
+   Slot FrameWidgetSlot "{690000020F00000E}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{690000021000000E}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E00000F}" {
+   Name "MarkerLabel15"
+   Slot FrameWidgetSlot "{690000020F00000F}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{690000021000000F}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000010}" {
+   Name "MarkerLabel16"
+   Slot FrameWidgetSlot "{690000020F000010}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000010}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000011}" {
+   Name "MarkerLabel17"
+   Slot FrameWidgetSlot "{690000020F000011}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000011}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000012}" {
+   Name "MarkerLabel18"
+   Slot FrameWidgetSlot "{690000020F000012}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000012}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000013}" {
+   Name "MarkerLabel19"
+   Slot FrameWidgetSlot "{690000020F000013}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000013}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000014}" {
+   Name "MarkerLabel20"
+   Slot FrameWidgetSlot "{690000020F000014}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000014}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000015}" {
+   Name "MarkerLabel21"
+   Slot FrameWidgetSlot "{690000020F000015}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000015}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000016}" {
+   Name "MarkerLabel22"
+   Slot FrameWidgetSlot "{690000020F000016}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000016}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000017}" {
+   Name "MarkerLabel23"
+   Slot FrameWidgetSlot "{690000020F000017}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000017}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000018}" {
+   Name "MarkerLabel24"
+   Slot FrameWidgetSlot "{690000020F000018}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000018}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E000019}" {
+   Name "MarkerLabel25"
+   Slot FrameWidgetSlot "{690000020F000019}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{6900000210000019}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E00001A}" {
+   Name "MarkerLabel26"
+   Slot FrameWidgetSlot "{690000020F00001A}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{690000021000001A}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E00001B}" {
+   Name "MarkerLabel27"
+   Slot FrameWidgetSlot "{690000020F00001B}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{690000021000001B}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E00001C}" {
+   Name "MarkerLabel28"
+   Slot FrameWidgetSlot "{690000020F00001C}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{690000021000001C}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E00001D}" {
+   Name "MarkerLabel29"
+   Slot FrameWidgetSlot "{690000020F00001D}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{690000021000001D}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E00001E}" {
+   Name "MarkerLabel30"
+   Slot FrameWidgetSlot "{690000020F00001E}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{690000021000001E}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+  TextWidgetClass "{690000020E00001F}" {
+   Name "MarkerLabel31"
+   Slot FrameWidgetSlot "{690000020F00001F}" {
+    PositionX 0
+    PositionY 0
+    SizeX 344
+    SizeY 28
+   }
+   "Is Visible" 0
+   Color 1 1 1 1
+   Opacity 0.5
+   Text " "
+   "Font Size" 25
+   "Min Font Size" 25
+   "Horizontal Alignment" Center
+   "No Localization" 1
+   FontProperties FontProperties "{690000021000001F}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+    ForceFont 1
+    OutlineSize 0
+   }
+  }
+ }
+}

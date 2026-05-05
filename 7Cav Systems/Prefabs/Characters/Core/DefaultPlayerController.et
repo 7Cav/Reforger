@@ -1,7 +1,7 @@
 SCR_PlayerController {
  ID "1A9BA6BEFA06E3B1"
  components {
-  HMD_HudMarkerIffClientSinkComponent "{68FE02180000F011}" {
+  HMD_PoolMirrorClientSinkComponent "{6900000C00000021}" {
   }
  }
 }

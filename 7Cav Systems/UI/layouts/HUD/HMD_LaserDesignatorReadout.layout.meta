@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{68E3221400000003}UI/layouts/HUD/HMD_LaserDesignatorReadout.layout"
+ Name "{6900000B00000001}UI/layouts/HUD/HMD_LaserDesignatorReadout.layout"
  Configurations {
   LayoutResourceClass PC {
   }

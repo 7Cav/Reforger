@@ -7,16 +7,16 @@ GenericEntity : "{9C7B7B7ECDC3A596}Prefabs/Weapons/Warheads/Warhead_Grenade_M67.
   BaseTriggerComponent "{55129E81CBAA1390}" {
    Enabled 0
   }
-  HMD_IffBeaconComponent "{691326458CFD6A7C}" {
+  HMD_MarkerElementLifetimeComponent "{691F6AC95154B845}" {
+   m_sHmdPoolLabel "PL"
+   m_fLifetimeSeconds 90
+   m_cHmdPoolHudColor 0.013 1 0 1
+  }
+  HMD_IffIrStrobeVisualComponent "{6900000F00000003}" {
+   m_sIrLightPrefab "{6900000F00000001}Prefabs/Items/Equipment/Nightvision/IFF_IR_Light.et"
    m_fIrStrobeOnMs 150
    m_fIrStrobeOffMs 1000
-  }
-  HMD_PlacedDesignationComponent "{691326458CFD7AF6}" {
-   m_sLabel "LZPZ"
-   m_MarkerColor 0.878 0.575 0.017 1
-   m_LabelColor 0.878 0.575 0.017 1
-   m_iVisualKind 0
-   m_fLifetimeSeconds 90
+   m_bUseAttachableBeaconTransmitGate 0
   }
   HitEffectComponent "{9D9BE68D6F65A10F}" {
    Enabled 0
@@ -24,5 +24,5 @@ GenericEntity : "{9C7B7B7ECDC3A596}Prefabs/Weapons/Warheads/Warhead_Grenade_M67.
   RplComponent "{691326458CFD7AFF}" {
   }
  }
- coords 1160.345 38.01 2798.425
+ coords 1453.542 38 2907.557
 }

@@ -1,0 +1,10 @@
+GenericEntity {
+ ID "6900000100003000"
+ components {
+  RplComponent "{6900000100003002}" {
+  }
+  HMD_GlobalHmdElementPoolComponent "{6900000100003003}" {
+  }
+ }
+ coords 0 0 0
+}

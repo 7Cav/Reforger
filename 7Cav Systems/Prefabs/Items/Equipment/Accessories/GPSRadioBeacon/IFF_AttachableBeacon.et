@@ -1,17 +1,53 @@
 GenericEntity : "{A22982E2E0C38EAC}Prefabs/Items/Core/RHS_PlaceableItem_base.et" {
  ID "68FE33E100000000"
  components {
-  HMD_IffBeaconComponentAttachable "{68FE33E100000001}" {
-   m_fIrStrobeOnMs 150
-   m_fIrStrobeOffMs 1000
+  HMD_IffAttachableBeaconComponent "{6900002500000002}" {
    m_fBatteryLifeSeconds 1800
   }
-  HMD_IffBeaconExplosiveInventoryItemComponent "{64D330352FCCEC12}" {
-   Attributes SCR_ItemAttributeCollection "{64D330352FCCEFED}" {
-    ItemDisplayName WeaponUIInfo "{64D330352FCCEBF6}" {
+  HMD_IffIrStrobeVisualComponent "{6900000F00000005}" {
+   m_sIrLightPrefab "{6900000F00000001}Prefabs/Items/Equipment/Nightvision/IFF_IR_Light.et"
+   m_fIrStrobeOnMs 150
+   m_fIrStrobeOffMs 1000
+   m_bUseAttachableBeaconTransmitGate 1
+  }
+  SCR_ExplosiveChargeInventoryItemComponent "{64D330352FCCEC12}" {
+   Enabled 0
+  }
+  SCR_PlaceableInventoryItemComponent "{6900002500000003}" {
+   Attributes SCR_ItemAttributeCollection "{6900002500000004}" {
+    ItemDisplayName WeaponUIInfo "{6900002500000005}" {
      Name "IFF Attachment Beacon"
-     Description "Configurable IFF marker"
+     Description "Placeable IFF beacon. After placement: scroll text/number while OFF, then turn ON for a class-0 IFF pool marker."
     }
+    ItemPhysAttributes ItemPhysicalAttributes "{6900002500000006}" {
+     Weight 0.35
+     SizeSetupStrategy Manual
+     ItemDimensions 2 2 2
+     ItemVolume 4
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{692953A566D524BB}" {
+     IkSettings {
+      ItemIKSettings "{64D330352FCCE84B}" {
+       MovementSpeedRange 0 3
+      }
+      ItemIKSettings "{64D330352FCCE867}" {
+       Lowered 1
+       InAds 0
+       OutAds 0
+      }
+      ItemIKSettings "{64D330352FCCE874}" {
+       Jumping 1
+       InAds 0
+       OutAds 0
+      }
+      ItemIKSettings "{64D330352FCCE89C}" {
+       ProneTurn 1
+      }
+     }
+     AnimationInstance "{4FCBEA45CAEBC9C0}anims/workspaces/player/player_main_1h.asi"
+     AnimationIKPose "{2EA363B18AA6CD27}Assets/Weapons/Explosives/DemoBlock_TSh400g/anims/p_TSh_400g_IK.anm"
+    }
+    m_Size SLOT_1x1
    }
   }
   SCR_PlaceableItemComponent "{64D330352FCCE31D}" {
@@ -19,20 +55,11 @@ GenericEntity : "{A22982E2E0C38EAC}Prefabs/Items/Core/RHS_PlaceableItem_base.et"
   }
   ActionsManagerComponent "{64D330352FCC716A}" {
    additionalActions {
-    HMD_IffBeaconBatteryReadoutAction "{68FE33E100000002}" {
+    HMD_IffAttachableBeaconScrollTextAction "{6900002500000010}" {
      ParentContextList {
       "default"
      }
-     UIInfo UIInfo "{68FE33E100000003}" {
-      Name "IFF marker time remaining"
-     }
-     "Sort Priority" 0
-    }
-    HMD_IffBeaconScrollTextAction "{68FE33E100000004}" {
-     ParentContextList {
-      "default"
-     }
-     UIInfo UIInfo "{68FE33E100000005}" {
+     UIInfo UIInfo "{6900002500000011}" {
       Name "IFF text (hold + scroll)"
      }
      Duration -1
@@ -44,11 +71,11 @@ GenericEntity : "{A22982E2E0C38EAC}Prefabs/Items/Core/RHS_PlaceableItem_base.et"
      m_bOnlyInVehicle 0
      m_bPilotOnly 0
     }
-    HMD_IffBeaconScrollNumberAction "{68FE33E100000006}" {
+    HMD_IffAttachableBeaconScrollNumberAction "{6900002500000012}" {
      ParentContextList {
       "default"
      }
-     UIInfo UIInfo "{68FE33E100000007}" {
+     UIInfo UIInfo "{6900002500000013}" {
       Name "IFF number (hold + scroll)"
      }
      Duration -1
@@ -60,25 +87,30 @@ GenericEntity : "{A22982E2E0C38EAC}Prefabs/Items/Core/RHS_PlaceableItem_base.et"
      m_bOnlyInVehicle 0
      m_bPilotOnly 0
     }
-    HMD_IffBeaconTurnOnAction "{68FE33E100000008}" {
+    HMD_IffAttachableBeaconTurnOnAction "{6900002500000014}" {
      ParentContextList {
       "default"
      }
-     UIInfo UIInfo "{68FE33E100000009}" {
+     UIInfo UIInfo "{6900002500000015}" {
       Name "Turn IFF beacon ON"
      }
      "Sort Priority" 3
     }
-    HMD_IffBeaconTurnOffAction "{68FE33E10000000A}" {
+    HMD_IffAttachableBeaconTurnOffAction "{6900002500000016}" {
      ParentContextList {
       "default"
      }
-     UIInfo UIInfo "{68FE33E10000000B}" {
+     UIInfo UIInfo "{6900002500000017}" {
       Name "Turn IFF beacon OFF"
      }
      "Sort Priority" 4
     }
    }
+  }
+  RplComponent "{64D330352FCC7FF4}" {
+   Enabled 0
+  }
+  RplComponent "{6900002500000001}" {
   }
   Hierarchy "{64D330352FCC7FF1}" {
    Enabled 0
@@ -87,18 +119,4 @@ GenericEntity : "{A22982E2E0C38EAC}Prefabs/Items/Core/RHS_PlaceableItem_base.et"
   }
  }
  coords 1159.988 38.01 2799.897
- {
-  GenericEntity : "{1C5DBE96910C0C06}Prefabs/HMD/Grenade_IFF_Green_HudProxy.et" {
-   ID "68FE33E1000000D0"
-   components {
-    RplComponent "{691326470000C003}" {
-     "Parent Node From Parent Entity" 0
-    }
-    Hierarchy "{68FE33E1000000D1}" {
-     Enabled 1
-    }
-   }
-   coords 0 0 0
-  }
- }
 }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{0BCD51DD36B82132}Prefabs/Items/Equipment/Nightvision/IFF_IR_Light.et"
+ Name "{6900000F00000001}Prefabs/Items/Equipment/Nightvision/IFF_IR_Light.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
