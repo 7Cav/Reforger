@@ -67,26 +67,3 @@ SCR_GameModeEditor _Cav_GameMode_Editor_Sandbox1 : "{285363A3C06DC821}Prefabs/MP
   }
  }
 }
-Vehicle AH64D_AGM114L_X1 : "{397971C2026D588F}Prefabs/Vehicles/Helicopters/AH64D/AH64D_AGM114L_X2.et" {
- coords 1439.696 38 2882.284
- angles 0 107 0
-}
-Vehicle AUS_UH60_armed1 : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
- coords 1450.249 38 2912.877
- angles 0 127 0
-}
-GenericEntity : "{5994156A1B642905}Prefabs/HMD/Grenade_IFF_Purple.et" {
- coords 1449.716 38 2894.998
-}
-GenericEntity : "{B5ABE1250D142450}Prefabs/Items/Equipment/Accessories/GPSRadioBeacon/IFF_AttachableBeacon.et" {
- coords 1450.433 38 2896.115
-}
-GenericEntity : "{DBC08F983F15CCD0}Prefabs/Weapons/Grenades/M18/IFF_Grenade_Yellow.et" {
- coords 1450.04 38 2895.438
-}
-GenericEntity : "{EBCCE20919811180}Prefabs/Weapons/Grenades/M18/IFF_Grenade_Purple.et" {
- coords 1449.183 38 2895.306
-}
-GenericEntity : "{F26D7120ABD60D1E}Prefabs/HMD/Grenade_IFF_Yellow.et" {
- coords 1449.123 38 2894.88
-}
