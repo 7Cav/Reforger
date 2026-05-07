@@ -5,4 +5,22 @@ GameProject {
  Dependencies {
   "58D0FB3206B6F859" "65930CB4CD0237B2" "68996556700D5CA1"
  }
+ Configurations {
+  GameProjectConfig PC {
+   DefaultSettings EngineUserSettings "{5702F087A781A9FC}" {
+    VideoUserSettings VideoUserSettings "{B272A67DB18E04F9}" {
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
 }
