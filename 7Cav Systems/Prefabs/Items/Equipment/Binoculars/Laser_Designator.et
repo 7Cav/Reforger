@@ -1,11 +1,14 @@
 GenericEntity : "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et" {
  ID "508AB2013EEE1E00"
  components {
-  HMD_LaserDesignatorGadgetComponent "{68FE021627AF655A}" {
-   m_eAnimVariable M22
-   m_fLaserMaxRange 2000
-   m_fMarkerVisibilityDistance 2000
-   m_fHudWorldMarkerDistanceClampM 2000
+  HMD_LaserMarkingHandheldComponent "{6900000100002003}" {
+   m_iLaserCodeMin 1111
+   m_iLaserCodeMax 1199
+   m_iInitialLaserCode 1111
+   m_fDesignationTraceMaxRangeM 2000
+  }
+  HMD_ElementVisualizationHandheldComponent "{6900000500002002}" {
+   m_fMaxViewDistanceM 2000
   }
   InventoryItemComponent "{5222EB4D0C73006B}" {
    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {

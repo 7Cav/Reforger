@@ -1,0 +1,18 @@
+Turret : "{4D399F4C1D31F917}Prefabs/Vehicles/Helicopters/Core/VehParts/Turret/AKI_Helicopter_Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  HMD_ElementVisualizationTurretComponent "{6900000500003002}" {
+   m_fMaxViewDistanceM 2000
+  }
+  HMD_LaserMarkingRemoteVehicleComponent "{6900000600003101}" {
+   m_iLaserCodeMin 1311
+   m_iLaserCodeMax 1399
+   m_iInitialLaserCode 1311
+   m_sLaserControlSeatNames "gunner"
+   m_bEnforceHelmetForLaserControlSeats 0
+   m_sDesignationTraceBoneName "v_gun_01"
+  }
+ }
+ coords 1445.031 38 2902.094
+ angles 0 121 0
+}

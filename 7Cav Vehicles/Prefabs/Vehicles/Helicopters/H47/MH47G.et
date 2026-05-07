@@ -1,14 +1,8 @@
 Vehicle : "{7CF0A16FA3AED298}Prefabs/Vehicles/Helicopters/H47/H47_base.et" {
  ID "57DA6675519A417B"
  components {
-  HMD_HudMarkerEligibilityVehicleComponent "{68FF24541F147441}" {
-   Enabled 0
-   m_sVisibilitySlotNames "pilot,gunner,copilot"
-  }
-  HMD_HudMarkerEligibilityVehicleComponent "{690D4340B73F93A1}" {
-   m_fMaxMarkerViewDistanceM 2000
-   m_bRequireHmdHelmetForPolicy 1
-   m_sVisibilitySlotNames "pilot,gunner,copilot"
+  HMD_ElementVisualizationVehicleComponent "{694B0E53A8F33F3E}" {
+   m_sEligibleSeatNames "pilot copilot"
   }
   BaseVehicleNodeComponent "{57DA667544C3090A}" {
    components {

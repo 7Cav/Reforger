@@ -20,7 +20,7 @@ FrameWidgetClass {
     OffsetBottom 131
    }
    "Is Visible" 0
-   Color 0.502 0 0 1
+   Color 1 1 1 1
    Text "----"
    "Font Size" 28
    "Horizontal Alignment" Center
@@ -41,7 +41,7 @@ FrameWidgetClass {
     OffsetBottom 90
    }
    "Is Visible" 0
-   Color 0.502 0 0 1
+   Color 1 1 1 1
    Text "----"
    "Font Size" 28
    "Horizontal Alignment" Center
@@ -62,7 +62,7 @@ FrameWidgetClass {
     OffsetBottom 50
    }
    "Is Visible" 0
-   Color 0.502 0 0 1
+   Color 1 1 1 1
    Text "----"
    "Font Size" 28
    "Horizontal Alignment" Center
@@ -83,7 +83,7 @@ FrameWidgetClass {
     OffsetBottom 9
    }
    "Is Visible" 0
-   Color 0.502 0 0 1
+   Color 1 1 1 1
    Text "----"
    "Font Size" 28
    "Horizontal Alignment" Center

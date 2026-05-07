@@ -1,0 +1,22 @@
+GenericEntity : "{9C7B7B7ECDC3A596}Prefabs/Weapons/Warheads/Warhead_Grenade_M67.et" {
+ ID "6900000A00000101"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Enabled 0
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   Enabled 0
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   Enabled 0
+  }
+  RplComponent "{6900000A00000011}" {
+  }
+  HMD_MarkerElementBaseComponent "{6900000A00000012}" {
+   m_bHmdDeferPoolRegistration 1
+   m_iInformationalClass 0
+   m_sHmdPoolLabel "REF"
+  }
+ }
+ coords 0 0 0
+}

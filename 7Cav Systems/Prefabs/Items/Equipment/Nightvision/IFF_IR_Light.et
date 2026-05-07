@@ -1,6 +1,6 @@
 RHS_LightEntity : "{51BD3CDB9E070694}Prefabs/Weapons/Attachments/Lasers/anpeq16/ANPEQ16_Iluminator_IR_HP_LightEntity.et" {
  ID "5CFADC1F39A94BCD"
- coords 1144.014 38.012 2835.529
+ coords 0 0 0
  LV 3
  CastShadow 1
  Type Point

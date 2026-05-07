@@ -1,0 +1,12 @@
+Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
+ ID "57DA6675519A417B"
+ components {
+  HMD_ElementVisualizationVehicleComponent "{6900000500000003}" {
+   m_fMaxViewDistanceM 2000
+   m_sEligibleSeatNames "pilot gunner"
+   m_bEnforceHmdHelmetInVehicles 0
+  }
+ }
+ coords 1463.904 38.01 2888.445
+ angles 0 119 0
+}

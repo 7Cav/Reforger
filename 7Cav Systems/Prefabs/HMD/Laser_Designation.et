@@ -1,0 +1,20 @@
+GenericEntity {
+ ID "6900000900002000"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   Enabled 0
+  }
+  RplComponent "{6900000900002002}" {
+  }
+  HMD_DesignationElementComponent "{6900000900002003}" {
+   m_iTargetDesignationClass 1
+   m_sPoolLabel "LASE"
+   m_bVehicleLaserOwnHudBypass 1
+  }
+  HMD_LaserDesignationWcsBridgeComponent "{6900000900002004}" {
+   m_fMaxRange 2000
+   m_fUpdateInterval 1
+  }
+ }
+ coords 0 0 0
+}

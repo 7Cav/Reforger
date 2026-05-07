@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{68E3221400000004}UI/layouts/HUD/HMD_VehicleTurretLaserDesignatorReadout.layout"
+ Name "{6900000B00000002}UI/layouts/HUD/HMD_VehicleTurretLaserDesignatorReadout.layout"
  Configurations {
   LayoutResourceClass PC {
   }

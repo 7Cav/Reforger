@@ -1,9 +1,0 @@
-GenericEntity : "{D84372C35F445FAA}Prefabs/Weapons/AircraftWeapons/MissilePods/M299/Pod_M299.et" {
- ID "629D11C8BD6AE717"
- components {
-  WCS_Armament_WeaponComponent "{629D11C992611C79}" {
-   m_DefaultProjectile "{68FD200000000001}Prefabs/Weapons/Ammo/AGM114R.et"
-  }
- }
- coords 1134.789 38.964 2874.366
-}
