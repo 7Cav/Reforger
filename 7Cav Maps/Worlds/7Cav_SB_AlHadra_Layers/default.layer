@@ -32,5 +32,10 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
  coords 4124.498 17.844 4106.038
 }
 SCR_GameModeEditor _Cav_GameMode_Editor_Sandbox1 : "{285363A3C06DC821}Prefabs/MP/Modes/Editor/7Cav_GameMode_Editor_Sandbox.et" {
- coords 4866.185 -0 3127.977
+ coords 4866.185 0 3127.977
+ {
+  RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+   coords 0 0 0
+  }
+ }
 }

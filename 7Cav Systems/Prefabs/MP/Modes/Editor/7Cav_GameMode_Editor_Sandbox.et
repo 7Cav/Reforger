@@ -26,9 +26,6 @@ SCR_GameModeEditor : "{D2DE7F43D48A3667}Prefabs/MP/Modes/Editor/GameMode_Editor.
    ID "664AEDE1A7CEFB89"
    coords 0 0 0
   }
-  RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
-   ID "664AEDE1A7CEFB97"
-  }
   ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
    ID "664AEDE1A7CEFB96"
   }

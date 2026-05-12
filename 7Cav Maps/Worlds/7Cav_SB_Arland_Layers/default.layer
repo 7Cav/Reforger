@@ -57,6 +57,9 @@ SCR_GameModeEditor _Cav_GameMode_Editor_Sandbox1 : "{285363A3C06DC821}Prefabs/MP
  }
  coords 2050.351 44.209 2062.3
  {
+  RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+   coords 0 0 0
+  }
   SCR_LoadoutManager {
    ID "664AFC66ED99F445"
    m_aPlayerLoadouts {

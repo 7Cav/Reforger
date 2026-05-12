@@ -35,7 +35,7 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 SCR_GameModeEditor _Cav_GameMode_Editor_Sandbox1 : "{285363A3C06DC821}Prefabs/MP/Modes/Editor/7Cav_GameMode_Editor_Sandbox.et" {
  coords 1944.482 315.684 2154.115
  {
-  SCR_FactionManager {
+  SCR_FactionManager "6958240AAE035D9B" {
    ID "664AEDE1A7CEFB89"
    Factions {
     SCR_Faction "{66E0E828C184C449}" {
@@ -47,6 +47,9 @@ SCR_GameModeEditor _Cav_GameMode_Editor_Sandbox1 : "{285363A3C06DC821}Prefabs/MP
      m_bShowInWelcomeScreenIfNonPlayable 0
     }
    }
+  }
+  RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+   coords 0 0 0
   }
  }
 }
