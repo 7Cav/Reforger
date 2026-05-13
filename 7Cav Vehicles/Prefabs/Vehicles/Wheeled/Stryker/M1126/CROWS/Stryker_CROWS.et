@@ -38,6 +38,85 @@ Vehicle : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/M1126/Stryker_APC.
     }
    }
   }
+  SCR_UniversalInventoryStorageComponent "{5EAD79DA34C92091}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5EAD79DA34C92088}" {
+     SlotTemplate InventoryStorageSlot Bandage {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5EAD79DA34C9208E}" {
+     SlotTemplate InventoryStorageSlot Morphine {
+      Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{5EAD79DA34C9208D}" {
+     SlotTemplate InventoryStorageSlot Torn {
+      Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{5EAD79DA34C9208C}" {
+     SlotTemplate InventoryStorageSlot Grenade {
+      Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{5EAD79DA34C929E6}" {
+     SlotTemplate InventoryStorageSlot MAg {
+      Prefab "{5B9BCFE7BBB5B55C}Prefabs/Magazine/Magazine_84mm_HEAT551.et"
+     }
+    }
+    MultiSlotConfiguration "{5EAD79DA34C929E9}" {
+     SlotTemplate LoadoutSlotInfo MAG {
+      Prefab "{CBC9B8A5BCB628D2}Prefabs/Magazine/Magazine_84mm_HE441.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5EAD79DA34C929EB}" {
+     SlotTemplate LoadoutSlotInfo MA {
+      Prefab "{E94565B2298F6846}Prefabs/Magazine/Magazine_84mm_SMOKE469.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5EAD79DA34C929EA}" {
+     SlotTemplate LoadoutSlotInfo MAg {
+      Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{60DC0D1E5037E85A}" {
+     SlotTemplate InventoryStorageSlot Jerrycan {
+      Prefab "{7305E032D48E0FF3}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_full_item.et"
+     }
+    }
+    MultiSlotConfiguration "{60DC0D1E57F74707}" {
+     SlotTemplate InventoryStorageSlot Jerrycan {
+      Prefab "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{60DE236EF75CAE7B}" {
+     SlotTemplate InventoryStorageSlot Jerrycan {
+      Prefab "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{695B1A29858DD844}" {
+     SlotTemplate EquipmentStorageSlot M2_Ammo {
+      Prefab "{6BDE074614145A32}Prefabs/Weapons/Magazines/Magazine_M2_CROWS/Box_127x99_M2_CROWS_200rnd_4AP_1APIT.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{695B2AA1BF1918B4}" {
+     SlotTemplate EquipmentStorageSlot AT4 {
+      Prefab "{662D1F5B7FF930CD}Prefabs/Weapons/Launchers/AT4/Launcher_AT4CS_HEDP.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
   ActionsManagerComponent "{C97BE5489221AE18}" {
    ActionContexts {
     UserActionContext "{5EAD79DA34CD7B31}" {
@@ -54,4 +133,6 @@ Vehicle : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/M1126/Stryker_APC.
    }
   }
  }
+ coords 1453.15 38 2928.448
+ angles 0 168 0
 }

@@ -1,6 +1,9 @@
 GenericEntity : "{BB35A8E1403CDE4B}Prefabs/Weapons/HeavyWeapons/HMG_M2HB.et" {
  ID "620EF62A9CAB099B"
  components {
+  BL_BeltLinkWeaponComponent "{68FF426AAE031B85}" {
+   Enabled 0
+  }
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
     SightsComponent "{BB23A637957CFFF8}" {

@@ -1,4 +1,4 @@
-Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+Turret : "{A43CF2F4D1E3CB17}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/CROWS_Base.et" {
  ID "51ACD0965653D003"
  components {
   RHS_StabilizedTurretControllerComponent "{51ACD09C61C183E4}" {
@@ -64,21 +64,24 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
       PivotID "v_gun_01"
       Offset -0.05 -0.12 0.153
      }
-     m_fMagnification 1.8
+     m_fVignetteScale 10
+     m_bIsNVGCompatible 1
+     m_bIsDOFDisabled 1
+     m_fObjectiveFov 60
      m_fReticleAngularSize 3.6
      m_fReticlePortion 0.98592
-     m_fObjectiveFov 60
-     m_fVignetteScale 10
+     m_fMagnification 1.8
      m_sRHSLayoutOverlayResource "{71921C6F854EF5CA}UI/layouts/Sights/Optic_Widgets_JLTV.layout"
     }
     RHS_VehicleNightVisionComponent "{65E21A7705C1D1E2}" {
+     Enabled 0
      m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
      m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
-     m_bUseMask 0
-     m_bManualGainControl 1
      m_aGainLevels {
       0.001 0.002 0.003 0.004 0.005 0.006 0.007 0.008 0.009 0.01 0.015 0.02 0.025 0.03 0.035 0.04 0.045 0.05 0.055 0.06 0.065 0.1 0.3 0.6 1 2 3 4 5 6 7 8 9 10 15 20 22 24 26 28 30 33 36 39 40
      }
+     m_bUseMask 0
+     m_bManualGainControl 1
     }
     SCR_2DSightsComponent "{5B24B3A9B2859831}" {
      Enabled 0
@@ -95,12 +98,12 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      m_sReticleTexture "{AE1DBD2308EDFF54}UI/Textures/Sights/ARTII/ARTII_UI.edds"
      m_sReticleGlowTexture "{8223211281E0B381}UI/Textures/Sights/ARTII/ARTII-glow_UI.edds"
      m_sFilterTexture "{63682CF9C88F8E11}UI/Textures/Sights/ARTII/ARTII-blur_UI.edds"
-     m_fMagnification 1.8
-     m_fReticlePortion 0.98592
-     m_fReticleBaseZoom 0
+     m_fVignetteScale 10
      m_fObjectiveFov 60
      m_fObjectiveScale 1
-     m_fVignetteScale 10
+     m_fReticlePortion 0.98592
+     m_fReticleBaseZoom 0
+     m_fMagnification 1.8
     }
    }
    TurretInitStabilization Target
@@ -123,4 +126,5 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    }
   }
  }
+ coords 1440.808 38 2926.947
 }
