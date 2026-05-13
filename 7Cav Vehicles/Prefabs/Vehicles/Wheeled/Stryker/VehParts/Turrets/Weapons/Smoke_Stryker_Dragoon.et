@@ -1,0 +1,109 @@
+GenericEntity : "{2BAC695816860421}Prefabs/Weapons/Core/Armament_Dispenser_Smoke.et" {
+ ID "62A8D6FA317E0E04"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{2EA45689EB59EA5B}Assets/Vehicles/Wheeled/SPC_Stryker/STRYKER_Dragoon_SmokeLauncher.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Dispenser {
+    }
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{62DB0A13234C2E8C}" {
+   m_FirePosition PointInfo "{63295DA4D2FC848E}" {
+    Angles 10 15 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FC8485}" {
+   m_FirePosition PointInfo "{63295DA4D2FC8499}" {
+    Angles 14 -5 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FC849A}" {
+   m_FirePosition PointInfo "{63295DA4D2FF4D15}" {
+    Angles 12 30 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF02CB}" {
+   m_FirePosition PointInfo "{63295DA4D2FF2539}" {
+    Angles 13 -15 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF02CF}" {
+   m_FirePosition PointInfo "{63295DA4D2FF02C9}" {
+    Angles 16 5 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF02D3}" {
+   m_FirePosition PointInfo "{63295DA4D2FF02CD}" {
+    Angles 11 -10 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF2538}" {
+   m_FirePosition PointInfo "{63295DA4D2FF253D}" {
+    Angles 13 15 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF253F}" {
+   m_FirePosition PointInfo "{63295DA4D2FF254B}" {
+    Angles 12 -30 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF4D1B}" {
+   m_FirePosition PointInfo "{63295DA4D2FF4D18}" {
+    Angles 14 15 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF4D1E}" {
+   m_FirePosition PointInfo "{63295DA4D2FF4DE9}" {
+    Angles 15 -5 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF4DC4}" {
+   m_FirePosition PointInfo "{63295DA4D2FF4DCA}" {
+    Angles 14 20 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF4DC8}" {
+   m_FirePosition PointInfo "{63295DA4D2FF02D0}" {
+    Angles 10 -15 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF4DE8}" {
+   m_FirePosition PointInfo "{63295DA4D2FF4DEE}" {
+    Angles 9 5 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF4DEC}" {
+   m_FirePosition PointInfo "{63295DA4D2FF4DF6}" {
+    Angles 16 -15 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF4DF5}" {
+   m_FirePosition PointInfo "{63295DA4D2FF4DFA}" {
+    Angles 13 10 0
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{63295DA4D2FF4DF8}" {
+   m_FirePosition PointInfo "{63295DA4D2FF4DC6}" {
+    Angles 12 -20 0
+   }
+  }
+  ActionsManagerComponent "{62A957B2374C324C}" {
+   ActionContexts {
+    UserActionContext "{62A957B22D79F4B1}" {
+     Radius 0.3
+     Omnidirectional 0
+     VisibilityAngle 75
+    }
+   }
+   additionalActions {
+    WCS_RearmDispenserAtRepairStationAction "{62A957B2FD111201}" {
+     m_fSupplyCostPerProjectile 10
+    }
+   }
+  }
+ }
+ coords 1439.729 38 2926.825
+}

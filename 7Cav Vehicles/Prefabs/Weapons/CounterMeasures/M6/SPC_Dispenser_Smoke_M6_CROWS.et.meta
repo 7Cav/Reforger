@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3CB2C0FD968CDD73}Prefabs/Weapons/CounterMeasures/M6/SPC_Dispenser_Smoke_M6_CROWS.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

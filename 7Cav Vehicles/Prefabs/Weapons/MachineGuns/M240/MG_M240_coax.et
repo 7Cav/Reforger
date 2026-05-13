@@ -7,7 +7,11 @@ GenericEntity : "{D557477145C304EC}Prefabs/Weapons/MachineGuns/M240/MG_M240_coax
      Enabled 0
      SightsSwitchSkip 1
     }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{51FAA3A3A140D8EC}Prefabs/Weapons/Magazines/Magazine_M240_Coax/Box_762x51_M240_DRAGOON_600rnd_4AP_1Tracer.et"
+    }
    }
   }
  }
+ coords 1464.278 38 2920.324
 }

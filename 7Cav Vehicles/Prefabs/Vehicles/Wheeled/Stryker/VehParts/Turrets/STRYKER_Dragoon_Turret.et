@@ -51,22 +51,26 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      }
      ADSTime 0
      CameraRecoilAmount 0
-     m_fMagnification 1.25
-     m_fReticleAngularSize 10.51
-     m_fReticlePortion 0.82
+     m_fVignetteScale 10
+     m_bIsNVGCompatible 1
+     m_bIsDOFDisabled 1
      m_fObjectiveFov 60
      m_fObjectiveScale 1.5
-     m_fVignetteScale 10
+     m_fReticleAngularSize 10.51
+     m_fReticlePortion 0.82
+     m_fMagnification 1.25
      m_sRHSLayoutOverlayResource "{71921C6F854EF5CA}UI/layouts/Sights/Optic_Widgets_JLTV.layout"
     }
     RHS_VehicleNightVisionComponent "{65E21A73568AEF84}" {
+     Enabled 0
      m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
      m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
-     m_bUseMask 0
-     m_bManualGainControl 1
      m_aGainLevels {
       0.001 0.002 0.003 0.004 0.005 0.006 0.007 0.008 0.009 0.01 0.015 0.02 0.025 0.03 0.035 0.04 0.045 0.05 0.055 0.06 0.065 0.1 0.3 0.6 1 2 3 4 5 6 7 8 9 10 15 20 22 24 26 28 30 33 36 39 40
      }
+     m_bUseMask 0
+     m_eUseMask CUSTOM
+     m_bManualGainControl 1
     }
     SCR_2DSightsComponent "{5CA77AA65F673EA0}" {
      Enabled 0
@@ -76,13 +80,13 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      m_sReticleTexture "{63D53672B80FA9D9}UI/Textures/Sights/LAV25/LAV_sight_UI.edds"
      m_sReticleGlowTexture "{9FE7BA8F092328F0}UI/Textures/Sights/LAV25/LAV_sightGlow_UI.edds"
      m_sFilterTexture "{2FFD11B7CA828E52}UI/Textures/Sights/Effects/Reticle_dust_UI.edds"
-     m_fMagnification 1.25
+     m_fVignetteScale 10
+     m_fObjectiveFov 60
+     m_fObjectiveScale 1.5
      m_fReticleAngularSize 10.51
      m_fReticlePortion 0.82
      m_fReticleBaseZoom 0
-     m_fObjectiveFov 60
-     m_fObjectiveScale 1.5
-     m_fVignetteScale 10
+     m_fMagnification 1.25
     }
     SCR_2DSightsComponent "{649E62A122D88553}" {
      Enabled 0
@@ -100,8 +104,22 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    TurretInitStabilization Target
    TurretEnabledStabilization DirectionTarget
   }
+  WCS_Armament_DispenserManagerComponent "{64F6178383129B0D}" {
+   m_SmokeInfo WCS_Armament_DispenserSmokeInfo "{64F6178387DB3869}" {
+    m_FireModes {
+     WCS_Armament_DispenserRippleFireMode "{64F61783BDE5BB64}" {
+      m_iNumShots 4
+     }
+    }
+   }
+  }
   WCS_Armament_TurretStabilizationComponent "{64636BDB4FCA77C3}" {
    Enabled 0
   }
+  WeaponSlotComponent "{5CE857D2864FE81D}" {
+   WeaponTemplate "{98F0826907882AF8}Prefabs/Weapons/MachineGuns/M240/MG_M240_coax.et"
+  }
  }
+ coords 1442.213 38 2926.134
+ angles 0 169 0
 }
