@@ -10,7 +10,12 @@ GenericEntity : "{BB35A8E1403CDE4B}Prefabs/Weapons/HeavyWeapons/HMG_M2HB.et" {
      Enabled 0
      SightsSwitchSkip 1
     }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{302B69AAE9385D0D}Prefabs/Weapons/Magazines/Magazine_M2_CROWS/Box_127x99_M2_CROWS_400rnd_4AP_1APIT.et"
+    }
    }
   }
  }
+ coords 1447.518 38 2918.252
+ angles 0 153 0
 }

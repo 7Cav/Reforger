@@ -105,9 +105,9 @@ Vehicle : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/M1126/Stryker_APC.
     }
     MultiSlotConfiguration "{695B1A29858DD844}" {
      SlotTemplate EquipmentStorageSlot M2_Ammo {
-      Prefab "{6BDE074614145A32}Prefabs/Weapons/Magazines/Magazine_M2_CROWS/Box_127x99_M2_CROWS_200rnd_4AP_1APIT.et"
+      Prefab "{302B69AAE9385D0D}Prefabs/Weapons/Magazines/Magazine_M2_CROWS/Box_127x99_M2_CROWS_400rnd_4AP_1APIT.et"
      }
-     NumSlots 10
+     NumSlots 5
     }
     MultiSlotConfiguration "{695B2AA1BF1918B4}" {
      SlotTemplate EquipmentStorageSlot AT4 {
@@ -133,6 +133,6 @@ Vehicle : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/M1126/Stryker_APC.
    }
   }
  }
- coords 1453.15 38 2928.448
- angles 0 168 0
+ coords 1453.251 38 2911.852
+ angles 0 151 0
 }

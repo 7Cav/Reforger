@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{51FAA3A3A140D8EC}Prefabs/Weapons/Magazines/Magazine_M240_Coax/Box_762x51_M240_DRAGOON_600rnd_4AP_1Tracer.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

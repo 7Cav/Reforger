@@ -67,7 +67,10 @@ Vehicle : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/M1126/Stryker_APC.
      NumSlots 15
     }
     MultiSlotConfiguration "{60565BEFD2C8CADA}" {
-     NumSlots 6
+     SlotTemplate EquipmentStorageSlot Belts {
+      Prefab "{51FAA3A3A140D8EC}Prefabs/Weapons/Magazines/Magazine_M240_Coax/Box_762x51_M240_DRAGOON_600rnd_4AP_1Tracer.et"
+     }
+     NumSlots 1
     }
     MultiSlotConfiguration "{695B1A2EB67E5AD8}" {
      SlotTemplate InventoryStorageSlot Jerrycan {
@@ -124,6 +127,6 @@ Vehicle : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/M1126/Stryker_APC.
    }
   }
  }
- coords 1446.784 38 2927.065
- angles 0 169 0
+ coords 1459.559 38 2916.366
+ angles 0 151 0
 }

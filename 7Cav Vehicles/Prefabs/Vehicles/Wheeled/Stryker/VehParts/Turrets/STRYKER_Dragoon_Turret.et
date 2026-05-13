@@ -116,6 +116,9 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
   WCS_Armament_TurretStabilizationComponent "{64636BDB4FCA77C3}" {
    Enabled 0
   }
+  WeaponSlotComponent "{5CE857D2864FE81D}" {
+   WeaponTemplate "{98F0826907882AF8}Prefabs/Weapons/MachineGuns/M240/MG_M240_coax.et"
+  }
  }
  coords 1442.213 38 2926.134
  angles 0 169 0
