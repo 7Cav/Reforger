@@ -131,6 +131,8 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
   SCR_FactionPlayerLoadout "{6686D1A11667C1B2}" : "{BAAFBFB629310E41}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Viking/Loadout_B_BFV_Crewman_Viking.conf" {
   }
   SCR_FactionPlayerLoadout "{6686D1A11572EB69}" : "{8BD7A521C2614C50}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Viking/Loadout_B_BFV_VC_Viking.conf" {
+   m_sLoadoutName "Vehicle Crew"
+   m_sAffiliatedFaction "Pioneer"
   }
   SCR_FactionPlayerLoadout "{6686D1A110D42E04}" : "{7B60CDB6206C8899}Prefabs/Characters/Cav_Factions/Alpha/Loadouts/Alpha_Pilot.conf" {
   }
