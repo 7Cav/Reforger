@@ -10,9 +10,6 @@ SCR_ChimeraCharacter : "{29C9C7591C683955}Prefabs/Characters/Cav_Factions/Bravo/
     }
    }
   }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{67F95B374867C366}Prefabs/Weapons/Rifle_M4A1_RAS_Cav.et"
-  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo ArmoredVest {
