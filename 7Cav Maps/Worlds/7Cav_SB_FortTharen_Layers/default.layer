@@ -1,8 +1,0 @@
-SCR_GameModeEditor _Cav_GameMode_Editor_Sandbox1 : "{285363A3C06DC821}Prefabs/MP/Modes/Editor/7Cav_GameMode_Editor_Sandbox.et" {
- coords 1182.039 160.707 1123.925
- {
-  RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
-   coords 0 0 0
-  }
- }
-}

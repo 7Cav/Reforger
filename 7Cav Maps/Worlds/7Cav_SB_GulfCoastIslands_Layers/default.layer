@@ -1,8 +1,3 @@
-SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
- coords 7522.12 91.424 7541.489
- "Map Geometry Data" "{7DB4E4A38AAA208F}Data/Gulfcoast Islands.topo"
- "Satellite background image" "{A7022A07070562E9}Worlds/Images/Gulfcost Islands.edds"
-}
 SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  components {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
