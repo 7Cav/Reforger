@@ -1,0 +1,196 @@
+$grp SCR_CaptureAndHoldArea : "{F4649500E51DF810}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Major.et" {
+ {
+  coords 4418.085 12.626 10654.34
+  angles 0 -8.676 0
+  TriggerShapeType Sphere
+  SphereRadius 20
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_C"
+  m_sGroupName "C"
+ }
+ {
+  coords 4445.905 12.869 10732.604
+  angles 0 -8.676 0
+  TriggerShapeType Sphere
+  SphereRadius 23
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_D"
+  m_sGroupName "D"
+ }
+ {
+  coords 4270.547 1.39 10691.499
+  angles -1.769 -8.675 0.27
+  TriggerShapeType Sphere
+  SphereRadius 35
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_B"
+  m_sGroupName "B"
+ }
+ {
+  coords 4375.331 12.671 10674.737
+  angles 0 -8.668 0
+  TriggerShapeType Sphere
+  SphereRadius 25
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_E"
+  m_sGroupName "E"
+ }
+ {
+  coords 4532.499 16.82 10683.964
+  angles -0.671 -8.616 -4.417
+  TriggerShapeType Sphere
+  SphereRadius 50
+  DrawShape 0
+  m_sGroupName "A"
+ }
+ {
+  coords 4618.451 18.656 10666.879
+  angles 0 -8.668 0
+  TriggerShapeType Sphere
+  SphereRadius 25
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_B"
+  m_sGroupName "B"
+ }
+ {
+  coords 4615.156 17.483 10812.981
+  angles -4.069 -9.653 13.138
+  TriggerShapeType Sphere
+  SphereRadius 50
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_C"
+  m_sGroupName "C"
+ }
+ {
+  coords 4513.185 15.167 10782.866
+  angles 7.924 81.784 -1.14
+  TriggerShapeType Sphere
+  SphereRadius 50
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_D"
+  m_sGroupName "D"
+ }
+ {
+  coords 4475.947 9.658 10873.478
+  angles 2.513 27.512 -6.728
+  TriggerShapeType Sphere
+  SphereRadius 40
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_B"
+  m_sGroupName "B"
+ }
+ {
+  coords 4323.201 1.687 10937.736
+  angles 0 29.738 0
+  TriggerShapeType Sphere
+  SphereRadius 50
+  DrawShape 0
+  m_sGroupName "A"
+ }
+ {
+  coords 4393.48 5.185 10851.795
+  angles 3.658 29.674 -1.002
+  TriggerShapeType Sphere
+  SphereRadius 50
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_C"
+  m_sGroupName "C"
+ }
+ {
+  coords 4643.937 16.924 10547.372
+  angles 2.075 30.112 5.325
+  TriggerShapeType Sphere
+  SphereRadius 50
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_B"
+  m_sGroupName "B"
+ }
+ {
+  coords 4576.762 18.166 11033.123
+  angles 17.56 25.475 -14.159
+  TriggerShapeType Sphere
+  SphereRadius 50
+  DrawShape 0
+  m_sGroupName "A"
+ }
+ {
+  coords 4495.749 12.438 10877.869
+  angles -17.721 10.156 -131.579
+  TriggerShapeType Sphere
+  SphereRadius 50
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_E"
+  m_sGroupName "E"
+ }
+ {
+  coords 4510.457 10.265 11082.629
+  angles 9.482 26.449 -18.323
+  TriggerShapeType Sphere
+  SphereRadius 50
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_C"
+  m_sGroupName "C"
+ }
+ {
+  coords 4415.994 9.309 10799.647
+  angles -2.095 29.898 -5.317
+  TriggerShapeType Sphere
+  SphereRadius 50
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_E"
+  m_sGroupName "E"
+ }
+ {
+  coords 4344.121 11.843 10646.159
+  angles -0.335 29.671 -1.221
+  TriggerShapeType Sphere
+  SphereRadius 35
+  DrawShape 0
+  m_sGroupName "A"
+ }
+ {
+  coords 4365.293 9.497 10739.559
+  angles -0.131 29.655 -0.086
+  TriggerShapeType Sphere
+  SphereRadius 40
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_D"
+  m_sGroupName "D"
+ }
+ {
+  coords 4691.597 20.887 10775.563
+  angles 0.443 29.654 -0.778
+  TriggerShapeType Sphere
+  SphereRadius 40
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_D"
+  m_sGroupName "D"
+ }
+ {
+  coords 4453.61 12.838 10691.104
+  angles 0.443 29.654 -0.778
+  TriggerShapeType Sphere
+  SphereRadius 25
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_E"
+  m_sGroupName "E"
+ }
+ {
+  coords 4680.332 22.203 10676.786
+  angles -0.55 29.805 -4.433
+  TriggerShapeType Sphere
+  SphereRadius 50
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_E"
+  m_sGroupName "E"
+ }
+ {
+  coords 4460.821 8.763 10952.19
+  angles -0.527 31.614 -7.637
+  TriggerShapeType Sphere
+  SphereRadius 40
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_D"
+  m_sGroupName "D"
+ }
+}

@@ -1,0 +1,334 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ Area_Morton {
+  coords 4988.327 2.187 3859.676
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+    L_Morton_M {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords -4.323 -0.003 -2.252
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       S_Morton_M1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{A2CBCC149F80186A}Prefabs/CHZones/Everon_Full/CAH_Morton_M1.et"
+         }
+        }
+        coords 48.19 0.004 6.693
+        angleY -137.077
+       }
+       S_Morton_M2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{D8EDA11997B92E3A}Prefabs/CHZones/Everon_Full/CAH_Morton_M2.et"
+         }
+        }
+        coords 22.874 0.004 -34.907
+        angleY 32.28
+       }
+       S_Morton_M3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{3D71EDE09B5CB951}Prefabs/CHZones/Everon_Full/CAH_Morton_M3.et"
+         }
+        }
+        coords -50.22 0.003 38.762
+        angleY 31.219
+       }
+      }
+     }
+    }
+    L_Morton_N {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 13.993 15.514 176.147
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       S_Morton_N1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2DA72C60369A9084}Prefabs/CHZones/Everon_Full/CAH_Morton_N1.et"
+         }
+        }
+        coords 24.235 -2.326 -78.04
+        angleY 14.305
+       }
+       S_Morton_N2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{41F318808A5E1FAA}Prefabs/CHZones/Everon_Full/CAH_Morton_N2.et"
+         }
+        }
+        coords -48.929 -0.538 -34.959
+       }
+       S_Morton_N3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{A46F547986BB88C1}Prefabs/CHZones/Everon_Full/CAH_Morton_N3.et"
+         }
+        }
+        coords 59.972 -2.925 -44.794
+        angleY -6.203
+       }
+      }
+     }
+    }
+    L_Morton_O {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 222.317 15.28 170.24
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       S_Morton_O1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{5AAD44E8C2387FF4}Prefabs/CHZones/Everon_Full/CAH_Morton_O1.et"
+         }
+        }
+        coords -105.958 -3.218 5.887
+        angleY -14.191
+       }
+       S_Morton_O2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{36F970087EFCF0DA}Prefabs/CHZones/Everon_Full/CAH_Morton_O2.et"
+         }
+        }
+        coords -31.068 -2.866 -2.623
+        angleY -14.232
+       }
+       S_Morton_O3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{D3653CF1721967B1}Prefabs/CHZones/Everon_Full/CAH_Morton_O3.et"
+         }
+        }
+        coords -23.901 -3.374 -67.352
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ Area_Airfield {
+  coords 4894.346 28.588 11861.757
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+    L_Airfield_A {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 27.347 23.089 -203.096
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       S_Airfield_A1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{B5B5E64C6D52C674}Prefabs/CHZones/Everon_Full/CAH_Airfield_A1.et"
+         }
+        }
+        coords -40.295 -23.083 26.923
+       }
+       S_Airfield_A2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{D9E1D2ACD196495A}Prefabs/CHZones/Everon_Full/CAH_Airfield_A2.et"
+         }
+        }
+        coords -0.714 -22.903 89.883
+       }
+       S_Airfield_A3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{3C7D9E55DD73DE31}Prefabs/CHZones/Everon_Full/CAH_Airfield_A3.et"
+         }
+        }
+        coords 1.525 -22.958 129.788
+       }
+      }
+     }
+    }
+    L_Airfield_B {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 51.102 -0.011 -13.025
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       S_Airfield_B1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2CAB5FD570B5F7E4}Prefabs/CHZones/Everon_Full/CAH_Airfield_B1.et"
+         }
+        }
+        coords -9.868 -0.04 -17.165
+       }
+       S_Airfield_B2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{40FF6B35CC7178CA}Prefabs/CHZones/Everon_Full/CAH_Airfield_B2.et"
+         }
+        }
+        coords -66.862 0.016 -13.76
+       }
+      }
+     }
+    }
+    L_Airfield_C {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 66.582 -0.868 170.673
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       S_Airfield_C1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{5BA1375D84171894}Prefabs/CHZones/Everon_Full/CAH_Airfield_C1.et"
+         }
+        }
+        coords -5.588 0.587 -150.931
+        angleY 12.342
+       }
+       S_Airfield_C2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{37F503BD38D397BA}Prefabs/CHZones/Everon_Full/CAH_Airfield_C2.et"
+         }
+        }
+        coords -0.147 0.595 -50.616
+       }
+       S_Airfield_C3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{D2694F44343600D1}Prefabs/CHZones/Everon_Full/CAH_Airfield_C3.et"
+         }
+        }
+        coords -0.091 0.561 -107.172
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ Area_MilHospital {
+  coords 3917.503 15.313 8455.769
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+    L_MilHosp_D {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords -140.342 -14.354 -76.569
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       S_MilHosp_D1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{7BDB46770F049C75}Prefabs/CHZones/Everon_Full/CAH_MilHosp_D1.et"
+         }
+        }
+        coords 188.501 29.289 -107.905
+       }
+       S_MilHosp_D2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{178F7297B3C0135B}Prefabs/CHZones/Everon_Full/CAH_MilHosp_D2.et"
+         }
+        }
+        coords 121.032 14.26 37.892
+        angleY 4.032
+       }
+      }
+     }
+    }
+    L_MilHosp_E {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords -66.257 -1.617 -22.942
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       S_MilHosp_E1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{0CD12EFFFBA67305}Prefabs/CHZones/Everon_Full/CAH_MilHosp_E1.et"
+         }
+        }
+        coords -23.592 -1.602 -8.877
+       }
+       S_MilHosp_E2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{60851A1F4762FC2B}Prefabs/CHZones/Everon_Full/CAH_MilHosp_E2.et"
+         }
+        }
+        coords 14.61 1.554 1.912
+        angleY 6.503
+       }
+      }
+     }
+    }
+    L_MilHosp_F {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords -34.49 -1.051 52.219
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       S_MilHosp_F1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{95CF9766E6414295}Prefabs/CHZones/Everon_Full/CAH_MilHosp_F1.et"
+         }
+        }
+        coords -3.457 0.655 -19.438
+        angleY 4.107
+       }
+       S_MilHosp_F2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{F99BA3865A85CDBB}Prefabs/CHZones/Everon_Full/CAH_MilHosp_F2.et"
+         }
+        }
+        coords -20.221 -12.687 69.038
+       }
+       S_MilHosp_F3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{1C07EF7F56605AD0}Prefabs/CHZones/Everon_Full/CAH_MilHosp_F3.et"
+         }
+        }
+        coords -142.538 -12.561 13.729
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+GameProject {
+ ID "7CavConflictEscalation"
+ GUID "69695D85A8B6F130"
+ TITLE "7Cav Conflict Escalation"
+ Dependencies {
+  "58D0FB3206B6F859" "651F6696EA91070C"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

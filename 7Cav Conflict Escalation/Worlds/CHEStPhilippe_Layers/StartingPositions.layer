@@ -1,0 +1,82 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MOB1 {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 965
+     }
+    }
+    m_bIsSource 1
+    m_aExcludedBaseNames {
+     "BaseGarbage"
+     "BaseRuins"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 4491.623 19.519 9785.794
+  angles 0 51.849 0
+  {
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+    SphereRadius 400
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ MOB2 {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 950
+     }
+    }
+    m_bIsSource 1
+    m_aExcludedBaseNames {
+     "BaseGarbage"
+     "BaseElectrical"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 4881.695 28.364 11957.911
+  angles 0 179.172 0
+  {
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+    SphereRadius 500
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+}
+SCR_CampaignSpawnPointGroup : "{666BC730F10EE097}Prefabs/MP/Campaign/CampaignSpawnpoint_FIA.et" {
+ coords 4682.816 20.742 10613.788
+ angles 8.872 -0.28 -1.812
+ m_bRandomizedSpawn 1
+}
+SCR_CampaignSpawnPointGroup : "{8C4E2CD043831EF5}Prefabs/MP/Campaign/CampaignSpawnpoint_RNGD.et" {
+ coords 4406.444 1.618 11059.54
+}

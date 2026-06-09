@@ -1,0 +1,33 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ {
+  GenericEntity {
+   ID "63068254A1DE6F44"
+   components {
+    ActionsManagerComponent "{5CB6952C9693C41C}" {
+     additionalActions {
+      SCR_CampaignBuildingStartUserAction "{5ED5534E4E40397F}" {
+       m_bMustBeSquadLeader 0
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "66F7209570818B37"
+   components {
+    SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66F7209573EDF455"
+   components {
+    SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

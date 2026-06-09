@@ -1,0 +1,62 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseElectrical {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_aExcludedBaseNames {
+     "BaseRuins"
+     "MOB2"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bExcludeFromRandomization 1
+    m_fTickRate 5000
+   }
+  }
+  coords 4165.614 19.443 10536.356
+  angles -2.433 91.997 -7.206
+ }
+ BaseRuins {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_aExcludedBaseNames {
+     "BaseElectrical"
+     "MOB1"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bExcludeFromRandomization 1
+    m_fTickRate 5000
+   }
+  }
+  coords 4462.765 10.985 11278.584
+  angles -4.445 -5.725 0.445
+ }
+ BaseGarbage {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_aExcludedBaseNames {
+     "MOB1"
+     "MOB2"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bExcludeFromRandomization 1
+    m_fTickRate 5000
+   }
+  }
+  coords 5089.669 40.541 10660.756
+  angles 2.683 0.042 0.896
+ }
+}

@@ -1,0 +1,157 @@
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{6454243CB8A30ACD}" {
+     NavmeshFile "{A07353FE17EB2C49}worlds/MP/Navmeshes/CTI_Campaign_Eden.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{3D08F0F26F771347}worlds/MP/Navmeshes/CTI_Campaign_Eden_vehicles.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{5E19E60F26327356}worlds/MP/Navmeshes/LowResEden.nmn"
+    }
+   }
+  }
+ }
+ coords 7114.537 103.491 6280.017
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7114.537 103.567 6279.017
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 4600.232 21.893 11012.234
+}
+SCR_GameModeCampaign GameMode_Escalation_Scoring1 : "{598F43E0F4973407}Prefabs/MP/Modes/Conflict/GameMode_Escalation_Scoring.et" {
+ components {
+  SCR_ArsenalManagerComponent "{6120A34EB1E9BBEF}" {
+   m_sLoadoutSaveBlackListHolder "{06779FCB2EE87D9F}Configs/Arsenal/EscalationArsenalLoadoutSaveBlacklists.conf"
+   m_bUseMilitarySupplyAllocation 0
+  }
+  SCR_PlayerSpawnPointManagerComponent "{5CDABA98894199D0}" {
+   m_bEnablePlayerSpawnPoints 1
+   m_bRadioVehicleSpawningEnabled 1
+   m_bDeployableSpawnPointsEnabled 0
+  }
+  SCR_RandomSpawnManagerComponent "{691E6E47C8A2B7AE}" {
+   m_fSafeDistance 500
+   m_aBlacklistZones {
+    SCR_SpawnPointBlacklistZone "{697703287029D3A9}" {
+     m_vCenter 11264.955 0 1261.25
+    }
+    SCR_SpawnPointBlacklistZone "{697703284642DA24}" {
+     m_vCenter 11522.717 0 2880.703
+    }
+    SCR_SpawnPointBlacklistZone "{6977032857C1BD0C}" {
+     m_vCenter 10147.887 0 4794.428
+    }
+    SCR_SpawnPointBlacklistZone "{697703285F34DF33}" {
+     m_vCenter 10185.891 0 4137.79
+    }
+    SCR_SpawnPointBlacklistZone "{6977032827FF0234}" {
+     m_vCenter 9280.748 0 5819.825
+    }
+    SCR_SpawnPointBlacklistZone "{697703282975C2AB}" {
+     m_vCenter 8584.868 0 5637.197
+    }
+    SCR_SpawnPointBlacklistZone "{69770328332B12FC}" {
+     m_vCenter 6098.045 0 10992.912
+    }
+    SCR_SpawnPointBlacklistZone "{697703283D42780A}" {
+     m_vCenter 5561.303 0 11850.024
+    }
+    SCR_SpawnPointBlacklistZone "{6977032805454FB0}" {
+     m_vCenter 5561.303 0 12133.544
+    }
+    SCR_SpawnPointBlacklistZone "{697703280D9FE151}" {
+     m_vCenter 4165.225 0 11119.21
+     m_fRadius 600
+    }
+   }
+  }
+ }
+ coords 6404.333 159.715 6426.771
+ m_fAutoReloadTime 60
+ m_iControlPointsThreshold 3
+ m_bShowBattlePrepTimer 1
+ m_iMHQRange 1000
+ m_bRandomizeBases 1
+ m_iRandomizeTreshold 6
+ m_bAutoRadioRanges 1
+}
+SCR_CampaignFactionManager EscalationFactionManager1 : "{78675292D894020F}Prefabs/MP/Campaign/EscalationFactionManager.et" {
+ coords 7105.271 102.904 6288.018
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{5C68AD5F13464B23}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7DF3CADCB12}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DF7EE3634D}" {
+           m_iSupplyCost 100
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AA2B2FF4}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D8F231A82E}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D82341C942}" {
+           m_iSupplyCost 100
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 4631.15 24.881 11010.535
+}
+MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
+ coords 5127.056 15.415 12277.293
+ Music {
+  SCR_DeathMusic "{647A5CA7FDC1949E}" {
+  }
+ }
+}
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 6397.073 159.332 6426.053
+}

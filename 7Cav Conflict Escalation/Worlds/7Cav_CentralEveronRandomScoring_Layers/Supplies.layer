@@ -1,0 +1,884 @@
+GenericEntity : "{0E2B16A0A7DF365D}Prefabs/Compositions/Locations/Eden/SupplyCache_Morton_FIA_01.et" {
+ coords 5135.238 13.126 4011.78
+}
+GenericEntity : "{152E7C3355906BA9}Prefabs/Compositions/Locations/Eden/SupplyCache_Levie_FIA_01.et" {
+ coords 7464.442 142.167 4738.911
+}
+GenericEntity : "{1A9D75D98DC825E7}Prefabs/Compositions/Locations/Eden/SupplyCache_Provins_FIA_01.et" {
+ coords 5486.487 96.127 6087.397
+}
+GenericEntity : "{1CA1A82176D652AD}Prefabs/Compositions/Locations/Eden/SupplyCache_EntreDeux_FIA_01.et" {
+ coords 5766.788 221.968 7035.573
+}
+$grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ {
+  coords 4931.403 28.469 11986.469
+  angleY -179.952
+ }
+ {
+  coords 4434.091 5.811 11205.86
+  angleY 85.611
+ }
+ {
+  coords 4474.851 1.531 11132.911
+  angleY -151.527
+ }
+ {
+  coords 9985.821 2.359 1523.785
+  angleY 16.881
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 1058.127 2.877 6054.715
+  angleX -0.008
+  angleY 35.835
+  angleZ -0.675
+  {
+   GenericEntity {
+    ID "5D1ED92353BB9FF4"
+    coords 3.51 -0.106 -2.945
+    angleY 0.819
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9F82"
+    coords 3.196 -0.131 1.629
+    angleY -90
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9F95"
+    coords 3.296 -0.103 0.133
+    angleY -88.159
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9FE3"
+    coords 3.357 -0.104 -1.785
+    angleY 176.173
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9E3E"
+    coords 5.03 -0.129 0.146
+    angleY 4.513
+   }
+  }
+ }
+ {
+  coords 3917.112 15.312 8418.873
+  angleY -82.588
+ }
+ {
+  coords 7624.807 166.844 4315.112
+  angleY -162.665
+ }
+ {
+  coords 4297.855 1.13 9532.504
+  angleY 45.123
+ }
+ {
+  coords 7841.875 254.531 4029.39
+  angleY -32.721
+ }
+}
+$grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ {
+  coords 4938.753 28.5 11983.813
+  angleY -93.119
+ }
+ {
+  coords 4409.018 1.594 11211.245
+  angleY -97.026
+ }
+ {
+  coords 9961.073 2.531 1557.286
+  angleY -163.967
+ }
+ {
+  coords 880.68 3.038 6078.892
+  angleY 33.929
+ }
+ {
+  coords 3722.218 1.281 8513.858
+  angleY 70.111
+ }
+ {
+  coords 7584.575 166.844 4328.01
+  angleY -167.146
+ }
+ {
+  coords 7601.512 166.156 4227.194
+  angleY -76.679
+ }
+ {
+  coords 4317.285 1.125 9563.502
+  angleY -134.243
+ }
+ {
+  coords 7890.57 256.625 4006.571
+  angleY -51.694
+ }
+ {
+  coords 7829.86 254.531 4020.952
+  angleY -35.585
+ }
+}
+GenericEntity : "{2FAFFD858A8315E6}Prefabs/Compositions/Locations/Eden/SupplyCache_Meaux_FIA_01.et" {
+ coords 4520.45 14.178 9467.978
+ {
+  GenericEntity {
+   ID "5E6ACA23A6B54723"
+   Flags 1049603
+  }
+ }
+}
+$grp GenericEntity : "{38464762C5D374D2}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign.et" {
+ {
+  coords 9044.778 124.507 2741.715
+  angleY -165
+ }
+ {
+  coords 6914.712 50.906 4436.838
+  angleY -121.473
+ }
+ {
+  coords 6947.63 59.075 4481.804
+  angleX -2.595
+  angleY 133.048
+ }
+ {
+  coords 4760.788 54.106 5842.753
+  angleX -2.149
+  angleY -146.342
+ }
+ {
+  coords 4840.767 51.726 5888.263
+  angleX -1.968
+  angleY 150
+ }
+ {
+  coords 5033.289 26.917 9950.467
+  angleY -88.562
+ }
+ {
+  coords 4892.171 109.723 8113.824
+  angleX 5.616
+  angleY -132
+  angleZ -2.83
+ }
+ {
+  coords 4881.905 111.905 8142.6
+  angleX 9.228
+  angleY -52.102
+  angleZ -2.121
+ }
+ {
+  coords 3122.97 119.225 5234.888
+  angleX -1.498
+  angleY -134.057
+ }
+ {
+  coords 7077.478 156.668 2045.649
+  angleX -0.466
+  angleY 165
+ }
+ {
+  coords 7069.132 156.812 2067.8
+  angleY -11.967
+ }
+}
+GenericEntity : "{4239449B3D22E425}Prefabs/Compositions/Locations/Eden/SupplyCache_StPierre_FIA_01.et" {
+ coords 9689.018 14.024 1558.482
+}
+GenericEntity : "{458D1E40FD79C36D}Prefabs/Compositions/Locations/Eden/SupplyCache_Montignac_FIA_01.et" {
+ coords 4773.455 164.342 7094.566
+}
+$grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
+ {
+  coords 9050.172 124.732 2767.866
+  angleY 12.37
+ }
+ {
+  coords 4876.027 52.513 5715.602
+  angleY -16.679
+ }
+ {
+  coords 5031.582 27.031 9869.461
+  angleY -91.816
+ }
+ {
+  coords 6488.144 161.786 6516.364
+  angleY 164.362
+ }
+ {
+  coords 6414.536 161.844 6485.855
+  angleY 154.002
+  angleZ 1.554
+ }
+ {
+  coords 3113.86 118.764 5215.264
+  angleY -41.113
+  angleZ -0.984
+ }
+ {
+  coords 7082.238 156.812 2067.934
+  angleY -16.149
+ }
+ {
+  coords 10989.885 24.124 11826.495
+  angleY -57.016
+ }
+ {
+  coords 1089.766 41.07 11591.018
+  angleX 1.964
+  angleY 127.54
+  angleZ 0.381
+ }
+ {
+  coords 3044.284 9.06 2054.848
+  angleY -110.769
+ }
+ {
+  coords 3046.046 9.583 2042.365
+  angleX -1.037
+  angleY -110.811
+  angleZ 2.308
+ }
+ {
+  coords 10893.083 21.51 8733.725
+  angleX 2.874
+  angleY 83.298
+  angleZ 1.463
+ }
+}
+GenericEntity : "{58CF761823C96210}Prefabs/Compositions/Locations/Eden/SupplyCache_Tyrone_FIA_01.et" {
+ coords 4927.979 36.042 9092.888
+}
+GenericEntity : "{59DE9F68F4D2A490}Prefabs/Compositions/Locations/Eden/SupplyCache_Laruns_FIA_01.et" {
+ coords 7558.335 82.526 5540.854
+}
+$grp GenericEntity : "{78E7F5C4FFC687D5}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_02_Campaign.et" {
+ {
+  coords 9075.662 118.323 2669.573
+  angleY -122.08
+  {
+   GenericEntity {
+    ID "5D1ED92FEF2D2F21"
+    coords -1.885 -0.147 0.699
+    angleX -7.102
+    angleY -27.725
+    angleZ 2.651
+   }
+  }
+ }
+ {
+  coords 9038.024 124.563 2746.161
+  angleY 101.205
+  {
+   GenericEntity {
+    ID "5D1ED92FEF2D2F88"
+    coords 6.886 -0.706 0.195
+    angleY 110.626
+   }
+   GenericEntity {
+    ID "5D1ED92FEF2D2FA9"
+    coords 5.592 -0.827 -3.238
+    angleY -154.449
+   }
+   GenericEntity {
+    ID "5D1ED95CE93BD404"
+    coords 4.886 -0.468 -0.653
+    angleY -18.316
+   }
+   GenericEntity {
+    ID "5D1ED95CE93BD41D"
+    coords 4.518 -0.556 -2.372
+    angleY -118.555
+   }
+   GenericEntity {
+    ID "5D1ED95CE93BD5DA"
+    coords 5.726 -0.521 0.578
+    angleY 22.54
+   }
+   GenericEntity {
+    ID "5D1ED92FEF2D2FB8"
+    coords 6.149 -0.742 -1.518
+    angleY 32.455
+   }
+   GenericEntity {
+    ID "5E5CB305FC5BF710"
+    coords 5.639 -0.495 0.892
+    angleY -143.248
+   }
+   StaticModelEntity {
+    ID "5D1ED92FEF2D2F0B"
+    coords 6.246 -0.657 -0.28
+    angleY 28.654
+   }
+   StaticModelEntity {
+    ID "5D1ED92FEF2D2F65"
+    coords 5.351 -0.719 -2.637
+    angleY 10.318
+   }
+  }
+ }
+ {
+  coords 6953.945 59.201 4480.212
+  angleX -8.057
+  angleY -137.445
+ }
+ {
+  coords 6941.625 54.323 4444.806
+  angleX -1.977
+  angleY -51.323
+  angleZ -11.232
+ }
+ {
+  coords 4741.732 54.596 5834.935
+  angleY 39.77
+  angleZ -4.309
+ }
+ {
+  coords 4760.327 54.131 5813.492
+  angleX -1.413
+  angleY 55.932
+  angleZ -2.654
+ }
+ {
+  coords 4789.626 53.759 5856.382
+  angleY -165
+  angleZ -2.119
+ }
+ {
+  coords 5014.078 26.839 9944.229
+  angleY 79.189
+  {
+   GenericEntity {
+    ID "5D1ED92FEF2D2F21"
+    coords -1.894 -0.073 0.717
+    angleX -2.53
+    angleY -27.791
+   }
+   StaticModelEntity {
+    ID "5D1ED92FEF2D2F0B"
+    coords 6.065 0 -0.732
+   }
+  }
+ }
+ {
+  coords 4996.238 26.386 9917.058
+  angleY -51.077
+  {
+   GenericEntity {
+    ID "5D1ED92FEF2D2F21"
+    coords -1.885 -0.253 0.697
+    angleX -7.039
+    angleY -27.755
+    angleZ -1.674
+   }
+  }
+ }
+ {
+  coords 4869.616 114.279 8040.725
+  angleX 4.806
+  angleY -88.684
+  {
+   GenericEntity {
+    ID "5D1ED92FEF2D2F21"
+    coords -1.894 -0.057 0.719
+    angleX -1.776
+    angleY -27.791
+   }
+  }
+ }
+ {
+  coords 4836.347 118.294 8157.403
+  angleY -173.345
+  angleZ -2.556
+ }
+ {
+  coords 6483.949 161.332 6526.778
+  angleY -16.163
+ }
+ {
+  coords 3099.809 117.636 5188.213
+  angleX -4.715
+  angleY -142.16
+  {
+   GenericEntity {
+    ID "5D1ED92FEF2D2F21"
+    coords -1.895 -0.118 0.718
+    angleX -0.729
+    angleY -27.791
+   }
+  }
+ }
+ {
+  coords 7065.577 156.818 2050.177
+  angleY 61.365
+ }
+}
+$grp GenericEntity : "{869A4C4CA7F43C21}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_06_Campaign.et" {
+ {
+  coords 4871.928 52.5 5675.194
+  angleY -105
+ }
+ {
+  coords 5011.831 26.677 9908.48
+  angleY -90.759
+  {
+   GenericEntity {
+    ID "5D45393949376AB5"
+    {
+     GenericEntity {
+      ID "5D4539397A9246E8"
+      coords 1.365 0.18 0.165
+     }
+     GenericEntity {
+      ID "5D4539397A9246EE"
+      coords -1.26 0.18 0.099
+     }
+    }
+   }
+   GenericEntity {
+    ID "5D1ED92199D182E9"
+    coords 3.054 0.221 -4.186
+    angleY -10.521
+   }
+   GenericEntity {
+    ID "5D1ED92199D182F7"
+    coords 3.071 0.26 -4.994
+    angleY -57.298
+   }
+   StaticModelEntity {
+    ID "5D1ED92199D18266"
+    coords 3.236 0.314 -6.075
+   }
+  }
+ }
+ {
+  coords 5020.932 26.06 10002.021
+  angleX 1.796
+  angleY 90
+  angleZ -1.55
+  {
+   GenericEntity {
+    ID "5D1ED92199D182E9"
+    coords 3.053 -0.061 -4.188
+    angleY -10.521
+   }
+   GenericEntity {
+    ID "5D1ED92199D182F7"
+    coords 3.072 -0.05 -4.996
+    angleY -57.298
+   }
+   StaticModelEntity {
+    ID "5D1ED92199D18266"
+    coords 3.236 -0.06 -6.077
+   }
+  }
+ }
+ {
+  coords 6494.722 161.988 6482.913
+  angleY -20.05
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 3054.258 118.562 5207.084
+  angleY -39.4
+ }
+}
+GenericEntity : "{8950F273E5D8657D}Prefabs/Compositions/Locations/Eden/SupplyCache_Gravette_FIA_01.et" {
+ coords 4120.761 35.406 7796.203
+}
+GenericEntity : "{908CD23C9EF20E3B}Prefabs/Compositions/Locations/Eden/SupplyCache_Chotain_FIA_01.et" {
+ coords 7086.131 129.414 6012.347
+}
+$grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+ {
+  coords 4944.24 28.416 11863.355
+  angleY 88.201
+ }
+ {
+  coords 4466.275 5.749 11212.697
+  angleY 88.861
+ }
+ {
+  coords 4486.781 1.531 11124.681
+  angleY -150
+ }
+ {
+  coords 9922.7 3.75 1648.255
+  angleY 98.159
+ }
+ {
+  coords 925.242 2.75 6058.799
+  angleY 36.956
+ }
+ {
+  coords 3892.086 15.243 8417.533
+  angleY -85.364
+ }
+ {
+  coords 7608.631 166.812 4320.824
+  angleY 106.904
+  {
+   GenericEntity {
+    ID "5D1ED92199D182E9"
+    coords 3.054 -0.063 -4.186
+    angleY -10.521
+   }
+   GenericEntity {
+    ID "5D1ED92199D182F7"
+    coords 3.073 -0.068 -4.994
+    angleY -57.298
+   }
+   StaticModelEntity {
+    ID "5D1ED92199D18266"
+    coords 3.238 -0.078 -6.075
+   }
+   StaticModelEntity {
+    ID "5D1ED92199D1823E"
+    coords 3.62 -0.06 4.883
+    angleY 14.646
+   }
+  }
+ }
+ {
+  coords 7614.017 166.844 4276.842
+  angleY 105.821
+  {
+   GenericEntity {
+    ID "5D1ED92199D1825C"
+    coords 1.493 0 4.78
+   }
+   GenericEntity {
+    ID "5D1ED92199D182C3"
+    coords -2.628 0 4.205
+   }
+  }
+ }
+ {
+  coords 4313.67 1.125 9491.603
+  angleY -14.768
+ }
+ {
+  coords 7877.662 256.625 3992.119
+  angleY -51.231
+ }
+ {
+  coords 7833.848 254.531 4040.59
+  angleY 56.334
+ }
+}
+GenericEntity : "{B923EE8B7D881891}Prefabs/Compositions/Locations/Eden/SupplyCache_Villeneuf_FIA_01.et" {
+ coords 2838.686 86.345 6339.803
+}
+GenericEntity : "{C634CB20BED9C7D5}Prefabs/Compositions/Locations/Eden/SupplyCache_LeMoule_FIA_01.et" {
+ coords 2615.962 92.06 5378.784
+}
+$grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ {
+  coords 6924.792 59.537 4485.83
+  angleY -49.201
+  angleZ -1.769
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    {
+     GenericEntity {
+      ID "5D45393936823FC0"
+      coords -1.421 -0.334 0.304
+      angleX -0.394
+      angleY 0.022
+     }
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.182 -0.196 0.211
+     }
+    }
+   }
+   GenericEntity {
+    ID "5D1ED922875C41AD"
+    coords -4.154 -0.125 -1.065
+    angleY -2.198
+   }
+   GenericEntity {
+    ID "5D1ED922875C415B"
+    coords -3.986 -0.379 1.365
+    angleY 4.848
+   }
+   GenericEntity {
+    ID "5D1ED922875C4149"
+    coords -4.226 -0.303 0.156
+    angleY -87.751
+   }
+  }
+ }
+ {
+  coords 4771.736 53.932 5843.775
+  angleY 136.566
+  angleZ 0.762
+ }
+ {
+  coords 4974.982 25.874 9873.354
+  angleY 179.912
+ }
+ {
+  coords 4852.032 111.493 8103.602
+  angleY 24.829
+  {
+   GenericEntity {
+    ID "5D1ED922875C41AD"
+    coords -4.16 0.136 -1.066
+    angleY -2.198
+    angleZ 4.289
+   }
+   GenericEntity {
+    ID "5D1ED922875C4178"
+    coords 2.759 -0.226 -2.315
+    angleY -63.324
+   }
+   GenericEntity {
+    ID "5D1ED922875C418B"
+    coords 4.294 -0.239 1.204
+    angleY 33.366
+   }
+   GenericEntity {
+    ID "5D1ED922875C41BB"
+    coords 4.295 -0.211 2.094
+    angleY -27.21
+   }
+   GenericEntity {
+    ID "5D1ED922875C4163"
+    coords 2.831 -0.135 0.414
+    angleY 0.672
+   }
+  }
+ }
+ {
+  coords 6467.064 162.084 6493.529
+  angleY -19.751
+ }
+ {
+  coords 6427.175 162.112 6491.897
+  angleY 155.354
+  {
+   GenericEntity {
+    ID "5D1ED922875C418B"
+    coords 4.294 -0.049 1.205
+    angleY 33.366
+   }
+   GenericEntity {
+    ID "5D1ED922875C41BB"
+    coords 4.295 -0.047 2.094
+    angleY -27.21
+   }
+  }
+ }
+ {
+  coords 3075.744 118.469 5232.593
+  angleY 137.005
+ }
+}
+GenericEntity : "{CE05A668A373BB44}Prefabs/Compositions/Locations/Eden/SupplyCache_StPhillipe_FIA_01.et" {
+ coords 4502.756 14.702 10771.987
+ {
+  GenericEntity {
+   ID "5E6ACA2329696EE2"
+   Flags 1049603
+  }
+ }
+}
+GenericEntity : "{D48B49DC4F0BCB66}Prefabs/Compositions/Locations/Eden/SupplyCache_Figari_FIA_01.et" {
+ coords 5250.764 73.061 5337.823
+}
+GenericEntity : "{D523CF2B952C71A9}Prefabs/Compositions/Locations/Eden/SupplyCache_Durras_FIA_01.et" {
+ coords 8826.849 94.671 2745.832
+}
+GenericEntity : "{E4D8BE67FA5175A3}Prefabs/Compositions/Locations/Eden/SupplyCache_Lamentin_FIA_01.et" {
+ coords 1279.669 37.386 5940.503
+ {
+  GenericEntity {
+   ID "5E6ACA23963C1EBF"
+   Flags 1049603
+  }
+ }
+}
+GenericEntity : "{F31EFE6539E2D14F}Prefabs/Compositions/Locations/Eden/SupplyCache_Regina_FIA_01.et" {
+ coords 7205.023 145.19 2324.232
+}
+$grp GenericEntity : "{F9A490888BED61DB}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign.et" {
+ {
+  coords 4852.334 52.946 5719.825
+  angleY 164.811
+  angleZ -1.405
+  {
+   GenericEntity {
+    ID "5D1ED92353BB9F49"
+    coords -4.464 -0.026 0.547
+    angleX -1.495
+   }
+  }
+ }
+ {
+  coords 5018.894 26.27 9988.49
+  angleY 89.772
+  {
+   GenericEntity {
+    ID "5D1ED92353BB9FB1"
+    coords -4.774 -0.177 -2.394
+    angleY 93.613
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9FA0"
+    coords -4.34 -0.164 -2.425
+    angleY -89.335
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9F49"
+    coords -4.463 -0.093 0.549
+   }
+   GenericEntity {
+    ID "5D453938FA2CE085"
+    {
+     GenericEntity {
+      ID "5D453938F45912F0"
+      coords -0.331 -0.057 0.73
+     }
+     GenericEntity {
+      ID "5D453938F45912F6"
+      coords -0.136 -0.113 -3.727
+      angleY -92.416
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6508.112 161.822 6478.687
+  angleY 73.157
+ }
+ {
+  coords 3056.594 118.287 5244.14
+  angleY -131.274
+  {
+   GenericEntity {
+    ID "5D1ED92353BB9FF4"
+    coords 3.511 -0.138 -2.944
+    angleY 0.819
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9F82"
+    coords 3.198 -0.226 1.629
+    angleY -90
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9F95"
+    coords 3.297 -0.195 0.133
+    angleY -88.159
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9FE3"
+    coords 3.358 -0.091 -1.784
+    angleY 176.173
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9E3E"
+    coords 5.031 -0.478 0.146
+    angleY 4.513
+   }
+  }
+ }
+ {
+  coords 7077.042 156.813 2077.013
+  angleY 157.963
+ }
+ {
+  coords 10978.489 23.899 11802.68
+  angleX 2.436
+  angleY -49.022
+  angleZ -1.439
+ }
+ {
+  coords 1097.058 40.881 11603.3
+  angleX 1.667
+  angleY 127.352
+  angleZ -3.639
+ }
+}
+$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ {
+  coords 4431.428 5.813 11236.194
+  angleY 176.963
+ }
+ {
+  coords 10028.925 2.687 1594.854
+  angleY 106.207
+ }
+ {
+  coords 9941.11 2.541 1562.344
+  angleY 175.303
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 1075.962 2.905 6084.289
+  angleY -56.136
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 1047.79 2.857 6047.054
+  angleY -6.102
+ }
+ {
+  coords 5022.725 15.375 3946.365
+  angleY 13.511
+  {
+   GenericEntity {
+    ID "5D1ED922875C418B"
+    coords 4.183 0 -1.673
+   }
+   GenericEntity {
+    ID "5D1ED922875C41BB"
+    coords 4.184 0 -0.784
+   }
+  }
+ }
+ {
+  coords 3905.828 15.219 8416.606
+  angleY -84.701
+ }
+ {
+  coords 7595.885 166.832 4325.688
+  angleY -165.551
+ }
+ {
+  coords 7605.477 166.156 4234.577
+  angleY -74.936
+ }
+ {
+  coords 4331.587 1.125 9512.366
+  angleY -108.471
+ }
+ {
+  coords 7429.979 9.688 6796.036
+  angleY 125.189
+ }
+ {
+  coords 7817.885 254.531 4030.388
+  angleY 145.234
+ }
+}

@@ -1,0 +1,538 @@
+GenericEntity : "{0A36F69A7D518F10}Prefabs/Compositions/Locations/Eden/Base_MilitaryHospital_FIA_01.et" {
+ coords 3901.866 15.249 8450.659
+ {
+  GenericEntity {
+   ID "5E6ACA2F09C2D1E6"
+  }
+  GenericEntity {
+   ID "5E6ACA2F09C2D141"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F09C2D183"
+  }
+  SCR_SpawnPoint {
+   ID "5E6ACA2F09C2D12F"
+   Flags 1048579
+  }
+ }
+}
+GenericEntity : "{1A7FB3493A1B029F}Prefabs/Compositions/Locations/Eden/Base_LevieMilitary_FIA_01.et" {
+ coords 7505.482 165.761 4283.153
+ {
+  GenericEntity {
+   ID "5E6ACA2F4A7016D5"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701731"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1049603
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701748"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1049603
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701784"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1049603
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A7017C9"
+   {
+    GenericEntity {
+     ID "5E3A731B88FA2A43"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731B1F444C08"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731B1F444C2C"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731B1F444C45"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731B1F444C6C"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701664"
+   {
+    GenericEntity {
+     ID "5E6ACA2FF8E39CE6"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F02"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F15"
+     Flags 1048579
+    }
+    SCR_SpawnPoint {
+     ID "5E6ACA2FF8E39F2B"
+     Flags 1048579
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{1CF4014D7086BE9F}Prefabs/Compositions/Locations/Eden/Base_Airport_FIA_01.et" {
+ coords 4900.952 28.595 11787.412
+ {
+  GenericEntity {
+   ID "5E6ACA2CDC303E03"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E6ACA2CDC303E0D"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2CDC303FD8"
+   {
+    GenericEntity {
+     ID "5E3A7310C995AE11"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A7311796AB459"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A7311796AB47F"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A7311796AB5B3"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2CDC303E8F"
+   {
+    GenericEntity {
+     ID "5E6ACA2FF8E39CE6"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F02"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F15"
+     Flags 1048579
+    }
+    SCR_SpawnPoint {
+     ID "5E6ACA2FF8E39F2B"
+     Flags 1048579
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{2390B74D062A2D13}Prefabs/Compositions/Locations/Eden/Base_ChotainMilitary_FIA_01.et" {
+ coords 7447.122 7.894 6704.909
+ {
+  GenericEntity {
+   ID "5E6ACA2FA4C6BE5C"
+   {
+    GenericEntity {
+     ID "5E3A731E2F167706"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593012"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593014"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593015"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FA4C6BEA5"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FA4C6B168"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FA4C6B1C1"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1048579
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{4FDFB70701D6A97A}Prefabs/Compositions/Locations/Eden/Base_MontfortCastle_FIA_01.et" {
+ coords 9315.082 196.166 1144.534
+ {
+  GenericEntity {
+   ID "5E6ACA2E9D11FB3C"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E6ACA2E9D11FB3F"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{567515087F8ED05F}Prefabs/Compositions/Locations/Eden/Base_LamentinHarbour_FIA_01.et" {
+ coords 1024.018 2.849 6043.247
+ {
+  GenericEntity {
+   ID "5E6ACA2FCDBBBD92"
+   {
+    GenericEntity {
+     ID "5E3A731E2F167706"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593012"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593014"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593015"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FCDBBBC5C"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E6ACA2FCDBBBC5F"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{A9F3C4994839F7A4}Prefabs/Compositions/Locations/Eden/Base_StPierreHarbour_FIA_01.et" {
+ coords 9925.094 2.389 1525.324
+ {
+  GenericEntity {
+   ID "5E6ACA2FB3B7B67E"
+   {
+    GenericEntity {
+     ID "5E3A731E2F167706"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593012"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593014"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593015"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FB3B7A958"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FB3B7B6F8"
+   {
+    GenericEntity {
+     ID "5E6ACA2FF8E39CE6"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F02"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F15"
+     Flags 1048579
+    }
+    SCR_SpawnPoint {
+     ID "5E6ACA2FF8E39F2B"
+     Flags 1048579
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{D3BED8377828FFCC}Prefabs/Compositions/Locations/Eden/Base_PowerPlant_FIA_01.et" {
+ coords 5834.383 4.572 9786.422
+ {
+  GenericEntity {
+   ID "5E68E844F3143B06"
+   {
+    GenericEntity {
+     ID "5E68FBDF902BB99C"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5E68EB2C6044E7F4"
+       Flags 1049603
+       {
+        GenericEntity {
+         ID "5D36C61EF5BF6C53"
+         Flags 1049603
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AEC79"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AEC87"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AEC94"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AECB2"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AECDF"
+     Flags 1048579
+    }
+    SCR_SpawnPoint {
+     ID "5E6ACA2FF01AEC42"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2D39A925C6"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{FB04C4D5947808F1}Prefabs/Compositions/Locations/Eden/Base_MontignacWarehouses_FIA_01.et" {
+ coords 4537.876 155.721 6844.214
+ {
+  GenericEntity {
+   ID "5E6ACA2C51398426"
+   {
+    GenericEntity {
+     ID "5E3A731E2F167706"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593012"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593014"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593015"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2C5139871E"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E6ACA2C5139871B"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6B01A974EBE924"
+   Flags 1048579
+  }
+  GenericEntity {
+   ID "5E6B01A974EBE937"
+   Flags 1048579
+  }
+  GenericEntity {
+   ID "5E6B01A974EBE94C"
+   Flags 1048579
+  }
+  SCR_SpawnPoint {
+   ID "5E6B01A974EBE91B"
+   Flags 1048579
+  }
+ }
+}

@@ -1,0 +1,13 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ {
+  GenericEntity {
+   ID "66F720AE0C5F35F3"
+   components {
+    SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}
