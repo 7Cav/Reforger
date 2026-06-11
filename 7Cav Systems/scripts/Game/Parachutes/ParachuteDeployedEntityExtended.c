@@ -62,6 +62,11 @@ class ParachuteDeployedEntityExtended : ParachuteDeployedEntity
 			m_DamageManager.EnableDamageHandling(true);
 	}
 
+	void ForceEndDeployInvincibility()
+	{
+		EndDeployInvincibility();
+	}
+
 	override void SetPitch(float value = 0.0, EActionTrigger reason = 0, string actionName = string.Empty)
 	{
 		if (m_bDeployInvincibilityActive)
