@@ -1,0 +1,4 @@
+ParachuteDeployedEntity : "{11D4D67549A33E29}Prefabs/DeployedParachutes/Core/DeployedParachute_T10_Canopy_Base.et" {
+ ID "4B42E71698F5739C"
+ m_DestructableParachute 0
+}

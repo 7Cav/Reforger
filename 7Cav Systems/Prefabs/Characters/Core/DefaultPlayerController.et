@@ -3,9 +3,13 @@ SCR_PlayerController {
  components {
   HMD_PoolMirrorClientSinkComponent "{6900000C00000021}" {
   }
-  ParachuteComponentExtended "{65932336581E53D0}" {
+  ParachuteComponent "{65932336581E53D0}" {
+   m_fDeathLandingVelocity 15
    m_fSafeRadius 1
-   m_fMinimumAltitude 30
+   m_bBreakLegs 0
+   m_bFallToDeath 0
+  }
+  ParachuteComponentExtended "{C4D5E6F7A8B90123}" {
   }
  }
 }
