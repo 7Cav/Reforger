@@ -2,6 +2,9 @@ GameProject {
  ID "7CavMaps"
  GUID "6620EEC53782F727"
  TITLE "7Cav Maps"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
  Configurations {
   GameProjectConfig PC {
   }
