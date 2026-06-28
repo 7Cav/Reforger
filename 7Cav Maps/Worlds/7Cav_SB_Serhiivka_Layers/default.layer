@@ -2,7 +2,7 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  components {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
    NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{68DC364802CA03B5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{69B600E89B5AB447}" {
      NavmeshFile "{04D0EEF185D0A158}NavMesh/Serhiivka_Soldiers.nmn"
     }
    }
@@ -24,6 +24,12 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  }
  coords 5119.683 138.101 5114.674
 }
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5119.683 138.217 5113.674
+}
 SCR_GameModeEditor _Cav_GameMode_Editor_Sandbox1 : "{285363A3C06DC821}Prefabs/MP/Modes/Editor/7Cav_GameMode_Editor_Sandbox.et" {
- coords 3994.614 136.646 3408.135
+ coords 5120.078 135.966 5140.004
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 5120.451 138.154 5116.553
 }
