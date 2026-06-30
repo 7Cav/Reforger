@@ -1,0 +1,4 @@
+HDREffect {
+ LensDistort 0
+ MaxChromAbberation 0
+}

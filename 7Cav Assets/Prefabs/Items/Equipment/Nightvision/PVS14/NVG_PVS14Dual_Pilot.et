@@ -1,0 +1,58 @@
+GameEntity : "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et" {
+ ID "5D7765E30127E8B9"
+ components {
+  BaseLightManagerComponent "{5D7765E30127E89F}" {
+   LightSlots {
+    BaseLightSlot "{5D7765E30127E8E2}" {
+     LightPositionInfo EntitySlotInfo x {
+      Offset 0.051 -0.0391 0.0434
+     }
+    }
+    BaseLightSlot "{5DCEACC53982D8DA}" {
+     LightState 0
+     LightPositionInfo LoadoutSlotInfo illuminator {
+     }
+     LightPrefab "{E5087A8A619584A8}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_Illuminator_IR_Dual_light.et"
+    }
+    BaseLightSlot "{69BB7C072B257A7D}" {
+     LightType Head
+     LightPositionInfo EntitySlotInfo secondLight {
+      PivotID "L4G24_ARM"
+      Offset 0.051 0.0381 0.0434
+      Angles 0 180 0
+     }
+     LightPrefab "{2CBEB20ED36BE43E}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_Light_GP_light.et"
+    }
+   }
+  }
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "#RHS-Item_ANPVS14_Dual_Name"
+     Description "#RHS-Item_ANPVS14_Dual_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5DB09136B1C985D2}" {
+     Weight 0.7
+    }
+    CustomAttributes {
+     RHS_CustomAttributes "{5DB8F5B98D9963BA}" {
+      m_sShortName "#RHS-Item_ANPVS14_Name"
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Object "{5C84133B0B575862}Assets/Items/Equipment/NVG/pvs14/RHS_LG_DUAL_PVS.xob"
+  }
+  RHS_RhinoAttachmentComponent "{5D7765E30127E8D1}" {
+   m_sImageMask "{7CBC75EC92A82B71}UI/Imagesets/DualMask_ca.edds"
+   m_fWidthOverride -1
+   m_fHeightOverride -1
+   m_bUseMask 0
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornModel "{5C84133B0B575862}Assets/Items/Equipment/NVG/pvs14/RHS_LG_DUAL_PVS.xob"
+   ItemModel "{5C84133B0B575862}Assets/Items/Equipment/NVG/pvs14/RHS_LG_DUAL_PVS.xob"
+  }
+ }
+}
