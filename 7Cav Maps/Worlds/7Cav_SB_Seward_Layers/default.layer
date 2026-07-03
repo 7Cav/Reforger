@@ -514,7 +514,7 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
         SCR_EntityCatalogMultiListEntry "{5C68AD59F0753ABE}" {
          m_aEntities {
           SCR_EntityCatalogInventoryItem "{5C62F7D8F3ED7EFC}" {
-           m_sEntityPrefab "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+           m_sEntityPrefab "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
           }
           SCR_EntityCatalogInventoryItem "{657D02E1A3323B64}" {
            m_sEntityPrefab "{C55821E8E86C074E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152.et"

@@ -13,12 +13,12 @@ SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutMana
   }
   SCR_FactionPlayerLoadout "{5596D844009597AC}" {
    m_sLoadoutName "Automatic Rifleman"
-   m_sLoadoutResource "{F4699F1320BE6021}Prefabs/Characters/Cav_Factions/Charlie/Charlie_AutomaticRifleman.et"
+   m_sLoadoutResource "{F4699F1320BE6023}Prefabs/Characters/Cav_Factions/Charlie/Charlie_AutomaticRifleman.et"
    m_sAffiliatedFaction "Bandit"
   }
   SCR_PlayerArsenalLoadout "{568CC9D1BC0FCCF3}" {
    m_sLoadoutName "Grenadier"
-   m_sLoadoutResource "{F4EBE02AB4227BD0}Prefabs/Characters/Cav_Factions/Charlie/Charlie_Grenadier.et"
+   m_sLoadoutResource "{F4EBE02AB4227BD2}Prefabs/Characters/Cav_Factions/Charlie/Charlie_Grenadier.et"
    m_sAffiliatedFaction "Bandit"
   }
   SCR_PlayerArsenalLoadout "{568CC9D1B0926B78}" {
@@ -33,7 +33,7 @@ SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutMana
   }
   SCR_FactionPlayerLoadout "{607AA5C7CC976D12}" {
    m_sLoadoutName "MAAWS Gunner"
-   m_sLoadoutResource "{6077F964A500E305}Prefabs/Characters/Cav_Factions/Charlie/Charlie_MAAWS.et"
+   m_sLoadoutResource "{6077F964A500E307}Prefabs/Characters/Cav_Factions/Charlie/Charlie_MAAWS.et"
    m_sAffiliatedFaction "Bandit"
   }
   SCR_FactionPlayerLoadout "{61069306CE3712F4}" {
