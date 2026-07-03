@@ -19,6 +19,14 @@ class BL_BeltLinkWeaponComponent: ScriptComponent
 	override void OnPostInit(IEntity owner)
 	{
 		super.OnPostInit(owner);
+
+		// The helper prefab carries an RplComponent, so it must only be spawned by
+		// the authority; clients receive it through replication. Spawning it on
+		// every machine gave clients a second, local-only helper whose "Link belt"
+		// action could never reach the server.
+		if (!Replication.IsServer())
+			return;
+
 		SpawnActionHelper();
 	}
 
@@ -55,7 +63,7 @@ class BL_BeltLinkWeaponComponent: ScriptComponent
 		localMat[3] = m_vActionPosition;
 
 		Resource prefab = Resource.Load(m_sActionHelperPrefab);
-		if (!prefab.IsValid())
+		if (!prefab || !prefab.IsValid())
 			return;
 
 		IEntity spawned = GetGame().SpawnEntityPrefab(prefab, weaponEntity.GetWorld(), params);
