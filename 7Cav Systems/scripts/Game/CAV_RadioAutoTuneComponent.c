@@ -59,6 +59,12 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 		if (m_InvMgr && m_InvMgr.m_OnItemAddedInvoker)
 			m_InvMgr.m_OnItemAddedInvoker.Remove(OnItemAdded);
 
+		if (GetGame())
+		{
+			GetGame().GetCallqueue().Remove(DeferredHook);
+			GetGame().GetCallqueue().Remove(WaitForFactionThenRetune);
+		}
+
 		super.OnDelete(owner);
 	}
 
@@ -89,6 +95,7 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 
 	protected void LocateInvMgr()
 	{
+		if (!m_Owner) return;
 		LocateInvMgrOn(m_Owner);
 		if (!m_InvMgr) ScanChildrenForInvMgr(m_Owner);
 		m_InvMgrBase = InventoryStorageManagerComponent.Cast(m_InvMgr);
@@ -103,6 +110,9 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 
 	protected void WaitForFactionThenRetune()
 	{
+		if (!m_Owner)
+			return;
+
 		SCR_Faction fac = ResolveFactionOnce();
 		if (fac)
 		{
@@ -213,6 +223,9 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 
 	protected CAV_GroupRadioSettingsComponent FindGroupSettings()
 	{
+		if (!m_Owner)
+			return null;
+
 		CAV_GroupRadioSettingsComponent g = CAV_GroupRadioSettingsComponent.Cast(m_Owner.FindComponent(CAV_GroupRadioSettingsComponent));
 		if (g) return g;
 
@@ -236,6 +249,9 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 
 	protected SCR_FactionAffiliationComponent FindAffiliationComp()
 	{
+		if (!m_Owner)
+			return null;
+
 		SCR_FactionAffiliationComponent aff = SCR_FactionAffiliationComponent.Cast(m_Owner.FindComponent(SCR_FactionAffiliationComponent));
 		if (aff) return aff;
 
