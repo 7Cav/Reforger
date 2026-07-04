@@ -330,10 +330,12 @@ class ParachuteComponentExtended : ParachuteComponent
 			return;
 		}
 
+		// One-shot reschedule: the retryCount argument advances the loop. A repeating
+		// CallLater here would pile up timers that fire forever with a stale retryCount.
 		GetGame().GetCallqueue().CallLater(
 			PollUntilEmptyThenDeleteChute,
 			PARACHUTE_DELETE_POLL_INTERVAL_MS,
-			true,
+			false,
 			chute,
 			retryCount + 1,
 			clearState);
@@ -357,7 +359,7 @@ class ParachuteComponentExtended : ParachuteComponent
 			GetGame().GetCallqueue().CallLater(
 				PollUntilEmptyThenDeleteChute,
 				PARACHUTE_DELETE_POLL_INTERVAL_MS,
-				true,
+				false,
 				chute,
 				0,
 				clearState);
