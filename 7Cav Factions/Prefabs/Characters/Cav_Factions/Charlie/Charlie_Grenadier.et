@@ -29,9 +29,8 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{654E14D356AA8057}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
      PrefabsToSpawn {
-      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+      ""
      }
     }
     ItemsInitConfigurationItem "{654E14D3554A296F}" {

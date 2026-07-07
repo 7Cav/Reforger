@@ -5,12 +5,24 @@ SCR_ChimeraCharacter : "{29C9C7591C683955}Prefabs/Characters/Cav_Factions/Bravo/
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_Image "{2B0877799B9B6C66}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Rifleman.edds"
     m_aAutoLabels {
-     122 40
+     SIZE_M ROLE_ANTITANK
     }
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+   WeaponTemplate "{169BF0F0AA06C787}Prefabs/Weapons/Launchers/AT4/Launcher_AT4_HEDP.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66260B3A958FE015}" {
+     Enabled 0
+     PrefabsToSpawn {
+      ""
+     }
+    }
+   }
   }
  }
+ coords 0 0 0
+ angles 0 86.831 0
 }

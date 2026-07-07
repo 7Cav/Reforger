@@ -35,15 +35,13 @@ SCR_ChimeraCharacter : "{60DC705CE04817A5}Prefabs/Characters/Cav_Factions/Bravo/
      }
     }
     ItemsInitConfigurationItem "{668375FA3EAFF14C}" {
+     Enabled 0
      TargetStorage "Vest/Vest_JPC_MC_UBGL.et/saw/Pouch_AVS_MBITR_Radio_MC.et"
-     PrefabsToSpawn {
-      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
-     }
     }
     ItemsInitConfigurationItem "{668375FA3D7C79F7}" {
     }
     ItemsInitConfigurationItem "{668375FA3D11B820}" {
-     TargetStorage "Vest/Vest_JPC_MC_UBGL.et/ubgl1/Pouch_Filbe_M18_2.et"
+     TargetStorage "Vest/Vest_JPC_MC_UBGL.et/ubgl2/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
       "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
      }

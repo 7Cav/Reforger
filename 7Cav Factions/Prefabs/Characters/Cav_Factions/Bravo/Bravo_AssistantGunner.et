@@ -27,14 +27,15 @@ SCR_ChimeraCharacter : "{29C9C7591C683955}Prefabs/Characters/Cav_Factions/Bravo/
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{66260B3A958F6875}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_MC.et/Pouch1/Pouch_jpc_placard_MC.et"
+    }
     ItemsInitConfigurationItem "{66260B3A958FE015}" {
-     PrefabsToSpawn {
-      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
-     }
     }
     ItemsInitConfigurationItem "{655302886D011895}" {
+     Enabled 0
      PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      ""
      }
     }
     ItemsInitConfigurationItem "{655302886DD1E60E}" {
@@ -45,7 +46,7 @@ SCR_ChimeraCharacter : "{29C9C7591C683955}Prefabs/Characters/Cav_Factions/Bravo/
     ItemsInitConfigurationItem "{654F5A1EE3255685}" {
      TargetStorage "Back/Backpack_511_rush12_MC.et"
      PrefabsToSpawn {
-      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
      }
     }
    }

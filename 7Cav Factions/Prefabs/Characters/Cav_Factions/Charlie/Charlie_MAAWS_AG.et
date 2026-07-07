@@ -25,12 +25,6 @@ SCR_ChimeraCharacter : "{2E6A7178AF4D045F}Prefabs/Characters/Cav_Factions/Charli
       "{5B9BCFE7BBB5B55C}Prefabs/Magazine/Magazine_84mm_HEAT551.et" "{5B9BCFE7BBB5B55C}Prefabs/Magazine/Magazine_84mm_HEAT551.et" "{CBC9B8A5BCB628D2}Prefabs/Magazine/Magazine_84mm_HE441.et" "{CBC9B8A5BCB628D2}Prefabs/Magazine/Magazine_84mm_HE441.et" "{B47212073D91E28F}Prefabs/Attachments/FCS600/Optic_FLV_HE.et"
      }
     }
-    ItemsInitConfigurationItem "{66492B605B5B10B6}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
-     PrefabsToSpawn {
-      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
-     }
-    }
    }
   }
  }

@@ -23,13 +23,19 @@ SCR_ChimeraCharacter : "{C810B8F6F7127CC6}Prefabs/Characters/Cav_Factions/Bravo/
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{66902106DD32415D}" {
+     PrefabsToSpawn + {
+      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     }
+    }
     ItemsInitConfigurationItem "{668D60EC9D7AC13E}" {
      TargetStorage "Vest/Vest_JPC_okinawa_MC.et/m18_2/Pouch_Filbe_M18_1.et"
     }
     ItemsInitConfigurationItem "{668D60E9C291FE11}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
+     Enabled 0
+     TargetStorage ""
      PrefabsToSpawn {
-      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+      ""
      }
     }
     ItemsInitConfigurationItem "{668D60E92BE7EAAE}" {

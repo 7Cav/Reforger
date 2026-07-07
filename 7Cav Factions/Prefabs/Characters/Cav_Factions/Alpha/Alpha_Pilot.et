@@ -29,7 +29,8 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{66495389F6486813}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn + {
+      "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
      }
     }
     ItemsInitConfigurationItem "{6649599F02AB45F0}" {
@@ -39,7 +40,7 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
      }
     }
     ItemsInitConfigurationItem "{668B7615EFBC8659}" {
-     TargetStorage "Vest/Vest_ALSE_Crew.et/pistol2/Pouch_Highspeed_Pistol_MC.et"
+     TargetStorage "Jacket/AUS_Pilot_US_A2CU.et"
      PrefabsToSpawn {
       "{6BF76E1E3BDC44F0}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1153.et"
      }
@@ -47,7 +48,7 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
     ItemsInitConfigurationItem "{668B7614D0521503}" {
      TargetStorage "Vest/Vest_ALSE_Crew.et/nerd/Pouch_KBS_Admin_base.et"
      PrefabsToSpawn {
-      "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+      ""
      }
     }
     ItemsInitConfigurationItem "{66AF5ABC0F61E8D3}" {
@@ -59,13 +60,13 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
     ItemsInitConfigurationItem "{66AF5ABBE7FE8490}" {
      TargetStorage "Vest/Vest_ALSE_Crew.et/nerd/Pouch_KBS_Admin_base.et"
      PrefabsToSpawn {
-      "{8554ED3F088BADA6}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+      "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
      }
     }
     ItemsInitConfigurationItem "{668B7615CCCAE960}" {
-     TargetStorage "Vest/Vest_ALSE_Crew.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+     Enabled 0
      PrefabsToSpawn {
-      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+      ""
      }
     }
     ItemsInitConfigurationItem "{668B76151CD8760C}" {
@@ -90,5 +91,5 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
   }
  }
  coords 0 0 0
- angles 0 175.5 0
+ angles 0 56.343 0
 }
