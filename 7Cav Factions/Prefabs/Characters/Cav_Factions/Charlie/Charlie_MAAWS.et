@@ -12,7 +12,7 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponType Rifle
-   WeaponTemplate "{9B40415563B9F280}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II_Black.et"
+   WeaponTemplate "{9B40415563B9F280}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_CAV_BLOCK_II_Black.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponType RocketLauncher
@@ -34,10 +34,9 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{654C3668BB5EF688}" {
-    }
-    ItemsInitConfigurationItem "{654F5A02390746E8}" {
+     TargetStorage "Vest/Vest_PCGen_III_AT_shawplacard3.et/radio/Pouch_152_Radio.et"
      PrefabsToSpawn {
-      ""
+      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{654F5A02393B98C0}" {
@@ -47,7 +46,7 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
      }
     }
     ItemsInitConfigurationItem "{654F5A0239DCEAA6}" {
-     TargetStorage "Vest/Vest_PCGen_III_AT_shawplacard3.et/pistol2/Pouch_Filbe_M18_2.et"
+     TargetStorage "Vest/Vest_PCGen_III_AT_shawplacard3.et/m18_1/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
@@ -92,5 +91,5 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
   }
  }
  coords 0 0 0
- angles 0 153.669 0
+ angles 0 143.042 0
 }

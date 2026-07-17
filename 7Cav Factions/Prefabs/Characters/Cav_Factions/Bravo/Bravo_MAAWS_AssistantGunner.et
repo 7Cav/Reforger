@@ -26,14 +26,6 @@ SCR_ChimeraCharacter : "{29C9C7591C683955}Prefabs/Characters/Cav_Factions/Bravo/
      PrefabsToSpawn +{
      }
     }
-    ItemsInitConfigurationItem "{655302886D011895}" {
-     PrefabsToSpawn {
-     }
-    }
-    ItemsInitConfigurationItem "{655302886DD1E60E}" {
-     PrefabsToSpawn {
-     }
-    }
     ItemsInitConfigurationItem "{65500E175BAE281A}" {
      TargetStorage "Back/Backpack_511_rush12_MC.et"
      PrefabsToSpawn {

@@ -4,17 +4,14 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   SCR_Faction "{56DEAC40D2DBC8B1}" : "{5EB46557DF2AA24F}Configs/Factions/US.conf" {
    m_iOrder 25
    m_bIsPlayable 0
-   m_bShowInWelcomeScreenIfNonPlayable 0
    m_sFactionBackground "{F8AC305446D5D480}UI/Textures/DeployMenu/Loadout-BG/Loadout_US_BG.imageset"
   }
   SCR_Faction "{56DEAC40D3C2E623}" : "{09727032415AC39B}Configs/Factions/USSR.conf" {
    m_bIsPlayable 0
-   m_bShowInWelcomeScreenIfNonPlayable 0
    m_sFactionBackground "{21533F2089005056}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_USSR.imageset"
   }
   SCR_Faction "{56DEAC40D132400B}" : "{8053DB656DD18B14}Configs/Factions/FIA.conf" {
    m_bIsPlayable 0
-   m_bShowInWelcomeScreenIfNonPlayable 0
    m_sFactionBackground "{81BF3B1DCC106577}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_FIA.imageset"
   }
   SCR_Faction "{607AA5C7A94496DA}" : "{3FA20B01D950D31F}Configs/Factions/CIV.conf" {
@@ -35,15 +32,12 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   }
   SCR_Faction "{66960A2EE5DA2589}" : "{627A8CDE681D223D}Configs/Factions/RHS_RF_MSV.conf" {
    m_bIsPlayable 0
-   m_bShowInWelcomeScreenIfNonPlayable 0
   }
   SCR_Faction "{66960A2EE0198449}" : "{CB76A36EACFBDF35}Configs/Factions/RHS_ION.conf" {
    m_bIsPlayable 0
-   m_bShowInWelcomeScreenIfNonPlayable 0
   }
   SCR_Faction "{66960A2D877808FA}" : "{F33C7BF22CBF3A8A}Configs/Factions/RHS_US_USMC.conf" {
    m_bIsPlayable 0
-   m_bShowInWelcomeScreenIfNonPlayable 0
    m_aFriendlyFactionsIds + {
     "Archangel" "Helios" "Pioneer" "Viking" "Bandit" "Misfit" "Gunslinger"
    }
@@ -51,9 +45,9 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   SCR_Faction "{68CB61CA6C8D963C}" : "{58A6F094E713AE0F}Configs/Factions/Command/Command.conf" {
    m_iOrder 12
   }
-  SCR_Faction "{69350C683B4F2698}" : "{830970F42196ADAF}Configs/Factions/MEI.conf" {
+  SCR_Faction "{69350C683B4F2698}" {
   }
-  SCR_Faction "{69350C68386F449D}" : "{078966960951BF1E}Configs/Factions/MEC.conf" {
+  SCR_Faction "{69350C68386F449D}" {
   }
  }
 }

@@ -38,7 +38,7 @@ SCR_ChimeraCharacter : "{E4FAEAC30E96E487}Prefabs/Characters/Cav_Factions/Bravo/
      }
     }
     ItemsInitConfigurationItem "{654E14DFCA60FDBC}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_Coy_MG.et/m18_2/Pouch_Filbe_M18_1.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_MG.et/HSGI/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
@@ -80,7 +80,10 @@ SCR_ChimeraCharacter : "{E4FAEAC30E96E487}Prefabs/Characters/Cav_Factions/Bravo/
      }
     }
     ItemsInitConfigurationItem "{66492B677A72521E}" {
-     Enabled 0
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_MG.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     }
     }
    }
   }

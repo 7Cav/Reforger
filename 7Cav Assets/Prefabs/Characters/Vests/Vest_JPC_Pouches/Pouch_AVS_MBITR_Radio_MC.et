@@ -1,3 +1,109 @@
-GameEntity : "{D0BF04C077C84974}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_Base.et" {
+GenericEntity {
  ID "50E0B40D7407B664"
+ components {
+  Persistence "{69DB73EAB4B6DB22}" {
+  }
+  SignalsManagerComponent "{69DB73EAAE238854}" {
+  }
+  SoundComponent "{69DB73EAA6982D57}" {
+   Filenames {
+    "{927BE973F8A2D7FA}Sounds/Items/_SharedData/PickUp/Items_PickUp_Cloth.acp" "{F62001ED6E9FA253}Sounds/Items/_SharedData/Drop/Items_Drop_Clothes.acp"
+   }
+  }
+  MeshObject "{69DB73EAA383C47F}" {
+   Object "{D3FC88C89C22D323}Assets/Characters/Vests/Vest_PCGen_III_Pouches/PCG3_radio.xob"
+  }
+  RHS_EquipmentStorageComponent "{69DB73EA9512DDB2}" {
+   Attributes SCR_IdentityItemAttributeCollection "{69DB73E9A202D2D5}" {
+    ItemDisplayName UIInfo "{69DB73E995A64DA3}" {
+     Name "#RHS-Vest_Taktika_Pouch_Name"
+     Description "#RHS-Vest_Taktika_Pouch_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69DB73E9EEFA8EF4}" {
+     Weight 0.001
+     SizeSetupStrategy Manual
+     ItemDimensions 1 1 1
+     ItemVolume 0.00000001
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{69DB73E9C5E6D256}" {
+      CameraOrbitAngles -15 15 0
+      PreviewModel "{D3FC88C89C22D323}Assets/Characters/Vests/Vest_PCGen_III_Pouches/PCG3_radio.xob"
+     }
+    }
+    CommonItemType "RADIO"
+   }
+   StoragePurpose 0x40 0
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 600
+   MaxItemSize 10 10 10
+   UseVirtualInventoryReplication 0
+   InitialStorageSlots {
+    RHS_MorphedEquipmentStorageSlot PouchStorage {
+     Offset -0.0231 -0.2289 -0.0525
+     Angles -1.2681 -90.0026 -0.4371
+     ChildPivotID "snap_weapon"
+     AllowedItemTypes {
+      "RADIO"
+     }
+     m_aCompatibleItemTypes {
+      "RADIO"
+     }
+     m_sMorphStateName "Key"
+    }
+   }
+  }
+  RigidBody "{69DB73EA91F7FD81}" {
+   Enabled 0
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_SoundDataComponent "{69DB73EA8A5E61F1}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{69DB73E874AA7E8B}" {
+     m_sSoundProject "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{69DB73E8588BEDC4}" {
+     m_sSoundProject "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{69DB73EFB845DBF4}" {
+     m_sSoundProject "{F62001ED6E9FA253}Sounds/Items/_SharedData/Drop/Items_Drop_Clothes.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{69DB73EA85CF84C5}" {
+   WornModel "{98547EDD2AC39FA4}Assets/Characters/Vests/Vest_JPC_Pouches/avs_mbitr_pouch.xob"
+   ItemModel "{98547EDD2AC39FA4}Assets/Characters/Vests/Vest_JPC_Pouches/avs_mbitr_pouch.xob"
+  }
+  ActionsManagerComponent "{69DB73EAFDC83A20}" {
+   ActionContexts {
+    UserActionContext "{69DB73EFC59A664C}" {
+     ContextName "default"
+     Position PointInfo "{69DB73EF2DF5DB87}" {
+     }
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{69DB73EF1192404F}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{69DB73EF6C7E624D}" {
+      Name "#AR-Inventory_PickUp"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{69DB73EAF9F780D3}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{69DB73EAF634F704}" {
+  }
+ }
 }

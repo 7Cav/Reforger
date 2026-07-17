@@ -20,18 +20,6 @@ SCR_ChimeraCharacter : "{2E6A7178AF4D045F}Prefabs/Characters/Cav_Factions/Charli
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{655302886D011895}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/m18_2/Pouch_Filbe_M18_1.et"
-     PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-     }
-    }
-    ItemsInitConfigurationItem "{655302886DD1E60E}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/ifak/Pouch_PCGEN3_ifak.et"
-     PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-     }
-    }
     ItemsInitConfigurationItem "{654F5A1EE3255685}" {
      TargetStorage "Back/Backpack_511_rush12_MC.et"
      PrefabsToSpawn {

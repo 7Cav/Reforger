@@ -28,19 +28,20 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{654E14D356AA8057}" {
-     PrefabsToSpawn {
-      ""
-     }
-    }
     ItemsInitConfigurationItem "{654E14D3554A296F}" {
      TargetStorage "Vest/Vest_JPC_MC_UBGL.et/ubgl2/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
+    ItemsInitConfigurationItem "{69E1715F393C1C73}" {
+     TargetStorage "Vest/Vest_JPC_MC_UBGL.et/saw/Pouch_AVS_MBITR_Radio_MC.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     }
+    }
     ItemsInitConfigurationItem "{654E14D3556F2D72}" {
-     TargetStorage "Vest/Vest_JPC_MC_UBGL.et/ubgl2/Pouch_Filbe_M18_1.et"
+     TargetStorage "Vest/Vest_JPC_MC_UBGL.et/ubgl1/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }

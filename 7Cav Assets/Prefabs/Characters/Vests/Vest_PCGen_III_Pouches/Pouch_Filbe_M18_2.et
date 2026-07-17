@@ -1,7 +1,112 @@
 GenericEntity {
  ID "50E0B40D7407B664"
  components {
-  Hierarchy "{69DA09349893E2F3}" {
+  Persistence "{69E1715B9F8BC8DC}" {
+  }
+  SignalsManagerComponent "{69E1715B975502DE}" {
+  }
+  SoundComponent "{69E1715B8DF4C7CA}" {
+   Filenames {
+    "{927BE973F8A2D7FA}Sounds/Items/_SharedData/PickUp/Items_PickUp_Cloth.acp" "{F62001ED6E9FA253}Sounds/Items/_SharedData/Drop/Items_Drop_Clothes.acp"
+   }
+  }
+  MeshObject "{69E1715B876F2B07}" {
+   Object "{B5FE71A709875706}Assets/Characters/Vests/Vest_Taktika_Pouches/Taktika_mag_pouch_morphed.xob"
+   InheritVisibility 1
+  }
+  RHS_EquipmentStorageComponent "{69E1715B82B98148}" {
+   Attributes SCR_ItemAttributeCollection "{69E1715B5D220CA6}" {
+    ItemDisplayName UIInfo "{69E1715B44AA9ABC}" {
+     Name "#RHS-Vest_Taktika_Pouch_Name"
+     Description "#RHS-Vest_Taktika_Pouch_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69E1715B4B066FFB}" {
+     Weight 0.001
+     SizeSetupStrategy Manual
+     ItemDimensions 1 1 1
+     ItemVolume 0.00000001
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{69E1715A8320F8FD}" {
+      CameraOrbitAngles -15 15 0
+      PreviewModel "{B5FE71A709875706}Assets/Characters/Vests/Vest_Taktika_Pouches/Taktika_mag_pouch_morphed.xob"
+     }
+    }
+    CommonItemType "RHS_SMOKE_GRENADE"
+    m_bDraggable 0
+    m_bVisible 0
+    m_bStackable 0
+    m_bRefundable 0
+   }
+   Priority 99
+   StoragePurpose 0x40 0
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 600
+   MaxItemSize 15 15 15
+   UseVirtualInventoryReplication 0
+   InitialStorageSlots {
+    RHS_EquipmentStorageSlot PouchStorage {
+     Offset -0.0005 0.0727 -0.0029
+     Angles -0.4693 -101.20229 2.8798
+     ChildPivotID "snap_weapon"
+     AllowedItemTypes {
+      "RHS_SMOKE_GRENADE"
+     }
+     m_aCompatibleItemTypes {
+      "RHS_SMOKE_GRENADE"
+     }
+    }
+   }
+  }
+  RigidBody "{69E1715BFDB33FBE}" {
+   Enabled 0
+  }
+  SCR_SoundDataComponent "{69E1715BF2FF2FA6}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{69E1715A44D3030D}" {
+     m_sSoundProject "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{69E17159AB6C8202}" {
+     m_sSoundProject "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{69E1715995B3E8B5}" {
+     m_sSoundProject "{F62001ED6E9FA253}Sounds/Items/_SharedData/Drop/Items_Drop_Clothes.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{69E1715BED9ED4DC}" {
+   WornModel "{ED801D79349F6A1C}Assets/Characters/Belts/Belt_Filbe_Bandolier/pouch_filbeM18_2.xob"
+   ItemModel "{ED801D79349F6A1C}Assets/Characters/Belts/Belt_Filbe_Bandolier/pouch_filbeM18_2.xob"
+  }
+  ActionsManagerComponent "{69E1715BDED693F8}" {
+   ActionContexts {
+    UserActionContext "{69E17159C0BCDEDE}" {
+     ContextName "default"
+     Position PointInfo "{69E17159207D1F82}" {
+     }
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{69E171591318231D}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{69E171597D72BAD0}" {
+      Name "#AR-Inventory_PickUp"
+      m_sIconName "pick-up"
+     }
+    }
+   }
+  }
+  RplComponent "{69E1715BDA74E1A4}" {
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{69E1715BD7AD658C}" {
   }
  }
+ coords -0.253 -0.077 0.04
 }

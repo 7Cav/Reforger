@@ -132,7 +132,6 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
   }
   SCR_FactionPlayerLoadout "{6686D1A11572EB69}" : "{8BD7A521C2614C50}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Viking/Loadout_B_BFV_VC_Viking.conf" {
    m_sLoadoutName "Vehicle Crew"
-   m_sAffiliatedFaction "Pioneer"
   }
   SCR_FactionPlayerLoadout "{6686D1A110D42E04}" : "{7B60CDB6206C8899}Prefabs/Characters/Cav_Factions/Alpha/Loadouts/Alpha_Pilot.conf" {
   }
@@ -183,6 +182,11 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
    m_sLoadoutName "Combat engineer"
    m_sLoadoutResource "{EB4A9B3E61E30139}Prefabs/Characters/Cav_Factions/Bravo/Bravo_Engineer.et"
   }
+  SCR_FactionPlayerLoadout "{69E2E3878DDF549A}" : "{83CE2EBBD2C36642}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Helios/Loadout_B_CLS_Helios.conf" {
+   m_sLoadoutName "Combat engineer"
+   m_sLoadoutResource "{EB4A9B3E61E30139}Prefabs/Characters/Cav_Factions/Bravo/Bravo_Engineer.et"
+   m_sAffiliatedFaction "Pioneer"
+  }
   SCR_FactionPlayerLoadout "{66934A1DA7A24425}" : "{73AF8EED0B7F9ECB}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Pioneer/Loadout_B_CLS_Pioneer.conf" {
   }
   SCR_FactionPlayerLoadout "{66934A1DA1528BD2}" : "{1092CE90CD902787}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Viking/Loadout_B_CLS_Viking.conf" {
@@ -196,11 +200,13 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
   SCR_FactionPlayerLoadout "{68CB61CCD6E7680B}" {
    m_sLoadoutName "Ground"
    m_sLoadoutResource "{2E6A7178AF4D045F}Prefabs/Characters/Cav_Factions/Charlie/Charlie_Rifleman.et"
+   m_sLoadoutImage "{099045EADC8BD971}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_RTO.edds"
    m_sAffiliatedFaction "Command"
   }
   SCR_FactionPlayerLoadout "{68CB61CC36F4C2EE}" {
    m_sLoadoutName "Air"
    m_sLoadoutResource "{BAE60D8B790F1DDF}Prefabs/Characters/Cav_Factions/Alpha/Alpha_Pilot.et"
+   m_sLoadoutImage "{F293529C376FB00C}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_HeliPilot.edds"
    m_sAffiliatedFaction "Command"
   }
  }

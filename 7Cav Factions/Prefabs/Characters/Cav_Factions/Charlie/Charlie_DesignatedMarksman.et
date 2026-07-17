@@ -51,14 +51,14 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
      }
     }
     ItemsInitConfigurationItem "{654F5A1E884328EE}" {
-     Enabled 0
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/radio/Pouch_152_Radio.et"
      PrefabsToSpawn {
-      ""
+      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
      }
     }
    }
   }
  }
- coords -0.733 0.619 0
- angles 0 -21.5 0
+ coords 0 0 0
+ angles 0 79.31 0
 }

@@ -25,7 +25,7 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{9B40415563B9F280}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II_Black.et"
+   WeaponTemplate "{9B40415563B9F280}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_CAV_BLOCK_II_Black.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -39,6 +39,10 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6690081F571D21D8}" {
+     PrefabsToSpawn +{
+     }
+    }
     ItemsInitConfigurationItem "{66260B3A958F6868}" {
      TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/tako/Pouch_FILBE_doubleM4_1.et"
      PrefabsToSpawn {
@@ -76,14 +80,15 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
      }
     }
     ItemsInitConfigurationItem "{66260B3A958F6877}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/ifak/Pouch_PCGEN3_ifak.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/m18/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{66260B3A958FE015}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/Tako/Pouch_AVS_MBITR_Radio_MC.et"
      PrefabsToSpawn {
-      ""
+      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{66260B3A958FE01B}" {
@@ -108,5 +113,5 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
   }
  }
  coords 0 0 0
- angles -5.825 -76.886 -5.325
+ angles 7.886 60.595 0.006
 }

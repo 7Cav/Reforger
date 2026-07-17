@@ -15,10 +15,6 @@ SCR_ChimeraCharacter : "{29C9C7591C683955}Prefabs/Characters/Cav_Factions/Bravo/
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{66260B3A958FE015}" {
-     Enabled 0
-     PrefabsToSpawn {
-      ""
-     }
     }
    }
   }

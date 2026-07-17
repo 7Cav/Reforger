@@ -33,8 +33,6 @@ SCR_ChimeraCharacter : "{E4FAEAC30E96E487}Prefabs/Characters/Cav_Factions/Bravo/
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{654C3668BB5EF688}" {
-    }
     ItemsInitConfigurationItem "{654F5A02390746E8}" {
      TargetStorage "Vest/Vest_PCGen_III_AT_shawplacard3.et/radio/Pouch_152_Radio.et"
      PrefabsToSpawn {

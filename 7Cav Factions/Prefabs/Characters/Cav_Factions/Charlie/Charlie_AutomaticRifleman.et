@@ -93,8 +93,15 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
       "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
      }
     }
+    ItemsInitConfigurationItem "{69E1715E7A423F82}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_MG.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     }
+    }
    }
   }
  }
- coords 0 0 0.943
+ coords 0 0 0
+ angles 0 132.66 0
 }

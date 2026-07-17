@@ -37,7 +37,7 @@ SCR_ChimeraCharacter : "{E4FAEAC30E96E487}Prefabs/Characters/Cav_Factions/Bravo/
     ItemsInitConfigurationItem "{66491388B9C310FA}" {
      TargetStorage "Vest/Vest_JPC_okinawa_MC.et/m18_2/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+      "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
      }
     }
     ItemsInitConfigurationItem "{6649194ACA4EC2B3}" {
@@ -67,13 +67,13 @@ SCR_ChimeraCharacter : "{E4FAEAC30E96E487}Prefabs/Characters/Cav_Factions/Bravo/
     ItemsInitConfigurationItem "{668D60ECACC0F4F4}" {
      TargetStorage "Vest/Vest_JPC_okinawa_MC.et/m18_2/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
      }
     }
     ItemsInitConfigurationItem "{668D60EC9D7AC13E}" {
      TargetStorage "Vest/Vest_JPC_okinawa_MC.et/m18_1/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
      }
     }
     ItemsInitConfigurationItem "{668D60EF6F7ECBDE}" {
@@ -83,8 +83,10 @@ SCR_ChimeraCharacter : "{E4FAEAC30E96E487}Prefabs/Characters/Cav_Factions/Bravo/
      }
     }
     ItemsInitConfigurationItem "{668D60E9C291FE11}" {
-     Enabled 0
      TargetStorage "Vest/Vest_JPC_okinawa_MC.et/radio/Pouch_AVS_MBITR_Radio_MC.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     }
     }
     ItemsInitConfigurationItem "{668D60E92BE7EAAE}" {
      TargetStorage "Back/Backpack_511_rush12_MC.et"

@@ -59,6 +59,6 @@ SCR_ChimeraCharacter : "{E4FAEAC30E96E487}Prefabs/Characters/Cav_Factions/Bravo/
    }
   }
  }
- coords -0.733 0.619 0
- angles 0 -21.5 0
+ coords 0 0 0
+ angles 0 9.86 0
 }
