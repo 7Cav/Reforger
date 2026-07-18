@@ -1,0 +1,63 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ StartingPos42 {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 5005.074 88.085 4849.188
+  angles 0 -91.403 0
+  {
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ MainBaseNorth {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+    m_bIsReceivingFromIsland 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-MapLocation_StPhillipe"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_North-UC"
+    m_sMapLocationName "LocationStPhillipe_Harbour"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 4500.895 99.983 8265.089
+  angles 0 30.231 0
+  {
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords -0.001 0 0.003
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords -0.001 0 0.003
+   }
+  }
+ }
+}

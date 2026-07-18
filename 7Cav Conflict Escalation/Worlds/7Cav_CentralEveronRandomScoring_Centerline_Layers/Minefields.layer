@@ -1,0 +1,720 @@
+$grp GenericEntity : "{D0E4F05E07E40B24}Prefabs/Structures/Signs/Military/SignMinefield_01/SignMinefield_01.et" {
+ {
+  coords 9427.875 45.049 1893.199
+  angleY -135.273
+ }
+ {
+  coords 9418.362 50.023 1916.068
+  angleY -19.357
+ }
+ {
+  coords 8602.254 124.511 3300.784
+  angleY -178.518
+ }
+ {
+  coords 8574.979 127.474 3313.547
+  angleY -178.518
+ }
+ {
+  coords 8572.736 132.02 3334.996
+  angleY -41.411
+ }
+ {
+  coords 8608.564 129.138 3324.87
+  angleY 9.584
+ }
+ {
+  coords 8151.558 219.527 4119.613
+  angleY 164.722
+ }
+ {
+  coords 8141.415 220.892 4137.375
+  angleY -62.447
+ }
+ {
+  coords 8155.354 220.854 4139.271
+  angleY 38.158
+ }
+ {
+  coords 4647.613 102.259 8302.636
+  angleY -68.885
+ }
+ {
+  coords 4649.835 108.566 8260.461
+  angleY -98.579
+ }
+ {
+  coords 4662.736 111.133 8245.796
+  angleY 128.979
+ }
+ {
+  coords 4677.963 106.516 8286.215
+  angleY 128.537
+ }
+ {
+  coords 4664.508 103.425 8299.437
+  angleY 17.433
+ }
+ {
+  coords 4914.874 26.828 11500.11
+  angleY 131.975
+ }
+ {
+  coords 4899.057 26.737 11495.777
+  angleY -37.365
+ }
+ {
+  coords 6845.186 74.907 4775.74
+  angleY 84.505
+ }
+ {
+  coords 6840.624 74.907 4764.024
+  angleY -129.362
+ }
+ {
+  coords 4003.253 105.724 6715.744
+  angleY 172.384
+ }
+ {
+  coords 3999.531 107.264 6734.238
+  angleY -92.484
+ }
+ {
+  coords 4024.31 112.639 6740.221
+  angleY 70.54
+ }
+ {
+  coords 4924.13 36.38 9208.439
+  angleY -120.793
+ }
+ {
+  coords 5404.152 78.645 5710.698
+  angleY 19.453
+ }
+ {
+  coords 5392.83 76.396 5691.708
+  angleY 167.765
+ }
+ {
+  coords 8130.166 220.81 4128.103
+  angleY -139.772
+ }
+ {
+  coords 5431.714 80.832 5702.448
+  angleY 13.748
+ }
+ {
+  coords 5447.342 81.824 5690.303
+  angleY -164.798
+ }
+}
+$grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 9423.54 47.556 1904.88
+  angleX 14.036
+  angleZ -0.868
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 9423.35 46.729 1901.77
+  angleX 18.065
+  angleY -0.088
+  angleZ -3.488
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 9425.996 46.462 1899.839
+  angleX 18.065
+  angleY -0.088
+  angleZ -3.488
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 9429.348 45.946 1895.864
+  angleX 18.065
+  angleY -0.088
+  angleZ -3.488
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 9425.94 45.717 1896.468
+  angleX 18.065
+  angleY -0.088
+  angleZ -3.488
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 9428.458 47.253 1902.682
+  angleX 11.25
+  angleY 0.334
+  angleZ -3.381
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8580.129 128.246 3320.09
+  angleX 13.191
+  angleZ -2.613
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8583.84 127.775 3317.06
+  angleX 3.252
+  angleY 0.882
+  angleZ 11
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8587.68 129.16 3323.29
+  angleX 18.112
+  angleY 0.978
+  angleZ 12.118
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8591.95 128.419 3321.27
+  angleX 18.112
+  angleY 0.978
+  angleZ 12.118
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8596.229 127.321 3316.518
+  angleX 18.112
+  angleY 0.978
+  angleZ 12.118
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8603.332 127.525 3318.525
+  angleX 18.112
+  angleY 0.978
+  angleZ 12.118
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8604.284 126.291 3312.971
+  angleX 18.112
+  angleY 0.978
+  angleZ 12.118
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8144.117 220.234 4122.884
+  angleX 13.191
+  angleZ -2.613
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8149.997 219.846 4122.304
+  angleX 3.209
+  angleY 0.454
+  angleZ 0.779
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8145.825 220.407 4128.968
+  angleX 2.251
+  angleY -60.237
+  angleZ -2.416
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8141.236 220.489 4129.353
+  angleX 2.251
+  angleY -60.237
+  angleZ -2.416
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8150.183 220.666 4134.595
+  angleX 2.251
+  angleY -60.237
+  angleZ -1.652
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8140.525 220.824 4133.859
+  angleX 2.251
+  angleY -60.237
+  angleZ -1.652
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4650.314 102.86 8299.611
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4654.648 104.646 8290.826
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4662.839 105.056 8290.245
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4663.125 109.972 8255.605
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4650.05 105.566 8285.652
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4654.74 107.166 8276.939
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4658.008 109.902 8259.525
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4661.465 111.308 8247.795
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4660.428 106.971 8278.588
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4670.833 106.429 8283.453
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4899.625 26.743 11494.88
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4904.662 26.704 11493.918
+  angleY -69.098
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4902.322 26.763 11493.171
+  angleY -69.098
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4906.63 26.576 11500.286
+  angleY -69.098
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 6843.267 75.095 4765.664
+  angleY -69.098
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 6840.437 74.879 4769.237
+  angleY -69.098
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 6842.862 74.84 4772.271
+  angleY -69.098
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4003.05 107.684 6732.11
+  angleX -8.042
+  angleY -67.247
+  angleZ -12.759
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4007.472 108.785 6732.616
+  angleX -8.042
+  angleY -67.247
+  angleZ -12.759
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4007.674 107.48 6726.352
+  angleX -3.892
+  angleY -68.188
+  angleZ -12.661
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4018.056 109.982 6728.611
+  angleX -3.892
+  angleY -68.188
+  angleZ -12.661
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4017.312 108.643 6723.757
+  angleX -3.892
+  angleY -68.188
+  angleZ -12.661
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4015.408 111.097 6736.88
+  angleX -8.042
+  angleY -67.247
+  angleZ -12.759
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4000.396 105.901 6725.436
+  angleX -8.042
+  angleY -67.247
+  angleZ -12.759
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4919.861 36.99 9220.585
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4923.462 37.015 9217.058
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4924.531 36.984 9212.632
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4928.779 36.988 9208.033
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4929.583 36.892 9202.462
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5400.442 78.013 5706.339
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5396.805 77.371 5702.092
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5391.365 76.99 5705.018
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5390.914 76.711 5698.928
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8133.47 220.502 4126.727
+  angleX 2.251
+  angleY -60.237
+  angleZ -2.416
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8131.964 220.849 4129.276
+  angleX 2.251
+  angleY -60.237
+  angleZ -2.416
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5432.526 80.911 5700.555
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5436.194 80.981 5695.845
+  angleY -60.9
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5442.325 81.389 5697.176
+  angleY -60.9
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5445.875 81.636 5692.55
+  angleY -60.9
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4905.712 26.642 11497.306
+  angleY -69.098
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4907.962 26.695 11495.518
+  angleY -69.098
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4910.714 26.635 11500.029
+  angleY -69.098
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4910.51 26.682 11497.642
+  angleY -69.098
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4912.985 26.638 11502.132
+  angleY -69.098
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 4901.766 26.668 11492.969
+  angleY -69.098
+ }
+}
