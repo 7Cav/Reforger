@@ -1,6 +1,0 @@
-MatPBRDecal {
- Color 0.708 0.665 0.591 1
- BlendMode AlphaBlend
- AOScale 1.306
- BCRMap "{02FE3DF41F55F5AB}Art/roles.edds"
-}

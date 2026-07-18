@@ -1,8 +1,0 @@
-SCR_ChimeraCharacter : "{4033BC77C1A5DF1A}Prefabs/Characters/7CAV_C_Rifleman.et" {
- ID "520EC961A090BE1E"
- components {
-  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
-  }
- }
-}

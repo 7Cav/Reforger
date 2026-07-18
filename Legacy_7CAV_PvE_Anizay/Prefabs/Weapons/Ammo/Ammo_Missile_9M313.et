@@ -1,9 +1,0 @@
-Projectile : "{21B44D28139D0A14}Prefabs/Weapons/Core/Armament_Ammo_Missile_Base.et" {
- ID "DA5C6308000CDEF2"
- components {
-  WCS_Armament_InfraredSeekerComponent "{62A778EB07D6E66F}" {
-   m_fAcquisitionFov 31
-   m_fLockedFov 25
-  }
- }
-}
