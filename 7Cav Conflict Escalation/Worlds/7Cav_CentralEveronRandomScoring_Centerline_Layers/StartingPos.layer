@@ -49,14 +49,26 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bExcludeFromRandomization 1
    }
   }
-  coords 4500.895 99.983 8265.089
-  angles 0 30.231 0
+  coords 4749.423 44.726 8963.304
+  angles 0 127.595 0
   {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.002 0.172 12.002
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0 0.183 13.999
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.001 0 0.001
+   }
    SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
-    coords -0.001 0 0.003
+    coords -0.001 0 0
    }
    SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
-    coords -0.001 0 0.003
+    coords -0.001 0 0
    }
   }
  }

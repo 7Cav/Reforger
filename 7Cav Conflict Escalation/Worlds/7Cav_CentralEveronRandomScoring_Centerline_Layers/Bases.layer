@@ -157,8 +157,22 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fTickRate 5000
    }
   }
-  coords 4903.103 119.512 7824.598
+  coords 4897.375 143.428 7660.57
   angles 0 -54.336 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.478 12.001
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.001 -0.507 14.001
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+   }
+  }
  }
  TownBaseGravette2 {
   components {
@@ -182,8 +196,22 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fTickRate 5000
    }
   }
-  coords 3905.016 75.191 6891.493
+  coords 4611.713 109.321 8253.37
   angles 0 -56.275 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.001 -0.869 12.001
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.004 -1.05 14
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.002 0 0.001
+   }
+  }
  }
 }
 GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
