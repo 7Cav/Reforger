@@ -45,9 +45,5 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   SCR_Faction "{68CB61CA6C8D963C}" : "{58A6F094E713AE0F}Configs/Factions/Command/Command.conf" {
    m_iOrder 12
   }
-  SCR_Faction "{69350C683B4F2698}" {
-  }
-  SCR_Faction "{69350C68386F449D}" {
-  }
  }
 }
