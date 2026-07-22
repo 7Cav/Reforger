@@ -1,1 +1,0 @@
-This is the base character for Charlie Company character prefabs.  All changes to this will affect Charlie company prefabs.

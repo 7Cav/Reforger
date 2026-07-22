@@ -1,0 +1,42 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#ICR-XM7_hybrid_mag_01_name"
+     Description "#ICR-XM7_hybrid_mag_01_desc"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69EB788E10CDE393}" {
+     Weight 0.1
+     SizeSetupStrategy Manual
+     ItemDimensions 10 8 10
+     ItemVolume 200
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{69EB788E10CDE3EC}" {
+      CameraPreset Right
+     }
+    }
+    CommonItemType "NONE"
+   }
+   WeightPerAmmo 0.025
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellM7 "{69EB788E10CDE3E9}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_eAmmoTypeFlags AP
+   }
+   ItemModel "{164B4A0491DC1222}Assets/Weapons/Magazines/M7_Mag_New.xob"
+   MaxAmmo 20
+   AmmoConfig "{9491398C3337E5D0}Configs/Weapons/Ammo/Ammo_6.8_Hybrid.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 2 2 1
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{164B4A0491DC1222}Assets/Weapons/Magazines/M7_Mag_New.xob"
+  }
+ }
+}
