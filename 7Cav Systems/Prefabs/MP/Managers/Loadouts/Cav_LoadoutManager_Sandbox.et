@@ -143,11 +143,6 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
   }
   SCR_FactionPlayerLoadout "{668B4E3367EABF10}" : "{DA89F8137748B6F4}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Pioneer/Loadout_B_Rifleman_Pioneer.conf" {
   }
-  SCR_FactionPlayerLoadout "{68CB61CC962F745B}" {
-   m_sLoadoutName "RU_Rifleman"
-   m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
-   m_sAffiliatedFaction "RHS_AFRF"
-  }
   SCR_FactionPlayerLoadout "{668B4E33622A0E02}" : "{3961F15D2B0724B9}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Pioneer/Loadout_B_AutomaticRifleman_Pioneer.conf" {
   }
   SCR_FactionPlayerLoadout "{668B4E335CEB7868}" : "{E9FA6127D37D948B}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Pioneer/Loadout_B_Grenadier_Pioneer.conf" {
