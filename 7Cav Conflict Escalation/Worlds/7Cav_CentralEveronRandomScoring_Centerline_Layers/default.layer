@@ -155,23 +155,6 @@ SCR_CampaignFactionManager EscalationFactionManager1 : "{78675292D894020F}Prefab
   }
  }
 }
-GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
- components {
-  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-   m_iRespawnPeriod 600
-   m_aIncludedEditableEntityLabels {
-    TRAIT_PASSENGERS_SMALL
-    TRAIT_PASSENGERS_LARGE
-   }
-   m_aExcludedEditableEntityLabels {
-    VEHICLE_HELICOPTER
-    VEHICLE_AIRPLANE
-   }
-  }
- }
- coords 2556.613 105.424 5480.484
- angles 0 144.03 0
-}
 MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
  coords 5127.056 15.415 12277.293
  Music {
@@ -181,50 +164,4 @@ MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et"
 }
 SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
  coords 6397.073 159.332 6426.053
-}
-GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-   m_eGroupType FIRETEAM
-   m_fAILimitThreshold 0.66
-  }
- }
- coords 2553.66 105.442 5486.41
- angles 0 -99.718 0
-}
-GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
- coords 2489.26 106.646 5496.101
- angles 0 -153.796 0
-}
-GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_US_01.et" {
- coords 2518.271 110.856 5632.615
- angles 0 -28.63 0
- {
-  GenericEntity {
-   ID "5CCCBECA91C25D11"
-   coords -3.767 -0.107 -0.863
-   angles 3.605 79.836 0
-  }
- }
-}
-GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
- coords 2460.333 104.965 5551.106
- angles -0.27 -132.405 1.237
-}
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-   m_aIncludedEditableEntityLabels {
-    VEHICLE_CAR
-   }
-   m_aExcludedEditableEntityLabels +{
-   }
-  }
- }
- coords 2528.199 106.395 5573.149
- angles -0.903 -32.443 -4.465
-}
-GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
- coords 2556.385 105.37 5504.74
- angles 0 160.574 0
 }
