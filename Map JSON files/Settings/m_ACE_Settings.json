@@ -2,7 +2,7 @@
     "m_ACE_Medical_Defibrillation": {
         "m_bEnabled": true,
         "m_bDefibIsMandatory": false,
-        "m_eDefibSettingPreset": 1,
+        "m_eDefibSettingPreset": 4,
         "m_fAED_AnalysisDuration": 3.0,
         "m_fAED_CPRCooldownDuration": 120.0,
         "m_bAED_PlayCPRPacingBeats": true,
