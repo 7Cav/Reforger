@@ -6,11 +6,7 @@ modded class SCR_MapMarkerSquadLeader
 		if (!pController)
 			return;
 		
-		if (m_PlayerID == pController.GetPlayerId())	// if this is us, dont display
-			SetLocalVisible(true); // set this true for markers testing
-		else
-		{
-			SetLocalVisible(true);
-		}
+		// Unlike vanilla, squad leaders also see their own squad marker.
+		SetLocalVisible(true);
 	}
 }
