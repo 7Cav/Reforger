@@ -1,5 +1,5 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- MajorMilitaryBravo {
+ TownMonti {
   components {
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 300
@@ -25,9 +25,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iRadius 300
     m_bIsControlPoint 1
     m_bIsSupplyHub 1
-    m_sBaseName "Point Bravo"
-    m_sBaseNameUpper "POINT BRAVO"
-    m_sMapLocationName "LocationPointBravo"
+    m_sBaseName "Montignac"
+    m_sBaseNameUpper "MONTIGNAC"
+    m_sMapLocationName "LocationMonti"
     m_fRadioAntennaServiceRange 1000
     m_bExcludeFromRandomization 1
     m_fTickRate 5000
@@ -174,7 +174,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
  }
- TownBaseGravette2 {
+ TownBaseGorey {
   components {
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 120
@@ -188,9 +188,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "#AR-MapLocation_Gravette"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_Gravette-UC"
-    m_sMapLocationName "LocationGravette"
+    m_sBaseName "Gorey"
+    m_sBaseNameUpper "GOREY"
+    m_sMapLocationName "LocationGorey"
     m_fRadioAntennaServiceRange 1000
     m_bExcludeFromRandomization 1
     m_fTickRate 5000
@@ -212,120 +212,5 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     coords -0.002 0 0.001
    }
   }
- }
-}
-GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
- coords 4075.779 49.411 8505.83
- angles 0 -162.665 0
-}
-$grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
- {
-  coords 4035.547 40.442 8518.728
-  angles 0 -167.146 0
- }
- {
-  coords 4052.484 30.609 8417.912
-  angles 0 -76.679 0
- }
-}
-GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
- coords 4052.825 41.499 8727.233
- angles 0 90.276 0
- {
-  StaticModelEntity {
-   ID "5CC6B48215782E1C"
-   coords -6.16 -0.329 1.276
-   angles 0 146.264 0
-  }
- }
-}
-GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
- coords 3965.712 22.579 8369.465
- angles 0 -140.972 0
-}
-GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
- coords 3961.107 17.447 8403.423
- angles 0 -97.461 0
-}
-GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
- coords 4053.279 41.854 8716.009
- angles 1.253 44.432 -1.278
- {
-  GenericEntity {
-   ID "5CC6B48B9C8C2A7C"
-   coords 2.589 0.26 -1.83
-  }
-  GenericEntity {
-   ID "5E5AD06E26C12FE8"
-   coords 2.851 0.1 -3.831
-  }
-  StaticModelEntity {
-   ID "5CC6B48B9C8C2B00"
-   coords 2.709 0 -2.21
-  }
- }
-}
-$grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
- {
-  coords 4059.603 45.903 8511.542
-  angles 0 106.904 0
-  {
-   GenericEntity {
-    ID "5D1ED92199D182E9"
-    coords 3.054 -0.063 -4.186
-    angles 0 -10.521 0
-   }
-   GenericEntity {
-    ID "5D1ED92199D182F7"
-    coords 3.073 -0.068 -4.994
-    angles 0 -57.298 0
-   }
-   StaticModelEntity {
-    ID "5D1ED92199D18266"
-    coords 3.238 -0.078 -6.075
-   }
-   StaticModelEntity {
-    ID "5D1ED92199D1823E"
-    coords 3.62 -0.06 4.883
-    angles 0 14.646 0
-   }
-  }
- }
- {
-  coords 4064.989 25.109 8467.56
-  angles 0 105.821 0
-  {
-   GenericEntity {
-    ID "5D1ED92199D1825C"
-    coords 1.493 0 4.78
-   }
-   GenericEntity {
-    ID "5D1ED92199D182C3"
-    coords -2.628 0 4.205
-   }
-  }
- }
-}
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-   m_aIncludedEditableEntityLabels {
-    VEHICLE_CAR
-   }
-   m_aExcludedEditableEntityLabels +{
-   }
-  }
- }
- coords 4042.456 39.458 8709.45
- angles -1.266 -135.158 0.004
-}
-$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
- {
-  coords 4046.857 43.319 8516.406
-  angles 0 -165.551 0
- }
- {
-  coords 4056.449 31.761 8425.296
-  angles 0 -74.936 0
  }
 }

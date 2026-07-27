@@ -1,32 +1,5 @@
 $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
  {
-  coords 6912.457 57.718 4482.109
-  angles 5.237 9.194 -9.891
-  {
-   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    components {
-     SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{5CCEC6036BBF3EDD}" {
-      m_bPickRandomGroupType 1
-      m_iRespawnPeriod 600
-      m_fAILimitThreshold 0.66
-     }
-    }
-    coords 261.329 17.713 -34.628
-    angles 16.097 138.824 -6.652
-    {
-     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
-      components {
-       Hierarchy "{5CD0765889102122}" {
-       }
-      }
-      coords 166.878 16.67 -189.955
-      angles -19.166 -58.915 19.472
-     }
-    }
-   }
-  }
- }
- {
   coords 4814.289 53.445 5819.508
   angles -2.998 102.085 1.187
   {
@@ -97,45 +70,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
         }
        }
        coords 223.375 22.473 1.878
-       angles 0 -54.336 0
-      }
-     }
-    }
-   }
-  }
- }
- {
-  coords 6458.873 162.267 6496.987
-  angles -1.957 165.525 -0.419
-  {
-   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
-     components {
-      SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{5CCEC6036BBF3EDD}" {
-       m_eGroupType FIRETEAM
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords 12.978 -0.107 -1.21
-     angles -0.317 -111.176 -1.976
-    }
-    {
-     components {
-      SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{5CCEC6036BBF3EDD}" {
-       m_bPickRandomGroupType 1
-       m_iRespawnPeriod 600
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -256.299 -42.727 -320.895
-     angles -6.169 -15.802 -0.842
-     {
-      SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
-       components {
-        Hierarchy "{5CD0765889102122}" {
-        }
-       }
-       coords 348.598 62.376 227.941
        angles 0 -54.336 0
       }
      }

@@ -1,89 +1,4 @@
-GenericEntity : "{0E2B16A0A7DF365D}Prefabs/Compositions/Locations/Eden/SupplyCache_Morton_FIA_01.et" {
- coords 5135.238 13.126 4011.78
-}
-GenericEntity : "{152E7C3355906BA9}Prefabs/Compositions/Locations/Eden/SupplyCache_Levie_FIA_01.et" {
- coords 7464.442 142.167 4738.911
-}
-GenericEntity : "{1A9D75D98DC825E7}Prefabs/Compositions/Locations/Eden/SupplyCache_Provins_FIA_01.et" {
- coords 5486.487 96.127 6087.397
-}
-$grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
- {
-  components {
-   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
-    m_bOrientChildrenToTerrain 0
-   }
-  }
-  coords 1058.127 2.877 6054.715
-  angles -0.008 35.835 -0.675
-  {
-   GenericEntity {
-    ID "5D1ED92353BB9FF4"
-    coords 3.51 -0.106 -2.945
-    angles 0 0.819 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9F82"
-    coords 3.196 -0.131 1.629
-    angles 0 -90 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9F95"
-    coords 3.296 -0.103 0.133
-    angles 0 -88.159 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9FE3"
-    coords 3.357 -0.104 -1.785
-    angles 0 176.173 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9E3E"
-    coords 5.03 -0.129 0.146
-    angles 0 4.513 0
-   }
-  }
- }
- {
-  coords 7624.807 166.844 4315.112
-  angles 0 -162.665 0
- }
- {
-  coords 7841.875 254.531 4029.39
-  angles 0 -32.721 0
- }
-}
-$grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
- {
-  coords 880.68 3.038 6078.892
-  angles 0 33.929 0
- }
- {
-  coords 7584.575 166.844 4328.01
-  angles 0 -167.146 0
- }
- {
-  coords 7601.512 166.156 4227.194
-  angles 0 -76.679 0
- }
- {
-  coords 7890.57 256.625 4006.571
-  angles 0 -51.694 0
- }
- {
-  coords 7829.86 254.531 4020.952
-  angles 0 -35.585 0
- }
-}
 $grp GenericEntity : "{38464762C5D374D2}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign.et" {
- {
-  coords 6914.712 50.906 4436.838
-  angles 0 -121.473 0
- }
- {
-  coords 6947.63 59.075 4481.804
-  angles -2.595 133.048 0
- }
  {
   coords 4760.788 54.106 5842.753
   angles -2.149 -146.342 0
@@ -101,55 +16,11 @@ $grp GenericEntity : "{38464762C5D374D2}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angles 9.228 -52.102 -2.121
  }
 }
-GenericEntity : "{458D1E40FD79C36D}Prefabs/Compositions/Locations/Eden/SupplyCache_Montignac_FIA_01.et" {
- coords 4773.455 164.342 7094.566
-}
-$grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
- {
-  coords 4876.027 52.513 5715.602
-  angles 0 -16.679 0
- }
- {
-  coords 6488.144 161.786 6516.364
-  angles 0 164.362 0
- }
- {
-  coords 6414.536 161.844 6485.855
-  angles 0 154.002 1.554
- }
- {
-  coords 10989.885 24.124 11826.495
-  angles 0 -57.016 0
- }
- {
-  coords 1089.766 41.07 11591.018
-  angles 1.964 127.54 0.381
- }
- {
-  coords 3044.284 9.06 2054.848
-  angles 0 -110.769 0
- }
- {
-  coords 3046.046 9.583 2042.365
-  angles -1.037 -110.811 2.308
- }
- {
-  coords 10893.083 21.51 8733.725
-  angles 2.874 83.298 1.463
- }
-}
-GenericEntity : "{59DE9F68F4D2A490}Prefabs/Compositions/Locations/Eden/SupplyCache_Laruns_FIA_01.et" {
- coords 7558.335 82.526 5540.854
+GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
+ coords 4876.027 52.513 5715.602
+ angles 0 -16.679 0
 }
 $grp GenericEntity : "{78E7F5C4FFC687D5}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_02_Campaign.et" {
- {
-  coords 6953.945 59.201 4480.212
-  angles -8.057 -137.445 0
- }
- {
-  coords 6941.625 54.323 4444.806
-  angles -1.977 -51.323 -11.232
- }
  {
   coords 4741.732 54.596 5834.935
   angles 0 39.77 -4.309
@@ -177,82 +48,10 @@ $grp GenericEntity : "{78E7F5C4FFC687D5}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   coords 4836.347 118.294 8157.403
   angles 0 -173.345 -2.556
  }
- {
-  coords 6483.949 161.332 6526.778
-  angles 0 -16.163 0
- }
 }
-$grp GenericEntity : "{869A4C4CA7F43C21}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_06_Campaign.et" {
- {
-  coords 4871.928 52.5 5675.194
-  angles 0 -105 0
- }
- {
-  coords 6494.722 161.988 6482.913
-  angles 0 -20.05 0
- }
-}
-GenericEntity : "{8950F273E5D8657D}Prefabs/Compositions/Locations/Eden/SupplyCache_Gravette_FIA_01.et" {
- coords 4120.761 35.406 7796.203
-}
-GenericEntity : "{908CD23C9EF20E3B}Prefabs/Compositions/Locations/Eden/SupplyCache_Chotain_FIA_01.et" {
- coords 7086.131 129.414 6012.347
-}
-$grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
- {
-  coords 925.242 2.75 6058.799
-  angles 0 36.956 0
- }
- {
-  coords 7608.631 166.812 4320.824
-  angles 0 106.904 0
-  {
-   GenericEntity {
-    ID "5D1ED92199D182E9"
-    coords 3.054 -0.063 -4.186
-    angles 0 -10.521 0
-   }
-   GenericEntity {
-    ID "5D1ED92199D182F7"
-    coords 3.073 -0.068 -4.994
-    angles 0 -57.298 0
-   }
-   StaticModelEntity {
-    ID "5D1ED92199D18266"
-    coords 3.238 -0.078 -6.075
-   }
-   StaticModelEntity {
-    ID "5D1ED92199D1823E"
-    coords 3.62 -0.06 4.883
-    angles 0 14.646 0
-   }
-  }
- }
- {
-  coords 7614.017 166.844 4276.842
-  angles 0 105.821 0
-  {
-   GenericEntity {
-    ID "5D1ED92199D1825C"
-    coords 1.493 0 4.78
-   }
-   GenericEntity {
-    ID "5D1ED92199D182C3"
-    coords -2.628 0 4.205
-   }
-  }
- }
- {
-  coords 7877.662 256.625 3992.119
-  angles 0 -51.231 0
- }
- {
-  coords 7833.848 254.531 4040.59
-  angles 0 56.334 0
- }
-}
-GenericEntity : "{C634CB20BED9C7D5}Prefabs/Compositions/Locations/Eden/SupplyCache_LeMoule_FIA_01.et" {
- coords 2615.962 92.06 5378.784
+GenericEntity : "{869A4C4CA7F43C21}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_06_Campaign.et" {
+ coords 4871.928 52.5 5675.194
+ angles 0 -105 0
 }
 $grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
  {
@@ -264,7 +63,7 @@ $grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyC
     {
      GenericEntity {
       ID "5D45393936823FC0"
-      coords -1.421 -0.334 0.304
+      coords -5.998 -0.334 0.306
       angles -0.394 0.022 0
      }
      GenericEntity {
@@ -346,21 +145,6 @@ $grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   }
  }
 }
-GenericEntity : "{D48B49DC4F0BCB66}Prefabs/Compositions/Locations/Eden/SupplyCache_Figari_FIA_01.et" {
- coords 5250.764 73.061 5337.823
-}
-GenericEntity : "{E4D8BE67FA5175A3}Prefabs/Compositions/Locations/Eden/SupplyCache_Lamentin_FIA_01.et" {
- coords 1279.669 37.386 5940.503
- {
-  GenericEntity {
-   ID "5E6ACA23963C1EBF"
-   Flags 0x100403 0
-  }
- }
-}
-GenericEntity : "{F31EFE6539E2D14F}Prefabs/Compositions/Locations/Eden/SupplyCache_Regina_FIA_01.et" {
- coords 7205.023 145.19 2324.232
-}
 $grp GenericEntity : "{F9A490888BED61DB}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign.et" {
  {
   coords 4852.334 52.946 5719.825
@@ -384,51 +168,5 @@ $grp GenericEntity : "{F9A490888BED61DB}Prefabs/MP/Campaign/SupplyDepots/SupplyC
  {
   coords 1097.058 40.881 11603.3
   angles 1.667 127.352 -3.639
- }
-}
-$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
- {
-  components {
-   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
-    m_bOrientChildrenToTerrain 0
-   }
-  }
-  coords 1075.962 2.905 6084.289
-  angles 0 -56.136 0
- }
- {
-  components {
-   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
-    m_bOrientChildrenToTerrain 0
-   }
-  }
-  coords 1047.79 2.857 6047.054
-  angles 0 -6.102 0
- }
- {
-  coords 5022.725 15.375 3946.365
-  angles 0 13.511 0
-  {
-   GenericEntity {
-    ID "5D1ED922875C418B"
-    coords 4.183 0 -1.673
-   }
-   GenericEntity {
-    ID "5D1ED922875C41BB"
-    coords 4.184 0 -0.784
-   }
-  }
- }
- {
-  coords 7595.885 166.832 4325.688
-  angles 0 -165.551 0
- }
- {
-  coords 7605.477 166.156 4234.577
-  angles 0 -74.936 0
- }
- {
-  coords 7817.885 254.531 4030.388
-  angles 0 145.234 0
  }
 }
