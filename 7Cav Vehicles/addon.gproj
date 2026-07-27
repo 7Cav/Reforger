@@ -1,7 +1,7 @@
 GameProject {
- ID "7Cav Vehicles"
+ ID "7CavVehicles"
  GUID "6620DEADBEDA583D"
- TITLE "7CavVehicles"
+ TITLE "7Cav Vehicles"
  Dependencies {
   "58D0FB3206B6F859"
  }

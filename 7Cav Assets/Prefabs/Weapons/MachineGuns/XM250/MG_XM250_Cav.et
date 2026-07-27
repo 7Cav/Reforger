@@ -1,0 +1,25 @@
+GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "M250 Cav Issue FDE"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      AttachmentSlotComponent "{631B265993ADDD2E}" {
+       AttachmentSlot InventoryStorageSlot Suppressor {
+        Prefab "{B74D593B0A51064C}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_PRONG4.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

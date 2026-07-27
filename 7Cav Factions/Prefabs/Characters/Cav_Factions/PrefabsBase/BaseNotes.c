@@ -1,1 +1,0 @@
-This is the base Character that ALL 7Cav Prefabs inherit from.  Changes made to this prefab will affect ALL 7Cav Character prefabs.

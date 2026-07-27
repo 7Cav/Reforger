@@ -1,0 +1,22 @@
+"m_ACE_Settings": {
+    "m_ACE_Medical_Defibrillation": {
+        "m_bEnabled": true,
+        "m_bDefibIsMandatory": false,
+        "m_eDefibSettingPreset": 4,
+        "m_fAED_AnalysisDuration": 3.0,
+        "m_fAED_CPRCooldownDuration": 120.0,
+        "m_bAED_PlayCPRPacingBeats": true,
+        "m_bPunishSpamShocks": true,
+        "m_fPunishSpamShocksTimeout": 108.0,
+        "m_bShockChanceDecay": true,
+        "m_fShockSuccessDecayRate": 0.92,
+        "m_eShockDecayFormula": 0,
+        "m_fBaseShockSuccessChance": 0.9,
+        "m_fMinShockSuccessChance": 0.0,
+        "m_bReviveBonusDecay": true,
+        "m_fReviveBonusDecayRate": 0.85,
+        "m_eReviveBonusDecayFormula": 0,
+        "m_fBaseReviveBonus": 0.25,
+        "m_fMaxTotalReviveBonus": 0.9
+    }
+}
