@@ -116,7 +116,7 @@ GenericEntity Area_Monti : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/
     }
     coords 151.38 6.591 1.316
     {
-     GenericEntity L_Monti_G1 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+     GenericEntity S_Monti_G1 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
       components {
        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
         m_sObjectToSpawn "{5AAD44E8C2387FF4}Prefabs/CHZones/Everon_Full/CAH_Morton_O1.et"
