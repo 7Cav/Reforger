@@ -1,5 +1,5 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- MajorMilitaryBravo {
+ TownMonti {
   components {
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 300
@@ -25,9 +25,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iRadius 300
     m_bIsControlPoint 1
     m_bIsSupplyHub 1
-    m_sBaseName "Point Bravo"
-    m_sBaseNameUpper "POINT BRAVO"
-    m_sMapLocationName "LocationPointBravo"
+    m_sBaseName "Montignac"
+    m_sBaseNameUpper "MONTIGNAC"
+    m_sMapLocationName "LocationMonti"
     m_fRadioAntennaServiceRange 1000
     m_bExcludeFromRandomization 1
     m_fTickRate 5000
@@ -174,7 +174,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
  }
- TownBaseGravette2 {
+ TownBaseGorey {
   components {
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 120
@@ -188,9 +188,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "#AR-MapLocation_Gravette"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_Gravette-UC"
-    m_sMapLocationName "LocationGravette"
+    m_sBaseName "Gorey"
+    m_sBaseNameUpper "GOREY"
+    m_sMapLocationName "LocationGorey"
     m_fRadioAntennaServiceRange 1000
     m_bExcludeFromRandomization 1
     m_fTickRate 5000
