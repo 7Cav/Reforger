@@ -17,7 +17,7 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
   NavmeshWorldComponent "{5C8C9B750D124A63}" {
    NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
     NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
-     NavmeshFile "{63F07B2817A33101}Map_data/new/Navmesh/BTRlike_navmesh1.nmn"
+     NavmeshFile "{99B5FDCC8F6AADBB}Map_data/new/Navmesh/LowRes_navmesh1.nmn"
     }
    }
   }

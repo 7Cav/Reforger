@@ -1,0 +1,8 @@
+GameEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOptic_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  ICR_2DPIPSightsAutoIllumComponent "{62133A0EFD85F40F}" {
+   m_fReticleBaseZoom 1
+  }
+ }
+}
