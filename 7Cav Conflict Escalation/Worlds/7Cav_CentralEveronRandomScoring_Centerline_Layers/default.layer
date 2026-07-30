@@ -39,6 +39,9 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 7114.537 103.567 6279.017
 }
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 3788.745 121.599 5088.213
+}
 SCR_GameModeCampaign GameMode_Escalation_Scoring1 : "{598F43E0F4973407}Prefabs/MP/Modes/Conflict/GameMode_Escalation_Scoring.et" {
  components {
   SCR_ArsenalManagerComponent "{6120A34EB1E9BBEF}" {
@@ -154,6 +157,9 @@ SCR_CampaignFactionManager EscalationFactionManager1 : "{78675292D894020F}Prefab
    }
   }
  }
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 3915.16 122.047 5307.797
 }
 MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
  coords 5127.056 15.415 12277.293

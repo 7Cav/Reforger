@@ -59,8 +59,22 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fTickRate 5000
    }
   }
-  coords 5251.096 58.488 5395.302
+  coords 5151.136 51.156 5563.683
   angles 0 178.943 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.003 -0.109 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0 -0.13 14
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+   }
+  }
  }
  TownBaseProvins {
   components {
@@ -84,8 +98,22 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fTickRate 5000
    }
   }
-  coords 5532.965 95.5 6045.188
+  coords 5274.366 66.826 6090.102
   angles 0 9.853 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.001 0.803 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.002 0.957 14
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+   }
+  }
  }
  TownBaseGravette {
   components {
