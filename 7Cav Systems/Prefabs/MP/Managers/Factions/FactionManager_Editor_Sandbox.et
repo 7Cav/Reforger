@@ -15,6 +15,9 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
    m_sFactionBackground "{81BF3B1DCC106577}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_FIA.imageset"
   }
   SCR_Faction "{607AA5C7A94496DA}" : "{3FA20B01D950D31F}Configs/Factions/CIV.conf" {
+   m_aFriendlyFactionsIds {
+    "US" "USSR" "FIA" "RHS_USAF" "RHS_AFRF" "RHS_ION" "RHS_USAF" "RHS_AFRF" "RHS_ION" "Archangel" "Helios" "Viking" "Pioneer" "Bandit" "Misfit" "Command"
+   }
   }
   SCR_Faction "{664AFA2507C1386C}" : "{374C6DC646EA6CCD}Configs/Factions/Charlie/Charlie_Faction_Bandit.conf" {
   }

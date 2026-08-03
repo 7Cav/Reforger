@@ -1,0 +1,131 @@
+GenericEntity Area_Monti : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ coords 4756.889 164.76 7052.332
+ {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+   L_Monti_D {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 50.856 2.08 30.3
+    {
+     GenericEntity S_Monti_D1 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{A2CBCC149F80186A}Prefabs/CHZones/Everon_Full/CAH_Morton_M1.et"
+       }
+      }
+      angles 0 -137.077 0
+     }
+    }
+   }
+   L_Monti_E {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords -65.656 -2.542 21.16
+    {
+     GenericEntity S_Monti_E1 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{2DA72C60369A9084}Prefabs/CHZones/Everon_Full/CAH_Morton_N1.et"
+       }
+      }
+      angles 0 14.305 0
+     }
+    }
+   }
+   L_Monti_F {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords -119.469 -4.206 -130.244
+    {
+     GenericEntity S_Monti_F1 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{5AAD44E8C2387FF4}Prefabs/CHZones/Everon_Full/CAH_Morton_O1.et"
+       }
+      }
+      angles 0 -14.191 0
+     }
+    }
+   }
+   L_Monti_A {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 73.597 3.794 -112.384
+    {
+     GenericEntity S_Monti_A1 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{B5B5E64C6D52C674}Prefabs/CHZones/Everon_Full/CAH_Airfield_A1.et"
+       }
+      }
+     }
+    }
+   }
+   L_Monti_B {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords -0.074 4.469 -62.671
+    {
+     GenericEntity S_Monti_B1 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{2CAB5FD570B5F7E4}Prefabs/CHZones/Everon_Full/CAH_Airfield_B1.et"
+       }
+      }
+     }
+    }
+   }
+   L_Monti_C {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 73.921 5.017 -26.415
+    {
+     GenericEntity S_Monti_C1 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{5BA1375D84171894}Prefabs/CHZones/Everon_Full/CAH_Airfield_C1.et"
+       }
+      }
+      angles 0 12.342 0
+     }
+    }
+   }
+   L_Monti_G {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 151.38 6.591 1.316
+    {
+     GenericEntity S_Monti_G1 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{5AAD44E8C2387FF4}Prefabs/CHZones/Everon_Full/CAH_Morton_O1.et"
+       }
+      }
+      angles 0 -14.191 0
+     }
+    }
+   }
+  }
+ }
+}

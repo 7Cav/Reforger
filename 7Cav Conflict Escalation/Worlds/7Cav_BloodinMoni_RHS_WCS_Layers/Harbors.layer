@@ -1,0 +1,215 @@
+$grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T3Harbor.et" {
+ SP_T3H_Gravette2 {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_fSupplyMultiplier 0
+   }
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_bExcludeFromRandomization 1
+    m_iScorePerTick 0
+    m_bExcludeFromBaseCaptureScore 1
+   }
+  }
+  coords 3817.628 5.025 7733.588
+  angles 0 90.717 0
+  {
+   GenericEntity {
+    ID "62388D8F13AD0811"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iSpawnDistanceOverride 200
+      m_iDespawnDistanceOverride 300
+     }
+    }
+    coords -0.001 -2.626 -14.931
+   }
+   GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+    coords -36.407 -1.953 9.615
+    angles 0 -94.104 0
+    {
+     GenericEntity {
+      ID "5D1ED92353BB9E28"
+      coords -3.787 0.157 -2.415
+      angles -5.527 -3.32 -1.145
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9FD2"
+      coords -3.768 0.271 -3.59
+      angles -5.46 -0.356 -1.429
+     }
+     GenericEntity {
+      ID "5D453938FA2CE085"
+      {
+       GenericEntity {
+        ID "5D453938F45912F6"
+        coords -4.133 0.107 -2.328
+        angles -4.529 -93.023 7.647
+       }
+       GenericEntity {
+        ID "5D453938F45912F0"
+        coords -4.328 -0.414 2.129
+        angles -6.495 0.568 -5.011
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9F82"
+      coords 7.351 -0.434 3.561
+      angles 0 -120.662 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9F95"
+      coords 8.081 -0.31 2.202
+      angles 0 -118.822 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9FE3"
+      coords 9.697 -0.557 4.884
+      angles 0 145.51 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9E3E"
+      coords 9.49 -0.423 2.987
+      angles 0 -26.149 0
+     }
+     GenericEntity {
+      ID "5E330D6C9FDD1551"
+      coords -3.971 0.262 -1.372
+      angles 0.138 97.28 1.533
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9FB1"
+      coords -8.772 -0.357 -0.995
+      angles 2.663 93.239 -8.003
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9FF4"
+      coords 7.262 -0.234 1.644
+      angles -4.638 60.423 -5.487
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9FA0"
+      coords -8.338 -0.336 -1.024
+      angles -2.253 -89.657 8.127
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9F49"
+      coords -8.461 -0.616 1.95
+      angles -5.398 0.054 -0.579
+     }
+    }
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType SQUAD_RIFLE
+      m_iSpawnDistanceOverride 350
+      m_iDespawnDistanceOverride 450
+      m_fAILimitThreshold 0.75
+     }
+    }
+    coords 39.585 11.527 36.248
+    angles 0 -90.717 0
+   }
+  }
+ }
+ SP_T3H_Laruns2 {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_fSupplyMultiplier 0
+   }
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_bExcludeFromRandomization 1
+    m_iScorePerTick 0
+    m_bExcludeFromBaseCaptureScore 1
+   }
+  }
+  coords 4257.585 60.06 5867.703
+  angles 0 68.72 0
+  {
+   GenericEntity {
+    ID "62388D8F13AD0811"
+    coords 0.253 0 5.137
+   }
+   GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+    coords -15.149 -0.001 2.996
+    angles 0 -179.486 0
+    {
+     GenericEntity {
+      ID "5D1ED92353BB9FF4"
+      coords -7.34 0.001 3.359
+      angles 0 -177.442 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9F82"
+      coords -7.166 0.001 -1.221
+      angles 0 91.739 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9F95"
+      coords -7.22 0.001 0.277
+      angles 0 93.58 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9FE3"
+      coords -7.223 0.001 2.197
+      angles 0 -2.088 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9E3E"
+      coords 2.997 0 -0.255
+      angles 0 4.513 0
+     }
+     GenericEntity {
+      ID "5E5CB30530D5EC6D"
+      coords -0.498 0 1.285
+      angles 0 116.995 0
+     }
+     GenericEntity {
+      ID "5E5CB30530D5ECB3"
+      coords -0.761 0 0.192
+      angles 0 -83.606 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9FB1"
+      coords -7.417 0 -2.678
+      angles 0 93.613 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9FA0"
+      coords -6.983 0 -2.709
+      angles 0 -89.335 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9E28"
+      coords -0.021 0.001 -4.025
+      angles 0 -3.43 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9FD2"
+      coords -0.001 0.001 -5.201
+      angles 0 -0.492 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9F49"
+      coords -4.695 0.001 0.338
+     }
+     GenericEntity {
+      ID "5D453938FA2CE085"
+      {
+       GenericEntity {
+        ID "5D453938F45912F0"
+        coords -0.562 0 0.521
+       }
+       GenericEntity {
+        ID "5D453938F45912F6"
+        coords -0.367 0 -3.938
+        angles 0 -92.416 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

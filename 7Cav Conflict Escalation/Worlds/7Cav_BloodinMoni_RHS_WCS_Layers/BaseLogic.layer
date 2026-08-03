@@ -1,0 +1,46 @@
+GenericEntity : "{1CF4014D7086BE9F}Prefabs/Compositions/Locations/Eden/Base_Airport_FIA_01.et" {
+ coords 4694.91 162.218 6945.458
+ {
+  GenericEntity {
+   ID "5E6ACA2CDC303E03"
+   Flags 0x100403 0
+   coords 34.69 0.938 37.272
+   angles 0 -93.085 0
+   {
+    GenericEntity {
+     ID "5E6ACA2CDC303E0D"
+     Flags 0x100403 0
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 0x100403 0
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2CDC303E8F"
+   coords 37.605 0.906 35.609
+   angles 0 -179.521 0
+   {
+    GenericEntity {
+     ID "5E6ACA2FF8E39CE6"
+     Flags 0x100003 0
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F02"
+     Flags 0x100003 0
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F15"
+     Flags 0x100003 0
+    }
+    SCR_SpawnPoint {
+     ID "5E6ACA2FF8E39F2B"
+     Flags 0x100003 0
+    }
+   }
+  }
+ }
+}

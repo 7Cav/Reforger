@@ -1,0 +1,172 @@
+$grp GenericEntity : "{38464762C5D374D2}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign.et" {
+ {
+  coords 4760.788 54.106 5842.753
+  angles -2.149 -146.342 0
+ }
+ {
+  coords 4840.767 51.726 5888.263
+  angles -1.968 150 0
+ }
+ {
+  coords 4892.171 109.723 8113.824
+  angles 5.616 -132 -2.83
+ }
+ {
+  coords 4881.905 111.905 8142.6
+  angles 9.228 -52.102 -2.121
+ }
+}
+GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
+ coords 4876.027 52.513 5715.602
+ angles 0 -16.679 0
+}
+$grp GenericEntity : "{78E7F5C4FFC687D5}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_02_Campaign.et" {
+ {
+  coords 4741.732 54.596 5834.935
+  angles 0 39.77 -4.309
+ }
+ {
+  coords 4760.327 54.131 5813.492
+  angles -1.413 55.932 -2.654
+ }
+ {
+  coords 4789.626 53.759 5856.382
+  angles 0 -165 -2.119
+ }
+ {
+  coords 4869.616 114.279 8040.725
+  angles 4.806 -88.684 0
+  {
+   GenericEntity {
+    ID "5D1ED92FEF2D2F21"
+    coords -1.894 -0.057 0.719
+    angles -1.776 -27.791 0
+   }
+  }
+ }
+ {
+  coords 4836.347 118.294 8157.403
+  angles 0 -173.345 -2.556
+ }
+}
+GenericEntity : "{869A4C4CA7F43C21}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_06_Campaign.et" {
+ coords 4871.928 52.5 5675.194
+ angles 0 -105 0
+}
+$grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ {
+  coords 6924.792 59.537 4485.83
+  angles 0 -49.201 -1.769
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    {
+     GenericEntity {
+      ID "5D45393936823FC0"
+      coords -5.998 -0.334 0.306
+      angles -0.394 0.022 0
+     }
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.182 -0.196 0.211
+     }
+    }
+   }
+   GenericEntity {
+    ID "5D1ED922875C41AD"
+    coords -4.154 -0.125 -1.065
+    angles 0 -2.198 0
+   }
+   GenericEntity {
+    ID "5D1ED922875C415B"
+    coords -3.986 -0.379 1.365
+    angles 0 4.848 0
+   }
+   GenericEntity {
+    ID "5D1ED922875C4149"
+    coords -4.226 -0.303 0.156
+    angles 0 -87.751 0
+   }
+  }
+ }
+ {
+  coords 4771.736 53.932 5843.775
+  angles 0 136.566 0.762
+ }
+ {
+  coords 4852.032 111.493 8103.602
+  angles 0 24.829 0
+  {
+   GenericEntity {
+    ID "5D1ED922875C41AD"
+    coords -4.16 0.136 -1.066
+    angles 0 -2.198 4.289
+   }
+   GenericEntity {
+    ID "5D1ED922875C4178"
+    coords 2.759 -0.226 -2.315
+    angles 0 -63.324 0
+   }
+   GenericEntity {
+    ID "5D1ED922875C418B"
+    coords 4.294 -0.239 1.204
+    angles 0 33.366 0
+   }
+   GenericEntity {
+    ID "5D1ED922875C41BB"
+    coords 4.295 -0.211 2.094
+    angles 0 -27.21 0
+   }
+   GenericEntity {
+    ID "5D1ED922875C4163"
+    coords 2.831 -0.135 0.414
+    angles 0 0.672 0
+   }
+  }
+ }
+ {
+  coords 6467.064 162.084 6493.529
+  angles 0 -19.751 0
+ }
+ {
+  coords 6427.175 162.112 6491.897
+  angles 0 155.354 0
+  {
+   GenericEntity {
+    ID "5D1ED922875C418B"
+    coords 4.294 -0.049 1.205
+    angles 0 33.366 0
+   }
+   GenericEntity {
+    ID "5D1ED922875C41BB"
+    coords 4.295 -0.047 2.094
+    angles 0 -27.21 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{F9A490888BED61DB}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign.et" {
+ {
+  coords 4852.334 52.946 5719.825
+  angles 0 164.811 -1.405
+  {
+   GenericEntity {
+    ID "5D1ED92353BB9F49"
+    coords -4.464 -0.026 0.547
+    angles -1.495 0 0
+   }
+  }
+ }
+ {
+  coords 6508.112 161.822 6478.687
+  angles 0 73.157 0
+ }
+ {
+  coords 10978.489 23.899 11802.68
+  angles 2.436 -49.022 -1.439
+ }
+ {
+  coords 1097.058 40.881 11603.3
+  angles 1.667 127.352 -3.639
+ }
+}

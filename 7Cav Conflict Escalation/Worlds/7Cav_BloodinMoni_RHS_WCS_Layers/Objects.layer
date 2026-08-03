@@ -1,0 +1,776 @@
+$grp GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ {
+  coords 4801.93 119.512 8158.622
+  angles -1.268 -30.076 2.834
+ }
+ {
+  coords 5238.511 35.028 10668.831
+  angles 0 -124.783 0
+ }
+ {
+  coords 5078.837 177.69 7034.13
+  angles 0 -47.903 0
+ }
+}
+GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ coords 5118.542 170.92 6903.708
+ angles 0 -138.484 0
+ {
+  GenericEntity {
+   ID "5CD2AC4D3DDFDC5C"
+   coords -2.563 -0.054 -0.94
+   angles 0 -92.857 0
+  }
+ }
+}
+$grp GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ {
+  coords 5090.986 53.687 5498.467
+ }
+ {
+  coords 4538.956 63.844 6297.852
+  angles 0 95.509 5.842
+ }
+}
+$grp GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ {
+  coords 4635.907 109.896 8248.565
+  {
+   StaticModelEntity {
+    ID "5CC6B49A31F9DC0C"
+    coords -0.732 -0.274 2.103
+    angles 6.547 143.035 0
+   }
+   StaticModelEntity {
+    ID "5CC6B49A31F9DD9B"
+    coords 1.258 -0.139 0.899
+    angles 9.349 169.186 0
+   }
+   StaticModelEntity {
+    ID "5CC6B49A31F9DDA1"
+    coords 4.215 -0.075 0.94
+    angles 0 -89.228 5.656
+   }
+   StaticModelEntity {
+    ID "5CC6B49A31F9DDF8"
+    coords -2.655 -0.019 0.94
+    angles 0 -137.501 0
+   }
+  }
+ }
+ {
+  coords 4032.127 110.687 6698.924
+  angles 7.851 59.906 -5.909
+  {
+   GenericEntity {
+    ID "5CC6B4BF606E2876"
+    coords -1.842 0.034 -1.284
+    angles 0 88.49 -8.668
+   }
+   GenericEntity {
+    ID "5CC6B4BF606E2850"
+    coords 2.021 -0.539 3.068
+    angles 0 92.235 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_US_01.et" {
+ {
+  coords 5884.955 99.627 5914.506
+  angles 0 102.858 0
+  {
+   StaticModelEntity {
+    ID "5CC6AA09EB402A13"
+    coords -0.924 -0.037 1.661
+    angles 0 -47.952 0
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402A57"
+    coords 1.818 -0.087 1.292
+    angles -1.468 51.017 -2.991
+   }
+  }
+ }
+ {
+  coords 4650.622 110.889 8242.632
+  angles 0 13.646 0
+  {
+   GenericEntity {
+    ID "5CC6AA09EB402D5F"
+    coords 1.152 0.316 0.301
+    angles 0 18.331 0
+   }
+   GenericEntity {
+    ID "5CC6AA09EB402D7A"
+    coords -1.025 -0.21 0.192
+    angles 0 -7.903 0
+   }
+   GenericEntity {
+    ID "5CC6B4B0E08C8E09"
+    coords -1.493 0.014 -1.905
+    angles 0 61.821 0
+   }
+   GenericEntity {
+    ID "5CC6B4B0E08C8E56"
+    coords 1.694 0.503 -1.821
+    angles 0 -92.358 0
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402AA0"
+    coords -0.223 -0.073 0.203
+    angles 0 -115.019 0
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402A0C"
+    coords 0.989 0.301 -0.775
+    angles 0 -1.886 -12.365
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402A13"
+    coords -0.924 -0.351 1.661
+    angles 0 -47.952 0
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402A57"
+    coords 1.82 0.593 1.292
+    angles 22.569 50.979 0
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402AFE"
+    coords -1.871 -0.068 -1.099
+    angles 0 -120.553 0
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402A8E"
+    coords 2.002 0.653 0.267
+    angles -15.234 -74.751 0
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402AD9"
+    coords -1.984 -0.189 -0.132
+    angles 0 -99.697 0
+   }
+  }
+ }
+ {
+  coords 5874.926 99.964 5905.864
+  angles 0 151.618 0
+  {
+   StaticModelEntity {
+    ID "5CC6AA09EB402A57"
+    coords 1.82 -0.028 1.292
+    angles 0 50.979 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ {
+  coords 5408.59 78.761 5704.873
+  angles 0 -6.469 -2.784
+  {
+   GenericEntity {
+    ID "5CC6B4BF5DDEF861"
+    coords -2.797 0.021 -2.25
+    angles 0 -76.767 0
+   }
+   GenericEntity {
+    ID "5E5AD06D797113DE"
+    coords 2.198 0.102 -2.338
+    angles 0 -99.208 0
+   }
+  }
+ }
+ {
+  coords 5185.511 171.443 6970.962
+  angles 0 133.807 0
+  {
+   GenericEntity {
+    ID "5CC6B4BF5DDEF861"
+    coords -2.798 0.072 -2.25
+    angles 0 -76.767 0
+   }
+   GenericEntity {
+    ID "5E5AD06D797113DE"
+    coords 2.193 0.067 -2.338
+    angles 0 -99.208 0
+   }
+  }
+ }
+ {
+  coords 5534.842 88.882 5895.88
+  angles 0 -175.522 0
+ }
+ {
+  coords 4903.307 109.304 8162.869
+  angles -15.909 117.641 0
+ }
+ {
+  coords 4799.112 118.685 8121.223
+  angles 0 -150 0
+ }
+}
+GenericEntity : "{533FA88E3F9EB25B}Prefabs/Compositions/Misc/SubCompositions/EquipmentBoxStacked_Cluttered_USSR_05.et" {
+ coords 5855.482 235.937 7262.374
+ angles 0 19.61 0
+}
+GenericEntity : "{6E0B8DB64AF23B6C}Prefabs/Compositions/Misc/SubCompositions/EquipmentBoxStacked_Cluttered_USSR_02.et" {
+ coords 5854.176 235.94 7258.742
+ angles 0 -72.56 0
+}
+$grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ {
+  coords 4452.423 59.807 6276.771
+  angles 0 -11.531 0
+ }
+ {
+  coords 4051.127 37.496 7958.363
+ }
+ {
+  coords 5154.687 170.865 6930.681
+  angles 0 134.014 0
+ }
+}
+$grp GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ {
+  coords 4380.629 56.411 6167.05
+  angles 0 -110.523 0
+ }
+ {
+  coords 5596.875 91.775 5949.226
+  angles 2.609 -4.587 0
+ }
+}
+$grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ {
+  coords 5211.261 73.481 5097.009
+  angles 0 -67.059 0
+ }
+ {
+  components {
+   RoadNetworkBridgeComponent "{6160981B98B30B7F}" {
+    Points {
+     -8 0 10
+     -1 0 -6
+    }
+   }
+  }
+  coords 4070.744 32.822 7839.666
+  angles 0 127.526 0
+ }
+ {
+  coords 4900.436 53.001 5895.594
+  angles 0 -114.641 0
+ }
+ {
+  coords 4894.743 110.981 8149.581
+  angles 7.733 -102.294 7.266
+ }
+ {
+  coords 4792.181 118.635 8125.515
+  angles 0 -142.213 0
+ }
+}
+$grp GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ {
+  coords 3977.217 27.137 7825.073
+  angles 0 -147.45 0
+ }
+ {
+  coords 4812.064 54.56 5720.312
+  angles 0 145.215 -2.866
+ }
+}
+$grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ {
+  coords 5881.475 99.7 5908.575
+  angles -0.833 111.517 -0.328
+  {
+   GenericEntity {
+    ID "5CC6B48B9C8C2BA0"
+    coords -2.89 -0.025 0.966
+    angles 0 -165.47 0
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2BF4"
+    coords -2.47 -0.091 2.854
+    angles 0 5.604 0
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2B94"
+    coords -2.348 -0.027 0.974
+    angles 0 -129.705 0
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords -0.001 0 0.001
+      angles -90 -177.883 -178.427
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2A7C"
+    coords 2.336 0.291 -2.181
+    angles 0 -96.241 75
+   }
+   GenericEntity {
+    ID "5CC6B4BF288B3FF4"
+    coords -3.313 -0.005 0.438
+    angles 0 -104.623 0
+   }
+   GenericEntity {
+    ID "5E5AD06E26C12FE8"
+    coords 2.591 0.135 -4.126
+    angles 0 -55.621 0
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2BDB"
+    coords -3.145 -0.035 1.291
+    angles 0 -69.67 0
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2A48"
+    coords -2.533 -0.068 2.179
+    angles 0 42.427 0
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2B00"
+    coords 2.449 0.08 -2.504
+    angles 0 103.572 0
+   }
+  }
+ }
+ {
+  coords 5218.795 73.349 5108.347
+  angles -3.632 -1.831 -1.671
+  {
+   GenericEntity {
+    ID "5CC6B48B9C8C2BA0"
+    coords -2.896 0.066 1.313
+    angles 0 -165.47 0
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2BF4"
+    coords -2.477 0.089 3.198
+    angles 0 5.604 0
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2B94"
+    coords -2.353 0.057 1.322
+    angles 0 -129.705 0
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0
+      angles -90 180 -177.51
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2A7C"
+    coords 2.909 0.161 -1.665
+    angles 0 -96.241 75
+   }
+   GenericEntity {
+    ID "5CC6B4BF288B3FF4"
+    coords -2.913 0.045 0.12
+    angles 0 -104.623 0
+   }
+   GenericEntity {
+    ID "5E5AD06E26C12FE8"
+    coords 3.168 -0.105 -3.607
+    angles 0 -55.621 0
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2BDB"
+    coords -3.153 0.075 1.638
+    angles 0 -69.67 0
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2A48"
+    coords -2.54 0.079 2.525
+    angles 0 42.427 0
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2B00"
+    coords 3.03 -0.106 -1.992
+    angles 0 103.572 0
+   }
+  }
+ }
+ {
+  coords 5416.906 78.966 5703.431
+  angles 0.876 11.755 0.182
+  {
+   GenericEntity {
+    ID "5CC6B48B9C8C2BA0"
+    coords -2.801 0.022 1.376
+    angles 0 -165.47 0
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2BF4"
+    coords -2.381 0.058 3.264
+    angles 0 5.604 0
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2B94"
+    coords -2.258 0.024 1.386
+    angles 0 -129.705 0
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0.001
+      angles -90 180 -180
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2A7C"
+    coords 2.322 0.197 -1.95
+    angles 0 -96.241 75
+   }
+   GenericEntity {
+    ID "5CC6B4BF288B3FF4"
+    coords -2.811 -0.014 0.33
+    angles 0 -104.623 0
+   }
+   GenericEntity {
+    ID "5E5AD06E26C12FE8"
+    coords 2.576 -0.076 -3.884
+    angles 0 -55.621 0
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2BDB"
+    coords -3.056 0.031 1.703
+    angles 0 -69.67 0
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2A48"
+    coords -2.445 0.043 2.59
+    angles 0 42.427 0
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2B00"
+    coords 2.434 -0.047 -2.262
+    angles 0 103.572 0
+   }
+  }
+ }
+ {
+  coords 5435.013 19.697 8354.918
+  angles 0 82.971 0
+  {
+   GenericEntity {
+    ID "5CC6B48B9C8C2BA0"
+    coords -2.251 0 0.8
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2BF4"
+    coords -1.831 0 2.687
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2B94"
+    coords -1.708 0 0.809
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2A7C"
+    coords 3.399 0.279 -3.061
+   }
+   GenericEntity {
+    ID "5CC6B4BF288B3FF4"
+    coords -2.137 -0.085 -0.526
+    angles 0 -104.623 0
+   }
+   GenericEntity {
+    ID "5E5AD06E26C12FE8"
+    coords 3.141 0.029 -5.07
+    angles 0 -55.621 0
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2BDB"
+    coords -2.506 0 1.126
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2A48"
+    coords -1.894 0 2.014
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2B00"
+    coords 3.517 0.019 -3.44
+   }
+  }
+ }
+ {
+  coords 5341.677 24.918 8423.963
+  angles 2.516 0 0
+ }
+ {
+  coords 4821.057 53.831 5720.288
+  angles -3.272 165 0
+ }
+ {
+  coords 4901.524 53.005 5902.19
+  angles 0 66.343 0
+ }
+ {
+  coords 4897.909 109.871 8155.15
+  angles -11.091 94.32 -1.289
+ }
+}
+StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ components {
+  Hierarchy "{5CCCBEF0E7D1350C}" {
+   Enabled 1
+  }
+ }
+ coords 5422.777 -0.325 5699.89
+ angles 19.095 104.18 6.993
+}
+GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et" {
+ coords 4833.334 54.063 5755.912
+ angles 0 160.389 -1.714
+}
+GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+ coords 4449.026 64.383 5025.768
+ angles 0 -54.078 0
+}
+GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_US_01.et" {
+ coords 4578.684 68.593 4974.128
+ angles 0 71.088 0
+ {
+  GenericEntity {
+   ID "5CCCBECA91C25D11"
+   coords -3.767 -0.107 -0.863
+   angles 3.605 79.836 0
+  }
+ }
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 5172.657 51.698 5513.975
+  angles 0 26.369 0
+ }
+ {
+  coords 5631.312 90.437 5873.712
+  angles 0 158.599 2.974
+  {
+   GenericEntity {
+    ID "5E5CB3014284530D"
+    coords -0.955 -0.064 0.779
+    angles 0 97.378 0
+   }
+   GenericEntity {
+    ID "5D1ED93DEBE99308"
+    coords -2.516 -0.09 0.375
+    angles 0 -95.729 0
+   }
+   GenericEntity {
+    ID "5D1ED93DEBE99369"
+    coords 5.418 0.237 -1.51
+    angles 0 -73.983 0
+   }
+  }
+ }
+ {
+  coords 7372.612 139.496 2226.202
+  angles 0 69.525 0
+  {
+   GenericEntity {
+    ID "5E5CB3014284530D"
+    coords -0.963 0 0.779
+    angles 0 97.378 0
+   }
+   GenericEntity {
+    ID "5D1ED93DEBE99308"
+    coords -2.52 0.127 0.375
+    angles 0 -95.729 0
+   }
+   GenericEntity {
+    ID "5D1ED93DEBE99369"
+    coords -9.388 -0.379 0.245
+    angles 0 -116.218 0
+   }
+  }
+ }
+ {
+  coords 5348.062 26.403 8362.666
+  angles -5.335 -0.334 3.592
+ }
+ {
+  coords 5406.823 22.004 8343.621
+  angles -5.019 38.523 0.569
+ }
+ {
+  coords 4451.532 58.59 6219.109
+  angles 1.224 133.133 -1.306
+ }
+ {
+  coords 4401.476 56.703 6229.549
+  angles -0.944 -93.24 -0.843
+ }
+ {
+  coords 8801.993 198.234 3917.803
+  angles 3.572 -15.796 -3.79
+ }
+ {
+  coords 4508.125 62.702 5044.994
+  angles -0.27 -32.687 1.237
+ }
+ {
+  coords 5113.487 54.228 5457.415
+  angles 0.841 -159.995 0.306
+ }
+ {
+  coords 4037.564 34.843 7905.49
+  angles 6.389 63.893 -1.143
+ }
+ {
+  coords 3971.645 27.676 7856.045
+  angles -6.279 -145.047 4.297
+ }
+ {
+  coords 5577.302 90.044 5921.642
+  angles 3.761 52.415 0.489
+ }
+}
+GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
+ coords 5060.851 54.344 5428.83
+ angles 0 -85.979 0
+}
+$grp GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ {
+  coords 4030.345 110.645 6707.217
+  angles -8.91 -92.491 -0.499
+  {
+   GenericEntity {
+    ID "5CC6B48E65457D2D"
+    coords 2.225 0 -1.701
+   }
+   GenericEntity {
+    ID "5CC6B48E65457AB2"
+    coords -1.57 0 2.761
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D0D"
+    coords 2.669 0 -1.625
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D79"
+    coords -2.776 0 1.651
+    {
+     GenericEntity {
+      ID "52F07DE9F3BBC081"
+      coords -0.044 0.743 -0.01
+     }
+     GenericEntity {
+      ID "52F07DE9F3BBC170"
+      coords 0 0.368 0.006
+     }
+     GenericEntity {
+      ID "5CB0D9960149C45D"
+      coords 0.619 0.395 -0.005
+     }
+    }
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457D46"
+    coords 2.652 0 -2.188
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AD1"
+    coords 1.845 0 -2.367
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AFB"
+    coords -1.661 0 1.993
+   }
+  }
+ }
+ {
+  coords 4643.649 110.316 8245.553
+  angles -7.1 -4.873 0.604
+  {
+   GenericEntity {
+    ID "5CC6B48E65457D2D"
+    coords 2.5 0 -1.706
+   }
+   GenericEntity {
+    ID "5CC6B48E65457AB2"
+    coords -1.742 0 2.913
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D0D"
+    coords 2.944 0 -1.631
+   }
+   GenericEntity {
+    ID "5CC6B4BF3343B4E9"
+    coords -3.26 0 -0.281
+   }
+   GenericEntity {
+    ID "5CC6B48E65457D79"
+    coords -2.947 0 1.803
+    {
+     GenericEntity {
+      ID "52F07DE9F3BBC081"
+      coords -0.045 0.743 -0.011
+     }
+     GenericEntity {
+      ID "52F07DE9F3BBC170"
+      coords 0 0.368 0.006
+     }
+     GenericEntity {
+      ID "5CB0D9960149C45D"
+      coords 0.618 0.395 -0.006
+     }
+    }
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457D46"
+    coords 2.926 0 -2.194
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AD1"
+    coords 2.12 0 -2.372
+   }
+   StaticModelEntity {
+    ID "5CC6B48E65457AFB"
+    coords -1.833 0 2.145
+   }
+  }
+ }
+ {
+  coords 4446.21 63.107 4958.147
+  angles 0 -99.708 0
+ }
+}
+GenericEntity : "{EF08CE3813C6BB6E}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_USSR_01.et" {
+ coords 5858.067 235.963 7260.428
+ angles 0 -47.476 0
+}
+$grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+ {
+  components {
+   Hierarchy "{5CB0D990A16ADE7E}" {
+    Enabled 1
+   }
+  }
+  coords 5420.354 0 5700.112
+  angles 0 93.526 0
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF31A89F2BF}" {
+    Enabled 1
+   }
+  }
+  coords 7605.167 -0.202 4521.281
+  angles 0 -65.344 0
+ }
+}

@@ -1,0 +1,244 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ TownMonti {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 300
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresCaptureAndHoldAreas 1
+    m_iAreaThreshold 50
+    m_aCaptureAndHoldAreaNames {
+     "CAH_Airfield_A"
+     "CAH_Airfield_B"
+     "CAH_Airfield_C"
+    }
+    m_bRequiresAssignment 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsReceivingFromIsland 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Montignac"
+    m_sBaseNameUpper "MONTIGNAC"
+    m_sMapLocationName "LocationMonti"
+    m_fRadioAntennaServiceRange 1000
+    m_bExcludeFromRandomization 1
+    m_fTickRate 5000
+    m_iScorePerTick 30
+   }
+  }
+  coords 4721.227 168.822 6993.362
+  angles 0 175.982 0
+ }
+ TownBaseFigari {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresAssignment 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Figari"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Figari-UC"
+    m_sMapLocationName "LocationFigari"
+    m_fRadioAntennaServiceRange 1000
+    m_bExcludeFromRandomization 1
+    m_fTickRate 5000
+   }
+  }
+  coords 5151.136 51.156 5563.683
+  angles 0 178.943 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.003 -0.109 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0 -0.13 14
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+   }
+  }
+ }
+ TownBaseProvins {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresAssignment 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Provins"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Provins-UC"
+    m_sMapLocationName "C_LocationProvins"
+    m_fRadioAntennaServiceRange 1000
+    m_bExcludeFromRandomization 1
+    m_fTickRate 5000
+   }
+  }
+  coords 5274.366 66.826 6090.102
+  angles 0 9.853 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.001 0.803 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.002 0.957 14
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+   }
+  }
+ }
+ TownBaseGravette {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresAssignment 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Gravette"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Gravette-UC"
+    m_sMapLocationName "LocationGravette"
+    m_fRadioAntennaServiceRange 1000
+    m_bExcludeFromRandomization 1
+    m_fTickRate 5000
+   }
+  }
+  coords 4288.244 58.965 7751.227
+  angles 0 -56.275 0
+ }
+ SmallBaseLake {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresAssignment 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_PinewoodLake"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_PinewoodLake-UC"
+    m_fRadioAntennaServiceRange 1000
+    m_bExcludeFromRandomization 1
+    m_fTickRate 5000
+   }
+  }
+  coords 4439.679 58.718 6237.203
+  angles 0 175.979 0
+ }
+ SmallBaseHornbeamValley {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresAssignment 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_HornbeamValley"
+    m_sBaseNameUpper "#AR-MapLocation_HornbeamValley"
+    m_fRadioAntennaServiceRange 1000
+    m_bExcludeFromRandomization 1
+    m_fTickRate 5000
+   }
+  }
+  coords 4897.375 143.428 7660.57
+  angles 0 -54.336 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.478 12.001
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.001 -0.507 14.001
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+   }
+  }
+ }
+ TownBaseGorey {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresAssignment 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Gorey"
+    m_sBaseNameUpper "GOREY"
+    m_sMapLocationName "LocationGorey"
+    m_fRadioAntennaServiceRange 1000
+    m_bExcludeFromRandomization 1
+    m_fTickRate 5000
+   }
+  }
+  coords 4611.713 109.321 8253.37
+  angles 0 -56.275 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.001 -0.869 12.001
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.004 -1.05 14
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.002 0 0.001
+   }
+  }
+ }
+}

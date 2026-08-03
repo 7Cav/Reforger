@@ -3,7 +3,7 @@ GameProject {
  GUID "6620F9E13985C876"
  TITLE "7Cav Systems"
  Dependencies {
-  "58D0FB3206B6F859" "65930CB4CD0237B2" "68996556700D5CA1"
+  "58D0FB3206B6F859" "65930CB4CD0237B2" "68996556700D5CA1" "656AC01634459D8D"
  }
  Configurations {
   GameProjectConfig PC {
@@ -21,6 +21,8 @@ GameProject {
   GameProjectConfig PS5 {
   }
   GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig Xbox {
   }
  }
 }

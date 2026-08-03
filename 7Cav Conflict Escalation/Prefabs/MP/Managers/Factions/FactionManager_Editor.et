@@ -1,3 +1,504 @@
 SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
  ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{56DEAC40D2DBC8B1}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C9E82F29B327997}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{60569780DE4EE17A}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{5D2348262D0503DF}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5D234826CBF8D6F7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5D234826CA7617D2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65CE44FDF2502CAB}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6056978054CDBCDD}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65CE44FDF98011B1}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5D234826CAEE99CC}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65CE44FD88072023}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5D234826C9B9A827}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6323328FB5180305}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{69C223790CAB22D8}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{69C2237908FCF7B4}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65CE44D07019303F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5D8951ED51D7359E}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6323328FBE6D736A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65CE44D0D02CFC4A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65CE44D31406A816}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6556535C799A9432}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6556535C7283C1AD}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6556535C71C449DD}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64CF5AE1175208FB}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{69F4229C53E5ED23}" {
+         m_bEnabled 0
+        }
+       }
+      }
+     }
+    }
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{619028951D30FAC5}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{630A47DC7892F070}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{6190289549724388}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{64F921709E5F8B2C}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64FE081B43A9662D}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{61902E829400DABE}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{660329CEF0E6D23F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{660329CED2D5B75F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{660329CEDA30B551}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{61AE911D94D68A31}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{659400AE057147B8}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{659400AE0F874A32}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{659400AE0ACBF93E}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6594077278D6592D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6594077267D77F79}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6594077266DBE1DC}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64D4D5BBE031495B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64D4D5BBE28E6361}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64D4D5BBC65BD7FA}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64D4D5BBE48AA67F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64D4D5BBC5903BBB}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D56385003B6BED}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D5638509B690CB}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D56385F4FBF277}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D56385FE50AE1E}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D64C298CC063A9}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D64C2A73D77999}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{644872C8E4E6978B}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{657ED941DD126ABE}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657ED941C3A353EA}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657ED941C2AAA921}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657ED941C1C13C27}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657ED941CF7A596F}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{644C331C45E76224}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{65D43D77BEC3DD7B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6591551EF1808A89}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6591551EFCC4E4F7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6591586277BE0FA1}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{659158627393B098}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{659158627E67EB7F}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{62D77E8A45A7ECCB}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{60F6221ED5137772}" {
+         m_bEnabled 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_Faction "{56DEAC40D3C2E623}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C9E82F285C09E24}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{605697836F02AFD9}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{64CF5AE14BF35EAC}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6556514F69163673}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6556514F64959DE2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FECE34580444E2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6323328F6214B543}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FECE3423EED317}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FECE344A61B39B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FECE344943A6FE}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{69091CE3C3A664FB}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{69091CE3C88DE316}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FECE347E9769B9}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FECE34706C45BB}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FECE347FDD257B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FD0B01E292BFB7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{623E4AB4076B5263}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FD0B01E4401901}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FD0B01D06E2578}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FD0B01D3EA267F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64F0B8D9CBA5FF38}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64F0B8D9C8B18EEE}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{69DE97E1D59937F4}" {
+         m_bEnabled 0
+        }
+       }
+      }
+     }
+    }
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{64485E227881FC81}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{630A47DC516BB750}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{64485E2266018F38}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{64F921708DD7C92D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64FE081B23392A2D}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{64485E2231B7DECF}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{66043918E9FEDC9D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{66043918D475C6FD}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{66043918D182428F}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{64485E233D1E7312}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{659372818FA7D1FF}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{659400AE8CCE4B16}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{659400AE8BC5153E}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6594056F7F49418E}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6594056F7D309956}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6594056F7B734635}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{659400AEFE8F2701}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{659400AE814804F1}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D56385E1A9880A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D56385E0A7D49D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D56385ED7334D4}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D56385EC3FCEBD}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D64C2A32F73030}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D659060E77917C}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D659060837722A}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{644872C8192ED18A}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{657EF4B5BEF7A1F8}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657EF4B5BC12E0B0}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657EF4B5BB38250B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657EF4B5B9A964F6}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657EF4B5ACC181E7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657EF4B5ABCDC282}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657EF4B5AAAA8DB9}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657EF4B58484C6EE}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657EF4B582F855B1}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{644C331C60C9DCE8}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{65DE6C608A4CEAE7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65DE6C608839E124}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65913AA2EE7FA2E4}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{659153D77D1B5521}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65913AA2D7F3B13C}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65913AA2DB5E7281}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65D43D7797D752B2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{659153D75A868213}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{659153D743391987}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{659158638725F658}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65915863828E6504}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{64485E23278438AD}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{657B6E56132ECE8C}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{64485E2326D0A9C8}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{645347C897CD37B2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6448757B2896D354}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64494505E99693CE}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{657AFD504A103A39}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{9CC79273B472B943}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{742D91CB7CE646B7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{13DB65A52C73E049}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{030AD54D00D84312}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{A0720DF439CE6AAF}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{8A398C3411A187C0}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{64485E23268E35B5}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{644A1D5F9EB53200}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{647B4EFC24E48D0F}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{64485E2325697B0A}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{61B68D9B553326E2}" {
+         m_bEnabled 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
