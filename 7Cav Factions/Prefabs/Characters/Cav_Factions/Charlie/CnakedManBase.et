@@ -31,10 +31,10 @@ SCR_ChimeraCharacter : "{ECD07832524366A2}Prefabs/Characters/Cav_Factions/Prefab
      Prefab "{4B27F698E10C5C9C}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MID_MC_AMP_CAV.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{7BA7FF3E9F68960E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
+     Prefab "{F894DB801742C052}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_FullS_MC.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
+     Prefab "{BC13AD4C3E6173AF}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_KpadsG2_MC.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
@@ -47,13 +47,13 @@ SCR_ChimeraCharacter : "{ECD07832524366A2}Prefabs/Characters/Cav_Factions/Prefab
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6690081F571D21D8}" {
-     TargetStorage "Pants/crye_pants_mc.et"
+     TargetStorage "Pants/CP_G3_Pants_KpadsG2_MC.et"
      PrefabsToSpawn {
       "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
      }
     }
     ItemsInitConfigurationItem "{66900810FC9997AB}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_FullS_MC.et"
      PrefabsToSpawn {
       "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
      }
