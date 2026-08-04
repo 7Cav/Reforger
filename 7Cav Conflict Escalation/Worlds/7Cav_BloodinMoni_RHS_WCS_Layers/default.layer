@@ -130,6 +130,19 @@ SCR_CampaignFactionManager EscalationFactionManager1 : "{78675292D894020F}Prefab
    }
   }
   SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aGroupRolePresetConfigs {
+    SCR_GroupRolePresetConfig "{6176805F751756E5}" {
+     m_aLoadoutResources {
+      "{BE7CA93E188A5B58}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Base.et"
+      "{2B509D56E78DDE1B}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_Rifleman_modern.et"
+      "{3E18CC9634468249}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_GL.et"
+      "{33CDB2B7C3F1EB63}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_AR.et"
+      "{671B4F83DE9956B0}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_RTO.et"
+      "{E27CC9493BFAF668}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_Sniper.et"
+      "{62A43F371C0CB447}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_CombatMedic.et"
+     }
+    }
+   }
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
      m_aMultiLists {
@@ -168,6 +181,6 @@ MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et"
   }
  }
 }
-SCR_LoadoutManager : "{89B6D1B64BFF51F1}Prefabs/MP/Campaign/CampaignLoadoutManager_RHS.et" {
- coords 6398.731 159.457 6427.525
+SCR_LoadoutManager : "{EFDA71CCB32E5A7E}Prefabs/MP/Campaign/CampaignLoadoutManager_modern.et" {
+ coords 6398.968 159.459 6427.243
 }

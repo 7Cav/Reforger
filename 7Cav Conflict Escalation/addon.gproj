@@ -3,7 +3,7 @@ GameProject {
  GUID "69695D85A8B6F130"
  TITLE "7Cav Conflict Escalation"
  Dependencies {
-  "58D0FB3206B6F859" "651F6696EA91070C" "595F2BF2F44836FB"
+  "58D0FB3206B6F859" "651F6696EA91070C"
  }
  Configurations {
   GameProjectConfig PC {
