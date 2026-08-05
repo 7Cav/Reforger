@@ -94,6 +94,7 @@ SCR_GameModeCampaign GameMode_Escalation_Scoring1 : "{598F43E0F4973407}Prefabs/M
  m_fAutoReloadTime 60
  m_iControlPointsThreshold 3
  m_bShowBattlePrepTimer 1
+ BATTLE_PREP_TIME_S 600
  m_iMHQRange 1000
  m_bRandomizeBases 1
  m_iRandomizeTreshold 6
@@ -106,6 +107,13 @@ SCR_CampaignFactionManager EscalationFactionManager1 : "{78675292D894020F}Prefab
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" {
      m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{64485E227881FC81}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{630A47DC516BB750}" {
+         m_bEnabled 0
+        }
+       }
+      }
       SCR_EntityCatalogMultiListEntry "{5C68AD5F13464B23}" {
        m_aEntities {
         SCR_EntityCatalogInventoryItem "{5C62F7DF3CADCB12}" {
@@ -130,22 +138,16 @@ SCR_CampaignFactionManager EscalationFactionManager1 : "{78675292D894020F}Prefab
    }
   }
   SCR_CampaignFaction "{50B30C3ADB052C80}" {
-   m_aGroupRolePresetConfigs {
-    SCR_GroupRolePresetConfig "{6176805F751756E5}" {
-     m_aLoadoutResources {
-      "{BE7CA93E188A5B58}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Base.et"
-      "{2B509D56E78DDE1B}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_Rifleman_modern.et"
-      "{3E18CC9634468249}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_GL.et"
-      "{33CDB2B7C3F1EB63}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_AR.et"
-      "{671B4F83DE9956B0}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_RTO.et"
-      "{E27CC9493BFAF668}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_Sniper.et"
-      "{62A43F371C0CB447}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_CombatMedic.et"
-     }
-    }
-   }
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
      m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{619028951D30FAC5}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{630A47DC7892F070}" {
+         m_bEnabled 0
+        }
+       }
+      }
       SCR_EntityCatalogMultiListEntry "{5C68AD59AA2B2FF4}" {
        m_aEntities {
         SCR_EntityCatalogInventoryItem "{5C62F7D8F231A82E}" {
@@ -183,4 +185,9 @@ MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et"
 }
 SCR_LoadoutManager : "{EFDA71CCB32E5A7E}Prefabs/MP/Campaign/CampaignLoadoutManager_modern.et" {
  coords 6398.968 159.459 6427.243
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{6170DD53579DD2C4}" {
+   m_sLoadoutResource "{C5574DAD3956486C}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_Rifleman.et"
+  }
+ }
 }

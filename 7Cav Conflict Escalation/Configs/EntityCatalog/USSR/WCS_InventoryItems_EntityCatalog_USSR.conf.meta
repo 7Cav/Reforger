@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AC11437A0841F0C1}Configs/EntityCatalog/USSR/WCS_InventoryItems_EntityCatalog_USSR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
