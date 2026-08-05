@@ -19,13 +19,18 @@ SCR_ChimeraCharacter : "{C810B8F6F7127CC6}Prefabs/Characters/Cav_Factions/Bravo/
     LoadoutSlotInfo Hat {
      Prefab "{4B27F698E10C5C9C}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MID_MC_AMP_CAV.et"
     }
+    LoadoutSlotInfo Jacket {
+     Prefab "{F894DB801742C052}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_FullS_MC.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B81D7AF80636D808}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_base_MC.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{66902106DD32415D}" {
-     PrefabsToSpawn {
-      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{66491388B9C310FA}" {
@@ -37,8 +42,7 @@ SCR_ChimeraCharacter : "{C810B8F6F7127CC6}Prefabs/Characters/Cav_Factions/Bravo/
     }
     ItemsInitConfigurationItem "{668D60E9C291FE11}" {
      Enabled 1
-     PrefabsToSpawn {
-      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{668D60E92BE7EAAE}" {

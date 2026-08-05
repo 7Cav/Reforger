@@ -29,6 +29,9 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{7F453261721CCE10}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_RollS_MC.et"
+    }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{4A11957AAD447582}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MC.et"
     }
@@ -42,6 +45,9 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
     ItemsInitConfigurationItem "{6690081F571D21D8}" {
      PrefabsToSpawn +{
      }
+    }
+    ItemsInitConfigurationItem "{66900810FC9997AB}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_RollS_MC.et"
     }
     ItemsInitConfigurationItem "{66260B3A958F6868}" {
      TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/tako/Pouch_FILBE_doubleM4_1.et"

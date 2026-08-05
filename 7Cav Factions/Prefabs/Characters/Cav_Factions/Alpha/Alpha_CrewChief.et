@@ -25,13 +25,16 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
      Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{FDBB85CE4A7D4D49}Prefabs/Characters/Vests/Vest_ALSE/variants/Vest_ALSE_Pilot.et"
+     Prefab "{6AB41609027AA0FB}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_CoyMG.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{66495389F6486813}" {
+     PrefabsToSpawn {
+      "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et" "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
     }
     ItemsInitConfigurationItem "{6649599E246F82C7}" {
      TargetStorage "Back/Backpack_511_rush12_MC.et"
@@ -40,43 +43,43 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
      }
     }
     ItemsInitConfigurationItem "{66AF5AB156922132}" {
-     TargetStorage "Vest/Vest_ALSE_Pilot.et/pistol1/Pouch_Highspeed_Pistol_MC.et"
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/pistolpouch2/Pouch_Highspeed_Pistol.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
      }
     }
     ItemsInitConfigurationItem "{66AF5AB141AF416C}" {
-     TargetStorage "Vest/Vest_ALSE_Pilot.et/pistol2/Pouch_Highspeed_Pistol_MC.et"
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/pistol2/Pouch_Highspeed_Pistol.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
      }
     }
     ItemsInitConfigurationItem "{66AF5AB2AC568895}" {
-     TargetStorage "Vest/Vest_ALSE_Pilot.et/Tako/Pouch_Filbe_M18_1.et"
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/m18_1/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{66AF5AB2AC791197}" {
-     TargetStorage "Vest/Vest_ALSE_Pilot.et/magpouch2/Pouch_Filbe_M18_2.et"
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/m18_2/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{66AF5AB284106B64}" {
-     TargetStorage "Vest/Vest_ALSE_Pilot.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
      PrefabsToSpawn {
       "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{66AF5AB284E41C03}" {
-     TargetStorage "Vest/Vest_ALSE_Pilot.et/HSGI/Pouch_Shaw_Nerd_Mini_MC.et"
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/saw/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
       "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
      }
     }
     ItemsInitConfigurationItem "{66AF5AB2834DBF3B}" {
-     TargetStorage "Vest/Vest_ALSE_Pilot.et/nerd/Pouch_KBS_Admin_base.et"
+     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/saw/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
       "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
      }

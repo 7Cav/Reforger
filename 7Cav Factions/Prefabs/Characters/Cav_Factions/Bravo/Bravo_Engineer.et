@@ -12,6 +12,15 @@ SCR_ChimeraCharacter : "{29C9C7591C683955}Prefabs/Characters/Cav_Factions/Bravo/
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4B27F698E10C5C9C}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MID_MC_AMP_CAV.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{F894DB801742C052}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_FullS_MC.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B4E5DD4F6136609D}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_KpadsSP_MC.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{2F4F0FAAA0C3312E}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack_Heavy_CavIssued.et"
     }
@@ -19,6 +28,12 @@ SCR_ChimeraCharacter : "{29C9C7591C683955}Prefabs/Characters/Cav_Factions/Bravo/
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{66902106DD32415D}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsSP_MC.et"
+    }
+    ItemsInitConfigurationItem "{66902106DD3241AC}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_FullS_MC.et"
+    }
     ItemsInitConfigurationItem "{66260B3A958FE015}" {
      PrefabsToSpawn +{
      }
