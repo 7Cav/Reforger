@@ -21,14 +21,14 @@ SCR_ChimeraCharacter : "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
-    LoadoutSlotInfo Hat {
-     Prefab "{2755E5DB23A48945}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_lc_c_l_crossbow_desert.et"
+        LoadoutSlotInfo Hat {
+     Prefab "{7DD9CEADA6D3B92E}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC_PELTOR.et"
     }
-    LoadoutSlotInfo Jacket {
-     Prefab "{7A31BAAF2D74B8B4}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_Arid.et"
+        LoadoutSlotInfo Jacket {
+     Prefab "{23428DF912E6E1DF}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_PushS_MC.et"
     }
-    LoadoutSlotInfo Pants {
-     Prefab "{F6A9C2400BE103E4}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_Arid.et"
+        LoadoutSlotInfo Pants {
+     Prefab "{7BDF3DD1CB3730A3}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_KpadsG3_MC.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
@@ -44,7 +44,7 @@ SCR_ChimeraCharacter : "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{60C562134DF9E2FF}" {
-     TargetStorage "Pants/Pants_FROG_Trousers_Arid.et"
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC.et"
      PrefabsToSpawn {
       "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
      }
@@ -56,14 +56,14 @@ SCR_ChimeraCharacter : "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_
      }
     }
     ItemsInitConfigurationItem "{651D048C848632D6}" {
-     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt_Arid.et"
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_PushS_MC.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
      }
     }
     ItemsInitConfigurationItem "{652B48EEB578AC6E}" {
-     TargetStorage "Pants/Pants_FROG_Trousers_Arid.et"
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC.et"
      PrefabsToSpawn {
       "{F088066F5F807748}Prefabs/Weapons/Attachments/Bayonets/Bayonet_OKC3S.et"
      }
