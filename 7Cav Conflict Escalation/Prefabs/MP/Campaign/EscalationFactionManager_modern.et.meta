@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E5F7A8B64B740096}Prefabs/Characters/Campaign/Final/BLUFOR/Campaign_US_Player_Sniper_modern.et"
+ Name "{37CA40C089F6645C}Prefabs/MP/Campaign/EscalationFactionManager_modern.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

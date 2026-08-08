@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{1D8257715EE8E1DB}Prefabs/Characters/Campaign/Final/BLUFOR/Campaign_US_Player_GL_modern.et"
+ Name "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifleman.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

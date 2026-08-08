@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{D8D6FD567CC72E9E}Prefabs/Characters/Campaign/Final/BLUFOR/Campaign_US_Player_LAT_modern.et"
+ Name "{C3A8C06BF84FFFE3}Prefabs/MP/Campaign/EscalationLoadoutManager_modern.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

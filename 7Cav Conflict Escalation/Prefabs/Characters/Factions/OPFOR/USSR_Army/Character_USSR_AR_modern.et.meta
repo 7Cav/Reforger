@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{3CE2A78D7121EE0E}Prefabs/Characters/Campaign/Final/BLUFOR/Campaign_US_Player_RTO_modern.et"
+ Name "{41FD67BD0B313EE6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_modern.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

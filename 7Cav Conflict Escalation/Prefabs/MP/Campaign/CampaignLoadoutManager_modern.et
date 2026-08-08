@@ -1,8 +1,0 @@
-SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
- ID "5690D9DBA5D97663"
- m_aPlayerLoadouts {
-  SCR_FactionPlayerLoadout "{6170DD53579DD2C4}" {
-   m_sLoadoutResource "{2B509D56E78DDE1B}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_Rifleman_modern.et"
-  }
- }
-}

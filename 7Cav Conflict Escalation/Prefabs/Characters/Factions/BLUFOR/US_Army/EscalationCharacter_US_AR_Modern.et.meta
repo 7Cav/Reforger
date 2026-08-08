@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{EFDA71CCB32E5A7E}Prefabs/MP/Campaign/CampaignLoadoutManager_modern.et"
+ Name "{FB3D5E34C690C947}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_AR_Modern.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

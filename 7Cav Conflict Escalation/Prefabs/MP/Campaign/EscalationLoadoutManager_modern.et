@@ -1,0 +1,65 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{6A0F27C6F5673DA4}" {
+   m_sLoadoutName "#AR-Role_Rifleman"
+   m_sLoadoutResource "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{6A0F27C6F5673DB7}" {
+   m_sLoadoutName "#AR-Role_Grenadier"
+   m_sLoadoutResource "{01E096C59DD614ED}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_GL_Modern.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{6A0F27C6F5673DB6}" {
+   m_sLoadoutName "#AR-Role_MachineGunner"
+   m_sLoadoutResource "{FB3D5E34C690C947}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_AR_Modern.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{6A0F27C6F5673DB5}" {
+   m_sLoadoutName "#AR-Role_LightAT"
+   m_sLoadoutResource "{D8D6FD567CC72E9E}Prefabs/Characters/Campaign/Final/BLUFOR/Campaign_US_Player_LAT_modern.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{6A0F27C6F5673DB4}" {
+   m_sLoadoutName "#AR-Role_Sniper"
+   m_sLoadoutResource "{9AB136F0EA071C10}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Sniper_Modern.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_PlayerArsenalLoadout "{6A0F27C6F5673DB3}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{BE7CA93E188A5B58}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Base.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{6A0F27C6F5673DB2}" {
+   m_sLoadoutName "#AR-Role_Rifleman"
+   m_sLoadoutResource "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{6A0F27C6F5673DB1}" {
+   m_sLoadoutName "#AR-Role_Grenadier"
+   m_sLoadoutResource "{BB20AF4C5077E34C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL_modern.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{6A0F27C6F5673DB0}" {
+   m_sLoadoutName "#AR-Role_MachineGunner"
+   m_sLoadoutResource "{41FD67BD0B313EE6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_modern.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{6A0F27C6F567698B}" {
+   m_sLoadoutName "#AR-Role_AntiTank"
+   m_sLoadoutResource "{790528FAE9DC5204}Prefabs/Characters/Factions/OPFOR/USSR_Army/EscalationCharacter_USSR_AT.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{6A0F27C6F56769B5}" {
+   m_sLoadoutName "#AR-Role_Sharpshooter"
+   m_sLoadoutResource "{646C1504481EA822}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sniper_modern.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_PlayerArsenalLoadout "{6A0F27C6F56769B6}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+   m_sAffiliatedFaction "USSR"
+  }
+ }
+}

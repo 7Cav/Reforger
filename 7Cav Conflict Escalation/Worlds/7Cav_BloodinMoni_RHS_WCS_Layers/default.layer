@@ -39,6 +39,9 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 7114.537 103.567 6279.017
 }
+SCR_CampaignFactionManager EscalationFactionManager_modern1 : "{37CA40C089F6645C}Prefabs/MP/Campaign/EscalationFactionManager_modern.et" {
+ coords 6400.98 159.552 6426.713
+}
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 3788.745 121.599 5088.213
 }
@@ -100,79 +103,6 @@ SCR_GameModeCampaign GameMode_Escalation_Scoring1 : "{598F43E0F4973407}Prefabs/M
  m_iRandomizeTreshold 6
  m_bAutoRadioRanges 1
 }
-SCR_CampaignFactionManager EscalationFactionManager1 : "{78675292D894020F}Prefabs/MP/Campaign/EscalationFactionManager.et" {
- coords 7105.271 102.904 6288.018
- Factions {
-  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
-   m_aEntityCatalogs {
-    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" {
-     m_aMultiLists {
-      SCR_EntityCatalogMultiListEntry "{64485E227881FC81}" {
-       m_aEntities {
-        SCR_EntityCatalogInventoryItem "{630A47DC516BB750}" {
-         m_bEnabled 0
-        }
-       }
-      }
-      SCR_EntityCatalogMultiListEntry "{5C68AD5F13464B23}" {
-       m_aEntities {
-        SCR_EntityCatalogInventoryItem "{5C62F7DF3CADCB12}" {
-         m_aEntityDataList {
-          SCR_ArsenalItem "{5C62F7DF7EE3634D}" {
-           m_iSupplyCost 100
-          }
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-   m_aStartingVehicles {
-    "{B845B8B82C76BA68}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_filled.et"
-    "{B845B8B82C76BA68}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_filled.et"
-    "{B36056D3A35C1DED}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_filled.et"
-    "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
-    "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
-    "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
-   }
-  }
-  SCR_CampaignFaction "{50B30C3ADB052C80}" {
-   m_aEntityCatalogs {
-    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
-     m_aMultiLists {
-      SCR_EntityCatalogMultiListEntry "{619028951D30FAC5}" {
-       m_aEntities {
-        SCR_EntityCatalogInventoryItem "{630A47DC7892F070}" {
-         m_bEnabled 0
-        }
-       }
-      }
-      SCR_EntityCatalogMultiListEntry "{5C68AD59AA2B2FF4}" {
-       m_aEntities {
-        SCR_EntityCatalogInventoryItem "{5C62F7D8F231A82E}" {
-         m_aEntityDataList {
-          SCR_ArsenalItem "{5C62F7D82341C942}" {
-           m_iSupplyCost 100
-          }
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-   m_aStartingVehicles {
-    "{A3786C5C8687F004}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC_filled.et"
-    "{A3786C5C8687F004}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC_filled.et"
-    "{2013579FE0B109F3}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer_MERDC_filled.et"
-    "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et"
-    "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et"
-    "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et"
-   }
-  }
- }
-}
 RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
  coords 3915.16 122.047 5307.797
 }
@@ -183,11 +113,6 @@ MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et"
   }
  }
 }
-SCR_LoadoutManager : "{EFDA71CCB32E5A7E}Prefabs/MP/Campaign/CampaignLoadoutManager_modern.et" {
- coords 6398.968 159.459 6427.243
- m_aPlayerLoadouts {
-  SCR_FactionPlayerLoadout "{6170DD53579DD2C4}" {
-   m_sLoadoutResource "{C5574DAD3956486C}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_Rifleman.et"
-  }
- }
+SCR_LoadoutManager : "{C3A8C06BF84FFFE3}Prefabs/MP/Campaign/EscalationLoadoutManager_modern.et" {
+ coords 6397.922 159.389 6426.604
 }
