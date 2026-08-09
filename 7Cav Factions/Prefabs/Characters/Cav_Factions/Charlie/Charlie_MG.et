@@ -11,7 +11,10 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{BA87F78D0E7E3A90}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light_MDO.et"
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+    Prefab "{F934D2BAB6BE08E8}Prefabs/Weapons/MachineGuns/RM338/MG_RM338_Blk_Cav.et"
+   }
+   WeaponTemplate "{F934D2BAB6BE08E8}Prefabs/Weapons/MachineGuns/RM338/MG_RM338_Blk_Cav.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
@@ -46,13 +49,13 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
     ItemsInitConfigurationItem "{654E14D8882B798D}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy_MG.et/M2402/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
-      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+      "{D5E220EFDE235E7D}Prefabs/Weapons/Magazines/RM338/Box_338N_RM338_100rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{654E14DA06BBF349}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy_MG.et/m2401/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
-      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+      "{D5E220EFDE235E7D}Prefabs/Weapons/Magazines/RM338/Box_338N_RM338_100rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{654E14DA056DC002}" {
@@ -76,7 +79,7 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
     ItemsInitConfigurationItem "{66492B67AD2F3052}" {
      TargetStorage "Back/Backpack_511_rush12_MC.et"
      PrefabsToSpawn {
-      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+      "{D5E220EFDE235E7D}Prefabs/Weapons/Magazines/RM338/Box_338N_RM338_100rnd_Ball.et" "{D5E220EFDE235E7D}Prefabs/Weapons/Magazines/RM338/Box_338N_RM338_100rnd_Ball.et" "{D5E220EFDE235E7D}Prefabs/Weapons/Magazines/RM338/Box_338N_RM338_100rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{66492B677A72521E}" {

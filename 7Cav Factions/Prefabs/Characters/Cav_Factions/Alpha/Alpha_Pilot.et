@@ -9,9 +9,9 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
-    Prefab "{67F95B374867C366}Prefabs/Weapons/Rifle_M4A1_RAS_Cav.et"
+    Prefab "{26173E3378D21D4D}Prefabs/Weapons/Rifles/M7SBR/M7_SBR_Blk.et"
    }
-   WeaponTemplate "{67F95B374867C366}Prefabs/Weapons/Rifle_M4A1_RAS_Cav.et"
+   WeaponTemplate "{26173E3378D21D4D}Prefabs/Weapons/Rifles/M7SBR/M7_SBR_Blk.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
@@ -72,19 +72,13 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
     ItemsInitConfigurationItem "{668B76151CD8760C}" {
      TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/saw/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
-      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
      }
     }
     ItemsInitConfigurationItem "{668B76151CB807D0}" {
      TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/Pouch1/Pouch_AVS_front_molle_Coy.et"
      PrefabsToSpawn {
-      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{66902E95467B184F}" {
-     TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/saw/Pouch_PCGEN3_MG.et"
-     PrefabsToSpawn {
-      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
      }
     }
    }

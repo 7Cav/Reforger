@@ -11,9 +11,9 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
-    Prefab "{FB4152EFFB18C025}Prefabs/Weapons/Rifle_M4A1_M203_RAS_Cav.et"
+    Prefab "{26173E3378D21D4D}Prefabs/Weapons/Rifles/M7SBR/M7_SBR_Blk.et"
    }
-   WeaponTemplate "{FB4152EFFB18C025}Prefabs/Weapons/Rifle_M4A1_M203_RAS_Cav.et"
+   WeaponTemplate "{26173E3378D21D4D}Prefabs/Weapons/Rifles/M7SBR/M7_SBR_Blk.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
@@ -71,22 +71,10 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
      }
     }
-    ItemsInitConfigurationItem "{66AF5AB6BB5EAAC6}" {
-     TargetStorage "Vest/Vest_AVS_okinawa_Coy.et/Tako/Pouch_PCGEN3_takoPouch.et"
+    ItemsInitConfigurationItem "{6A1215CD5C57DFDF}" {
+     TargetStorage "Back/Backpack_511_rush12_MC.et"
      PrefabsToSpawn {
-      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{66AF5AB6A6E891B8}" {
-     TargetStorage "Vest/Vest_AVS_okinawa_Coy.et/Tako2/Pouch_PCGEN3_takoPouch.et"
-     PrefabsToSpawn {
-      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{66AF5AB69BC5F249}" {
-     TargetStorage "Vest/Vest_AVS_okinawa_Coy.et/Tako/Pouch_PCGEN3_takoPouch.et"
-     PrefabsToSpawn {
-      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
      }
     }
    }

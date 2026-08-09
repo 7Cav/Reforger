@@ -25,7 +25,10 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{9B40415563B9F280}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_CAV_BLOCK_II_Black.et"
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+    Prefab "{AB1DCB79BAC87D28}Prefabs/Weapons/Rifles/M7/M7_Cav_Blk.et"
+   }
+   WeaponTemplate "{AB1DCB79BAC87D28}Prefabs/Weapons/Rifles/M7/M7_Cav_Blk.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -43,40 +46,14 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6690081F571D21D8}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn + {
+      "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
      }
     }
     ItemsInitConfigurationItem "{66900810FC9997AB}" {
      TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_RollS_MC.et"
-    }
-    ItemsInitConfigurationItem "{66260B3A958F6868}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/tako/Pouch_FILBE_doubleM4_1.et"
-     PrefabsToSpawn {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{66260B3A958F6871}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/tako2/Pouch_FILBE_doubleM4_2.et"
-     PrefabsToSpawn {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{66260B3A958F6870}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/flex2/Pouch_Shaw_Flex_MC.et"
-     PrefabsToSpawn {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{66260B3A958F6873}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/flex/Pouch_Shaw_Flex_MC.et"
-     PrefabsToSpawn {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{66260B3A958F6872}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/Pouch1/Pouch_avs_front_closed_MC.et"
-     PrefabsToSpawn {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     PrefabsToSpawn + {
+      "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
      }
     }
     ItemsInitConfigurationItem "{66260B3A958F6875}" {
@@ -110,14 +87,32 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
      }
     }
     ItemsInitConfigurationItem "{66260B3A958FB2C3}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/saw/Pouch_PCGEN3_util.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/ifak/Pouch_PCGEN3_ifak.et"
      PrefabsToSpawn {
       "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A114686E0D22597}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/saw/Pouch_PCGEN3_util.et"
+     PrefabsToSpawn {
+      "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A114687894DFFE4}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/ifak/Pouch_PCGEN3_ifak.et"
+     PrefabsToSpawn {
+      "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A11468750EA1E6C}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/HSGI/Pouch_Highspeed_Bleeder_MC.et"
+     PrefabsToSpawn {
+      "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
      }
     }
    }
   }
  }
  coords 0 0 0
- angles 7.886 60.595 0.006
+ angles -6.795 -88.795 -4.01
 }

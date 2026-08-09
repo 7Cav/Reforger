@@ -12,7 +12,10 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponType MachineGun
-   WeaponTemplate "{394F170E2EA60842}Prefabs/Weapons/Bacon_MG_M249_Rails_Cav.et"
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+    Prefab "{0ABE022D8C5BF9B3}Prefabs/Weapons/MachineGuns/XM250/MG_XM250_Cav_Blk.et"
+   }
+   WeaponTemplate "{0ABE022D8C5BF9B3}Prefabs/Weapons/MachineGuns/XM250/MG_XM250_Cav_Blk.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponType Handgun
@@ -48,13 +51,13 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
     ItemsInitConfigurationItem "{654E14DFCA60FDBC}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy_MG.et/m2401/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
-      "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+      "{DF525BE1D7E53F3F}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{654E14D8882B798D}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy_MG.et/M2402/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
-      "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+      "{DF525BE1D7E53F3F}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{654E14D8D38C480A}" {
@@ -84,13 +87,19 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
     ItemsInitConfigurationItem "{654E14DA06BBF349}" {
      TargetStorage "Back/Backpack_511_rush12_MC.et"
      PrefabsToSpawn {
-      "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+      "{DF525BE1D7E53F3F}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{654E14DA056DC002}" {
      TargetStorage "Back/Backpack_511_rush12_MC.et"
      PrefabsToSpawn {
-      "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+      "{DF525BE1D7E53F3F}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A1215CEE041ACA5}" {
+     TargetStorage "Back/Backpack_511_rush12_MC.et"
+     PrefabsToSpawn {
+      "{DF525BE1D7E53F3F}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{69E1715E7A423F82}" {

@@ -11,8 +11,9 @@ SCR_ChimeraCharacter : "{C810B8F6F7127CC6}Prefabs/Characters/Cav_Factions/Bravo/
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+    Prefab "{26173E3378D21D4D}Prefabs/Weapons/Rifles/M7SBR/M7_Cav_SBR_Blk.et"
    }
-   WeaponTemplate "{9B40415563B9F280}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_CAV_BLOCK_II_Black.et"
+   WeaponTemplate "{26173E3378D21D4D}Prefabs/Weapons/Rifles/M7SBR/M7_Cav_SBR_Blk.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {

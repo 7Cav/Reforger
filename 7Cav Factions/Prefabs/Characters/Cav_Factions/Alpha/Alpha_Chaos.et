@@ -17,9 +17,9 @@ SCR_ChimeraCharacter : "{2E6A7178AF4D045F}Prefabs/Characters/Cav_Factions/Charli
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
-    Prefab "{F80CC6FE79A03F0E}Prefabs/Weapons/Rifle_M4A1_M203_RAS_PSQ_Cav.et"
+    Prefab "{1DF044E2685375C2}Prefabs/Weapons/Rifles/M7/M7_Blk_M320.et"
    }
-   WeaponTemplate "{F80CC6FE79A03F0E}Prefabs/Weapons/Rifle_M4A1_M203_RAS_PSQ_Cav.et"
+   WeaponTemplate "{1DF044E2685375C2}Prefabs/Weapons/Rifles/M7/M7_Blk_M320.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"

@@ -12,7 +12,10 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponType Rifle
-   WeaponTemplate "{9B40415563B9F280}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_CAV_BLOCK_II_Black.et"
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+    Prefab "{AB1DCB79BAC87D28}Prefabs/Weapons/Rifles/M7/M7_Cav_Blk.et"
+   }
+   WeaponTemplate "{AB1DCB79BAC87D28}Prefabs/Weapons/Rifles/M7/M7_Cav_Blk.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponType RocketLauncher
@@ -33,6 +36,11 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6690081F571D21D8}" {
+     PrefabsToSpawn + {
+      "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
+     }
+    }
     ItemsInitConfigurationItem "{654C3668BB5EF688}" {
      TargetStorage "Vest/Vest_PCGen_III_AT_shawplacard3.et/radio/Pouch_152_Radio.et"
      PrefabsToSpawn {
@@ -57,28 +65,22 @@ SCR_ChimeraCharacter : "{C50E0F5F10D146B2}Prefabs/Characters/Cav_Factions/Charli
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
-    ItemsInitConfigurationItem "{654F5A0239951391}" {
-     TargetStorage "Vest/Vest_PCGen_III_AT_shawplacard3.et/flex2/Pouch_Shaw_Flex.et"
-     PrefabsToSpawn {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{654F5A023853CF21}" {
-     TargetStorage "Vest/Vest_PCGen_III_AT_shawplacard3.et/flex_3/Pouch_Shaw_Flex.et"
-     PrefabsToSpawn {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{654F5A0395600D0E}" {
-     TargetStorage "Vest/Vest_PCGen_III_AT_shawplacard3.et/Placard/Pouch_Placard.et"
-     PrefabsToSpawn {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
-     }
-    }
     ItemsInitConfigurationItem "{654F5A039538AA6D}" {
      TargetStorage "Vest/Vest_PCGen_III_AT_shawplacard3.et/m67_2/Pouch_Filbe_M67_Base.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A1215CE2AEF7449}" {
+     TargetStorage "Vest/Vest_PCGen_III_AT_shawplacard3.et/saw2/Pouch_PCGEN3_util.et"
+     PrefabsToSpawn {
+      "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A1215CE2AB357FB}" {
+     TargetStorage "Vest/Vest_PCGen_III_AT_shawplacard3.et/ifak/Pouch_PCGEN3_ifak.et"
+     PrefabsToSpawn {
+      "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
      }
     }
     ItemsInitConfigurationItem "{654F5A0395F62FF4}" {
