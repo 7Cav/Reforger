@@ -12,7 +12,7 @@ modded class ACE_MetalClangingCommand
     }
 
     //------------------------------------------------------------------------------------------------
-    override bool Execute(IEntity cursorTarget, IEntity target, vector targetPosition, int playerID, bool isClient)
+    override bool Execute(IEntity cursorTarget, IEntity groupEnt, vector targetPosition, int playerID, bool isClient)
     {
         return false;
     }
