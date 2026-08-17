@@ -12,29 +12,34 @@ SCR_ChimeraCharacter : "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_
     }
    }
   }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{DDAEEF112BEBCF94}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Grenadier.edds"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponSlotIndex 0
    WeaponTemplate "{832641A2AB3E89F6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_RAS_Aimpoint.et"
+   WeaponSlotIndex 0
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{1F9DA556822C78DA}Prefabs/Weapons/Handguns/M17/Handgun_M18.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
-        LoadoutSlotInfo Hat {
+    LoadoutSlotInfo Hat {
      Prefab "{7DD9CEADA6D3B92E}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC_PELTOR.et"
     }
-        LoadoutSlotInfo Jacket {
+    LoadoutSlotInfo Jacket {
      Prefab "{23428DF912E6E1DF}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_PushS_MC.et"
     }
-        LoadoutSlotInfo Pants {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{C4FEAEB4AAA7B6B2}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_Coy.et"
+    }
+    LoadoutSlotInfo Pants {
      Prefab "{7BDF3DD1CB3730A3}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_KpadsG3_MC.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
-    }
-    LoadoutSlotInfo ArmoredVest {
-     Prefab "{C4FEAEB4AAA7B6B2}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_Coy.et"
     }
     LoadoutSlotInfo Back {
     }
