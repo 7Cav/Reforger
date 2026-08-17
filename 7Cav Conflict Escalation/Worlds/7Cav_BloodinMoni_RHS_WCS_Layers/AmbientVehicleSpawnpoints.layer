@@ -10,6 +10,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -27,6 +28,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -44,6 +46,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -61,6 +64,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -78,6 +82,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -95,6 +100,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -112,6 +118,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -129,6 +136,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -146,6 +154,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -163,6 +172,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -180,6 +190,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -197,6 +208,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -214,6 +226,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
@@ -231,6 +244,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
+     TRAIT_ARMED
     }
    }
   }
