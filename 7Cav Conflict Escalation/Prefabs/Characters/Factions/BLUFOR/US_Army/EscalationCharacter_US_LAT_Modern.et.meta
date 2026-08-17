@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7CAF0001A1000003}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_LAT_Modern.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -17,6 +17,11 @@ SCR_ChimeraCharacter : "{B488B54E23435822}Prefabs/Characters/Factions/OPFOR/USSR
    Attributes ItemAttributeCollection "{52BAC70D641B89B1}" {
    }
   }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+   }
+  }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
    WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
   }
@@ -27,63 +32,90 @@ SCR_ChimeraCharacter : "{B488B54E23435822}Prefabs/Characters/Factions/OPFOR/USSR
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{81671FF9E42AF462}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_balaclava.et"
+     Prefab "{813285506C9E8372}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/Helmet_LShZ_6m2_emr_kondor.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{45990536E93CA54A}Prefabs/Characters/Uniforms/Jacket_VKPO.et"
+     Prefab "{71994C074722FD7E}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt_EMR.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{738798231DAF3078}Prefabs/Characters/Uniforms/Pants_6b51_VKPO.et"
+     Prefab "{727037C2C61797A8}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Pants_EMR.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{7C828AB80ED1D9B0}Prefabs/Characters/Footwear/Boots_Faradey_906/Footware_Faradey_906.et"
+     Prefab "{AB9E3D5524876346}Prefabs/Characters/Footwear/Boots_Faradey_1085/Footware_Faradey_1085.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{7EEFC3B2DCEAFAF3}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_folded_neck.et"
+     Prefab "{FA406DCFAF425080}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_Neck_EMR.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{F2850639D26CB41D}Prefabs/Characters/Vests/Vest_Ratnik3K_6B48/Variants/Vest_Ratnik-ZK_6B48_crewman.et"
+     Prefab "{966315993594283C}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_Sharpshooter_EMR_1.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6062F65EC3690C43}" {
-     TargetStorage "Pants/Pants_6b51_VKPO.et"
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
      PrefabsToSpawn {
-      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
     }
     ItemsInitConfigurationItem "{6062F65EC3690C4B}" {
-     TargetStorage "Jacket/Jacket_VKPO.et"
+     TargetStorage "Jacket/Triada_Combat_Shirt_EMR.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
      }
     }
+    ItemsInitConfigurationItem "{7CAF0303B1000061}" {
+     TargetStorage "Vest/Vest_TV102_Sharpshooter_EMR_1.et/radio/Pouch_UP111_radioClosed_EMR.et"
+     PrefabsToSpawn {
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD.et"
+     }
+    }
     ItemsInitConfigurationItem "{61D50D6F0387EA1A}" {
-     TargetStorage "Vest/Vest_Ratnik-ZK_6B48_crewman.et/Bayonet/Pouch_6x9Scabbard.et"
+     TargetStorage "Vest/Vest_TV102_Sharpshooter_EMR_1.et/bayonet/Pouch_6x9Scabbard.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et"
      }
     }
     ItemsInitConfigurationItem "{607C14E443898C14}" {
-     TargetStorage "Vest/Vest_Ratnik-ZK_6B48_crewman.et/Pouch3/Pouch_Ratnik_ak_3_pouch.et"
+     TargetStorage "Vest/Vest_TV102_Sharpshooter_EMR_1.et/PKM1/Pouch_UP109_utillmid_EMR.et"
      PrefabsToSpawn {
       "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
      }
     }
     ItemsInitConfigurationItem "{607C14E567869C9E}" {
-     TargetStorage "Vest/Vest_Ratnik-ZK_6B48_crewman.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
+     TargetStorage "Vest/Vest_TV102_Sharpshooter_EMR_1.et/PKM2/Pouch_UP109_utillmid_EMR.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{7CAF0303B1000062}" {
+     TargetStorage "Vest/Vest_TV102_Sharpshooter_EMR_1.et/drop/Pouch_UP103_Medkit_EMR.et"
      PrefabsToSpawn {
       "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
      }
     }
     ItemsInitConfigurationItem "{607C14E443898C1B}" {
-     TargetStorage "Vest/Vest_Ratnik-ZK_6B48_crewman.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
+     TargetStorage "Vest/Vest_TV102_Sharpshooter_EMR_1.et/RGD/Pouch_GP106_RGD_Pouch_2_EMR.et"
      PrefabsToSpawn {
-      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{7CAF0303B1000063}" {
+     TargetStorage "Vest/Vest_TV102_Sharpshooter_EMR_1.et/RGD2/Pouch_GP106_RGD_Pouch_2_EMR.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{7CAF0303B1000064}" {
+     TargetStorage "Vest/Vest_TV102_Sharpshooter_EMR_1.et/grenade2/Pouch_UP104_utilmini_EMR.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
    }

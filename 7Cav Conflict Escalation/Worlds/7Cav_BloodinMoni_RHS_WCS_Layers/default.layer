@@ -51,6 +51,9 @@ SCR_CampaignFactionManager EscalationFactionManager_modern1 : "{37CA40C089F6645C
       "{01E096C59DD614ED}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_GL_Modern.et"
       "{FB3D5E34C690C947}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_AR_Modern.et"
       "{9AB136F0EA071C10}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Sniper_Modern.et"
+      "{7CAF0001A1000001}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_RTO_Modern.et"
+      "{7CAF0001A1000002}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_CombatMedic_Modern.et"
+      "{7CAF0001A1000003}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_LAT_Modern.et"
      }
     }
     SCR_GroupRolePresetConfig "{61A6B125A59ED77D}" {
@@ -58,66 +61,81 @@ SCR_CampaignFactionManager EscalationFactionManager_modern1 : "{37CA40C089F6645C
       "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
       "{9AB136F0EA071C10}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Sniper_Modern.et"
       "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
+      "{7CAF0001A1000001}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_RTO_Modern.et"
+      "{7CAF0001A1000002}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_CombatMedic_Modern.et"
      }
     }
     SCR_GroupRolePresetConfig "{61A6B125A4D8D0AB}" {
      m_aLoadoutResources {
       "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
       "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
+      "{FB3D5E34C690C947}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_AR_Modern.et"
+      "{7CAF0001A1000002}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_CombatMedic_Modern.et"
      }
     }
     SCR_GroupRolePresetConfig "{61A6B125F93440FE}" {
      m_aLoadoutResources {
       "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
       "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
+      "{7CAF0001A1000002}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_CombatMedic_Modern.et"
      }
     }
     SCR_GroupRolePresetConfig "{61A6B125F8591980}" {
      m_aLoadoutResources {
       "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
       "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
+      "{7CAF0001A1000002}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_CombatMedic_Modern.et"
      }
     }
     SCR_GroupRolePresetConfig "{631F062CBD851F18}" {
      m_aLoadoutResources {
       "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
       "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
+      "{7CAF0001A1000002}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_CombatMedic_Modern.et"
      }
     }
     SCR_GroupRolePresetConfig "{631EF873EE4B7FA3}" {
      m_aLoadoutResources {
       "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
       "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
+      "{7CAF0001A1000002}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_CombatMedic_Modern.et"
      }
     }
     SCR_GroupRolePresetConfig "{631EF873D39E9F52}" {
      m_aLoadoutResources {
       "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
       "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
+      "{7CAF0001A1000002}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_CombatMedic_Modern.et"
+      "{7CAF0001A1000003}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_LAT_Modern.et"
      }
     }
     SCR_GroupRolePresetConfig "{631EF873D0646F2D}" {
      m_aLoadoutResources {
       "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
       "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
+      "{7CAF0001A1000003}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_LAT_Modern.et"
+      "{7CAF0001A1000002}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_CombatMedic_Modern.et"
      }
     }
     SCR_GroupRolePresetConfig "{631EF873D10A7877}" {
      m_aLoadoutResources {
       "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
       "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
+      "{7CAF0001A1000002}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_CombatMedic_Modern.et"
      }
     }
     SCR_GroupRolePresetConfig "{68CB0568589604C0}" {
      m_aLoadoutResources {
       "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
       "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
+      "{7CAF0001A1000002}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_CombatMedic_Modern.et"
      }
     }
     SCR_GroupRolePresetConfig "{66B8107386112DC1}" {
      m_aLoadoutResources {
       "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
       "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
+      "{7CAF0001A1000002}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_CombatMedic_Modern.et"
      }
     }
    }
@@ -146,6 +164,130 @@ SCR_CampaignFactionManager EscalationFactionManager_modern1 : "{37CA40C089F6645C
        m_aEntities {
         SCR_EntityCatalogEntry "{5DF69575F4160EE2}" {
          m_sEntityPrefab "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aGroupRolePresetConfigs {
+    SCR_GroupRolePresetConfig "{631EECB1D1B29DE3}" {
+     m_aLoadoutResources {
+      "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+      "{1F4CF4C064222042}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_LAT.et"
+      "{0E8F79E225CEA8A0}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_RTO.et"
+      "{7CAF0001B1000003}Prefabs/Characters/Factions/OPFOR/USSR_Army/EscalationCharacter_USSR_AT.et"
+      "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+      "{7CAF0001B1000001}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO_modern.et"
+      "{7CAF0001B1000002}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CombatMedic_modern.et"
+     }
+    }
+    SCR_GroupRolePresetConfig "{61B0889160C9218A}" {
+     m_aLoadoutResources {
+      "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+      "{C66FF6876BCB8047}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_Sapper.et"
+      "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+      "{7CAF0001B1000002}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CombatMedic_modern.et"
+     }
+    }
+    SCR_GroupRolePresetConfig "{631F062D4EB2C956}" {
+     m_aLoadoutResources {
+      "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+      "{3882962CB575D49C}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_Driver.et"
+      "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+      "{7CAF0001B1000002}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CombatMedic_modern.et"
+     }
+    }
+    SCR_GroupRolePresetConfig "{68C882E6F0E1EE90}" {
+     m_aLoadoutResources {
+      "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+      "{9BDC3AC0BDB50019}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_Rifleman.et"
+      "{3882962CB575D49C}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_Driver.et"
+      "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+     }
+    }
+    SCR_GroupRolePresetConfig "{6176E1354DB9EE26}" {
+     m_aLoadoutResources {
+      "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+      "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+      "{BB20AF4C5077E34C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL_modern.et"
+      "{41FD67BD0B313EE6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_modern.et"
+      "{646C1504481EA822}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sniper_modern.et"
+      "{7CAF0001B1000001}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO_modern.et"
+      "{7CAF0001B1000002}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CombatMedic_modern.et"
+      "{7CAF0001B1000003}Prefabs/Characters/Factions/OPFOR/USSR_Army/EscalationCharacter_USSR_AT.et"
+     }
+    }
+    SCR_GroupRolePresetConfig "{61B08891604E86B1}" {
+     m_aLoadoutResources {
+      "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+      "{646C1504481EA822}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sniper_modern.et"
+      "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+      "{7CAF0001B1000001}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO_modern.et"
+      "{7CAF0001B1000002}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CombatMedic_modern.et"
+     }
+    }
+    SCR_GroupRolePresetConfig "{61B0889162E62027}" {
+     m_aLoadoutResources {
+      "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+      "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+      "{41FD67BD0B313EE6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_modern.et"
+      "{7CAF0001B1000002}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CombatMedic_modern.et"
+     }
+    }
+    SCR_GroupRolePresetConfig "{61B0889161340871}" {
+     m_aLoadoutResources {
+      "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+      "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+      "{7CAF0001B1000002}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CombatMedic_modern.et"
+     }
+    }
+    SCR_GroupRolePresetConfig "{631EECB195B8DA90}" {
+     m_aLoadoutResources {
+      "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+      "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+      "{7CAF0001B1000002}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CombatMedic_modern.et"
+     }
+    }
+    SCR_GroupRolePresetConfig "{631EECB1EFF9CFB0}" {
+     m_aLoadoutResources {
+      "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+      "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+      "{7CAF0001B1000002}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CombatMedic_modern.et"
+      "{7CAF0001B1000003}Prefabs/Characters/Factions/OPFOR/USSR_Army/EscalationCharacter_USSR_AT.et"
+     }
+    }
+    SCR_GroupRolePresetConfig "{631EECB11AB76AEC}" {
+     m_aLoadoutResources {
+      "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+      "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+      "{7CAF0001B1000002}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CombatMedic_modern.et"
+     }
+    }
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9BD5E5DD9}" {
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{5C548ABBCC649347}" {
+       m_sEntityPrefab "{3A2AB8D5314891EE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_modern.et"
+      }
+      SCR_EntityCatalogEntry "{5C548ABBCDA91648}" {
+       m_sEntityPrefab "{BB20AF4C5077E34C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL_modern.et"
+      }
+      SCR_EntityCatalogEntry "{5C548ABBCDDD71F8}" {
+       m_sEntityPrefab "{41FD67BD0B313EE6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_modern.et"
+      }
+      SCR_EntityCatalogEntry "{5C548ABBCC029383}" {
+       m_sEntityPrefab "{646C1504481EA822}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sniper_modern.et"
+      }
+     }
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{6056A0A567970496}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{5DF695795800BF62}" {
+         m_sEntityPrefab "{B488B54E23435822}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base_modern.et"
         }
        }
       }
@@ -235,21 +377,4 @@ MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et"
 }
 SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
  coords 6397.729 159.353 6425.549
- m_aPlayerLoadouts {
-  SCR_PlayerArsenalLoadout "{5B108B49559B24A2}" {
-   m_sLoadoutResource "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
-  }
-  SCR_FactionPlayerLoadout "{6170DD53579DD2C4}" {
-   m_sLoadoutResource "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
-  }
-  SCR_FactionPlayerLoadout "{61A6B139B62ABFEF}" {
-   m_sLoadoutResource "{FB3D5E34C690C947}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_AR_Modern.et"
-  }
-  SCR_FactionPlayerLoadout "{61A6B139F66E857A}" {
-   m_sLoadoutResource "{01E096C59DD614ED}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_GL_Modern.et"
-  }
-  SCR_FactionPlayerLoadout "{6170DD5305AD2DA5}" {
-   m_sLoadoutResource "{9AB136F0EA071C10}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Sniper_Modern.et"
-  }
- }
 }
