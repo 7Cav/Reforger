@@ -233,23 +233,20 @@ MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et"
   }
  }
 }
-SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+SCR_LoadoutManager : "{C3A8C06BF84FFFE3}Prefabs/MP/Campaign/EscalationLoadoutManager_modern.et" {
  coords 6397.729 159.353 6425.549
  m_aPlayerLoadouts {
-  SCR_PlayerArsenalLoadout "{5B108B49559B24A2}" {
+  SCR_FactionPlayerLoadout "{6A0F27C6F5673DA4}" {
+  }
+  SCR_FactionPlayerLoadout "{6A0F27C6F5673DB5}" {
+   m_sLoadoutResource "{9F4976C06FD1C839}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_LAT.et"
+  }
+  SCR_PlayerArsenalLoadout "{6A0F27C6F5673DB3}" {
    m_sLoadoutResource "{75A5C7B4168B2FEC}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_base.et"
+   m_sWCSSlotId "Slot1"
   }
-  SCR_FactionPlayerLoadout "{6170DD53579DD2C4}" {
-   m_sLoadoutResource "{040B18890C614E22}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Rifelman_modern.et"
-  }
-  SCR_FactionPlayerLoadout "{61A6B139B62ABFEF}" {
-   m_sLoadoutResource "{FB3D5E34C690C947}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_AR_Modern.et"
-  }
-  SCR_FactionPlayerLoadout "{61A6B139F66E857A}" {
-   m_sLoadoutResource "{01E096C59DD614ED}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_GL_Modern.et"
-  }
-  SCR_FactionPlayerLoadout "{6170DD5305AD2DA5}" {
-   m_sLoadoutResource "{9AB136F0EA071C10}Prefabs/Characters/Factions/BLUFOR/US_Army/EscalationCharacter_US_Sniper_Modern.et"
+  SCR_PlayerArsenalLoadout "{6A0F27C6F56769B6}" {
+   m_sWCSSlotId "Slot1"
   }
  }
 }
