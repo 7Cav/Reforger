@@ -5,9 +5,6 @@ SCR_ChimeraCharacter : "{B488B54E23435822}Prefabs/Characters/Factions/OPFOR/USSR
    components {
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
-      SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab ""
-      }
       SCR_EquipmentStorageSlot WristwatchSlot {
        Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
       }
@@ -19,7 +16,7 @@ SCR_ChimeraCharacter : "{B488B54E23435822}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
@@ -28,6 +25,10 @@ SCR_ChimeraCharacter : "{B488B54E23435822}Prefabs/Characters/Factions/OPFOR/USSR
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponSlotIndex 0
    WeaponTemplate "{FA8BE6075AFFBCA8}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_PGO7.et"
+   WeaponSlotIndex 1
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -46,6 +47,9 @@ SCR_ChimeraCharacter : "{B488B54E23435822}Prefabs/Characters/Factions/OPFOR/USSR
     LoadoutSlotInfo ArmoredVest {
      Prefab "{FA406DCFAF425080}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_Neck_EMR.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{3153CA82B4F37635}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_EMR_5.et"
     }
@@ -56,7 +60,7 @@ SCR_ChimeraCharacter : "{B488B54E23435822}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{6062F65EC3690C43}" {
+    ItemsInitConfigurationItem "{623953A428CFF5FF}" {
      TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
      PrefabsToSpawn {
       "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
@@ -68,62 +72,56 @@ SCR_ChimeraCharacter : "{B488B54E23435822}Prefabs/Characters/Factions/OPFOR/USSR
       "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD.et"
      }
     }
-    ItemsInitConfigurationItem "{6062F65EC3690C4B}" {
+    ItemsInitConfigurationItem "{652EB75741251B5E}" {
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+     PrefabsToSpawn {
+      "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{651D4324EB844D6B}" {
      TargetStorage "Jacket/Triada_Combat_Shirt_EMR.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
      }
     }
-    ItemsInitConfigurationItem "{61D50D6F0387EA1A}" {
-     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+    ItemsInitConfigurationItem "{7CAF0203B1000031}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
      PrefabsToSpawn {
-      "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et"
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
      }
     }
-    ItemsInitConfigurationItem "{607AF7A531D3F5C8}" {
+    ItemsInitConfigurationItem "{7CAF0203B1000032}" {
      TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/placard/Pouch_wartech_magpouch_mp117_emr.et"
      PrefabsToSpawn {
       "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{607AF7A77A1AB957}" {
+    ItemsInitConfigurationItem "{7CAF0203B1000033}" {
      TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/pistol/Pouch_wartech_magpouch_mp117_emr.et"
      PrefabsToSpawn {
       "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{607AF7A779D339F9}" {
+    ItemsInitConfigurationItem "{7CAF0203B1000034}" {
      TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/up101/Pouch_wartech_magpouch_mp117_emr_2.et"
      PrefabsToSpawn {
       "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{7CAF0301B1000041}" {
-     TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/arsbelt/Pouch_wartech_magpouch_mp117_emr_3.et"
-     PrefabsToSpawn {
-      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{7CAF0301B1000042}" {
-     TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/arsbelt2/Pouch_wartech_magpouch_mp117_emr_2.et"
-     PrefabsToSpawn {
-      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{607AF7A77933484D}" {
+    ItemsInitConfigurationItem "{7CAF0203B1000035}" {
      TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/Grenade/Pouch_GP106_RGD_Pouch_EMR.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
-    ItemsInitConfigurationItem "{7CAF0301B1000043}" {
+    ItemsInitConfigurationItem "{7CAF0203B1000036}" {
      TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/grenade2/Pouch_GP106_RGD_Pouch_2_EMR.et"
      PrefabsToSpawn {
       "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
-    ItemsInitConfigurationItem "{7CAF0301B1000044}" {
+    ItemsInitConfigurationItem "{7CAF0203B1000037}" {
      TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/utillong/Pouch_UP108_utillong_EMR.et"
      PrefabsToSpawn {
       "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
