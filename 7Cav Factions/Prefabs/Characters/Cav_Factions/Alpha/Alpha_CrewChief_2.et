@@ -79,7 +79,7 @@ SCR_ChimeraCharacter : "{1DF99D8A673D3BE0}Prefabs/Characters/Cav_Factions/Alpha/
     ItemsInitConfigurationItem "{6A2C1405BB866877}" {
      TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x6_2.et/zip/Minimap_JPC_ZipOnPanel2_Coy.et"
      PrefabsToSpawn {
-      "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{9537345DE4A27A4D}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Rainbow.et"
+      "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
      }
     }
     ItemsInitConfigurationItem "{6A2C141A6A5B695C}" {
