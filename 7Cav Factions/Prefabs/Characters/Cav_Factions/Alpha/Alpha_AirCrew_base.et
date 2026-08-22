@@ -1,0 +1,62 @@
+SCR_ChimeraCharacter : "{ECD07832524366A2}Prefabs/Characters/Cav_Factions/PrefabsBase/nakedManBase.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{FAE8B9F7CEA49696}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_lc.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{CCB365E9B5737ECD}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_black.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{9F4D0043E24255E8}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Player.edds"
+    m_Image "{F293529C376FB00C}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_HeliPilot.edds"
+    m_aAutoLabels + {
+     ROLE_RADIOOPERATOR
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E3C280AEAE6A4272}Prefabs/Characters/HeadGear/Helmet_Gentex_HGU56P/Helmet_Gentex_HGU56P_base.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{4E88FFC2F656D730}Prefabs/Characters/Uniforms/AUS_Pilot_US_Modern/AUS_Pilot_US_Modern.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{67D4FA63CF57EB29}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_MechanixMpact_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A262B5DFF7A0E8C}" {
+     TargetStorage "Jacket/AUS_Pilot_US_Modern.et"
+     PrefabsToSpawn {
+      "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et" "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et" "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angles 0 -71.952 0
+}

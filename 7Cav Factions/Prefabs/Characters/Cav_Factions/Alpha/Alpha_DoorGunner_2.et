@@ -1,0 +1,10 @@
+SCR_ChimeraCharacter : "{1DF99D8A673D3BE0}Prefabs/Characters/Cav_Factions/Alpha/Alpha_AirCrew_base.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+   }
+  }
+ }
+}
