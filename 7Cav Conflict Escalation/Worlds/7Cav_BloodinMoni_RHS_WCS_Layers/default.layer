@@ -375,6 +375,6 @@ MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et"
   }
  }
 }
-SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+SCR_LoadoutManager : "{C3A8C06BF84FFFE3}Prefabs/MP/Campaign/EscalationLoadoutManager_modern.et" {
  coords 6397.729 159.353 6425.549
 }

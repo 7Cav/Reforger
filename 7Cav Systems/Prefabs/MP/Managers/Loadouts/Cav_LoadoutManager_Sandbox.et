@@ -134,10 +134,13 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
    m_sLoadoutName "Vehicle Crew"
   }
   SCR_FactionPlayerLoadout "{6686D1A110D42E04}" : "{7B60CDB6206C8899}Prefabs/Characters/Cav_Factions/Alpha/Loadouts/Alpha_Pilot.conf" {
+   m_sLoadoutResource "{905B1FCD0076E3A2}Prefabs/Characters/Cav_Factions/Alpha/Alpha_Pilot_2.et"
   }
   SCR_FactionPlayerLoadout "{6686D1A111EF44F8}" : "{ED95EAAB75FC77DD}Prefabs/Characters/Cav_Factions/Alpha/Loadouts/Alpha_CrewChief.conf" {
+   m_sLoadoutResource "{39061E6AF3D79FC9}Prefabs/Characters/Cav_Factions/Alpha/Alpha_CrewChief_2.et"
   }
   SCR_FactionPlayerLoadout "{66AF5AB6723A8B91}" : "{392DEAEE6473F271}Prefabs/Characters/Cav_Factions/Alpha/Loadouts/Alpha_DoorGunner.conf" {
+   m_sLoadoutResource "{E0991E4420E2DEE6}Prefabs/Characters/Cav_Factions/Alpha/Alpha_DoorGunner_2.et"
   }
   SCR_FactionPlayerLoadout "{668B4E3D082FAD3A}" : "{70B415C8C2E75F42}Prefabs/Characters/Cav_Factions/Alpha/Loadouts/Loadout_A_Chaos.conf" {
   }

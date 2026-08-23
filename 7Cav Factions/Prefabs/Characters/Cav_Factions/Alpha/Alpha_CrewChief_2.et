@@ -1,0 +1,100 @@
+SCR_ChimeraCharacter : "{1DF99D8A673D3BE0}Prefabs/Characters/Cav_Factions/Alpha/Alpha_AirCrew_base.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{03406DAD80009A4F}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_Repairing_Station.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponType MachineGun
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+    Prefab "{0ABE022D8C5BF9B3}Prefabs/Weapons/MachineGuns/XM250/MG_XM250_Blk.et"
+   }
+   WeaponTemplate "{0ABE022D8C5BF9B3}Prefabs/Weapons/MachineGuns/XM250/MG_XM250_Blk.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4E09AE60C57189AF}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_radio_Coy.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{1995D49E1F650C7C}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x6_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A2C140F193D782A}" {
+     TargetStorage "ArmoredVest/Vest_AVS_radio_Coy.et/mbitr/Pouch_AVS_MBITR_Radio_Coy.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2C140FA5156650}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x6_2.et/pistolpouch2/Pouch_Highspeed_Pistol.et"
+     PrefabsToSpawn {
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2C140E397F0D40}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x6_2.et/tako2/Pouch_Highspeed_Pistol.et"
+     PrefabsToSpawn {
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2C140E1F84976C}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x6_2.et/ifak/Pouch_PCGEN3_ifak.et"
+     PrefabsToSpawn {
+      "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2C140C6CA0DB4A}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x6_2.et/m18_1/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2C140C5C4F93EA}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x6_2.et/m18_2/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2C14036D269C6A}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x6_2.et/m67_2/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2C1403456024DD}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x6_2.et/m67_1/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2C1405BB866877}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x6_2.et/zip/Minimap_JPC_ZipOnPanel2_Coy.et"
+     PrefabsToSpawn {
+      "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2C141A6A5B695C}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x6_2.et/raid/Pouch_Shaw_Raid.et"
+     PrefabsToSpawn {
+      "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2C14187840C852}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x6_2.et/nerdmini/Pouch_Shaw_Nerd_Mini.et"
+     PrefabsToSpawn {
+      "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+     }
+    }
+   }
+  }
+ }
+}
