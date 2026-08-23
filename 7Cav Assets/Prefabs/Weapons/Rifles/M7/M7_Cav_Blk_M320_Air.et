@@ -1,0 +1,40 @@
+GenericEntity : "{AB1DCB79BAC87D28}Prefabs/Weapons/Rifles/M7/M7_Blk.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "M7/M320 Cav Issue"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6247411E167D53A6}" {
+     AttachmentSlot EquipmentStorageSlot UGL {
+      Prefab "{A793D64E2B5DE7AA}Prefabs/Weapons/Attachments/Underbarrel/UGL_M320_XM7.et"
+     }
+    }
+    AttachmentSlotComponent "{6247411E22022563}" {
+     AttachmentSlot EquipmentStorageSlot optic {
+      Prefab "{D0453107F44917CF}Prefabs/Weapons/Attachments/Optics/exps/Optic_su231A_black.et"
+     }
+    }
+    AttachmentSlotComponent "{66E228CC8E301994}" {
+     AttachmentSlot EquipmentStorageSlot LeftSide {
+      Prefab ""
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{631A40E47EFD5AF6}" {
+       AttachmentSlot InventoryStorageSlot Suppressor {
+        Prefab ""
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

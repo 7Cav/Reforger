@@ -1,0 +1,62 @@
+GenericEntity : "{8671C0D9DA7148D5}Prefabs/Weapons/Rifles/M7/M7.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{6A2C141D461BF431}" {
+     SourceMaterial "sig_xm7_01"
+     AssignedMaterial "{0B9A58D1A7908E2F}Assets/Weapons/Rifles/Data/Black/sig_xm7_01_Blk.emat"
+    }
+    MaterialAssignClass "{6A2C141D461BF45B}" {
+     SourceMaterial "sig_xm7_02"
+     AssignedMaterial "{0B9A58D1A7908E2F}Assets/Weapons/Rifles/Data/Black/sig_xm7_01_Blk.emat"
+    }
+    MaterialAssignClass "{6A2C141D461BF451}" {
+     SourceMaterial "sig_xm7_03"
+     AssignedMaterial "{0B9A58D1A7908E2F}Assets/Weapons/Rifles/Data/Black/sig_xm7_01_Blk.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "M7 Cav Issue"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6247411E22022556}" {
+     AttachmentSlot EquipmentStorageSlot front_iron {
+      Prefab "{D03653C22EB3700E}Prefabs/Weapons/Attachments/Optics/MBUS_Front_Sight.et"
+     }
+    }
+    AttachmentSlotComponent "{6247411E22022563}" {
+     AttachmentSlot EquipmentStorageSlot optic {
+      Prefab "{D0453107F44917CF}Prefabs/Weapons/Attachments/Optics/exps/Optic_su231A_black.et"
+     }
+    }
+    AttachmentSlotComponent "{6247411E2202256D}" {
+     AttachmentSlot EquipmentStorageSlot rear_iron {
+      Prefab "{7E8A23AC30D60453}Prefabs/Weapons/Attachments/Optics/MBUS_Rear_Sight.et"
+     }
+    }
+    AttachmentSlotComponent "{66E228CC8E301994}" {
+     AttachmentSlot EquipmentStorageSlot LeftSide {
+      Prefab ""
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{631A40E47EFD5AF6}" {
+       AttachmentSlot InventoryStorageSlot Suppressor {
+        Prefab "{B74D593B0A51064C}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_PRONG4.et"
+       }
+      }
+     }
+     MagazineTemplate "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
+    }
+   }
+  }
+ }
+}
