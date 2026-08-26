@@ -1,0 +1,56 @@
+GenericEntity : "{491CEF88656BE6C2}Prefabs/Weapons/Core/Suppressor_base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5CB8A09828130AD1}" {
+     Name "#ICR-SIGSuppressor_02_Name (Cav)"
+     Description "#ICR-SIGSuppressor_02_Desc"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5CB8A0982952AAE5}" {
+     Weight 0.68
+     SizeSetupStrategy Manual
+     ItemDimensions 10 10 10
+     ItemVolume 200
+    }
+    CustomAttributes {
+     SCR_WeaponAttachmentSuppressorAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentMuzzle338 "{618A843CE28C7529}" {
+      }
+      m_fMuzzleSpeedCoefficient 1.01
+      m_fMuzzleDispersionFactor 0.9
+      m_fExtraObstructionLength 0.183
+      m_vLinearFactors 1.1 1.1 0.8
+      m_vAngularFactors 0.7 0.7 0.7
+      m_vTurnFactors 0.8 0.8 1
+     }
+     PreviewRenderAttributes "{52D69389645B4E4D}" {
+      CameraPreset Right
+      ItemRenderRotation 0 0 45
+      FOV 15
+     }
+     SCR_WeaponAttachmentObstructionAttributes "{61B08C885494492B}" {
+      AttachmentType AttachmentMuzzle338 "{61B08C8FA3FA3ADE}" {
+      }
+      m_aObstructedAttachmentTypes {
+       AttachmentBayonetM9 "{61B485C90019DB63}" {
+       }
+       AttachmentUnderBarrelM203Carbine "{6A352A071BCD3FCD}" {
+       }
+      }
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{5C46D45E03D7AD12}" {
+   Object "{671454E79A00815F}Assets/Weapons/Attachments/Suppressors/rm338_suppressor.xob"
+  }
+  SCR_MuzzleEffectComponent "{618AE28914F3CB8B}" {
+   ParticleEffect "{0D9400A03DDEA9AC}Particles/Weapon/Attachments/Suppressor_Carbine.ptc"
+   EffectPosition EntitySlotInfo position {
+    Offset 0 0.0024 0.1665
+   }
+  }
+ }
+}
