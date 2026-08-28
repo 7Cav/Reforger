@@ -15,6 +15,11 @@ GenericEntity : "{8671C0D9DA7148D5}Prefabs/Weapons/Rifles/M7/M7_Cav.et" {
       Prefab "{D03653C22EB3700E}Prefabs/Weapons/Attachments/Optics/MBUS_Front_Sight.et"
      }
     }
+    AttachmentSlotComponent "{6247411E22022563}" {
+     AttachmentSlot EquipmentStorageSlot optic {
+      Prefab "{DB5D13990F435A84}Prefabs/Weapons/Attachments/Optics/Optic_M157/WeaponOptic_M157Black.et"
+     }
+    }
     AttachmentSlotComponent "{6247411E2202256D}" {
      AttachmentSlot EquipmentStorageSlot rear_iron {
       Prefab "{7E8A23AC30D60453}Prefabs/Weapons/Attachments/Optics/MBUS_Rear_Sight.et"

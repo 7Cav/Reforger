@@ -311,6 +311,7 @@ SCR_GameModeCampaign GameMode_Escalation_Scoring1 : "{598F43E0F4973407}Prefabs/M
  components {
   SCR_ArsenalManagerComponent "{6120A34EB1E9BBEF}" {
    m_sLoadoutSaveBlackListHolder "{06779FCB2EE87D9F}Configs/Arsenal/EscalationArsenalLoadoutSaveBlacklists.conf"
+   m_bRankLockedItems 0
    m_bUseMilitarySupplyAllocation 0
   }
   SCR_PlayerSpawnPointManagerComponent "{5CDABA98894199D0}" {
@@ -375,6 +376,6 @@ MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et"
   }
  }
 }
-SCR_LoadoutManager : "{C3A8C06BF84FFFE3}Prefabs/MP/Campaign/EscalationLoadoutManager_modern.et" {
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
  coords 6397.729 159.353 6425.549
 }

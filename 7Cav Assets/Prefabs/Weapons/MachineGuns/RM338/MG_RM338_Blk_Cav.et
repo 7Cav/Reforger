@@ -8,5 +8,14 @@ GenericEntity : "{F0FF656B517EE129}Prefabs/Weapons/MachineGuns/RM338/MG_RM338_Ca
     }
    }
   }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{624526223E8C4782}" {
+     AttachmentSlot EquipmentStorageSlot optic {
+      Prefab "{DB5D13990F435A84}Prefabs/Weapons/Attachments/Optics/Optic_M157/WeaponOptic_M157Black.et"
+     }
+    }
+   }
+  }
  }
 }

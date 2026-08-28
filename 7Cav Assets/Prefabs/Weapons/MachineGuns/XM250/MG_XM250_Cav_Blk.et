@@ -10,6 +10,11 @@ GenericEntity : "{5459D2D8293BD275}Prefabs/Weapons/MachineGuns/XM250/MG_XM250_Ca
   }
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
+    AttachmentSlotComponent "{61DE34E5AD0CAA6B}" {
+     AttachmentSlot EquipmentStorageSlot optic {
+      Prefab "{DB5D13990F435A84}Prefabs/Weapons/Attachments/Optics/Optic_M157/WeaponOptic_M157Black.et"
+     }
+    }
     MuzzleComponent "{50F64C4591CD7AA6}" {
      components {
       AttachmentSlotComponent "{631B265993ADDD2E}" {

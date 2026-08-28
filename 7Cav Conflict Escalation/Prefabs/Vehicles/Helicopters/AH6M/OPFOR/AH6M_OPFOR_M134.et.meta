@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1842D8F34217FB9B}Prefabs/Vehicles/Helicopters/AH6M/OPFOR/AH6M_OPFOR_M134.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

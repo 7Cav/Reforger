@@ -21,5 +21,8 @@ GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
     }
    }
   }
+  BL_BeltLinkWeaponComponent "{68FF426D073EE749}" {
+   m_vActionPosition -0.018 -0.077 0
+  }
  }
 }
