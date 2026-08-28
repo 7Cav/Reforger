@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{1DF99D8A673D3BE0}Prefabs/Characters/Cav_Factions/Alpha/
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
     Prefab "{E6EC0279B587795C}Prefabs/Weapons/Rifles/M7/M7_Cav_Blk_CQC.et"
    }
-   WeaponTemplate "{E6EC0279B587795C}Prefabs/Weapons/Rifles/M7/M7_Cav_Blk_CQC.et"
+   WeaponTemplate "{26173E3378D21D4D}Prefabs/Weapons/Rifles/M7SBR/M7_SBR_Blk.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -34,7 +34,7 @@ SCR_ChimeraCharacter : "{1DF99D8A673D3BE0}Prefabs/Characters/Cav_Factions/Alpha/
     ItemsInitConfigurationItem "{6A2C14115C3D3B88}" {
      TargetStorage "Vest/Vest_AVS_okinawa_Coy3_nobelt.et/zip/Minimap_JPC_ZipOnPanel2_Coy.et"
      PrefabsToSpawn {
-      "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et" "{9537345DE4A27A4D}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Rainbow.et"
+      "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{9537345DE4A27A4D}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Rainbow.et" "{73B7590595DC81F6}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_Black.et" "{73B7590595DC81F6}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_Black.et"
      }
     }
     ItemsInitConfigurationItem "{6A2C1411A844AC18}" {
@@ -47,6 +47,18 @@ SCR_ChimeraCharacter : "{1DF99D8A673D3BE0}Prefabs/Characters/Cav_Factions/Alpha/
      TargetStorage "Vest/Vest_AVS_okinawa_Coy3_nobelt.et/m18/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A380BF905428DE8}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy3_nobelt.et/raid/Pouch_Shaw_Raid.et"
+     PrefabsToSpawn {
+      "{73B7590595DC81F6}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_Black.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A380BF9FA973A2F}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy3_nobelt.et/Pouch1/Pouch_AVS_front_molle_Coy.et"
+     PrefabsToSpawn {
+      "{73B7590595DC81F6}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_Black.et"
      }
     }
    }
