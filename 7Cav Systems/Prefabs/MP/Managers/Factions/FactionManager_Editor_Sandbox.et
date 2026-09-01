@@ -2,50 +2,65 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
  ID "56B2B4776E6E4499"
  Factions {
   SCR_Faction "{56DEAC40D2DBC8B1}" : "{5EB46557DF2AA24F}Configs/Factions/US.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
    m_iOrder 25
    m_bIsPlayable 0
    m_sFactionBackground "{F8AC305446D5D480}UI/Textures/DeployMenu/Loadout-BG/Loadout_US_BG.imageset"
   }
   SCR_Faction "{56DEAC40D3C2E623}" : "{09727032415AC39B}Configs/Factions/USSR.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
    m_bIsPlayable 0
    m_sFactionBackground "{21533F2089005056}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_USSR.imageset"
   }
   SCR_Faction "{56DEAC40D132400B}" : "{8053DB656DD18B14}Configs/Factions/FIA.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
    m_bIsPlayable 0
    m_sFactionBackground "{81BF3B1DCC106577}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_FIA.imageset"
   }
   SCR_Faction "{607AA5C7A94496DA}" : "{3FA20B01D950D31F}Configs/Factions/CIV.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
    m_aFriendlyFactionsIds {
     "US" "USSR" "FIA" "RHS_USAF" "RHS_AFRF" "RHS_ION" "RHS_USAF" "RHS_AFRF" "RHS_ION" "Archangel" "Helios" "Viking" "Pioneer" "Bandit" "Misfit" "Command"
    }
   }
   SCR_Faction "{664AFA2507C1386C}" : "{374C6DC646EA6CCD}Configs/Factions/Charlie/Charlie_Faction_Bandit.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
   }
   SCR_Faction "{664AFA2506ED6672}" : "{75920097F630F4FA}Configs/Factions/Charlie/Charlie_Faction_Misfit.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
   }
   SCR_Faction "{664AFA2505FE0F6E}" : "{69C80796E3518403}Configs/Factions/Charlie/Charlie_Faction_Gunslinger.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
   }
   SCR_Faction "{6686B9CE2CAF6160}" : "{9366FB90605C1489}Configs/Factions/Bravo/Pioneer_Platoon.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
   }
   SCR_Faction "{6686B9CE283B8ED6}" : "{699DBF8AE07FD2B1}Configs/Factions/Bravo/Helios Platoon.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
   }
   SCR_Faction "{6686D1A1CE545A11}" : "{E27E54BEFFA51B80}Configs/Factions/Alpha/Archangel.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
   }
   SCR_Faction "{668B4E33801A1326}" : "{76B105D9D8EF47DC}Configs/Factions/Bravo/Viking_Platoon.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
   }
   SCR_Faction "{66960A2EE5DA2589}" : "{627A8CDE681D223D}Configs/Factions/RHS_RF_MSV.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
    m_bIsPlayable 0
   }
   SCR_Faction "{66960A2EE0198449}" : "{CB76A36EACFBDF35}Configs/Factions/RHS_ION.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
    m_bIsPlayable 0
   }
   SCR_Faction "{66960A2D877808FA}" : "{F33C7BF22CBF3A8A}Configs/Factions/RHS_US_USMC.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
    m_bIsPlayable 0
    m_aFriendlyFactionsIds + {
     "Archangel" "Helios" "Pioneer" "Viking" "Bandit" "Misfit" "Gunslinger"
    }
   }
   SCR_Faction "{68CB61CA6C8D963C}" : "{58A6F094E713AE0F}Configs/Factions/Command/Command.conf" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
    m_iOrder 12
   }
  }
