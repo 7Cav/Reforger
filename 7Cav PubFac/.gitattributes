@@ -1,0 +1,12 @@
+# Workbench writes Enfusion text formats as CRLF; store them that way so a
+# Workbench save never produces a whole-file line-ending diff.
+*.et text eol=crlf
+*.conf text eol=crlf
+*.meta text eol=crlf
+*.gproj text eol=crlf
+*.layer text eol=crlf
+*.c text eol=crlf
+
+*.md text eol=lf
+.gitattributes text eol=lf
+.gitkeep text eol=lf

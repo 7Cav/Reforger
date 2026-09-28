@@ -1,0 +1,13 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{6C3EF4C7E1000001}" : "{6C3EF4C7E0000001}Configs/Loadouts/Loadout_CPO_Rifleman.conf" {
+  }
+  SCR_PlayerArsenalLoadout "{6C3EF4C7E1000000}" {
+   m_sLoadoutName "Arsenal"
+   m_sLoadoutResource "{6C3EF4C7A1D25F00}Prefabs/Characters/CPO/Character_CPO_Base.et"
+   m_sLoadoutImage "{73679DCE436EF063}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MARSOC/MC/Character_RHS_USMC_MARSOC_MC_Rifleman.edds"
+   m_sAffiliatedFaction "7Cav"
+  }
+ }
+}

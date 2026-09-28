@@ -1,0 +1,80 @@
+SCR_AIGroup : "{6C3EF4C7A1D26200}Prefabs/Groups/AFRF_SOF/Group_AFRF_SOF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "SOF Sniper Team"
+    m_Image "{0CF9D23295990004}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Marksman.edds"
+    m_aAutoLabels {
+     GROUPSIZE_SMALL
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6C3EF4C7D30500A1}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{6C3EF4C7D30500A2}" {
+      m_BudgetType AI_SERVER
+      m_Value 0
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6C3EF4C7D30500A3}" {
+      m_BudgetType AI
+      m_Value 2
+     }
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{6C3EF4C7D30500A5}" {
+     m_Identity OPFOR
+     m_Dimension LAND
+     m_Icons INFANTRY
+     m_Amplifier TEAM
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Icons INFANTRY
+    m_Amplifier TEAM
+   }
+  }
+  SCR_PreviewEntityComponent "{6C3EF4C7D30500FF}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6C3EF4C7D3050000}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 3
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6C3EF4C7D3050001}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6C3EF4C7D3050002}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{EAF991929ECB2FC1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Sniper.et" "{F725725518AFA1A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_Scout_Random.et"
+ }
+}
