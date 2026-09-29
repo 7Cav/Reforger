@@ -41,8 +41,8 @@ modded class SCR_BaseGameMode
 	//! catalog reference to its own copy), so this guard works on the RESULT: any resolved entry
 	//! whose prefab names M923A1_command and is not the _CPO variant loses its spawner data.
 	//! SetEnabled on the data is the engine's sanctioned runtime switch for exactly this, the
-	//! entry stays in Game Master, and catalogs are per-faction instances, so only Task Force
-	//! Dagger is touched. Runs on every machine: catalogs are built locally from confs, not
+	//! entry stays in Game Master, and catalogs are per-faction instances, so only 7Cav is
+	//! touched. Runs on every machine: catalogs are built locally from confs, not
 	//! replicated, and the request menu reads the client's copy.
 	//! The depot BUILD menu is a different pipeline entirely (the editor content browser; see
 	//! CPO_BuildBrowserFilter.c). This guard covers the request/spawner path only.

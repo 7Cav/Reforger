@@ -55,6 +55,9 @@ modded class SCR_WelcomeScreenFactionContent
 	{
 		super.AddFactionWidget();
 
+		// Vanilla builds both arrays in this one pass and never longer on the widget side, so
+		// only the short side is padded here. A widget list LONGER than the faction list would
+		// mean something else had inserted widgets, which this deliberately does not repair.
 		while (m_aFactionWidgets.Count() < m_SortedFactions.Count())
 			m_aFactionWidgets.Insert(null);
 	}
