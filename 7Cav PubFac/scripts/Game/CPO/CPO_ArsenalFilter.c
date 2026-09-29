@@ -6,35 +6,48 @@
 //! is switched back on is simply offered again. It does NOT remove the assets from the world: a kit
 //! or a script that equips one of these prefabs still does.
 //!
-//! THE SEAM. SCR_ArsenalComponent.GetFilteredArsenalItems calls
-//! SCR_EntityCatalogManagerComponent.GetFilteredArsenalItems (SCR_ArsenalComponent.c:366), and both
-//! the arsenal screen and the arsenal display component read the list through it. That one call is
-//! therefore the whole surface: filtering its result reaches every consumer, and mutating the
-//! returned array is safe because the method builds that array fresh and returns it.
+//! THE SEAMS, and why there are two. The arsenal list a player sees is produced by
+//! SCR_ArsenalComponent.GetFilteredArsenalItems, which does one of two things:
+//!
+//!   * with no overwrite item-list config set on the arsenal entity, it asks
+//!     SCR_EntityCatalogManagerComponent.GetFilteredArsenalItems (SCR_ArsenalComponent.c:366), which
+//!     builds its result array fresh and returns it, so removing from that array cannot disturb the
+//!     catalog or its cache;
+//!   * with an overwrite item-list config set, it asks that config instead (lines 381 and 384) and
+//!     the catalog manager is never reached.
+//!
+//! Filtering only the manager would therefore miss every arsenal that uses an overwrite config, so
+//! the override is applied at both: the manager, which is also what any other mod asking the same
+//! question reads, and the arsenal component itself, which is the single place both of its own paths
+//! pass through and what the arsenal display component reads (SCR_ArsenalDisplayComponent.c:77).
+//! Filtering twice is harmless: the second pass finds the entry already gone. Both are scoped to
+//! this faction, so another faction in the same world keeps what its own catalogs offer.
 //!
 //! THE FILE. `$profile:7Cav_PubFac/arsenal.json`, written on first use and re-read every 30 seconds
 //! so an edit applies without a restart. Each entry is keyed by the prefab's own resource path and
-//! carries `shown` (1 offered, 0 hidden), the same flag name the Frontline vehicle-costs file uses.
-//! Sections group by where the content comes from (USAF, ION, AFRF). Only prefabs listed in a
-//! section can be switched: this reads by name, and the serialization API offers no way to walk the
-//! keys of an object it just handed back. Adding an item is a change to the shipped list below, not
-//! something the file can introduce on its own.
+//! carries `shown`, the same flag name the Frontline vehicle-costs file uses: 1 offers the item, 0
+//! hides it, and any other value is rejected with a log line rather than read as an unlock. Sections
+//! group by where the content comes from (USAF, ION, AFRF).
+//!
+//! READ BY NAME, ON PURPOSE. The reader walks the list shipped below rather than the file's own keys.
+//! The serialization API could enumerate keys (SerializationContext.CanSeekMembers, and
+//! LoadContext.ReadMapKey alongside StartMap), but a fixed list keeps the shipped defaults and the
+//! owner's editable values in one place and makes every value in the file one this code actually
+//! understands. The cost is that a prefab has to be listed below to be switchable: adding one is an
+//! AddEntry line, not a file edit. Keys the file carries that this list does not know are ignored.
 //!
 //! FAIL BEHAVIOUR. A missing file is written from the shipped defaults. A file that exists but does
-//! not parse runs on those defaults, is left untouched for repair, and says so in the log. The
-//! defaults are the state we want on a server nobody has configured: the civilian clothing and the
-//! two Vz.58 rifles hidden.
+//! NOT parse runs on those defaults and is left exactly as it is, deliberately: rewriting it would
+//! destroy an owner's half-finished edit, and the shipped defaults already hide what must stay
+//! hidden. The defaults are the state wanted on a server nobody has configured.
 //!
-//! SCOPE. Only this faction's arsenal is filtered. Another faction asking the same question still
-//! gets what its own catalogs offer, so this cannot silently strip a mod that shares the world.
-//!
-//! ONE THING TO KNOW BEFORE TRUSTING A LIVE EDIT. The list is built on the client that opens the
-//! arsenal, and the file lives in the profile directory of the machine that has it. On a listen
-//! server or in single player that is the same machine, so an edit takes effect where it is made. On
-//! a dedicated server the clients do not have the file and fall back to the shipped defaults, so a
-//! lockout always holds but an admin switching something back ON would not reach remote players
-//! without replicating the setting, which is not implemented yet (the Frontline vehicle-costs file
-//! broadcasts its deviations for exactly this reason).
+//! ONE THING TO KNOW BEFORE TRUSTING A LIVE EDIT. The list is built on the machine that opens the
+//! arsenal, and the file lives in the profile directory of the machine that has one. On a listen
+//! server and in single player that is the same machine, so an edit takes effect where it is made. On
+//! a dedicated server the clients have no such file, fall back to the shipped defaults, and the
+//! server's own edit does not travel: a lockout always holds everywhere, but switching something back
+//! ON only reaches remote players once the setting is replicated, which is not implemented. The
+//! Frontline vehicle-costs file broadcasts its deviations for exactly this reason.
 class CPO_ArsenalFilterEntry
 {
 	string m_sSection;
@@ -57,8 +70,10 @@ class CPO_ArsenalFilter
 
 	protected const string DIRECTORY = "$profile:7Cav_PubFac";
 	protected const string FILE_PATH = "$profile:7Cav_PubFac/arsenal.json";
+	//! Read by the two overrides below, so deliberately not protected.
+	const string FACTION_KEY = "7Cav";
 	protected const int SCHEMA = 1;
-	protected const float RELOAD_MS = 30000;
+	protected const int RELOAD_MS = 30000;
 
 	//! Every prefab this filter can act on, in section order, one row each.
 	protected ref array<ref CPO_ArsenalFilterEntry> m_aEntries = {};
@@ -71,7 +86,7 @@ class CPO_ArsenalFilter
 	protected ref set<string> m_Hidden = new set<string>();
 
 	protected bool m_bBuilt;
-	protected float m_fNextReload_ms;
+	protected int m_iNextReload_ms;
 
 	//------------------------------------------------------------------------------------------------
 	static CPO_ArsenalFilter GetInstance()
@@ -95,28 +110,43 @@ class CPO_ArsenalFilter
 	}
 
 	//------------------------------------------------------------------------------------------------
-	//! \return how many prefabs are currently hidden, for logging
-	int GetHiddenCount()
+	//! Drops every locked prefab from a list the arsenal is about to show. Used by the component
+	//! seam; the manager seam runs the same test through IsHidden.
+	void RemoveHidden(inout array<SCR_ArsenalItem> items)
 	{
 		EnsureFresh();
 
-		return m_Hidden.Count();
+		if (m_Hidden.IsEmpty())
+			return;
+
+		for (int i = items.Count() - 1; i >= 0; i--)
+		{
+			SCR_ArsenalItem item = items[i];
+			if (!item)
+				continue;
+
+			if (m_Hidden.Contains(item.GetItemResourceName()))
+				items.RemoveOrdered(i);
+		}
 	}
 
 	//------------------------------------------------------------------------------------------------
 	//! Reads the file back at most once per RELOAD_MS, so a live edit lands without a restart.
+	//!
+	//! The clock is System.GetTickCount(), milliseconds since the game started, NOT
+	//! BaseWorld.GetWorldTime(), which is the lifetime of the CURRENT world and restarts on every
+	//! world load. With the world clock a reload would leave a deadline from the previous world in
+	//! place, and the fresh world's smaller times would suppress re-reads for however long the old
+	//! world had been running beyond the interval.
 	protected void EnsureFresh()
 	{
 		BuildDefaults();
 
-		float now = 0;
-		if (GetGame().GetWorld())
-			now = GetGame().GetWorld().GetWorldTime();
-
-		if (m_fNextReload_ms != 0 && now < m_fNextReload_ms)
+		int now = System.GetTickCount();
+		if (m_iNextReload_ms != 0 && now < m_iNextReload_ms)
 			return;
 
-		m_fNextReload_ms = now + RELOAD_MS;
+		m_iNextReload_ms = now + RELOAD_MS;
 
 		Load();
 	}
@@ -191,8 +221,8 @@ class CPO_ArsenalFilter
 
 	//------------------------------------------------------------------------------------------------
 	//! Merge the file over the shipped defaults and rebuild the hidden set. Values the file carries
-	//! win; prefabs the file is missing are kept at their shipped state and written out on the next
-	//! save, so an older file picks up a newly listed item without the owner redoing anything.
+	//! win; prefabs the file is missing keep their shipped state and are written out on the next save,
+	//! so an older file picks up a newly listed item without the owner redoing anything.
 	protected void Load()
 	{
 		bool haveFile = FileIO.FileExists(FILE_PATH);
@@ -205,7 +235,7 @@ class CPO_ArsenalFilter
 			parsed = loadContext.LoadFromFile(FILE_PATH);
 
 			if (!parsed)
-				Print("[" + CPO_FactionsInfo.NAME + "] arsenal filter: " + FILE_PATH + " exists but did not parse, running on the shipped defaults and leaving the file for repair", LogLevel.WARNING);
+				Print("[" + CPO_FactionsInfo.NAME + "] arsenal filter: " + FILE_PATH + " exists but did not parse, running on the shipped defaults and leaving the file untouched", LogLevel.WARNING);
 		}
 
 		if (parsed)
@@ -215,7 +245,12 @@ class CPO_ArsenalFilter
 
 		Print("[" + CPO_FactionsInfo.NAME + "] arsenal filter: " + m_Hidden.Count().ToString() + " prefab(s) hidden from the arsenal, " + m_aEntries.Count().ToString() + " configurable in " + FILE_PATH, LogLevel.NORMAL);
 
-		Save();
+		// Write only when there was nothing to protect. A first run creates the file; a good parse
+		// refreshes it with any newly listed prefab. A file that failed to parse is left exactly as
+		// it is, because the alternative is overwriting an owner's edit with the shipped defaults and
+		// losing every change they had made.
+		if (!haveFile || parsed)
+			Save();
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -245,10 +280,22 @@ class CPO_ArsenalFilter
 				continue;
 
 			int shown = entry.m_iShown;
-			loadContext.ReadValue("shown", shown);
-			entry.m_iShown = shown;
+			bool read = loadContext.ReadValue("shown", shown);
 
 			loadContext.EndObject();
+
+			// Only 1 and 0 mean anything. A read that failed leaves the shipped default in place, and
+			// so does a value outside the pair: a typo must not widen a default restriction.
+			if (!read)
+				continue;
+
+			if (shown == 0 || shown == 1)
+			{
+				entry.m_iShown = shown;
+				continue;
+			}
+
+			Print("[" + CPO_FactionsInfo.NAME + "] arsenal filter: ignoring shown " + shown.ToString() + " for " + entry.m_sPrefab + ", keeping the shipped default", LogLevel.WARNING);
 		}
 
 		if (openSection != string.Empty)
@@ -268,7 +315,9 @@ class CPO_ArsenalFilter
 	}
 
 	//------------------------------------------------------------------------------------------------
-	//! Writes the merged state back, so the file always carries every configurable prefab.
+	//! Writes the merged state back, so the file always carries every configurable prefab. Sections
+	//! are walked rather than the entries, so a section with nothing in it still appears with its note
+	//! instead of silently vanishing from the file.
 	protected void Save()
 	{
 		if (!FileIO.FileExists(DIRECTORY))
@@ -278,51 +327,40 @@ class CPO_ArsenalFilter
 		saveContext.SetIndent(" ", 2);
 
 		saveContext.WriteValue("schema", SCHEMA);
-		saveContext.WriteValue("readme", "Arsenal lockouts for the 7Cav faction. Each entry is keyed by the prefab's resource path: shown 1 offers it in the arsenal, shown 0 hides it. Hidden prefabs stay in the mod, so switching one back is just this file. Edits are read again within 30 seconds and apply the next time the arsenal is opened. The sections group by where the content comes from and are otherwise only for reading: a prefab can be switched, a section cannot. Only the prefabs listed here can be switched, so ask for an item to be added to the list if it should be controllable. The prefab paths and this file's shape are rewritten by the mod; the shown values are yours.");
+		saveContext.WriteValue("readme", "Arsenal lockouts for the 7Cav faction. Each entry is keyed by the prefab's resource path: shown 1 offers it in the arsenal, shown 0 hides it, and any other value is ignored in favour of the built-in default. Hidden prefabs stay in the mod, so switching one back is just this file. Edits are read again within 30 seconds and apply the next time the arsenal is opened. The sections group by where the content comes from and are otherwise only for reading: a prefab can be switched, a section cannot. Only the prefabs listed here can be switched, so ask for an item to be added to the list if it should be controllable. The prefab paths and this file's shape are rewritten by the mod; the shown values are yours.");
 
-		string openSection;
-
-		foreach (CPO_ArsenalFilterEntry entry : m_aEntries)
+		foreach (string section : m_aSections)
 		{
-			if (entry.m_sSection != openSection)
-			{
-				if (openSection != string.Empty)
-					SaveEndSection(saveContext, openSection);
+			saveContext.StartObject(section);
 
-				openSection = entry.m_sSection;
-				saveContext.StartObject(openSection);
+			foreach (CPO_ArsenalFilterEntry entry : m_aEntries)
+			{
+				if (entry.m_sSection != section)
+					continue;
+
+				saveContext.StartObject(entry.m_sPrefab);
+				saveContext.WriteValue("name", entry.m_sName);
+				saveContext.WriteValue("shown", entry.m_iShown);
+				saveContext.EndObject();
 			}
 
-			saveContext.StartObject(entry.m_sPrefab);
-			saveContext.WriteValue("name", entry.m_sName);
-			saveContext.WriteValue("shown", entry.m_iShown);
+			// The note goes in last, after the prefab keys, so a human reading the file meets the
+			// entries first. The reader is not order-sensitive; this is for readability only.
+			string note = m_mSectionNote.Get(section);
+			if (note != string.Empty && note != "0")
+				saveContext.WriteValue("_note", note);
+
 			saveContext.EndObject();
 		}
-
-		if (openSection != string.Empty)
-			SaveEndSection(saveContext, openSection);
 
 		if (!saveContext.SaveToFile(FILE_PATH))
 			Print("[" + CPO_FactionsInfo.NAME + "] arsenal filter: failed to write " + FILE_PATH, LogLevel.ERROR);
 	}
-
-	//------------------------------------------------------------------------------------------------
-	//! The note goes in last, after the prefab keys, so a reader walking the file in order meets the
-	//! entries first and the comment never sits between two lookups.
-	protected void SaveEndSection(PrettyJsonSaveContext saveContext, string section)
-	{
-		string note = m_mSectionNote.Get(section);
-		if (note != string.Empty && note != "0")
-			saveContext.WriteValue("_note", note);
-
-		saveContext.EndObject();
-	}
 }
 
 //------------------------------------------------------------------------------------------------
-//! The one query every arsenal view builds its list from. Filtering its result reaches the arsenal
-//! component and the arsenal display component alike, and the array it returns is built fresh by the
-//! method, so removing from it cannot disturb the catalog.
+//! Seam one: the catalog manager. SCR_ArsenalComponent asks this for its list whenever the arsenal
+//! entity has no overwrite item-list config, and any other mod asking the same question reads it too.
 modded class SCR_EntityCatalogManagerComponent
 {
 	override array<SCR_ArsenalItem> GetFilteredArsenalItems(SCR_EArsenalItemType typeFilter, SCR_EArsenalItemMode modeFilter, SCR_EArsenalGameModeType arsenalGameModeType, SCR_Faction faction = null, EArsenalItemDisplayType requiresDisplayType = -1)
@@ -331,7 +369,7 @@ modded class SCR_EntityCatalogManagerComponent
 
 		// Scope: this faction only. A world where another mod's faction shares the arsenal manager
 		// must keep that faction's own catalog intact.
-		if (!faction || faction.GetFactionKey() != "7Cav")
+		if (!faction || faction.GetFactionKey() != CPO_ArsenalFilter.FACTION_KEY)
 			return items;
 
 		CPO_ArsenalFilter filter = CPO_ArsenalFilter.GetInstance();
@@ -349,5 +387,30 @@ modded class SCR_EntityCatalogManagerComponent
 		}
 
 		return items;
+	}
+}
+
+//------------------------------------------------------------------------------------------------
+//! Seam two: the arsenal component itself, which is the one place both of its own paths pass
+//! through. This is what covers an arsenal entity that carries an overwrite item-list config, a request
+//! that never reaches the catalog manager above, and it is also what the arsenal display component
+//! reads. Filtering here as well as above is harmless: the second pass finds the entry already gone.
+modded class SCR_ArsenalComponent
+{
+	override bool GetFilteredArsenalItems(out notnull array<SCR_ArsenalItem> filteredArsenalItems, EArsenalItemDisplayType requiresDisplayType = -1)
+	{
+		bool ok = super.GetFilteredArsenalItems(filteredArsenalItems, requiresDisplayType);
+		if (!ok)
+			return ok;
+
+		SCR_Faction faction = GetAssignedFaction();
+		if (!faction || faction.GetFactionKey() != CPO_ArsenalFilter.FACTION_KEY)
+			return ok;
+
+		CPO_ArsenalFilter filter = CPO_ArsenalFilter.GetInstance();
+		if (filter)
+			filter.RemoveHidden(filteredArsenalItems);
+
+		return ok;
 	}
 }
