@@ -1,0 +1,22 @@
+GameProject {
+ ID "7CavPubMapsKunar"
+ GUID "282E3902638E5736"
+ TITLE "7Cav PubMaps Kunar"
+ Dependencies {
+  "58D0FB3206B6F859" "60926835F4A7B0CA" "5C9691EA7FD7A79F"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

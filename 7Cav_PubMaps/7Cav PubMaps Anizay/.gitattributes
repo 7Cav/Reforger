@@ -1,0 +1,13 @@
+# House rule for this addon: every text file is LF and BOM-free, with no exceptions, the layers
+# included. Storing CRLF produced a whole-file diff every time a Workbench save rewrote a file, and
+# the packer reads LF sources cleanly (proven by a clean pack of all four addons).
+* text eol=lf
+
+# Binary resources: never text-normalise these.
+*.edds binary
+*.pak binary
+*.rdb binary
+*.png binary
+*.jpg binary
+*.ttile binary
+*.terr binary
