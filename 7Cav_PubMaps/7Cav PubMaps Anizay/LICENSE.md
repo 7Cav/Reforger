@@ -1,12 +1,16 @@
 # Licence
 
-This addon is the 7Cav Dev Team's own work. It contains no copied third-party resources: the world
-and its layers are written by the unit, and COE2, Kex Scenario Core and the terrain are dependencies.
+This addon's own files are the 7Cav Dev Team's work. The world and its layers are written here, and no
+third-party file is redistributed.
 
-- In the unit repository: distributed under the repository licence, GPL-2.0.
-- COE2 and Kex Scenario Core remain Kexanone's work and keep their own licence; this addon only
-  depends on them. The terrain and its navmeshes likewise remain the terrain author's work.
+- COE2 and Kex Scenario Core are Kexanone's, licensed APL-SA, and are dependencies rather than copied
+  content. The scenario placement this addon reproduces is COE2's.
+  https://www.bohemia.net/community/licenses/arma-public-license-share-alike
+- The Anizay terrain and its navmeshes are Temppa's, and are depended on rather than
+  redistributed.
 - The loading screen image is taken from 7Cav Assets, the unit's own asset mod.
+- In the unit repository this addon sits under the repository licence, GPL-2.0.
+- The published workshop item carries the Arma Public License Share Alike, pending the unit's ruling on
+  whether a scenario that reproduces COE2 placement data is a derivative of COE2.
 
 Provided as is, without warranty of any kind.
-

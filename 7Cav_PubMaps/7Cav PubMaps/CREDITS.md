@@ -7,7 +7,8 @@
 - COE2 and Kex Scenario Core: Kexanone (Kex), APL-SA. The scenario is COE2's, and this mod is built
   to run it.
   Source: https://github.com/Kexanone/COE2_AR and https://reforger.armaplatform.com/workshop/60926835F4A7B0CA
-- Everon and Kolguyev are base game terrain. Their worlds and navmeshes are the game's.
+- Everon and Kolguyev are base game terrain, Bohemia Interactive's. Their navmeshes are the game's,
+  and no base game terrain file is redistributed here.
 
 No COE2 file is redistributed here. The scenario worlds and their layers were written by the 7Cav
 Dev Team, following COE2's own scenario layout: a sub-scene over the terrain world, a managers
@@ -15,8 +16,8 @@ layer, a game mode layer naming the Kex Scenario Core slot config for that terra
 
 ## What the 7Cav Dev Team wrote
 
-- `worlds/7CavCOE/Eden/7Cav_COE2_Everon.ent` and its three layers.
-- `worlds/7CavCOE/Cain/7Cav_COE2_Kolguyev.ent` and its three layers.
+- `worlds/7CavCOE/Eden/7Cav_COE2_Everon.ent` and its three layers, L1 to L3
+- `worlds/7CavCOE/Cain/7Cav_COE2_Kolguyev.ent` and its five layers, L1 to L5, including the custom location and custom slot layers
 - The two mission headers, including the 7Cav loading screen.
 - The loading screen image itself, taken from 7Cav Assets.
 
@@ -33,9 +34,15 @@ project notes for the resolver output that found them.
 
 ## Licence
 
-This addon redistributes no third-party material, so no share-alike obligation attaches to it. In
-the unit repository it is distributed under that repository's licence (GPL-2.0). COE2, Kex Scenario
-Core and the terrain are dependencies and remain their authors' work.
+No third-party file is redistributed here: the world, its layers and its mission header are written by
+the 7Cav Dev Team, and COE2, Kex Scenario Core and the terrain are dependencies rather than copied
+content. The scenario placement those files reproduce is COE2's.
+
+Whether reproducing COE2's placement data makes this addon a derivative of COE2 is the unit's call and
+not something these notes settle. In the unit repository it sits under the repository licence
+(GPL-2.0). The published workshop item carries the Arma Public License Share Alike, which is COE2's own
+licence, until the unit rules otherwise:
+https://www.bohemia.net/community/licenses/arma-public-license-share-alike
 
 ## Compatibility
 

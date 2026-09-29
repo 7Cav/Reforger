@@ -17,7 +17,7 @@ references stay in their own addons and are depended on, not copied.
 
 ## What the 7Cav Dev Team wrote
 
-- `worlds/7CavCOE/Kunar/7Cav_COE2_Kunar.ent` and its three layers.
+- `worlds/7CavCOE/Kunar/7Cav_COE2_Kunar.ent` and its three layers, L1 to L3
 - The mission header, including the 7Cav loading screen.
 - The loading screen image itself, taken from 7Cav Assets.
 
@@ -36,11 +36,15 @@ COE2's own Kunar scenario uses, carried faithfully rather than re-sited.
 
 ## Licence
 
-This addon redistributes no third-party material, so no share-alike obligation attaches to it from
-redistribution. In the unit repository it is distributed under that repository's licence (GPL-2.0).
-COE2, Kex Scenario Core and the Kunar Province terrain are dependencies and remain their authors'
-work under their own licences. The unit's call on the workshop licence field for a scenario that
-runs COE2 is recorded in the project notes.
+No third-party file is redistributed here: the world, its layers and its mission header are written by
+the 7Cav Dev Team, and COE2, Kex Scenario Core and the terrain are dependencies rather than copied
+content. The scenario placement those files reproduce is COE2's.
+
+Whether reproducing COE2's placement data makes this addon a derivative of COE2 is the unit's call and
+not something these notes settle. In the unit repository it sits under the repository licence
+(GPL-2.0). The published workshop item carries the Arma Public License Share Alike, which is COE2's own
+licence, until the unit rules otherwise:
+https://www.bohemia.net/community/licenses/arma-public-license-share-alike
 
 ## Compatibility
 
