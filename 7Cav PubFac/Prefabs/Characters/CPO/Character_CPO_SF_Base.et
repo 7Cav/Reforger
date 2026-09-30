@@ -1,0 +1,99 @@
+SCR_ChimeraCharacter : "{6C3EF4C7A1D25F00}Prefabs/Characters/CPO/Character_CPO_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1F9DA556822C78DA}Prefabs/Weapons/Handguns/M17/Handgun_M18.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1B08F57835BCC3D4}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MID_MC.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3AE896A1D21E2254}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_OutT_RollS_MC.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{6BEC572D4E71CBED}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B5FEEF292633187B}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106CCCB65707}" {
+     TargetStorage "Pants/crye_pants_mc.et"
+    }
+    ItemsInitConfigurationItem "{6C3EF4C7B0000004}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_OutT_RollS_MC.et"
+    }
+    ItemsInitConfigurationItem "{6C3EF4C7B0000100}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     PrefabsToSpawn {
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
+     }
+    }
+   }
+  }
+  CPO_RandomUniformComponent "{6C3EF4C7B1000001}" {
+   m_aJackets {
+    CPO_UniformVariant "{6C3EF4C7B1000112}" {
+     m_sPrefab "{3AE896A1D21E2254}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_OutT_RollS_MC.et"
+     m_iWeight 6
+    }
+    CPO_UniformVariant "{6C3EF4C7B1000114}" {
+     m_sPrefab "{7F453261721CCE10}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_RollS_MC.et"
+     m_iWeight 3
+    }
+    CPO_UniformVariant "{6C3EF4C7B1000116}" {
+     m_sPrefab "{66EF2939B2E40D9B}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_OutT_PushS_MC.et"
+     m_iWeight 3
+    }
+   }
+   m_aTrousers {
+    CPO_UniformVariant "{6C3EF4C7B1000122}" {
+     m_sPrefab "{7BDF3DD1CB3730A3}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_KpadsG3_MC.et"
+     m_iWeight 6
+    }
+    CPO_UniformVariant "{6C3EF4C7B1000124}" {
+     m_sPrefab "{A9590DD7524094A1}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_KpadsG4_MC.et"
+     m_iWeight 4
+    }
+    CPO_UniformVariant "{6C3EF4C7B1000126}" {
+     m_sPrefab "{B4E5DD4F6136609D}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_KpadsSP_MC.et"
+     m_iWeight 3
+    }
+    CPO_UniformVariant "{6C3EF4C7B1000128}" {
+     m_sPrefab "{5FB97B757511D4AA}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_no_kpads_MC.et"
+     m_iWeight 2
+    }
+   }
+   m_aHelmets {
+    CPO_UniformVariant "{6C3EF4C7B1000130}" {
+     m_sPrefab "{38531602641446A8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_MC.et"
+     m_iWeight 5
+    }
+    CPO_UniformVariant "{6C3EF4C7B1000131}" {
+     m_sPrefab "{865FB512FC2AFF5C}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_MC_Peltor.et"
+     m_iWeight 5
+    }
+    CPO_UniformVariant "{6C3EF4C7B1000132}" {
+     m_sPrefab "{FB9553B3999131F0}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_MC_AMP.et"
+     m_iWeight 4
+    }
+    CPO_UniformVariant "{6C3EF4C7B1000133}" {
+     m_sPrefab "{1B08F57835BCC3D4}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MID_MC.et"
+     m_iWeight 4
+    }
+    CPO_UniformVariant "{6C3EF4C7B1000134}" {
+     m_sPrefab "{92405C6F3EA91DC8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MID_MC_AMP.et"
+     m_iWeight 4
+    }
+   }
+  }
+ }
+}

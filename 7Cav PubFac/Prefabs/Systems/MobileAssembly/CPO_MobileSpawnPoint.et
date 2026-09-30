@@ -1,0 +1,12 @@
+CPO_MobileSpawnPoint {
+ ID "6C3EF4C7B2000000"
+ components {
+  RplComponent "{6C3EF4C7B2000006}" {
+   Streamable Disabled
+  }
+ }
+ m_sFaction "7Cav"
+ m_Info SCR_UIInfo "{6C3EF4C7B2000007}" {
+  Name "M934A1 Command Truck"
+ }
+}

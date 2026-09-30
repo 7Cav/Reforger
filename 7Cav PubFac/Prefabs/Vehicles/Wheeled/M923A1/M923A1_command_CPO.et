@@ -1,0 +1,34 @@
+Vehicle : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
+ ID "5206D4E79715C115"
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "7Cav"
+  }
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   Enabled 0
+  }
+  CPO_MobileSpawnLockComponent "{6C3EF4C7B200000D}" {
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "M934A1 Command Truck (7Cav)"
+    m_sFaction "7Cav"
+    m_aAuthoredLabels + {
+     FACTION_CPO_US
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1500
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Radio {
+     Prefab "{6C3EF4C7A1D26401}Prefabs/Vehicles/Wheeled/M923A1/M923A1_combox_CPO.et"
+    }
+   }
+  }
+ }
+}

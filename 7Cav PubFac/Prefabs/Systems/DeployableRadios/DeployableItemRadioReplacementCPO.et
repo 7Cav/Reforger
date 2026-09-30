@@ -1,0 +1,8 @@
+GenericEntity : "{B5A9B78EE58D9C76}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacemenUS.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  FactionAffiliationComponent "{5DF2A55466C87B0F}" {
+   "faction affiliation" "7Cav"
+  }
+ }
+}

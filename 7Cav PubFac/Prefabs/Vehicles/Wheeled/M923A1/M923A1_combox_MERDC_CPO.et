@@ -1,0 +1,31 @@
+GenericEntity : "{5E3606C2EE668D0F}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_combox_MERDC.et" {
+ ID "5206D4E7EFE2C051"
+ components {
+  CPO_MobileAssemblyComponent "{6C3EF4C7B2000008}" {
+  }
+  ActionsManagerComponent "{5DE2DEF025C6CAA0}" {
+   additionalActions {
+    CPO_DeployMobileSpawnUserAction "{6C3EF4C7B2000009}" {
+     ParentContextList {
+      "trunk"
+     }
+     UIInfo UIInfo "{6C3EF4C7B200000A}" {
+      Name "Deploy spawn point"
+     }
+     VisibilityRange 3
+     Duration 10
+    }
+    CPO_PackMobileSpawnUserAction "{6C3EF4C7B200000B}" {
+     ParentContextList {
+      "trunk"
+     }
+     UIInfo UIInfo "{6C3EF4C7B200000C}" {
+      Name "Pack up spawn point"
+     }
+     VisibilityRange 3
+     Duration 5
+    }
+   }
+  }
+ }
+}

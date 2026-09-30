@@ -1,0 +1,80 @@
+SCR_AIGroup : "{6C3EF4C7A1D26000}Prefabs/Groups/Group_CPO_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "AT Team"
+    m_Image "{8252F23E0F9B087E}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_Team_LAT.edds"
+    m_aAuthoredLabels + {
+     TRAIT_ARMORPIERCING
+    }
+    m_aAutoLabels {
+     GROUPSIZE_SMALL
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6C3EF4C7D0000031}" {
+      m_Value 150
+     }
+     SCR_EntityBudgetValue "{6C3EF4C7D0000032}" {
+      m_BudgetType CAMPAIGN
+      m_Value 150
+     }
+     SCR_EntityBudgetValue "{6C3EF4C7D0000033}" {
+      m_BudgetType AI_SERVER
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6C3EF4C7D0000034}" {
+      m_BudgetType AI
+      m_Value 2
+     }
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{6C3EF4C7D0000035}" {
+     m_Identity BLUFOR
+     m_Dimension LAND
+     m_Icons INFANTRY
+     m_Amplifier TEAM
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{6C3EF4C7D20400FF}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6C3EF4C7D2040000}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 3
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6C3EF4C7D2040001}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6C3EF4C7D2040002}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{6C3EF4C7A1D25F09}Prefabs/Characters/CPO/Character_CPO_ATGunner.et" "{6C3EF4C7A1D25F0A}Prefabs/Characters/CPO/Character_CPO_ATAssistant.et"
+ }
+}
