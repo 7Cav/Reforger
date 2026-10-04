@@ -7,7 +7,7 @@
 class CPO_FactionsInfo
 {
 	static const string NAME = "7Cav PubFac";
-	static const string VERSION = "1.0.0";
+	static const string VERSION = "1.0.1";
 }
 
 //------------------------------------------------------------------------------------------------
