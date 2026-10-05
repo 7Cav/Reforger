@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6C3EF4C7E0000005}Configs/Loadouts/Loadout_CPO_AutomaticRifleman.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

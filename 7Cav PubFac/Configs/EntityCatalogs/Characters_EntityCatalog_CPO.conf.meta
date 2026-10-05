@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6C3EF4C7A1D25F10}Configs/EntityCatalogs/Characters_EntityCatalog_CPO.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

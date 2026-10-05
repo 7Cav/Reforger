@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{47F6D7364F506C1E}worlds/7CavCOE/Cain/7Cav_COE2_Kolguyev.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

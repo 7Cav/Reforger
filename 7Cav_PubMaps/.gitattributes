@@ -1,0 +1,14 @@
+# Every text file in this family is LF and BOM-free, the README included.
+#
+# This clone has core.autocrlf=true, so any text file without an eol attribute gets rewritten as CRLF
+# on checkout. The per-mod .gitattributes files cover each mod folder; this one covers the family
+# folder itself and anything added beside it later.
+* text eol=lf
+
+# Binary resources: never text-normalise these.
+*.edds binary
+*.pak binary
+*.rdb binary
+*.png binary
+*.jpg binary
+*.jpeg binary

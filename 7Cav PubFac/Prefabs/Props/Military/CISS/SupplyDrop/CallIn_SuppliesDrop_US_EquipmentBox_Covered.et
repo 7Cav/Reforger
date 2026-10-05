@@ -1,0 +1,25 @@
+GenericEntity : "{90F23D287E57E7CF}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/CallIn_SuppliesDrop_US_EquipmentBox_Covered.et" {
+ ID "59DA86E84966DC50"
+ {
+  GenericEntity {
+   ID "6303414441C615E8"
+   components {
+    RigidBody "{612AE13966E14BD9}" {
+     Active AlwaysActive
+     Static 0
+     Mass 100
+     LinearDamping 0.55
+     AngularDamping 0.2
+    }
+   }
+  }
+  GenericEntity {
+   ID "612AE13F0528702B"
+   components {
+    RHS_ReplaceDeployableEntityComponent "{612B06DBA7E4D35F}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

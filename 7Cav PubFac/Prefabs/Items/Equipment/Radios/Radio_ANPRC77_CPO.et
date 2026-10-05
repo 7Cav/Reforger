@@ -1,0 +1,16 @@
+GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "AN/PRC-77 (7Cav)"
+    }
+   }
+  }
+  SCR_RestrictedDeployableSpawnPointComponent "{5EA4A89F0D06E1A8}" {
+   m_sReplacementPrefab "{6C3EF4C7A1D25F40}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacementCPO.et"
+   m_FactionKey "7Cav"
+  }
+ }
+}

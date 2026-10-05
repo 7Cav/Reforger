@@ -1,0 +1,19 @@
+SCR_AIWorld AIWorld : "{3D0FE80570D5BFCC}Prefabs/AI/SCR_AIWorld_Anizay.et" {
+ coords 2708.491 157.523 3107.463
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2709.92 158.858 3104.316
+}
+RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 2713.548 159.506 3102.813
+}
+ScriptedChatEntity ChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+ Flags 0
+ coords 2707.398 157.882 3106.644
+}
+COE_FactionManager FactionManager : "{F9A08100A9E20FB5}Prefabs/Managers/COE_FactionManager.et" {
+ coords 2702.033 156.717 3110.474
+}
+SCR_LoadoutManager LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+ coords 2708.528 157.756 3106.889
+}

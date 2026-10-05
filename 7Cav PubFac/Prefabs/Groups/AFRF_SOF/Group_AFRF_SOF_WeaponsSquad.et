@@ -1,0 +1,143 @@
+SCR_AIGroup : "{6C3EF4C7A1D26200}Prefabs/Groups/AFRF_SOF/Group_AFRF_SOF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "SOF Weapons Squad"
+    m_Image "{354D127DBA1E0C66}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_GM94Belt.edds"
+    m_aAuthoredLabels + {
+     TRAIT_ARMORPIERCING TRAIT_SUPPRESSIVE
+    }
+    m_aAutoLabels {
+     GROUPSIZE_LARGE
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6C3EF4C7D30900A1}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{6C3EF4C7D30900A2}" {
+      m_BudgetType AI_SERVER
+      m_Value 0
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6C3EF4C7D30900A3}" {
+      m_BudgetType AI
+      m_Value 8
+     }
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{6C3EF4C7D30900A5}" {
+     m_Identity OPFOR
+     m_Dimension LAND
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Icons INFANTRY
+    m_Amplifier SQUAD
+   }
+  }
+  SCR_PreviewEntityComponent "{6C3EF4C7D30900FF}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6C3EF4C7D3090000}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 3
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6C3EF4C7D3090001}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6C3EF4C7D3090002}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6C3EF4C7D3090003}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6C3EF4C7D3090004}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6C3EF4C7D3090005}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -6 0 -6
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6C3EF4C7D3090006}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 9 0 -9
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6C3EF4C7D3090007}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -9 0 -9
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6C3EF4C7D3090008}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 12 0 -12
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{5DD745DF6268BAA2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_SL_Random.et" "{B4F723B03AD50291}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_MG_Random.et" "{B4838E2B3790D00C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_AAT_Random.et" "{B4F723B03AD50291}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_MG_Random.et" "{B4838E2B3790D00C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_AAT_Random.et" "{BBCA3BDADEC684A1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_AT_Random.et" "{B4838E2B3790D00C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_AAT_Random.et" "{155FBC6C685C9555}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_GL_Random.et"
+ }
+}

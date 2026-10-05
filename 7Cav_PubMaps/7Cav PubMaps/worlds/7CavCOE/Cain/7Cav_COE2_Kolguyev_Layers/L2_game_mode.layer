@@ -1,0 +1,4 @@
+COE_GameMode GameMode : "{9EDD3A569D1FE096}Prefabs/MP/Modes/COE_GameMode.et" {
+ coords 8676.103 6.679 5749.108
+ m_sKSC_WorldSlotsConfigName "{6D8D7D830F8C874D}Configs/Slots/Cain/KSC_Slots_Cain.conf"
+}

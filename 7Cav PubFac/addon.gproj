@@ -1,0 +1,22 @@
+GameProject {
+ ID "7CavPubFac"
+ GUID "6A78FA1A6CCCB816"
+ TITLE "7Cav_PubFac"
+ Dependencies {
+  "58D0FB3206B6F859" "595F2BF2F44836FB" "1337C0DE5DABBEEF" "BADC0DEDABBEDA5E"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

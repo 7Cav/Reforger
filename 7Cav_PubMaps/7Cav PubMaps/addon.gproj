@@ -1,0 +1,22 @@
+GameProject {
+ ID "7CavPubMaps"
+ GUID "6A78FC3A4047FF07"
+ TITLE "7Cav PubMaps"
+ Dependencies {
+  "58D0FB3206B6F859" "60926835F4A7B0CA"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

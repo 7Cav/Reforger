@@ -1,0 +1,4 @@
+COE_GameMode GameMode : "{9EDD3A569D1FE096}Prefabs/MP/Modes/COE_GameMode.et" {
+ coords 4703.907 28.708 11233.311
+ m_sKSC_WorldSlotsConfigName "{BE2360AA5B24FE81}Configs/Slots/Eden/KSC_Slots_Eden.conf"
+}

@@ -1,0 +1,22 @@
+GameProject {
+ ID "7CavPubMapsAnizay"
+ GUID "9A2332D1C75FD8BB"
+ TITLE "7Cav PubMaps Anizay"
+ Dependencies {
+  "58D0FB3206B6F859" "60926835F4A7B0CA" "6266DCA9193C705E"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

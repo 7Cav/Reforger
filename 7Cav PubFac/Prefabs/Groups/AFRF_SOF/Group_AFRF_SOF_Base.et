@@ -1,0 +1,20 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_AFRF"
+    m_aAuthoredLabels + {
+     FACTION_RHS_AFRF SUBBRANCH_RHS_AFRF_VV TYPE_RHS_AFRF_SOF CAMO_RHS_ATACS ERA_RHS_MODERN
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Identity OPFOR
+   }
+  }
+ }
+ coords 0 0 0
+ m_faction "RHS_AFRF"
+}
