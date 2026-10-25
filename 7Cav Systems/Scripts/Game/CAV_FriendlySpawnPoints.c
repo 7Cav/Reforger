@@ -1,11 +1,7 @@
 //------------------------------------------------------------------------------------------------
-//! Opens deployed radios and command trucks to friendly factions.
-//! Vanilla only lists a spawn point for players of exactly its own faction, so a Misfit player
-//! could never spawn on a Bandit radio even though the factions are friendly. The server does not
-//! check faction when reserving a spawn point; the restriction lives in which points the deploy
-//! menu and the map offer. These overrides widen those lists for deployed radios
-//! (SCR_RestrictedDeployableSpawnPoint) and command trucks (SCR_RadioVehicleSpawnPoint) only, so
-//! base and Game Master placed spawn points stay with their own faction.
+//! Offers deployed radios and command trucks to friendly factions, not only their own. The server
+//! does not check faction when reserving a spawn point; only these lists do. Other spawn points are
+//! unchanged.
 modded class SCR_SpawnPoint
 {
 	//------------------------------------------------------------------------------------------------
@@ -56,43 +52,12 @@ modded class SCR_SpawnPoint
 	//------------------------------------------------------------------------------------------------
 	override static int GetSpawnPointCountForFaction(string factionKey)
 	{
-		if (factionKey.IsEmpty())
-			return 0;
-
-		int count = 0;
-		foreach (SCR_SpawnPoint spawnPoint : GetSpawnPoints())
-		{
-			if (CAV_IsOfferedToFaction(spawnPoint, factionKey))
-				count++;
-		}
-
-		return count;
-	}
-
-	//------------------------------------------------------------------------------------------------
-	override static void ShowSpawnPointDescriptors(bool show, Faction faction)
-	{
-		string factionKey;
-		if (faction)
-			factionKey = faction.GetFactionKey();
-
-		foreach (SCR_SpawnPoint spawnPoint : GetSpawnPoints())
-		{
-			if (!spawnPoint)
-				continue;
-
-			SCR_MapDescriptorComponent mapDescriptor = SCR_MapDescriptorComponent.Cast(spawnPoint.FindComponent(SCR_MapDescriptorComponent));
-			if (!mapDescriptor || !mapDescriptor.Item())
-				continue;
-
-			mapDescriptor.Item().SetVisible(show && CAV_IsOfferedToFaction(spawnPoint, factionKey));
-		}
+		return GetSpawnPointsForFaction(factionKey).Count();
 	}
 }
 
 //------------------------------------------------------------------------------------------------
-//! The deploy map adds and removes icons as points appear or change faction using an exact key
-//! match of its own; route both through the same rule so the map agrees with the spawn list.
+//! The deploy map keeps its own exact faction match when icons are added or change faction.
 modded class SCR_MapUIElementContainer
 {
 	//------------------------------------------------------------------------------------------------
@@ -121,8 +86,7 @@ modded class SCR_MapUIElementContainer
 }
 
 //------------------------------------------------------------------------------------------------
-//! A player whose own faction has no spawn point waits in the deploy menu until one appears; a
-//! friendly radio or truck appearing should end that wait too.
+//! End the deploy menu's wait for a first spawn point when a friendly radio or truck appears.
 modded class SCR_PlayerDeployMenuHandlerComponent
 {
 	//------------------------------------------------------------------------------------------------
@@ -139,8 +103,7 @@ modded class SCR_PlayerDeployMenuHandlerComponent
 }
 
 //------------------------------------------------------------------------------------------------
-//! The deploy menu adds and removes points as they appear or change faction using an exact key
-//! match of its own; route both through the same rule.
+//! The deploy menu's spawn list keeps its own exact faction match on add and faction change.
 modded class SCR_SpawnPointRequestUIComponent
 {
 	//------------------------------------------------------------------------------------------------
