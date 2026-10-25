@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0D752A18B6854F5D}Prefabs/Items/Equipment/Radios/Cav/Radio_ANPRC77_Gunslinger.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

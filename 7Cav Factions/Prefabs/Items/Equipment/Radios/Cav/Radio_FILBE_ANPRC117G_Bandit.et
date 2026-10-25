@@ -1,0 +1,17 @@
+GenericEntity : "{9F6BD5440120D0EA}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack_Radio.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  SCR_DeployableInventoryItemInventoryComponent "{6A2D5795212CE679}" {
+   Attributes SCR_ItemAttributeCollection "{6A2D57954C7D808E}" {
+    ItemDisplayName UIInfo "{6A2D57957E5E1B87}" {
+     Name "FILBE AN/PRC-117G (Bandit)"
+    }
+   }
+  }
+  SCR_RestrictedDeployableSpawnPointComponent "{6A2D576EE1829D2D}" {
+   m_sReplacementPrefab "{3C3B9FA6BFE352C6}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacement_Bandit.et"
+   m_FactionKey "Bandit"
+   m_bAllowCustomLoadouts 1
+  }
+ }
+}

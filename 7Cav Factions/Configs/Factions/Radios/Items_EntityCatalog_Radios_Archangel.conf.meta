@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{58C1FA05ADB40EC3}Configs/Factions/Radios/Items_EntityCatalog_Radios_Archangel.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
