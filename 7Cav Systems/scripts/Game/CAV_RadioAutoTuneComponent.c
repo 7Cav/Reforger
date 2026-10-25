@@ -42,6 +42,10 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 	protected int m_FactionRetry = 0;
 	protected const int MAX_FACTION_RETRY = 20;
 
+	// Player that took control of this character, set by the game mode's player spawned event.
+	protected int m_iPlayerId;
+	protected bool m_bSpawnHooked;
+
 	override protected void OnPostInit(IEntity owner)
 	{
 		super.OnPostInit(owner);
@@ -59,16 +63,71 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 		if (m_InvMgr && m_InvMgr.m_OnItemAddedInvoker)
 			m_InvMgr.m_OnItemAddedInvoker.Remove(OnItemAdded);
 
+		UnhookPlayerSpawned();
+
+		if (GetGame())
+		{
+			GetGame().GetCallqueue().Remove(DeferredHook);
+			GetGame().GetCallqueue().Remove(WaitForFactionThenRetune);
+		}
+
 		super.OnDelete(owner);
 	}
 
 	protected void DeferredHook()
 	{
+		if (!m_Owner)
+			return;
+
 		LocateInvMgr();
 		if (m_InvMgr && m_InvMgr.m_OnItemAddedInvoker)
 			m_InvMgr.m_OnItemAddedInvoker.Insert(OnItemAdded);
 
+		// A player character is spawned first and possessed only once the spawn finalizes, which waits
+		// for the client to preload the area and can take far longer than the retry window below.
+		// The player spawned event fires after possession and after a saved arsenal kit is applied, so
+		// it is the point where the player's faction, group and final radios are all known.
+		SCR_BaseGameMode gameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
+		if (gameMode)
+		{
+			gameMode.GetOnPlayerSpawned().Insert(OnPlayerSpawned);
+			m_bSpawnHooked = true;
+		}
+
 		WaitForFactionThenRetune();
+	}
+
+	protected void OnPlayerSpawned(int playerId, IEntity player)
+	{
+		if (player != m_Owner)
+			return;
+
+		m_iPlayerId = playerId;
+		UnhookPlayerSpawned();
+		RetuneAllRadios();
+	}
+
+	protected void UnhookPlayerSpawned()
+	{
+		if (!m_bSpawnHooked)
+			return;
+
+		m_bSpawnHooked = false;
+		SCR_BaseGameMode gameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
+		if (gameMode)
+			gameMode.GetOnPlayerSpawned().Remove(OnPlayerSpawned);
+	}
+
+	protected int ResolvePlayerId()
+	{
+		if (m_iPlayerId > 0)
+			return m_iPlayerId;
+
+		PlayerManager pm = GetGame().GetPlayerManager();
+		if (!pm || !m_Owner)
+			return 0;
+
+		return pm.GetPlayerIdFromControlledEntity(m_Owner);
 	}
 
 	protected void LocateInvMgrOn(IEntity ent)
@@ -89,6 +148,7 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 
 	protected void LocateInvMgr()
 	{
+		if (!m_Owner) return;
 		LocateInvMgrOn(m_Owner);
 		if (!m_InvMgr) ScanChildrenForInvMgr(m_Owner);
 		m_InvMgrBase = InventoryStorageManagerComponent.Cast(m_InvMgr);
@@ -103,6 +163,9 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 
 	protected void WaitForFactionThenRetune()
 	{
+		if (!m_Owner)
+			return;
+
 		SCR_Faction fac = ResolveFactionOnce();
 		if (fac)
 		{
@@ -181,21 +244,17 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 			freqKHz = m_GroupFreqOverrideKHz; key = ""; return true;
 		}
 
-		PlayerManager pm = GetGame().GetPlayerManager();
-		if (pm)
+		int pid = ResolvePlayerId();
+		if (pid > 0)
 		{
-			int pid = pm.GetPlayerIdFromControlledEntity(m_Owner);
-			if (pid != 0)
+			SCR_GroupsManagerComponent gm = SCR_GroupsManagerComponent.GetInstance();
+			if (gm)
 			{
-				SCR_GroupsManagerComponent gm = SCR_GroupsManagerComponent.GetInstance();
-				if (gm)
+				SCR_AIGroup group = gm.GetPlayerGroup(pid);
+				if (group)
 				{
-					SCR_AIGroup group = gm.GetPlayerGroup(pid);
-					if (group)
-					{
-						int liveFreq = group.GetRadioFrequency();
-						if (liveFreq > 0) { freqKHz = liveFreq; key = ""; return true; }
-					}
+					int liveFreq = group.GetRadioFrequency();
+					if (liveFreq > 0) { freqKHz = liveFreq; key = ""; return true; }
 				}
 			}
 		}
@@ -213,6 +272,9 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 
 	protected CAV_GroupRadioSettingsComponent FindGroupSettings()
 	{
+		if (!m_Owner)
+			return null;
+
 		CAV_GroupRadioSettingsComponent g = CAV_GroupRadioSettingsComponent.Cast(m_Owner.FindComponent(CAV_GroupRadioSettingsComponent));
 		if (g) return g;
 
@@ -234,53 +296,28 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 		return null;
 	}
 
-	protected SCR_FactionAffiliationComponent FindAffiliationComp()
-	{
-		SCR_FactionAffiliationComponent aff = SCR_FactionAffiliationComponent.Cast(m_Owner.FindComponent(SCR_FactionAffiliationComponent));
-		if (aff) return aff;
-
-		IEntity p = m_Owner.GetParent();
-		while (p)
-		{
-			aff = SCR_FactionAffiliationComponent.Cast(p.FindComponent(SCR_FactionAffiliationComponent));
-			if (aff) return aff;
-			p = p.GetParent();
-		}
-
-		IEntity c = m_Owner.GetChildren();
-		while (c)
-		{
-			aff = SCR_FactionAffiliationComponent.Cast(c.FindComponent(SCR_FactionAffiliationComponent));
-			if (aff) return aff;
-			c = c.GetSibling();
-		}
-
-		return null;
-	}
-
 	protected SCR_Faction ResolveFactionOnce()
 	{
-		SCR_FactionAffiliationComponent aff = FindAffiliationComp();
-		if (aff)
+		if (!m_Owner)
+			return null;
+
+		// A player's own faction is authoritative. The character's affiliation is not: every Cav kit
+		// inherits Character_US_Base, so until the game updates it the character still reads "US".
+		int pid = ResolvePlayerId();
+		if (pid > 0)
 		{
-			Faction f = aff.GetAffiliatedFaction();
-			if (f)
-			{
-				SCR_Faction sf = SCR_Faction.Cast(f);
-				if (sf) return sf;
-			}
+			SCR_Faction pf = SCR_Faction.Cast(SCR_FactionManager.SGetPlayerFaction(pid));
+			if (pf) return pf;
 		}
 
-		PlayerManager pm = GetGame().GetPlayerManager();
-		if (pm)
-		{
-			int pid = pm.GetPlayerIdFromControlledEntity(m_Owner);
-			if (pid != 0)
-			{
-				SCR_Faction pf = SCR_Faction.Cast(SCR_FactionManager.SGetPlayerFaction(pid));
-				if (pf) return pf;
-			}
-		}
+		// AI and not yet possessed characters. Characters carry SCR_CharacterFactionAffiliationComponent,
+		// which is not an SCR_FactionAffiliationComponent, so look up the shared base class. Only on the
+		// character itself: its children are worn items and its parent is any vehicle it sits in, and
+		// either can carry a different faction.
+		FactionAffiliationComponent aff = FactionAffiliationComponent.Cast(m_Owner.FindComponent(FactionAffiliationComponent));
+		if (aff)
+			return SCR_Faction.Cast(aff.GetAffiliatedFaction());
+
 		return null;
 	}
 
