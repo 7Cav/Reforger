@@ -5,6 +5,8 @@
     python build_library.py --check              exit 1 if any output is stale or orphaned
     python build_library.py --apply config.json SB_Kunar
                                                  set scenarioId and mods in a server config.json
+    python build_library.py --diff config.json SB_Kunar
+                                                 report how a server config.json differs from the standard
 
 mods.json is the only file anyone edits. It holds the shared mod stacks and, per
 preset, the extra content and terrain mods that map needs. This script writes two
@@ -26,7 +28,9 @@ game.scenarioId and game.mods, leaves every other value as it was, prints nothin
 from the file, and warns if gameProperties.missionHeader is set (those values
 belong to the previous scenario). Upload the result and restart from the panel.
 
-Exit codes: 0 ok, 1 stale or orphaned outputs (--check), 2 bad input.
+A preset may list modIds under "omit" to leave stack mods out of that one list.
+
+Exit codes: 0 ok, 1 stale or orphaned outputs (--check) or drift (--diff), 2 bad input.
 
 Stdlib only.
 """
@@ -74,6 +78,11 @@ def resolve(ids, preset_name, base):
 
 def mod_list(stack, preset):
     mods = stack['core'] + preset['content'] + stack['cav'] + preset['terrain'] + stack['last']
+    omit = set(preset.get('omit', []))
+    unknown = omit - {m.get('modId') for m in mods}
+    if unknown:
+        fail(f"{preset['preset']}: omit names mods not in its list: {', '.join(sorted(unknown))}")
+    mods = [m for m in mods if m.get('modId') not in omit]
     seen = set()
     for m in mods:
         if not MOD_ID.match(m.get('modId', '')):
@@ -166,16 +175,57 @@ def apply(config_path, name, scenarios):
     return 0
 
 
+def diff(config_path, name, scenarios):
+    """Report how a server config.json differs from the standard list. Reads only scenarioId and mods."""
+    if name.endswith('.json'):
+        name = name[:-5]
+    if name not in scenarios:
+        fail(f'unknown scenario {name!r}; pick one of: {", ".join(sorted(scenarios))}')
+    with open(config_path, encoding='utf-8-sig') as fh:
+        try:
+            game = json.load(fh).get('game') or {}
+        except json.JSONDecodeError as exc:
+            fail(f'{config_path} is not valid JSON: {exc}')
+    want_id, want = scenarios[name]
+    have = game.get('mods', [])
+    have_ids = [m.get('modId') for m in have]
+    want_ids = [m['modId'] for m in want]
+    names = {m.get('modId'): m.get('name', '?') for m in have + want}
+    missing = [i for i in want_ids if i not in have_ids]
+    extra = [i for i in have_ids if i not in want_ids]
+    pinned = [m for m in have if m.get('modId') in want_ids and m.get('version')]
+    common_have = [i for i in have_ids if i in want_ids]
+    common_want = [i for i in want_ids if i in have_ids]
+    print(f'{config_path} against {name}')
+    if game.get('scenarioId') != want_id:
+        print(f'  scenarioId differs: server has {game.get("scenarioId")!r}, standard is {want_id!r}')
+    for i in missing:
+        print(f'  missing: {names[i]} ({i})')
+    for i in extra:
+        print(f'  extra:   {names[i]} ({i})')
+    for m in pinned:
+        print(f'  pinned:  {m.get("name")} ({m["modId"]}) to version {m["version"]}, standard takes latest')
+    if common_have != common_want:
+        print('  order differs from the standard')
+    clean = not (missing or extra or pinned or common_have != common_want or game.get('scenarioId') != want_id)
+    print('  matches the standard' if clean else f'  {len(missing)} missing, {len(extra)} extra')
+    return 0 if clean else 1
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     mode = ap.add_mutually_exclusive_group()
     mode.add_argument('--check', action='store_true', help='report stale or orphaned outputs, write nothing')
     mode.add_argument('--apply', nargs=2, metavar=('CONFIG', 'SCENARIO'),
                       help='set game.scenarioId and game.mods in a downloaded server config.json')
+    mode.add_argument('--diff', nargs=2, metavar=('CONFIG', 'SCENARIO'),
+                      help='compare a server config.json with the standard list, change nothing')
     args = ap.parse_args()
     files, scenarios = build()
     if args.apply:
         return apply(args.apply[0], args.apply[1], scenarios)
+    if args.diff:
+        return diff(args.diff[0], args.diff[1], scenarios)
 
     stale = []
     for path, text in sorted(files.items()):
