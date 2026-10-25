@@ -739,6 +739,20 @@
       ]
     },
     {
+      "preset": "Mussalo",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Mussalo"
+      ],
+      "content": [],
+      "terrain": [
+        {
+          "modId": "59CF333B3A309D6E",
+          "name": "Mussalo"
+        }
+      ]
+    },
+    {
       "preset": "Novka",
       "stack": "sandbox",
       "scenarios": [

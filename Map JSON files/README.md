@@ -94,7 +94,6 @@ a renamed mission is picked up on the next build and a deleted one fails it.
 
 These scenarios exist in the repository but have no mod list:
 
-- **Mussalo** (`7Cav_SB_Mussalo.conf`): its terrain mod is not recorded anywhere here.
 - **7Cav PubMaps** (the COE2 scenarios): waiting on the public server's confirmed list.
 - **7CavPVE** (`7Cav_Linear_Cain.conf`, `7Cav_Ruha_PvE.conf`) and **Cav Island**
   (`Island_Rebuild_GM.conf`).
