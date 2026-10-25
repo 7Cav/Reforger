@@ -1,10 +1,11 @@
 # Server mod lists
 
-One mod list per scenario in `TCAdmin/`: `SB_` for the 7Cav Maps sandboxes, `Training_` for Fort
-Tharen, `CE_` for Conflict Escalation. Every sandbox runs the same standard stack (81 mods, same
-order) plus only its terrain mods, with 7Cav Maps last; Fort Tharen keeps its earlier list.
-`"version": ""` means the latest workshop version. Which maps are confirmed working is tracked in
-[MAPS.md](MAPS.md).
+One mod list per scenario in `TCAdmin/`: `SB_` for the 7Cav Maps sandboxes, `COE2_` for the TACR
+public COE2 servers (7Cav PubMaps), `Training_` for Fort Tharen, `CE_` for Conflict Escalation.
+Every sandbox runs the same standard stack (81 mods, same order) plus only its terrain mods, with
+7Cav Maps last; Fort Tharen keeps its earlier list. The COE2 lists share their own smaller stack
+(43 mods). `"version": ""` means the latest workshop version. Which sandbox maps are confirmed
+working is tracked in [MAPS.md](MAPS.md).
 
 ## Bringing a map up on TCAdmin
 
@@ -35,5 +36,9 @@ To add a mod to every sandbox, add it once to `stacks.sandbox.core`.
 
 ## Not covered yet
 
-7Cav PubMaps (COE2), 7CavPVE (`7Cav_Linear_Cain`, `7Cav_Ruha_PvE`) and Cav Island
+`COE2_Kunar` needs the 7Cav PubMaps Kunar mod published first (its list already uses that mod's
+project GUID, which becomes its workshop ID). The COE2 stack was taken from the live TACR server on
+25 October 2026 plus Enhanced Radio; confirm it against the server's own list.
+
+7Cav PubMaps Anizay, 7CavPVE (`7Cav_Linear_Cain`, `7Cav_Ruha_PvE`) and Cav Island
 (`Island_Rebuild_GM`) have scenarios but no mod list.

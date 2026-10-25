@@ -465,6 +465,185 @@
         }
       ],
       "last": []
+    },
+    "coe2": {
+      "description": "7Cav TACR public COE2 servers (7Cav PubMaps scenarios); from the live TACR server via BattleMetrics, 25 October 2026, plus Enhanced Radio",
+      "core": [
+        {
+          "modId": "5B0D1E4380971EBD",
+          "name": "COALITION Squad Interface"
+        },
+        {
+          "modId": "6647107B7ED20990",
+          "name": "506IRRU - Custom Name Tags"
+        },
+        {
+          "modId": "672B0395726428B6",
+          "name": "506th IRRU - Enhanced Radio"
+        },
+        {
+          "modId": "629B2BA37EFFD577",
+          "name": "WCS_Armaments"
+        },
+        {
+          "modId": "62CCD69DD17E4F2F",
+          "name": "AKI_Core"
+        },
+        {
+          "modId": "60612C225328522E",
+          "name": "No Weapon Drop Unconscious"
+        },
+        {
+          "modId": "1337C0DE5DABBEEF",
+          "name": "RHS - Content Pack 01"
+        },
+        {
+          "modId": "BADC0DEDABBEDA5E",
+          "name": "RHS - Content Pack 02"
+        },
+        {
+          "modId": "595F2BF2F44836FB",
+          "name": "RHS - Status Quo"
+        },
+        {
+          "modId": "5AAAC70D754245DD",
+          "name": "Server Admin Tools"
+        },
+        {
+          "modId": "6273146ADFE8241D",
+          "name": "WCS_AH-6M"
+        },
+        {
+          "modId": "61E42AE6714A3CC2",
+          "name": "WCS_Armbands"
+        },
+        {
+          "modId": "64610AFB74AA9842",
+          "name": "WCS_Core"
+        },
+        {
+          "modId": "612F512CD4CB21D5",
+          "name": "WCS_Earplugs"
+        },
+        {
+          "modId": "61BA4EB5C886D396",
+          "name": "WCS_VehicleLock"
+        },
+        {
+          "modId": "628933A0D3A0D700",
+          "name": "WCS_Mi-24V"
+        },
+        {
+          "modId": "6146FAED5AAD7C55",
+          "name": "WCS_Helicopters"
+        },
+        {
+          "modId": "614D1A3874A23AD9",
+          "name": "WCS_Interface"
+        },
+        {
+          "modId": "606B100247F5C709",
+          "name": "Bacon Loadout Editor"
+        },
+        {
+          "modId": "615A80027C5C9170",
+          "name": "WCS_Vehicles"
+        },
+        {
+          "modId": "5E389BB9F58B79A6",
+          "name": "WCS_SpaceCore"
+        },
+        {
+          "modId": "5C721177A220B42F",
+          "name": "WCS_JLTV"
+        },
+        {
+          "modId": "62F364B35E9B51B0",
+          "name": "Wirecutters 2"
+        },
+        {
+          "modId": "5F268647F8A1A1F4",
+          "name": "CRX Enfusion A.I."
+        },
+        {
+          "modId": "6A16AC294F079592",
+          "name": "DCO_Extensions"
+        },
+        {
+          "modId": "5F2944B7474F043F",
+          "name": "Disable Game Master Budgets"
+        },
+        {
+          "modId": "5964E0B3BB7410CE",
+          "name": "Game Master Enhanced"
+        },
+        {
+          "modId": "5994AD5A9F33BE57",
+          "name": "Game Master FX"
+        },
+        {
+          "modId": "65AD7D0D9941A380",
+          "name": "ACE Core Dev"
+        },
+        {
+          "modId": "65AD7C249E4ECDFB",
+          "name": "ACE Captives Dev"
+        },
+        {
+          "modId": "65AD7C379CBD394D",
+          "name": "ACE Carrying Dev"
+        },
+        {
+          "modId": "6586079789278413",
+          "name": "ACE Medical Core Dev"
+        },
+        {
+          "modId": "65AD7D4F994EA327",
+          "name": "ACE Medical Circulation Dev"
+        },
+        {
+          "modId": "65AD7CE59E8DB349",
+          "name": "ACE Trenches Dev"
+        },
+        {
+          "modId": "64E37695015F8AFA",
+          "name": "AT-4"
+        },
+        {
+          "modId": "69C6E7E5C3006233",
+          "name": "M224A1 - Handheld 60mm Mortar"
+        },
+        {
+          "modId": "5ED61DC0AFE17E8E",
+          "name": "Kex Scenario Core"
+        },
+        {
+          "modId": "60926835F4A7B0CA",
+          "name": "COE2"
+        },
+        {
+          "modId": "6A0A9031594BEFB0",
+          "name": "COE2 Persistent Ops PvE"
+        },
+        {
+          "modId": "6A78FA1A6CCCB816",
+          "name": "7Cav_PubFac"
+        },
+        {
+          "modId": "61F3A9C24D7B80E5",
+          "name": "CPO Frontline PvE"
+        },
+        {
+          "modId": "6A2F4BAC4D08F9F4",
+          "name": "Static Line Parachutes"
+        }
+      ],
+      "last": [
+        {
+          "modId": "6A78FC3A4047FF07",
+          "name": "7Cav PubMaps"
+        }
+      ]
     }
   },
   "presets": [
@@ -849,6 +1028,46 @@
         "7Cav_FullEveronBase"
       ],
       "terrain": []
+    },
+    {
+      "preset": "COE2_Everon",
+      "stack": "coe2",
+      "scenarios": [
+        "7Cav_COE2_Everon"
+      ],
+      "terrain": []
+    },
+    {
+      "preset": "COE2_Kolguyev",
+      "stack": "coe2",
+      "scenarios": [
+        "7Cav_COE2_Kolguyev"
+      ],
+      "terrain": []
+    },
+    {
+      "preset": "COE2_Kunar",
+      "stack": "coe2",
+      "scenarios": [
+        "7Cav_COE2_Kunar"
+      ],
+      "omit": [
+        "6A78FC3A4047FF07"
+      ],
+      "terrain": [
+        {
+          "modId": "60B524F7A5AE96A8",
+          "name": "ArmaTerrainCore"
+        },
+        {
+          "modId": "5C9691EA7FD7A79F",
+          "name": "KunarProvince"
+        },
+        {
+          "modId": "282E3902638E5736",
+          "name": "7Cav PubMaps Kunar"
+        }
+      ]
     }
   ]
 }
