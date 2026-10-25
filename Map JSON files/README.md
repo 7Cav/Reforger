@@ -8,10 +8,10 @@ One mod list per scenario, ready for a TCAdmin server's `config.json`.
 | `Training_` | Fort Tharen training (BTC, S7) |
 | `CE_` | 7Cav Conflict Escalation |
 
-**Every sandbox server runs the same standard stack** (77 mods, same order), plus only the
+**Every sandbox server runs the same standard stack** (81 mods, same order), plus only the
 terrain mods its map needs, with 7Cav Maps last. Eden, Arland and Kolguyev run on base game
 terrains, so they are the bare standard stack. Fort Tharen is the one exception: it keeps its
-earlier list (no M1 Abrams, no Middle East Insurgents) through an `omit` entry. A mod's
+earlier list (no M1 Abrams, Middle East Insurgents, F.R.I.E.S or Static Line Parachutes) through an `omit` entry. A mod's
 `"version": ""` means the server takes the latest workshop version.
 
 ## Checking a live server against the standard

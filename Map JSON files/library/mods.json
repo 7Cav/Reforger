@@ -287,6 +287,22 @@
         {
           "modId": "64CEC8E005828E5D",
           "name": "Middle East Insurgents"
+        },
+        {
+          "modId": "69156B5B321244C9",
+          "name": "Physics Rope"
+        },
+        {
+          "modId": "690F67E53E6EDB09",
+          "name": "F.R.I.E.S Reforged"
+        },
+        {
+          "modId": "6A3D55267E150DC7",
+          "name": "BFS F.R.I.E.S Compat -UH60 H47"
+        },
+        {
+          "modId": "6A2F4BAC4D08F9F4",
+          "name": "Static Line Parachutes"
         }
       ],
       "cav": [
@@ -629,7 +645,11 @@
       ],
       "omit": [
         "5D1880C4AD410C14",
-        "64CEC8E005828E5D"
+        "64CEC8E005828E5D",
+        "69156B5B321244C9",
+        "690F67E53E6EDB09",
+        "6A3D55267E150DC7",
+        "6A2F4BAC4D08F9F4"
       ]
     },
     {
