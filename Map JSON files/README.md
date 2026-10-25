@@ -8,8 +8,23 @@ One mod list per scenario, ready for a TCAdmin server's `config.json`.
 | `Training_` | Fort Tharen training (BTC, S7) |
 | `CE_` | 7Cav Conflict Escalation |
 
-Eden, Arland and Kolguyev run on the base game terrains, so their lists are identical apart from
-the scenario. A mod's `"version": ""` means the server takes the latest workshop version.
+**Every sandbox server runs the same standard stack** (77 mods, same order), plus only the
+terrain mods its map needs, with 7Cav Maps last. Eden, Arland and Kolguyev run on base game
+terrains, so they are the bare standard stack. Fort Tharen is the one exception: it keeps its
+earlier list (no M1 Abrams, no Middle East Insurgents) through an `omit` entry. A mod's
+`"version": ""` means the server takes the latest workshop version.
+
+## Checking a live server against the standard
+
+Download the server's `config.json` and run:
+
+    python "Map JSON files/library/build_library.py" --diff config.json SB_Kunar
+
+It lists mods the server is missing, mods it runs that the standard does not, pinned versions,
+order differences and a wrong scenario, and changes nothing. Exit 0 means the server matches.
+Mods a listed mod depends on (M157 for 7Cav Assets, for example) are downloaded by the server on
+its own and do not need listing, so they are not drift when the server's own log shows them
+loaded.
 
 ## Bringing a map up on TCAdmin
 
@@ -62,12 +77,15 @@ Run it before opening a pull request.
 - `stacks`: the mods every server of a type loads. `sandbox` has `core` (frameworks, weapons,
   vehicles, ACE, quality of life), `cav` (the five 7Cav content mods) and `last` (7Cav Maps).
   `conflict_escalation` is the CE list.
-- `presets`: one entry per map. `content` holds map-specific gameplay mods (Middle East
-  Insurgents, M1 Abrams), `terrain` holds the terrain and its asset packs. `scenarios` names the
-  mission confs the list serves.
+- `presets`: one entry per map. `terrain` holds the terrain and its asset packs, `scenarios`
+  names the mission confs the list serves. `content` is for a gameplay mod one map genuinely
+  needs and no other; it is empty on every map today, and anything that goes there breaks the
+  standard, so prefer adding to the stack. `omit` (optional) drops named stack mods from that
+  one list.
 
 Every list is built in this order: core, preset content, 7Cav mods, preset terrain, last. Adding
-a mod for every sandbox server means adding it once to `stacks.sandbox.core`.
+a mod for every sandbox server means adding it once to `stacks.sandbox.core`. Mods that a listed
+mod depends on do not need listing: the server resolves them itself.
 
 Scenario IDs are read from the mission `.conf.meta` files in this repository, never typed in, so
 a renamed mission is picked up on the next build and a deleted one fails it.

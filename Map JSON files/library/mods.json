@@ -279,6 +279,14 @@
         {
           "modId": "606B100247F5C709",
           "name": "Bacon Loadout Editor"
+        },
+        {
+          "modId": "5D1880C4AD410C14",
+          "name": "M1 Abrams"
+        },
+        {
+          "modId": "64CEC8E005828E5D",
+          "name": "Middle East Insurgents"
         }
       ],
       "cav": [
@@ -454,16 +462,7 @@
       "scenarios": [
         "7Cav_SB_AlHadra"
       ],
-      "content": [
-        {
-          "modId": "5D1880C4AD410C14",
-          "name": "M1 Abrams"
-        },
-        {
-          "modId": "64CEC8E005828E5D",
-          "name": "Middle East Insurgents"
-        }
-      ],
+      "content": [],
       "terrain": [
         {
           "modId": "68A2C605FC3B76A6",
@@ -489,12 +488,7 @@
       "scenarios": [
         "7Cav_SB_Anizay"
       ],
-      "content": [
-        {
-          "modId": "64CEC8E005828E5D",
-          "name": "Middle East Insurgents"
-        }
-      ],
+      "content": [],
       "terrain": [
         {
           "modId": "6266DCA9193C705E",
@@ -596,12 +590,7 @@
       "scenarios": [
         "7Cav_SB_Fallujah"
       ],
-      "content": [
-        {
-          "modId": "64CEC8E005828E5D",
-          "name": "Middle East Insurgents"
-        }
-      ],
+      "content": [],
       "terrain": [
         {
           "modId": "60B524F7A5AE96A8",
@@ -637,6 +626,10 @@
           "modId": "672143CCBB93E2DA",
           "name": "Fort Tharen"
         }
+      ],
+      "omit": [
+        "5D1880C4AD410C14",
+        "64CEC8E005828E5D"
       ]
     },
     {
@@ -713,12 +706,7 @@
       "scenarios": [
         "7Cav_SB_Kunar"
       ],
-      "content": [
-        {
-          "modId": "64CEC8E005828E5D",
-          "name": "Middle East Insurgents"
-        }
-      ],
+      "content": [],
       "terrain": [
         {
           "modId": "60B524F7A5AE96A8",
