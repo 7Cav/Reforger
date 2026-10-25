@@ -30,6 +30,11 @@ modded class SCR_SpawnPoint
 		if (!pointFaction || !playerFaction)
 			return false;
 
+		// Civilians are friendly to everyone but should not spawn on military radios and trucks.
+		SCR_Faction scrPlayerFaction = SCR_Faction.Cast(playerFaction);
+		if (scrPlayerFaction && !scrPlayerFaction.IsMilitary())
+			return false;
+
 		return pointFaction.IsFactionFriendly(playerFaction);
 	}
 
