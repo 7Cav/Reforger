@@ -14,6 +14,8 @@ terrains, so they are the bare standard stack. Fort Tharen is the one exception:
 earlier list (no M1 Abrams, Middle East Insurgents, F.R.I.E.S or Static Line Parachutes) through an `omit` entry. A mod's
 `"version": ""` means the server takes the latest workshop version.
 
+Which sandbox maps are confirmed working, and how to test one, is tracked in [MAPS.md](MAPS.md).
+
 ## Checking a live server against the standard
 
 Download the server's `config.json` and run:
