@@ -123,11 +123,13 @@ class CAV_RadioAutoTuneComponent : ScriptComponent
 		if (m_iPlayerId > 0)
 			return m_iPlayerId;
 
-		PlayerManager pm = GetGame().GetPlayerManager();
-		if (!pm || !m_Owner)
+		if (!m_Owner)
 			return 0;
 
-		return pm.GetPlayerIdFromControlledEntity(m_Owner);
+		// The player this character belongs to, not whoever controls it right now: a Game Master
+		// possessing an AI controls it without owning it, and must not have their faction or group
+		// tuned into the AI's radios.
+		return SCR_PossessingManagerComponent.GetPlayerIdFromMainEntity(m_Owner);
 	}
 
 	protected void LocateInvMgrOn(IEntity ent)
