@@ -78,7 +78,10 @@ def resolve(ids, preset_name, base):
 
 def mod_list(stack, preset):
     mods = stack['core'] + preset['content'] + stack['cav'] + preset['terrain'] + stack['last']
-    omit = set(preset.get('omit', []))
+    omit = preset.get('omit', [])
+    if not isinstance(omit, list):
+        fail(f"{preset['preset']}: omit must be a list of modIds")
+    omit = set(omit)
     unknown = omit - {m.get('modId') for m in mods}
     if unknown:
         fail(f"{preset['preset']}: omit names mods not in its list: {', '.join(sorted(unknown))}")
@@ -145,19 +148,30 @@ def build():
     return files, scenarios
 
 
+def load_config(config_path):
+    """Return (config, game) from a server config.json, or exit 2 with a clear message."""
+    try:
+        with open(config_path, encoding='utf-8-sig') as fh:
+            config = json.load(fh)
+    except OSError as exc:
+        fail(f'cannot read {config_path}: {exc.strerror or exc}')
+    except json.JSONDecodeError as exc:
+        fail(f'{config_path} is not valid JSON: {exc}')
+    game = config.get('game') if isinstance(config, dict) else None
+    if not isinstance(game, dict):
+        fail(f'{config_path} has no "game" block; is this a server config.json?')
+    mods = game.get('mods', [])
+    if not isinstance(mods, list) or not all(isinstance(m, dict) for m in mods):
+        fail(f'{config_path}: game.mods is not a list of mod entries')
+    return config, game
+
+
 def apply(config_path, name, scenarios):
     if name.endswith('.json'):
         name = name[:-5]
     if name not in scenarios:
         fail(f'unknown scenario {name!r}; pick one of: {", ".join(sorted(scenarios))}')
-    with open(config_path, encoding='utf-8-sig') as fh:
-        try:
-            config = json.load(fh)
-        except json.JSONDecodeError as exc:
-            fail(f'{config_path} is not valid JSON: {exc}')
-    game = config.get('game')
-    if not isinstance(game, dict):
-        fail(f'{config_path} has no "game" block; is this a server config.json?')
+    config, game = load_config(config_path)
     scenario_id, mods = scenarios[name]
     old_count = len(game.get('mods', []))
     game['scenarioId'] = scenario_id
@@ -181,11 +195,7 @@ def diff(config_path, name, scenarios):
         name = name[:-5]
     if name not in scenarios:
         fail(f'unknown scenario {name!r}; pick one of: {", ".join(sorted(scenarios))}')
-    with open(config_path, encoding='utf-8-sig') as fh:
-        try:
-            game = json.load(fh).get('game') or {}
-        except json.JSONDecodeError as exc:
-            fail(f'{config_path} is not valid JSON: {exc}')
+    _, game = load_config(config_path)
     want_id, want = scenarios[name]
     have = game.get('mods', [])
     have_ids = [m.get('modId') for m in have]
@@ -193,7 +203,8 @@ def diff(config_path, name, scenarios):
     names = {m.get('modId'): m.get('name', '?') for m in have + want}
     missing = [i for i in want_ids if i not in have_ids]
     extra = [i for i in have_ids if i not in want_ids]
-    pinned = [m for m in have if m.get('modId') in want_ids and m.get('version')]
+    pinned = [m for m in have if m.get('version')]
+    dupes = sorted({i for i in have_ids if have_ids.count(i) > 1})
     common_have = [i for i in have_ids if i in want_ids]
     common_want = [i for i in want_ids if i in have_ids]
     print(f'{config_path} against {name}')
@@ -205,10 +216,22 @@ def diff(config_path, name, scenarios):
         print(f'  extra:   {names[i]} ({i})')
     for m in pinned:
         print(f'  pinned:  {m.get("name")} ({m["modId"]}) to version {m["version"]}, standard takes latest')
-    if common_have != common_want:
+    for i in dupes:
+        print(f'  listed {have_ids.count(i)} times: {names[i]} ({i})')
+    reorder = not dupes and common_have != common_want
+    if reorder:
         print('  order differs from the standard')
-    clean = not (missing or extra or pinned or common_have != common_want or game.get('scenarioId') != want_id)
-    print('  matches the standard' if clean else f'  {len(missing)} missing, {len(extra)} extra')
+    scenario_off = game.get('scenarioId') != want_id
+    clean = not (missing or extra or pinned or dupes or reorder or scenario_off)
+    if clean:
+        print('  matches the standard')
+    else:
+        parts = [f'{len(missing)} missing', f'{len(extra)} extra']
+        parts += [f'{len(pinned)} pinned'] if pinned else []
+        parts += [f'{len(dupes)} duplicated'] if dupes else []
+        parts += ['order differs'] if reorder else []
+        parts += ['wrong scenario'] if scenario_off else []
+        print('  ' + ', '.join(parts))
     return 0 if clean else 1
 
 
