@@ -91,6 +91,54 @@ modded class SCR_SpawnPoint
 }
 
 //------------------------------------------------------------------------------------------------
+//! The deploy map adds and removes icons as points appear or change faction using an exact key
+//! match of its own; route both through the same rule so the map agrees with the spawn list.
+modded class SCR_MapUIElementContainer
+{
+	//------------------------------------------------------------------------------------------------
+	override protected void AddSpawnPoint(SCR_SpawnPoint spawnPoint)
+	{
+		if (!spawnPoint.IsSpawnPointVisibleForPlayer(SCR_PlayerController.GetLocalPlayerId()))
+			return;
+
+		Faction playerFaction = SCR_FactionManager.SGetLocalPlayerFaction();
+		if (playerFaction && SCR_SpawnPoint.CAV_IsOfferedToFaction(spawnPoint, playerFaction.GetFactionKey()))
+		{
+			ShowSpawnPoint(spawnPoint);
+			UpdateIcons();
+		}
+	}
+
+	//------------------------------------------------------------------------------------------------
+	override protected void OnSpawnPointFactionChange(SCR_SpawnPoint spawnPoint)
+	{
+		Faction playerFaction = m_PlyFactionAffilComp.GetAffiliatedFaction();
+		if (playerFaction && SCR_SpawnPoint.CAV_IsOfferedToFaction(spawnPoint, playerFaction.GetFactionKey()))
+			AddSpawnPoint(spawnPoint);
+		else
+			RemoveSpawnPoint(spawnPoint);
+	}
+}
+
+//------------------------------------------------------------------------------------------------
+//! A player whose own faction has no spawn point waits in the deploy menu until one appears; a
+//! friendly radio or truck appearing should end that wait too.
+modded class SCR_PlayerDeployMenuHandlerComponent
+{
+	//------------------------------------------------------------------------------------------------
+	override protected void OnPlayerSpawnPointAdded(SCR_SpawnPoint sp)
+	{
+		if (!SCR_SpawnPoint.CAV_IsOfferedToFaction(sp, m_PlyFactionAffil.GetAffiliatedFactionKey()))
+			return;
+
+		SCR_SpawnPoint.Event_SpawnPointAdded.Remove(OnPlayerSpawnPointAdded);
+
+		m_bReady = true;
+		GetGame().GetCallqueue().Call(SetReadyDelayed);
+	}
+}
+
+//------------------------------------------------------------------------------------------------
 //! The deploy menu adds and removes points as they appear or change faction using an exact key
 //! match of its own; route both through the same rule.
 modded class SCR_SpawnPointRequestUIComponent
