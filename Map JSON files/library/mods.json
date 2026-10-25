@@ -596,7 +596,12 @@
       "scenarios": [
         "7Cav_SB_Fallujah"
       ],
-      "content": [],
+      "content": [
+        {
+          "modId": "64CEC8E005828E5D",
+          "name": "Middle East Insurgents"
+        }
+      ],
       "terrain": [
         {
           "modId": "60B524F7A5AE96A8",
