@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{51154A3FA8FFBB7F}Prefabs/Vehicles/Wheeled/M923A1/Cav/M923A1_command_spawn_MERDC_Bandit.et"
+ Name "{987AEA429B4208C8}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_spawn_MERDC.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

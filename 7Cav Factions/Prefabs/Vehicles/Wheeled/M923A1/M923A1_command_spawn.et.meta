@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{C9B27AAC065F20A0}Prefabs/Vehicles/Wheeled/M923A1/Cav/M923A1_command_spawn_MERDC_Archangel.et"
+ Name "{DFC642883A98D2E7}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_spawn.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
