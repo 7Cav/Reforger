@@ -22,9 +22,6 @@ extra, duplicated and pinned mods, order and scenario, and changes nothing. Mods
 depends on (M157 for 7Cav Assets, for example) are downloaded by the server itself and need no
 listing.
 
-The `<Map>.json` files here are launcher presets (launcher, Mods, Import preset) built from the
-same source.
-
 ## Changing a mod list
 
 Edit `library/mods.json`, never the generated files, then run

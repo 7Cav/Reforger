@@ -8,10 +8,8 @@
 
 mods.json is the only file anyone edits. Each list is its stack's core, then the
 preset's terrain mods, then the stack's last mods (7Cav Maps for sandboxes), minus
-any modIds the preset names under "omit". Two outputs are written from it:
-
-  TCAdmin/<scenario>.json   the scenarioId and mods keys of a TCAdmin config.json
-  <preset>.json             launcher presets (launcher, Mods, Import preset)
+any modIds the preset names under "omit". It writes TCAdmin/<scenario>.json: the
+scenarioId and mods keys of a TCAdmin config.json, applied to the server by hand.
 
 Scenario IDs are read from the mission .conf.meta files in this repository, so a
 renamed mission is picked up and a deleted one fails the build.
@@ -89,12 +87,6 @@ def render_tcadmin(scenario_id, mods):
     return f'{{\n    "scenarioId": {json.dumps(scenario_id)},\n    "mods": [\n{rows}\n    ]\n}}\n'
 
 
-def render_launcher(name, mods):
-    # No trailing newline: matches the launcher's own exports, which this folder has always held.
-    body = {'preset_name': name, 'preset_version': 2, 'preset_experimental_branch': False, 'mods': mods}
-    return json.dumps(body, separators=(',', ':'))
-
-
 def load_library():
     with open(os.path.join(HERE, 'mods.json'), encoding='utf-8-sig') as fh:
         try:
@@ -124,8 +116,6 @@ def build():
     for preset in lib['presets']:
         stack = lib['stacks'][preset['stack']]
         mods = mod_list(stack, preset)
-        add(os.path.join(PRESET_DIR, preset['preset'] + '.json'), render_launcher(preset['preset'], mods),
-            preset['preset'])
         for base in preset['scenarios']:
             scenario_id = resolve(ids, preset['preset'], base)
             short = stack.get('file_prefix', '') + (base[len('7Cav_'):] if base.startswith('7Cav_') else base)
@@ -193,8 +183,7 @@ def main():
             with open(path, 'w', encoding='utf-8', newline='\n') as fh:
                 fh.write(text)
 
-    orphans = [p for p in glob.glob(os.path.join(PRESET_DIR, '*.json')) + glob.glob(os.path.join(TCADMIN_DIR, '*.json'))
-               if p not in files]
+    orphans = [p for p in glob.glob(os.path.join(TCADMIN_DIR, '*.json')) if p not in files]
     for path in sorted(orphans):
         print('orphan (not built from mods.json, delete it or add a preset): ' + os.path.relpath(path, PRESET_DIR))
     for path in stale:
