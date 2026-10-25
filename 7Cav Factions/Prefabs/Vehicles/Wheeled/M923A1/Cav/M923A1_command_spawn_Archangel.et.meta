@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{56F56587C55AAE0A}Prefabs/Vehicles/Wheeled/M923A1/Cav/M923A1_command_spawn_Archangel.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

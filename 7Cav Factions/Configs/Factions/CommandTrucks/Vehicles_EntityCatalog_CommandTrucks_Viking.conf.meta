@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2B6D3B4C7A2D60CE}Configs/Factions/CommandTrucks/Vehicles_EntityCatalog_CommandTrucks_Viking.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

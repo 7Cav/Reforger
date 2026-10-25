@@ -1,0 +1,21 @@
+Vehicle : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
+ ID "5206D4E79715C115"
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Bandit"
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "M934A1 Command Truck (Bandit)"
+    m_sFaction "Bandit"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Radio {
+     Prefab "{2FEC720240E90029}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_combox_spawn.et"
+    }
+   }
+  }
+ }
+}
