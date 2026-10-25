@@ -12,6 +12,7 @@ GenericEntity : "{9F6BD5440120D0EA}Prefabs/Items/Equipment/Backpacks/FILBE_Backp
    m_FactionKey "Archangel"
    m_bAllowCustomLoadouts 1
    m_bAllowAllGroupsToSpawn 1
+   m_bQuerySpawnPoints 0
   }
  }
 }

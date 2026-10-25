@@ -12,6 +12,7 @@ GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.
    m_FactionKey "Bandit"
    m_bAllowCustomLoadouts 1
    m_bAllowAllGroupsToSpawn 1
+   m_bQuerySpawnPoints 0
   }
  }
 }
