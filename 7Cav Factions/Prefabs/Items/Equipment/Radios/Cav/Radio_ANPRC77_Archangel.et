@@ -12,6 +12,7 @@ GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.
    m_sReplacementPrefab "{FC97EC0AE6C1364D}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacement_Archangel.et"
    m_FactionKey "Archangel"
    m_bAllowCustomLoadouts 1
+   m_bAllowAllGroupsToSpawn 1
   }
  }
 }

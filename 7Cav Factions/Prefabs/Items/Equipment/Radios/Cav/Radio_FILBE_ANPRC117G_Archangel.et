@@ -12,6 +12,7 @@ GenericEntity : "{9F6BD5440120D0EA}Prefabs/Items/Equipment/Backpacks/FILBE_Backp
    m_sReplacementPrefab "{FC97EC0AE6C1364D}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacement_Archangel.et"
    m_FactionKey "Archangel"
    m_bAllowCustomLoadouts 1
+   m_bAllowAllGroupsToSpawn 1
   }
  }
 }

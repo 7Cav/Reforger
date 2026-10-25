@@ -12,6 +12,7 @@ GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.
    m_sReplacementPrefab "{6F8B12B952FEE818}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacement_Misfit.et"
    m_FactionKey "Misfit"
    m_bAllowCustomLoadouts 1
+   m_bAllowAllGroupsToSpawn 1
   }
  }
 }

@@ -12,6 +12,7 @@ GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.
    m_sReplacementPrefab "{A8B35127D8843EDE}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacement_Pioneer.et"
    m_FactionKey "Pioneer"
    m_bAllowCustomLoadouts 1
+   m_bAllowAllGroupsToSpawn 1
   }
  }
 }
