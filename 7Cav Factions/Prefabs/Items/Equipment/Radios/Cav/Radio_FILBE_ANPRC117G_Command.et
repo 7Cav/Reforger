@@ -9,7 +9,6 @@ GenericEntity : "{9F6BD5440120D0EA}Prefabs/Items/Equipment/Backpacks/FILBE_Backp
    }
   }
   SCR_RestrictedDeployableSpawnPointComponent "{6A2D576EE1829D2D}" {
-   m_sReplacementPrefab "{451CD187FBAE3AA3}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacement_Command.et"
    m_FactionKey "Command"
    m_bAllowCustomLoadouts 1
    m_bAllowAllGroupsToSpawn 1

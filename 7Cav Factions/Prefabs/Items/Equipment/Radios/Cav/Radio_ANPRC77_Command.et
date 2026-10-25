@@ -9,7 +9,6 @@ GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.
    }
   }
   SCR_RestrictedDeployableSpawnPointComponent "{5EA4A89F0D06E1A8}" {
-   m_sReplacementPrefab "{451CD187FBAE3AA3}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacement_Command.et"
    m_FactionKey "Command"
    m_bAllowCustomLoadouts 1
    m_bAllowAllGroupsToSpawn 1

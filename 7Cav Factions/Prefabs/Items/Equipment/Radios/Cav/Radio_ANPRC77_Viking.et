@@ -9,7 +9,6 @@ GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.
    }
   }
   SCR_RestrictedDeployableSpawnPointComponent "{5EA4A89F0D06E1A8}" {
-   m_sReplacementPrefab "{F3F7D0B3A4A1F522}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacement_Viking.et"
    m_FactionKey "Viking"
    m_bAllowCustomLoadouts 1
    m_bAllowAllGroupsToSpawn 1

@@ -9,7 +9,6 @@ GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.
    }
   }
   SCR_RestrictedDeployableSpawnPointComponent "{5EA4A89F0D06E1A8}" {
-   m_sReplacementPrefab "{FDADBCDC9502F590}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacement_Helios.et"
    m_FactionKey "Helios"
    m_bAllowCustomLoadouts 1
    m_bAllowAllGroupsToSpawn 1
