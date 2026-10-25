@@ -1,5 +1,4 @@
 {
-  "schema": 1,
   "stacks": {
     "sandbox": {
       "description": "7Cav Game Master sandbox servers (7Cav Maps scenarios)",
@@ -303,9 +302,7 @@
         {
           "modId": "6A2F4BAC4D08F9F4",
           "name": "Static Line Parachutes"
-        }
-      ],
-      "cav": [
+        },
         {
           "modId": "6620DEADBEDA583D",
           "name": "7Cav Vehicles"
@@ -467,7 +464,6 @@
           "name": "7Cav Conflict Escalation"
         }
       ],
-      "cav": [],
       "last": []
     }
   },
@@ -478,7 +474,6 @@
       "scenarios": [
         "7Cav_SB_AlHadra"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "68A2C605FC3B76A6",
@@ -504,7 +499,6 @@
       "scenarios": [
         "7Cav_SB_Anizay"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "6266DCA9193C705E",
@@ -518,7 +512,6 @@
       "scenarios": [
         "7Cav_SB_BackwoodsNC"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "60EEF465FD67ECF8",
@@ -532,14 +525,12 @@
     },
     {
       "preset": "Base_Everon_Arland_Kolguyev",
-      "preset_name": "Base_Everon_Arland",
       "stack": "sandbox",
       "scenarios": [
         "7Cav_SB_Eden",
         "7Cav_SB_Arland",
         "7Cav_SB_Kolguyev"
       ],
-      "content": [],
       "terrain": []
     },
     {
@@ -548,7 +539,6 @@
       "scenarios": [
         "7Cav_SB_Bergamo"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "61330C2DC7724DEA",
@@ -574,7 +564,6 @@
       "scenarios": [
         "7Cav_SB_Denali"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "650CF7C6C9BBC1C6",
@@ -588,7 +577,6 @@
       "scenarios": [
         "7Cav_SB_FaircroftIslands"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "5F3831B634575167",
@@ -606,7 +594,6 @@
       "scenarios": [
         "7Cav_SB_Fallujah"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "60B524F7A5AE96A8",
@@ -636,7 +623,6 @@
       "scenarios": [
         "7Cav_Training_FtTharen"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "672143CCBB93E2DA",
@@ -658,7 +644,6 @@
       "scenarios": [
         "7Cav_SB_Glenwood"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "66330AEF351F0EEE",
@@ -672,7 +657,6 @@
       "scenarios": [
         "7Cav_SB_Gogland"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "623EEDF242F6265E",
@@ -686,7 +670,6 @@
       "scenarios": [
         "7Cav_SB_GulfCoastIslands"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "5E1735DB431EE29B",
@@ -704,7 +687,6 @@
       "scenarios": [
         "7Cav_SB_Hamland"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "5F0D245931200FD1",
@@ -726,7 +708,6 @@
       "scenarios": [
         "7Cav_SB_Kunar"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "60B524F7A5AE96A8",
@@ -744,7 +725,6 @@
       "scenarios": [
         "7Cav_SB_Mussalo"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "59CF333B3A309D6E",
@@ -758,7 +738,6 @@
       "scenarios": [
         "7Cav_SB_Novka"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "6550CDE61DD51E14",
@@ -772,7 +751,6 @@
       "scenarios": [
         "7Cav_SB_Ruha"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "653CB36244ADBE0F",
@@ -786,7 +764,6 @@
       "scenarios": [
         "7Cav_SB_Serhiivka"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "61557578724DBE60",
@@ -800,7 +777,6 @@
       "scenarios": [
         "7Cav_SB_Takistan"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "61F0D506562D9BC9",
@@ -822,7 +798,6 @@
       "scenarios": [
         "7Cav_SB_Woodbury"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "60CC1A8665DEB4F3",
@@ -836,7 +811,6 @@
       "scenarios": [
         "7Cav_SB_WorthyIslands"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "596CB4A0AE84C08E",
@@ -850,7 +824,6 @@
       "scenarios": [
         "7Cav_SB_Zimnitrita"
       ],
-      "content": [],
       "terrain": [
         {
           "modId": "5F0D245931200FD1",
@@ -875,7 +848,6 @@
         "7Cav_CHEStPhilippe",
         "7Cav_FullEveronBase"
       ],
-      "content": [],
       "terrain": []
     }
   ]

@@ -13,10 +13,10 @@ A map is **working** once a test on a server running its `TCAdmin/` list confirm
 4. A player can save a kit at an arsenal and spawn with it from the deploy menu.
 5. A command truck spawn point works.
 
-**Repo checks** are what can be confirmed without a server, and they pass on every map below:
-mission header present, world file present, 7Cav sandbox game mode, a radio manager in the world
-layer, and a standard mod list in `TCAdmin/`. Passing them means nothing in our own files stops
-the map; it does not prove the terrain or the session works.
+On 25 October 2026 every map below was also checked by hand against the repository: mission
+header and world file present, 7Cav sandbox game mode, a radio manager in the world layer, and a
+mod list in `TCAdmin/` (the build itself only enforces the last). That rules out our own files as
+the cause of a failure; it does not prove the terrain or the session works.
 
 ## Status
 

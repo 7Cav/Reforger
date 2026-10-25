@@ -1,37 +1,22 @@
 #!/usr/bin/env python3
 """Build the server mod lists from library/mods.json.
 
-    python build_library.py                      write every output
-    python build_library.py --check              exit 1 if any output is stale or orphaned
-    python build_library.py --apply config.json SB_Kunar
-                                                 set scenarioId and mods in a server config.json
+    python build_library.py                            write every output
+    python build_library.py --check                    exit 1 if an output is stale or orphaned
     python build_library.py --diff config.json SB_Kunar
-                                                 report how a server config.json differs from the standard
+                                                       compare a server config.json with the standard
 
-mods.json is the only file anyone edits. It holds the shared mod stacks and, per
-preset, the extra content and terrain mods that map needs. This script writes two
-things from it, so the copies can never drift apart:
+mods.json is the only file anyone edits. Each list is its stack's core, then the
+preset's terrain mods, then the stack's last mods (7Cav Maps for sandboxes), minus
+any modIds the preset names under "omit". Two outputs are written from it:
 
-  TCAdmin/<scenario>.json   scenarioId plus the mods array, the two keys a TCAdmin
-                            server's config.json carries in its "game" block
-  <preset>.json             the launcher preset files this folder already held
+  TCAdmin/<scenario>.json   the scenarioId and mods keys of a TCAdmin config.json
+  <preset>.json             launcher presets (launcher, Mods, Import preset)
 
-Load order inside every list is: stack core, preset content, 7Cav mods, preset
-terrain, then the stack's "last" mods (7Cav Maps for the sandbox stack).
-
-Scenario IDs are not typed by hand. They are read from the mission .conf.meta
-files in this repository, so a renamed or re-GUIDed mission is picked up on the
-next build, and a mission that no longer exists fails the build.
-
---apply edits a config.json you downloaded from the panel: it replaces
-game.scenarioId and game.mods, leaves every other value as it was, prints nothing
-from the file, and warns if gameProperties.missionHeader is set (those values
-belong to the previous scenario). Upload the result and restart from the panel.
-
-A preset may list modIds under "omit" to leave stack mods out of that one list.
+Scenario IDs are read from the mission .conf.meta files in this repository, so a
+renamed mission is picked up and a deleted one fails the build.
 
 Exit codes: 0 ok, 1 stale or orphaned outputs (--check) or drift (--diff), 2 bad input.
-
 Stdlib only.
 """
 import argparse
@@ -47,7 +32,7 @@ REPO = os.path.dirname(PRESET_DIR)
 TCADMIN_DIR = os.path.join(PRESET_DIR, 'TCAdmin')
 MOD_ID = re.compile(r'^[0-9A-F]{16}$')
 META_NAME = re.compile(r'Name\s+"(\{[0-9A-F]{16}\}[^"]*missions/([^"/]+)\.conf)"', re.IGNORECASE)
-PRESET_KEYS = ('preset', 'stack', 'scenarios', 'content', 'terrain')
+PRESET_KEYS = ('preset', 'stack', 'scenarios', 'terrain')
 
 
 def fail(message):
@@ -77,12 +62,11 @@ def resolve(ids, preset_name, base):
 
 
 def mod_list(stack, preset):
-    mods = stack['core'] + preset['content'] + stack['cav'] + preset['terrain'] + stack['last']
+    mods = stack['core'] + preset['terrain'] + stack['last']
     omit = preset.get('omit', [])
     if not isinstance(omit, list):
         fail(f"{preset['preset']}: omit must be a list of modIds")
-    omit = set(omit)
-    unknown = omit - {m.get('modId') for m in mods}
+    unknown = set(omit) - {m.get('modId') for m in mods}
     if unknown:
         fail(f"{preset['preset']}: omit names mods not in its list: {', '.join(sorted(unknown))}")
     mods = [m for m in mods if m.get('modId') not in omit]
@@ -100,7 +84,9 @@ def mod_list(stack, preset):
 
 
 def render_tcadmin(scenario_id, mods):
-    return json.dumps({'scenarioId': scenario_id, 'mods': mods}, indent=4) + '\n'
+    # One mod per line, so the file scans and pastes easily; still valid JSON.
+    rows = ',\n'.join('        ' + json.dumps(m) for m in mods)
+    return f'{{\n    "scenarioId": {json.dumps(scenario_id)},\n    "mods": [\n{rows}\n    ]\n}}\n'
 
 
 def render_launcher(name, mods):
@@ -138,8 +124,8 @@ def build():
     for preset in lib['presets']:
         stack = lib['stacks'][preset['stack']]
         mods = mod_list(stack, preset)
-        add(os.path.join(PRESET_DIR, preset['preset'] + '.json'),
-            render_launcher(preset.get('preset_name', preset['preset']), mods), preset['preset'])
+        add(os.path.join(PRESET_DIR, preset['preset'] + '.json'), render_launcher(preset['preset'], mods),
+            preset['preset'])
         for base in preset['scenarios']:
             scenario_id = resolve(ids, preset['preset'], base)
             short = stack.get('file_prefix', '') + (base[len('7Cav_'):] if base.startswith('7Cav_') else base)
@@ -148,105 +134,48 @@ def build():
     return files, scenarios
 
 
-def load_config(config_path):
-    """Return (config, game) from a server config.json, or exit 2 with a clear message."""
+def diff(config_path, name, scenarios):
+    """Report how a server config.json differs from the standard list. Reads only scenarioId and mods."""
+    name = name[:-5] if name.endswith('.json') else name
+    if name not in scenarios:
+        fail(f'unknown scenario {name!r}; pick one of: {", ".join(sorted(scenarios))}')
     try:
         with open(config_path, encoding='utf-8-sig') as fh:
             config = json.load(fh)
-    except OSError as exc:
-        fail(f'cannot read {config_path}: {exc.strerror or exc}')
-    except json.JSONDecodeError as exc:
-        fail(f'{config_path} is not valid JSON: {exc}')
+    except (OSError, json.JSONDecodeError) as exc:
+        fail(f'cannot read {config_path}: {exc}')
     game = config.get('game') if isinstance(config, dict) else None
-    if not isinstance(game, dict):
-        fail(f'{config_path} has no "game" block; is this a server config.json?')
-    mods = game.get('mods', [])
-    if not isinstance(mods, list) or not all(isinstance(m, dict) for m in mods):
-        fail(f'{config_path}: game.mods is not a list of mod entries')
-    return config, game
-
-
-def apply(config_path, name, scenarios):
-    if name.endswith('.json'):
-        name = name[:-5]
-    if name not in scenarios:
-        fail(f'unknown scenario {name!r}; pick one of: {", ".join(sorted(scenarios))}')
-    config, game = load_config(config_path)
-    scenario_id, mods = scenarios[name]
-    old_count = len(game.get('mods', []))
-    game['scenarioId'] = scenario_id
-    game['mods'] = mods
-    with open(config_path, 'w', encoding='utf-8', newline='\n') as fh:
-        json.dump(config, fh, indent=4)
-        fh.write('\n')
-    print(f'{config_path}: scenario {scenario_id}, mods {old_count} -> {len(mods)}')
-    header = (game.get('gameProperties') or {}).get('missionHeader')
-    if header:
-        print('warning: gameProperties.missionHeader is set (' + ', '.join(sorted(header)) + ').')
-        print('         Those values were written for the previous scenario. Remove any that do not')
-        print('         belong to the new one, SystemsConfig above all, before uploading.')
-    print('Upload it through the panel, then restart from the panel or RCON (not in-game #restart).')
-    return 0
-
-
-def diff(config_path, name, scenarios):
-    """Report how a server config.json differs from the standard list. Reads only scenarioId and mods."""
-    if name.endswith('.json'):
-        name = name[:-5]
-    if name not in scenarios:
-        fail(f'unknown scenario {name!r}; pick one of: {", ".join(sorted(scenarios))}')
-    _, game = load_config(config_path)
+    have = game.get('mods') if isinstance(game, dict) else None
+    if not isinstance(have, list) or not all(isinstance(m, dict) for m in have):
+        fail(f'{config_path} has no game.mods list; is this a server config.json?')
     want_id, want = scenarios[name]
-    have = game.get('mods', [])
     have_ids = [m.get('modId') for m in have]
     want_ids = [m['modId'] for m in want]
     names = {m.get('modId'): m.get('name', '?') for m in have + want}
-    missing = [i for i in want_ids if i not in have_ids]
-    extra = [i for i in have_ids if i not in want_ids]
-    pinned = [m for m in have if m.get('version')]
-    dupes = sorted({i for i in have_ids if have_ids.count(i) > 1})
-    common_have = [i for i in have_ids if i in want_ids]
-    common_want = [i for i in want_ids if i in have_ids]
-    print(f'{config_path} against {name}')
+    problems = []
     if game.get('scenarioId') != want_id:
-        print(f'  scenarioId differs: server has {game.get("scenarioId")!r}, standard is {want_id!r}')
-    for i in missing:
-        print(f'  missing: {names[i]} ({i})')
-    for i in extra:
-        print(f'  extra:   {names[i]} ({i})')
-    for m in pinned:
-        print(f'  pinned:  {m.get("name")} ({m["modId"]}) to version {m["version"]}, standard takes latest')
-    for i in dupes:
-        print(f'  listed {have_ids.count(i)} times: {names[i]} ({i})')
-    reorder = not dupes and common_have != common_want
-    if reorder:
-        print('  order differs from the standard')
-    scenario_off = game.get('scenarioId') != want_id
-    clean = not (missing or extra or pinned or dupes or reorder or scenario_off)
-    if clean:
-        print('  matches the standard')
-    else:
-        parts = [f'{len(missing)} missing', f'{len(extra)} extra']
-        parts += [f'{len(pinned)} pinned'] if pinned else []
-        parts += [f'{len(dupes)} duplicated'] if dupes else []
-        parts += ['order differs'] if reorder else []
-        parts += ['wrong scenario'] if scenario_off else []
-        print('  ' + ', '.join(parts))
-    return 0 if clean else 1
+        problems.append(f'scenarioId is {game.get("scenarioId")!r}, standard is {want_id!r}')
+    problems += [f'missing: {names[i]} ({i})' for i in want_ids if i not in have_ids]
+    problems += [f'extra:   {names[i]} ({i})' for i in have_ids if i not in want_ids]
+    problems += [f'listed {have_ids.count(i)} times: {names[i]} ({i})' for i in sorted(set(have_ids))
+                 if have_ids.count(i) > 1]
+    problems += [f'pinned:  {m.get("name")} ({m.get("modId")}) to {m["version"]}' for m in have if m.get('version')]
+    if len(set(have_ids)) == len(have_ids) and [i for i in have_ids if i in want_ids] != [i for i in want_ids if i in have_ids]:
+        problems.append('order differs from the standard')
+    print(f'{config_path} against {name}')
+    for p in problems or ['matches the standard']:
+        print('  ' + p)
+    return 1 if problems else 0
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     mode = ap.add_mutually_exclusive_group()
     mode.add_argument('--check', action='store_true', help='report stale or orphaned outputs, write nothing')
-    mode.add_argument('--apply', nargs=2, metavar=('CONFIG', 'SCENARIO'),
-                      help='set game.scenarioId and game.mods in a downloaded server config.json')
     mode.add_argument('--diff', nargs=2, metavar=('CONFIG', 'SCENARIO'),
                       help='compare a server config.json with the standard list, change nothing')
     args = ap.parse_args()
     files, scenarios = build()
-    if args.apply:
-        return apply(args.apply[0], args.apply[1], scenarios)
     if args.diff:
         return diff(args.diff[0], args.diff[1], scenarios)
 
