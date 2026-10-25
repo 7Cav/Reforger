@@ -14,6 +14,9 @@ SCR_GameModeEditor : "{D2DE7F43D48A3667}Prefabs/MP/Modes/Editor/GameMode_Editor.
   }
   SCR_CommandingManagerComponent "{664AEDE1A7CEBD26}" {
   }
+  SCR_PlayerSpawnPointManagerComponent "{56C2DDA69EF94C6D}" {
+   m_eDeployableSpawnPointBudgetType NONE
+  }
   SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
    m_bShowPlayerLeftNotification 0
    m_iKillFeedType DISABLED
