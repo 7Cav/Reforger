@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C5A76C09E4A371CD}Prefabs/Items/Equipment/Radios/Cav/Radio_FILBE_ANPRC117G_Cav_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

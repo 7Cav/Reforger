@@ -1,0 +1,28 @@
+GenericEntity : "{B5A9B78EE58D9C76}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacemenUS.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{1EDAFD3BE9F66865}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Radio_Item.xob"
+  }
+  SCR_DeployableInventoryItemReplacementComponent "{5E2ECC944A247BBE}" {
+   m_vItemPosition PointInfo "{5E2ECC944F71A903}" {
+    Offset 0 0 0
+    Angles 0 0 0
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "6B21C0A4E3F5D817"
+   components {
+    MeshObject "{6B21C0A4F1A29C3E}" {
+     Object "{D29C3ADD27E3E71A}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01_item.xob"
+    }
+    Hierarchy "{6B21C0A4FC80E451}" {
+    }
+   }
+   coords -0.0244 0 0.4294
+   angles -67.42419 0 0
+  }
+ }
+}
