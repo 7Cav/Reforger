@@ -36,9 +36,8 @@ To add a mod to every sandbox, add it once to `stacks.sandbox.core`.
 
 ## Not covered yet
 
-`COE2_Kunar` needs the 7Cav PubMaps Kunar mod published first (its list already uses that mod's
-project GUID, which becomes its workshop ID). The COE2 stack was taken from the live TACR server on
-25 October 2026 plus Enhanced Radio; confirm it against the server's own list.
+The COE2 stack was taken from the live TACR server on 25 October 2026 plus Enhanced Radio;
+confirm it against the server's own list.
 
-7Cav PubMaps Anizay, 7CavPVE (`7Cav_Linear_Cain`, `7Cav_Ruha_PvE`) and Cav Island
-(`Island_Rebuild_GM`) have scenarios but no mod list.
+7CavPVE (`7Cav_Linear_Cain`, `7Cav_Ruha_PvE`) and Cav Island (`Island_Rebuild_GM`) have
+scenarios but no mod list.

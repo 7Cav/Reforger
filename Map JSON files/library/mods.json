@@ -1019,15 +1019,24 @@
       ]
     },
     {
-      "preset": "7Cav_CE_mods",
-      "stack": "conflict_escalation",
+      "preset": "COE2_Anizay",
+      "stack": "coe2",
       "scenarios": [
-        "7Cav_CentralEveronRandomScoring",
-        "7Cav_CentralEveronRandomScoring_Centerline",
-        "7Cav_CHEStPhilippe",
-        "7Cav_FullEveronBase"
+        "7Cav_COE2_Anizay"
       ],
-      "terrain": []
+      "omit": [
+        "6A78FC3A4047FF07"
+      ],
+      "terrain": [
+        {
+          "modId": "6266DCA9193C705E",
+          "name": "Anizay"
+        },
+        {
+          "modId": "9A2332D1C75FD8BB",
+          "name": "7Cav PubMaps Anizay"
+        }
+      ]
     },
     {
       "preset": "COE2_Everon",
@@ -1068,6 +1077,17 @@
           "name": "7Cav PubMaps Kunar"
         }
       ]
+    },
+    {
+      "preset": "7Cav_CE_mods",
+      "stack": "conflict_escalation",
+      "scenarios": [
+        "7Cav_CentralEveronRandomScoring",
+        "7Cav_CentralEveronRandomScoring_Centerline",
+        "7Cav_CHEStPhilippe",
+        "7Cav_FullEveronBase"
+      ],
+      "terrain": []
     }
   ]
 }
