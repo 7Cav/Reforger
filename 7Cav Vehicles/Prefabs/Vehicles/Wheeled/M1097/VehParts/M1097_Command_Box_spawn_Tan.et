@@ -1,0 +1,22 @@
+GenericEntity : "{1ADCACC1B9EDE1F3}Prefabs/MP/Campaign/Assets/M1097_Command_Box_Tan.et" {
+ ID "5206D4E7EFE2C051"
+ components {
+  SCR_CampaignMobileAssemblyComponent "{658707451FD2D66A}" {
+   Enabled 0
+  }
+ }
+ {
+  SCR_RadioVehicleSpawnPoint : "{07CBFE3AFABFB760}Prefabs/MP/Spawning/RadioVehicleSpawnPoint.et" {
+   ID "B35B1E3F3EF28D63"
+   components {
+    SCR_SpawnPointAreaMeshComponent "{56C25DC99E04349A}" {
+     m_bHideInWorkbench 1
+    }
+   }
+   coords 2.5 0 0
+   m_Info SCR_UIInfo "{61110B18E9E24378}" {
+    Name "M1097 Command Humvee"
+   }
+  }
+ }
+}

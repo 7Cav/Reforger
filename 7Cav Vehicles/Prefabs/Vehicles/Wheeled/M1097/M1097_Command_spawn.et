@@ -1,0 +1,17 @@
+Vehicle : "{7C0CAA1F89617AB1}Prefabs/Vehicles/Wheeled/M1097/M1097_Command.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "M1097 Command Humvee (Spawn Point)"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo_Rack {
+     Prefab "{A101F53C1B3D9AC1}Prefabs/Vehicles/Wheeled/M1097/VehParts/M1097_Command_Box_spawn.et"
+    }
+   }
+  }
+ }
+}
