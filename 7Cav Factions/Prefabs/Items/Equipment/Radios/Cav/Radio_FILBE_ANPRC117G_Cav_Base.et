@@ -3,6 +3,11 @@ GenericEntity : "{9F6BD5440120D0EA}Prefabs/Items/Equipment/Backpacks/FILBE_Backp
  components {
   SCR_DeployableInventoryItemInventoryComponent "{6A2D5795212CE679}" {
    Enabled 0
+   components {
+    RHS_ClothNodeStorageComponent "{6A2D57689A93536F}" {
+     Enabled 0
+    }
+   }
   }
   SCR_RestrictedDeployableSpawnPointComponent "{6A2D576EE1829D2D}" {
    m_sReplacementPrefab "{1A4FF9D506EE79B6}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacement_FILBE.et"
