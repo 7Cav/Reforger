@@ -1,0 +1,135 @@
+GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{5A1B3B1C76F584C8}Assets/Props/Fabric/Flags/Data/Flag_1_2_Blue.emat"
+  }
+  SCR_EditableEntityComponent "{5EF0BDF2D0AE76F6}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Teleporter"
+    Description "Players at this pole can travel to any other teleporter on the map. Select it to set its Name and Direction (Teleporter attributes)."
+    m_sFaction ""
+    m_aAuthoredLabels {
+     ENTITYTYPE_SYSTEM
+    }
+    m_aAutoLabels {
+    }
+   }
+  }
+  CAV_TeleporterComponent "{7BBFCD0C68164431}" {
+  }
+  ActionsManagerComponent "{83E0C03813C74927}" {
+   ActionContexts {
+    UserActionContext "{072D7480DEC54F17}" {
+     ContextName "teleporter"
+     Position PointInfo "{3E781669B8024794}" {
+      Offset 0 1.2 0
+     }
+     Radius 1.5
+     Omnidirectional 1
+    }
+   }
+   additionalActions {
+    CAV_TeleportUserAction "{71E2BB8DD8B84BA5}" {
+     ParentContextList {
+      "teleporter"
+     }
+     VisibilityRange 3
+     Duration 0.5
+     m_iSlot 0
+    }
+    CAV_TeleportUserAction "{24600CAAD6CF4699}" {
+     ParentContextList {
+      "teleporter"
+     }
+     VisibilityRange 3
+     Duration 0.5
+     m_iSlot 1
+    }
+    CAV_TeleportUserAction "{28C89A6BCEDB4A6E}" {
+     ParentContextList {
+      "teleporter"
+     }
+     VisibilityRange 3
+     Duration 0.5
+     m_iSlot 2
+    }
+    CAV_TeleportUserAction "{9BEAF8633D344A66}" {
+     ParentContextList {
+      "teleporter"
+     }
+     VisibilityRange 3
+     Duration 0.5
+     m_iSlot 3
+    }
+    CAV_TeleportUserAction "{16A29B2848EF4D6A}" {
+     ParentContextList {
+      "teleporter"
+     }
+     VisibilityRange 3
+     Duration 0.5
+     m_iSlot 4
+    }
+    CAV_TeleportUserAction "{A0AFC55A35254D03}" {
+     ParentContextList {
+      "teleporter"
+     }
+     VisibilityRange 3
+     Duration 0.5
+     m_iSlot 5
+    }
+    CAV_TeleportUserAction "{D700E9B925E24F07}" {
+     ParentContextList {
+      "teleporter"
+     }
+     VisibilityRange 3
+     Duration 0.5
+     m_iSlot 6
+    }
+    CAV_TeleportUserAction "{7A4FF4CB2E5B4BFC}" {
+     ParentContextList {
+      "teleporter"
+     }
+     VisibilityRange 3
+     Duration 0.5
+     m_iSlot 7
+    }
+    CAV_TeleportUserAction "{6C77E73C59EF4077}" {
+     ParentContextList {
+      "teleporter"
+     }
+     VisibilityRange 3
+     Duration 0.5
+     m_iSlot 8
+    }
+    CAV_TeleportUserAction "{A329F2745DC448A8}" {
+     ParentContextList {
+      "teleporter"
+     }
+     VisibilityRange 3
+     Duration 0.5
+     m_iSlot 9
+    }
+    CAV_TeleportUserAction "{7F61C90E2ADC48DF}" {
+     ParentContextList {
+      "teleporter"
+     }
+     VisibilityRange 3
+     Duration 0.5
+     m_iSlot 10
+    }
+    CAV_TeleportUserAction "{45DE7C6F57034B32}" {
+     ParentContextList {
+      "teleporter"
+     }
+     VisibilityRange 3
+     Duration 0.5
+     m_iSlot 11
+    }
+   }
+  }
+  RplComponent "{5EF0BDF2D0AE650B}" {
+   Streamable Disabled
+  }
+ }
+}
