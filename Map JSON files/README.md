@@ -4,17 +4,17 @@ One mod list per scenario in `TCAdmin/`: `SB_` for the 7Cav Maps sandboxes, `COE
 public COE2 servers (7Cav PubMaps), `Training_` for Fort Tharen, `CE_` for Conflict Escalation.
 Every sandbox runs the same standard stack (81 mods, same order) plus only its terrain mods, with
 7Cav Maps last; Fort Tharen keeps its earlier list. The COE2 lists share their own smaller stack
-(43 mods). `"version": ""` means the latest workshop version. Which sandbox maps are confirmed
-working is tracked in [MAPS.md](MAPS.md).
+(42 mods: the TACR server's own list plus Enhanced Radio). `"version": ""` means the latest
+workshop version. Which sandbox maps are confirmed working is tracked in [MAPS.md](MAPS.md).
 
 ## Bringing a map up on TCAdmin
 
 1. Open `TCAdmin/<scenario>.json`.
 2. In the server's `config.json`, inside `"game"`, replace the `"scenarioId"` value and the whole
    `"mods": [ ... ]` array with the ones from the file. Leave everything else alone.
-3. If `game.gameProperties.missionHeader` holds entries from a different scenario (a COE2
-   `SystemsConfig` or `m_sCOE_*` keys, for example), remove them: a wrong `SystemsConfig` can stop
-   the scenario's systems from loading.
+3. Check `game.gameProperties.missionHeader`. COE2 servers need theirs (`SystemsConfig`, the
+   `m_sCOE_*` faction keys) and keep it when moving between COE2 maps. When a server moves to a
+   sandbox, remove those entries: a wrong `SystemsConfig` can stop the scenario's systems loading.
 4. Restart from the panel or RCON. An in-game `#restart` does not reload the config.
 
 To see how far a live server has drifted, download its `config.json` and run
@@ -35,9 +35,6 @@ read from the mission metas), its `terrain` mods, and optionally `omit`, stack m
 To add a mod to every sandbox, add it once to `stacks.sandbox.core`.
 
 ## Not covered yet
-
-The COE2 stack was taken from the live TACR server on 25 October 2026 plus Enhanced Radio;
-confirm it against the server's own list.
 
 7CavPVE (`7Cav_Linear_Cain`, `7Cav_Ruha_PvE`) and Cav Island (`Island_Rebuild_GM`) have
 scenarios but no mod list.

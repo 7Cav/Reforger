@@ -467,12 +467,8 @@
       "last": []
     },
     "coe2": {
-      "description": "7Cav TACR public COE2 servers (7Cav PubMaps scenarios); from the live TACR server via BattleMetrics, 25 October 2026, plus Enhanced Radio",
+      "description": "7Cav TACR public COE2 servers (7Cav PubMaps scenarios); the live TACR server config of 25 October 2026 plus Enhanced Radio",
       "core": [
-        {
-          "modId": "5B0D1E4380971EBD",
-          "name": "COALITION Squad Interface"
-        },
         {
           "modId": "6647107B7ED20990",
           "name": "506IRRU - Custom Name Tags"
@@ -482,12 +478,12 @@
           "name": "506th IRRU - Enhanced Radio"
         },
         {
-          "modId": "629B2BA37EFFD577",
-          "name": "WCS_Armaments"
-        },
-        {
           "modId": "62CCD69DD17E4F2F",
           "name": "AKI_Core"
+        },
+        {
+          "modId": "5B0D1E4380971EBD",
+          "name": "COALITION Squad Interface"
         },
         {
           "modId": "60612C225328522E",
@@ -514,6 +510,10 @@
           "name": "WCS_AH-6M"
         },
         {
+          "modId": "629B2BA37EFFD577",
+          "name": "WCS_Armaments"
+        },
+        {
           "modId": "61E42AE6714A3CC2",
           "name": "WCS_Armbands"
         },
@@ -526,14 +526,6 @@
           "name": "WCS_Earplugs"
         },
         {
-          "modId": "61BA4EB5C886D396",
-          "name": "WCS_VehicleLock"
-        },
-        {
-          "modId": "628933A0D3A0D700",
-          "name": "WCS_Mi-24V"
-        },
-        {
           "modId": "6146FAED5AAD7C55",
           "name": "WCS_Helicopters"
         },
@@ -544,6 +536,10 @@
         {
           "modId": "606B100247F5C709",
           "name": "Bacon Loadout Editor"
+        },
+        {
+          "modId": "61BA4EB5C886D396",
+          "name": "WCS_VehicleLock"
         },
         {
           "modId": "615A80027C5C9170",
