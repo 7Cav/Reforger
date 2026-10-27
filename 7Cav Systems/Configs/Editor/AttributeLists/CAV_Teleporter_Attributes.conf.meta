@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7C1A5E30D2B84F61}Configs/Editor/AttributeLists/CAV_Teleporter_Attributes.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
