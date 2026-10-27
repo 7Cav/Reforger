@@ -3,7 +3,7 @@ GameProject {
  GUID "6620DEADBEDA583D"
  TITLE "7Cav Vehicles"
  Dependencies {
-  "58D0FB3206B6F859"
+  "58D0FB3206B6F859" "69F415A5B15EC350"
  }
  Configurations {
   GameProjectConfig PC {

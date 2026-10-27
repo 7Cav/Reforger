@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D9A0EAE4E9CB069C}Prefabs/Vehicles/Wheeled/M1097/M1097_Command_spawn_WD.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
