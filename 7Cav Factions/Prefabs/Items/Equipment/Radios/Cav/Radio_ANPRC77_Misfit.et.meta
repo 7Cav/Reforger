@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{52F11D1B9CC5E9F7}Prefabs/Items/Equipment/Radios/Cav/Radio_ANPRC77_Misfit.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

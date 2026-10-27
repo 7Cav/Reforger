@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{464F088BCAF206BA}Prefabs/Items/Equipment/Radios/Cav/Radio_FILBE_ANPRC117G_Bandit.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

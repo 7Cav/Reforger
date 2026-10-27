@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1516A3C0CBC29170}Prefabs/Groups/OPFOR/RHS_AFRF_SOF/Group_AFRF_SOF_MGTeam.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

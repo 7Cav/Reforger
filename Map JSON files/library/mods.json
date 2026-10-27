@@ -1,0 +1,1089 @@
+{
+  "stacks": {
+    "sandbox": {
+      "description": "7Cav Game Master sandbox servers (7Cav Maps scenarios)",
+      "core": [
+        {
+          "modId": "59673B6FBB95459F",
+          "name": "BetterTracers 2.0"
+        },
+        {
+          "modId": "59651354B2904BA6",
+          "name": "BetterHitsEffects 3.3"
+        },
+        {
+          "modId": "5F268647F8A1A1F4",
+          "name": "CRX Enfusion A.I."
+        },
+        {
+          "modId": "6A16AC294F079592",
+          "name": "DCO_Extensions"
+        },
+        {
+          "modId": "5B0D1E4380971EBD",
+          "name": "COALITION Squad Interface"
+        },
+        {
+          "modId": "6647107B7ED20990",
+          "name": "506IRRU - Custom Name Tags"
+        },
+        {
+          "modId": "672B0395726428B6",
+          "name": "506th IRRU - Enhanced Radio"
+        },
+        {
+          "modId": "5AAAC70D754245DD",
+          "name": "Server Admin Tools"
+        },
+        {
+          "modId": "656AC01634459D8D",
+          "name": "Map Drawing"
+        },
+        {
+          "modId": "612F512CD4CB21D5",
+          "name": "WCS_Earplugs"
+        },
+        {
+          "modId": "60612C225328522E",
+          "name": "No Weapon Drop Unconscious"
+        },
+        {
+          "modId": "666947D8218E3B3F",
+          "name": "GM Trenches"
+        },
+        {
+          "modId": "646B350F36C6D3E4",
+          "name": "Breachable Doors"
+        },
+        {
+          "modId": "5F2944B7474F043F",
+          "name": "Disable Game Master Budgets"
+        },
+        {
+          "modId": "648297C0F03CE43A",
+          "name": "ModularVoiceRange"
+        },
+        {
+          "modId": "5994AD5A9F33BE57",
+          "name": "Game Master FX"
+        },
+        {
+          "modId": "5964E0B3BB7410CE",
+          "name": "Game Master Enhanced"
+        },
+        {
+          "modId": "5AF6E0F075D79473",
+          "name": "M249 Scope Rails"
+        },
+        {
+          "modId": "595F2BF2F44836FB",
+          "name": "RHS - Status Quo"
+        },
+        {
+          "modId": "5CA125536EE7430A",
+          "name": "M110 DMR"
+        },
+        {
+          "modId": "62F364B35E9B51B0",
+          "name": "Wirecutters 2"
+        },
+        {
+          "modId": "BADC0DEDABBEDA5E",
+          "name": "RHS Content Pack 02"
+        },
+        {
+          "modId": "1337C0DE5DABBEEF",
+          "name": "RHS Content Pack 01"
+        },
+        {
+          "modId": "65620718493785CB",
+          "name": "Gentex HGU by Tonnie"
+        },
+        {
+          "modId": "61C2509A023211FE",
+          "name": "M4 MAAWS"
+        },
+        {
+          "modId": "620E426C34BE0D17",
+          "name": "Laser Rangefinder"
+        },
+        {
+          "modId": "5ABD0CB57F7E9EB1",
+          "name": "RIS Laser Attachments"
+        },
+        {
+          "modId": "5AB301290317994A",
+          "name": "Bacon Suppressors"
+        },
+        {
+          "modId": "65AD7D1E9EEAFA53",
+          "name": "ACE Explosives Dev"
+        },
+        {
+          "modId": "65AD7BCC9F6B3B4E",
+          "name": "ACE Chopping Dev"
+        },
+        {
+          "modId": "65AD7D4099944EBD",
+          "name": "ACE Magazine Repack Dev"
+        },
+        {
+          "modId": "65AD7C379CBD394D",
+          "name": "ACE Carrying Dev"
+        },
+        {
+          "modId": "65AD7C139EB4C1A1",
+          "name": "ACE Backblast Dev"
+        },
+        {
+          "modId": "65AD7D4F994EA327",
+          "name": "ACE Medical Circulation Dev"
+        },
+        {
+          "modId": "6586079789278413",
+          "name": "ACE Medical Core Dev"
+        },
+        {
+          "modId": "65AD7C249E4ECDFB",
+          "name": "ACE Captives Dev"
+        },
+        {
+          "modId": "65AD7D0D9941A380",
+          "name": "ACE Core Dev"
+        },
+        {
+          "modId": "65AD7CE59E8DB349",
+          "name": "ACE Trenches Dev"
+        },
+        {
+          "modId": "65B343F799FB521B",
+          "name": "ACE Medical Hitzones Dev"
+        },
+        {
+          "modId": "64E37695015F8AFA",
+          "name": "AT-4"
+        },
+        {
+          "modId": "65930CB4CD0237B2",
+          "name": "Parachute Framework"
+        },
+        {
+          "modId": "68996556700D5CA1",
+          "name": "Prontos Parachutes"
+        },
+        {
+          "modId": "6276E6E3CC97A22B",
+          "name": "AUS_CORE"
+        },
+        {
+          "modId": "64EE818E08AFCF94",
+          "name": "MFD Framework"
+        },
+        {
+          "modId": "632F64CB7D65D1FC",
+          "name": "TraceVehCore"
+        },
+        {
+          "modId": "6303360DA719E832",
+          "name": "WCS_AH-64D"
+        },
+        {
+          "modId": "62CCD69DD17E4F2F",
+          "name": "AKI CORE"
+        },
+        {
+          "modId": "64610AFB74AA9842",
+          "name": "WCS_Core"
+        },
+        {
+          "modId": "629B2BA37EFFD577",
+          "name": "WCS_Armaments"
+        },
+        {
+          "modId": "61BA4EB5C886D396",
+          "name": "WCS_VehicleLock"
+        },
+        {
+          "modId": "69F415A5B15EC350",
+          "name": "Hmmwv Variants"
+        },
+        {
+          "modId": "61E42AE6714A3CC2",
+          "name": "WCS_Armbands"
+        },
+        {
+          "modId": "5E389BB9F58B79A6",
+          "name": "SpaceCore"
+        },
+        {
+          "modId": "615A80027C5C9170",
+          "name": "WCS_Vehicles"
+        },
+        {
+          "modId": "61957C5C6FB7A773",
+          "name": "H-47 Chinook"
+        },
+        {
+          "modId": "6326F0C7E748AB8A",
+          "name": "WCS_AH-64D_Upgrade"
+        },
+        {
+          "modId": "6273146ADFE8241D",
+          "name": "WCS_AH6M"
+        },
+        {
+          "modId": "60ED3CC6E7E40221",
+          "name": "Sikorsky MH60 DAP Project"
+        },
+        {
+          "modId": "6146FAED5AAD7C55",
+          "name": "WCS_Helicopters"
+        },
+        {
+          "modId": "63120AE07E6C0966",
+          "name": "M2 Bradley Fighting Vehicle"
+        },
+        {
+          "modId": "5E524E4FEECCA92B",
+          "name": "BMP-1 IFV"
+        },
+        {
+          "modId": "5B383D4CB27E0D54",
+          "name": "BMP-3 IFV"
+        },
+        {
+          "modId": "60B8969E0FA439C1",
+          "name": "BMP-1AM"
+        },
+        {
+          "modId": "5B02128D896F7DE8",
+          "name": "STRYKER"
+        },
+        {
+          "modId": "62021EB6163A2698",
+          "name": "NGSW"
+        },
+        {
+          "modId": "687CD82F6E41D627",
+          "name": "Attachment Framework-Core"
+        },
+        {
+          "modId": "645F08FA9E7CDEDE",
+          "name": "Attachment Framework"
+        },
+        {
+          "modId": "69C6E7E5C3006233",
+          "name": "M224A1 - Handheld 60mm Mortar"
+        },
+        {
+          "modId": "606B100247F5C709",
+          "name": "Bacon Loadout Editor"
+        },
+        {
+          "modId": "5D1880C4AD410C14",
+          "name": "M1 Abrams"
+        },
+        {
+          "modId": "64CEC8E005828E5D",
+          "name": "Middle East Insurgents"
+        },
+        {
+          "modId": "69156B5B321244C9",
+          "name": "Physics Rope"
+        },
+        {
+          "modId": "690F67E53E6EDB09",
+          "name": "F.R.I.E.S Reforged"
+        },
+        {
+          "modId": "6A3D55267E150DC7",
+          "name": "BFS F.R.I.E.S Compat -UH60 H47"
+        },
+        {
+          "modId": "6A2F4BAC4D08F9F4",
+          "name": "Static Line Parachutes"
+        },
+        {
+          "modId": "6620DEADBEDA583D",
+          "name": "7Cav Vehicles"
+        },
+        {
+          "modId": "6620FAA839E75CC6",
+          "name": "7Cav Assets"
+        },
+        {
+          "modId": "6620F8F435D1DAA0",
+          "name": "7Cav Compositions"
+        },
+        {
+          "modId": "6620F9E13985C876",
+          "name": "7Cav Systems"
+        },
+        {
+          "modId": "66150BDAAA69277A",
+          "name": "7Cav Factions"
+        }
+      ],
+      "last": [
+        {
+          "modId": "6620EEC53782F727",
+          "name": "7Cav Maps"
+        }
+      ]
+    },
+    "conflict_escalation": {
+      "description": "7Cav Conflict Escalation servers",
+      "file_prefix": "CE_",
+      "core": [
+        {
+          "modId": "6647107B7ED20990",
+          "name": "506IRRU - Custom Name Tags"
+        },
+        {
+          "modId": "62CCD69DD17E4F2F",
+          "name": "AKI CORE"
+        },
+        {
+          "modId": "5B0D1E4380971EBD",
+          "name": "COALITION Squad Interface"
+        },
+        {
+          "modId": "651F6696EA91070C",
+          "name": "Conflict Escalation"
+        },
+        {
+          "modId": "60612C225328522E",
+          "name": "No Weapon Drop Unconscious"
+        },
+        {
+          "modId": "1337C0DE5DABBEEF",
+          "name": "RHS Content Pack 01"
+        },
+        {
+          "modId": "BADC0DEDABBEDA5E",
+          "name": "RHS Content Pack 02"
+        },
+        {
+          "modId": "595F2BF2F44836FB",
+          "name": "RHS - Status Quo"
+        },
+        {
+          "modId": "5AAAC70D754245DD",
+          "name": "Server Admin Tools"
+        },
+        {
+          "modId": "6273146ADFE8241D",
+          "name": "WCS_AH6M"
+        },
+        {
+          "modId": "629B2BA37EFFD577",
+          "name": "WCS_Armaments"
+        },
+        {
+          "modId": "61E42AE6714A3CC2",
+          "name": "WCS_Armbands"
+        },
+        {
+          "modId": "615CC2D870A39838",
+          "name": "WCS_Arsenal"
+        },
+        {
+          "modId": "61C74A8B647617DA",
+          "name": "WCS_Attachments"
+        },
+        {
+          "modId": "6152CB0BD0684837",
+          "name": "WCS_Clothing"
+        },
+        {
+          "modId": "6602C1EC7E5A4A87",
+          "name": "WCS_Clothing_Assets"
+        },
+        {
+          "modId": "64610AFB74AA9842",
+          "name": "WCS_Core"
+        },
+        {
+          "modId": "612F512CD4CB21D5",
+          "name": "WCS_Earplugs"
+        },
+        {
+          "modId": "6146FAED5AAD7C55",
+          "name": "WCS_Helicopters"
+        },
+        {
+          "modId": "614D1A3874A23AD9",
+          "name": "WCS_Interface"
+        },
+        {
+          "modId": "61D57616CAFBB23D",
+          "name": "WCS_LoadoutEditor"
+        },
+        {
+          "modId": "615806DC6C57AF02",
+          "name": "WCS_NATO"
+        },
+        {
+          "modId": "65F929DF622BAD50",
+          "name": "WCS_RHS_Weapons"
+        },
+        {
+          "modId": "615818DA7C0343FD",
+          "name": "WCS_RU"
+        },
+        {
+          "modId": "62A668F513428630",
+          "name": "WCS_Scopes"
+        },
+        {
+          "modId": "631C3C1AEE9C90BC",
+          "name": "WCS_Sounds"
+        },
+        {
+          "modId": "61BA4EB5C886D396",
+          "name": "WCS_VehicleLock"
+        },
+        {
+          "modId": "615A80027C5C9170",
+          "name": "WCS_Vehicles"
+        },
+        {
+          "modId": "68F006D910E7546F",
+          "name": "WCS_Weapon_Scripts"
+        },
+        {
+          "modId": "65CF7AE8574E06D2",
+          "name": "WCS_Weapons"
+        },
+        {
+          "modId": "62F364B35E9B51B0",
+          "name": "Wirecutters 2"
+        },
+        {
+          "modId": "69695D85A8B6F130",
+          "name": "7Cav Conflict Escalation"
+        }
+      ],
+      "last": []
+    },
+    "coe2": {
+      "description": "7Cav TACR public COE2 servers (7Cav PubMaps scenarios); the live TACR server config of 25 October 2026 plus Enhanced Radio",
+      "core": [
+        {
+          "modId": "6647107B7ED20990",
+          "name": "506IRRU - Custom Name Tags"
+        },
+        {
+          "modId": "672B0395726428B6",
+          "name": "506th IRRU - Enhanced Radio"
+        },
+        {
+          "modId": "62CCD69DD17E4F2F",
+          "name": "AKI_Core"
+        },
+        {
+          "modId": "5B0D1E4380971EBD",
+          "name": "COALITION Squad Interface"
+        },
+        {
+          "modId": "60612C225328522E",
+          "name": "No Weapon Drop Unconscious"
+        },
+        {
+          "modId": "1337C0DE5DABBEEF",
+          "name": "RHS - Content Pack 01"
+        },
+        {
+          "modId": "BADC0DEDABBEDA5E",
+          "name": "RHS - Content Pack 02"
+        },
+        {
+          "modId": "595F2BF2F44836FB",
+          "name": "RHS - Status Quo"
+        },
+        {
+          "modId": "5AAAC70D754245DD",
+          "name": "Server Admin Tools"
+        },
+        {
+          "modId": "6273146ADFE8241D",
+          "name": "WCS_AH-6M"
+        },
+        {
+          "modId": "629B2BA37EFFD577",
+          "name": "WCS_Armaments"
+        },
+        {
+          "modId": "61E42AE6714A3CC2",
+          "name": "WCS_Armbands"
+        },
+        {
+          "modId": "64610AFB74AA9842",
+          "name": "WCS_Core"
+        },
+        {
+          "modId": "612F512CD4CB21D5",
+          "name": "WCS_Earplugs"
+        },
+        {
+          "modId": "6146FAED5AAD7C55",
+          "name": "WCS_Helicopters"
+        },
+        {
+          "modId": "614D1A3874A23AD9",
+          "name": "WCS_Interface"
+        },
+        {
+          "modId": "606B100247F5C709",
+          "name": "Bacon Loadout Editor"
+        },
+        {
+          "modId": "61BA4EB5C886D396",
+          "name": "WCS_VehicleLock"
+        },
+        {
+          "modId": "615A80027C5C9170",
+          "name": "WCS_Vehicles"
+        },
+        {
+          "modId": "5E389BB9F58B79A6",
+          "name": "WCS_SpaceCore"
+        },
+        {
+          "modId": "5C721177A220B42F",
+          "name": "WCS_JLTV"
+        },
+        {
+          "modId": "62F364B35E9B51B0",
+          "name": "Wirecutters 2"
+        },
+        {
+          "modId": "5F268647F8A1A1F4",
+          "name": "CRX Enfusion A.I."
+        },
+        {
+          "modId": "6A16AC294F079592",
+          "name": "DCO_Extensions"
+        },
+        {
+          "modId": "5F2944B7474F043F",
+          "name": "Disable Game Master Budgets"
+        },
+        {
+          "modId": "5964E0B3BB7410CE",
+          "name": "Game Master Enhanced"
+        },
+        {
+          "modId": "5994AD5A9F33BE57",
+          "name": "Game Master FX"
+        },
+        {
+          "modId": "65AD7D0D9941A380",
+          "name": "ACE Core Dev"
+        },
+        {
+          "modId": "65AD7C249E4ECDFB",
+          "name": "ACE Captives Dev"
+        },
+        {
+          "modId": "65AD7C379CBD394D",
+          "name": "ACE Carrying Dev"
+        },
+        {
+          "modId": "6586079789278413",
+          "name": "ACE Medical Core Dev"
+        },
+        {
+          "modId": "65AD7D4F994EA327",
+          "name": "ACE Medical Circulation Dev"
+        },
+        {
+          "modId": "65AD7CE59E8DB349",
+          "name": "ACE Trenches Dev"
+        },
+        {
+          "modId": "64E37695015F8AFA",
+          "name": "AT-4"
+        },
+        {
+          "modId": "69C6E7E5C3006233",
+          "name": "M224A1 - Handheld 60mm Mortar"
+        },
+        {
+          "modId": "5ED61DC0AFE17E8E",
+          "name": "Kex Scenario Core"
+        },
+        {
+          "modId": "60926835F4A7B0CA",
+          "name": "COE2"
+        },
+        {
+          "modId": "6A0A9031594BEFB0",
+          "name": "COE2 Persistent Ops PvE"
+        },
+        {
+          "modId": "6A78FA1A6CCCB816",
+          "name": "7Cav_PubFac"
+        },
+        {
+          "modId": "61F3A9C24D7B80E5",
+          "name": "CPO Frontline PvE"
+        },
+        {
+          "modId": "6A2F4BAC4D08F9F4",
+          "name": "Static Line Parachutes"
+        }
+      ],
+      "last": [
+        {
+          "modId": "6A78FC3A4047FF07",
+          "name": "7Cav PubMaps"
+        }
+      ]
+    }
+  },
+  "presets": [
+    {
+      "preset": "AlHadra",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_AlHadra"
+      ],
+      "terrain": [
+        {
+          "modId": "68A2C605FC3B76A6",
+          "name": "MES - Middle East Structures 2"
+        },
+        {
+          "modId": "662D4D48EBB10146",
+          "name": "MES - Middle East Structures"
+        },
+        {
+          "modId": "60B524F7A5AE96A8",
+          "name": "ArmaTerrainCore"
+        },
+        {
+          "modId": "68957914EA45BA6C",
+          "name": "AL Hadra"
+        }
+      ]
+    },
+    {
+      "preset": "Anizay",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Anizay"
+      ],
+      "terrain": [
+        {
+          "modId": "6266DCA9193C705E",
+          "name": "Anizay"
+        }
+      ]
+    },
+    {
+      "preset": "Back_Country",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_BackwoodsNC"
+      ],
+      "terrain": [
+        {
+          "modId": "60EEF465FD67ECF8",
+          "name": "North Carolina Back Country"
+        },
+        {
+          "modId": "61E55A29FEE0B919",
+          "name": "Game Master - North Carolina"
+        }
+      ]
+    },
+    {
+      "preset": "Base_Everon_Arland_Kolguyev",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Eden",
+        "7Cav_SB_Arland",
+        "7Cav_SB_Kolguyev"
+      ],
+      "terrain": []
+    },
+    {
+      "preset": "Bergamo",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Bergamo"
+      ],
+      "terrain": [
+        {
+          "modId": "61330C2DC7724DEA",
+          "name": "Assets for Tools byHeine"
+        },
+        {
+          "modId": "5F0D245931200FD1",
+          "name": "Railway Generator"
+        },
+        {
+          "modId": "5D84C738432BFE6A",
+          "name": "WolfsBuildingPack"
+        },
+        {
+          "modId": "615751FB9ACF2781",
+          "name": "Bergamo Map byHeine - WIP"
+        }
+      ]
+    },
+    {
+      "preset": "Denali",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Denali"
+      ],
+      "terrain": [
+        {
+          "modId": "650CF7C6C9BBC1C6",
+          "name": "Denali - Base"
+        }
+      ]
+    },
+    {
+      "preset": "Faircroft",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_FaircroftIslands"
+      ],
+      "terrain": [
+        {
+          "modId": "5F3831B634575167",
+          "name": "Brit Props"
+        },
+        {
+          "modId": "614B62005CBB8057",
+          "name": "Faircroft Islands"
+        }
+      ]
+    },
+    {
+      "preset": "Fallujah",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Fallujah"
+      ],
+      "terrain": [
+        {
+          "modId": "60B524F7A5AE96A8",
+          "name": "ArmaTerrainCore"
+        },
+        {
+          "modId": "5F0D245931200FD1",
+          "name": "Railway Generator"
+        },
+        {
+          "modId": "5E1735DB431EE29B",
+          "name": "Gulfcoast Buildings"
+        },
+        {
+          "modId": "5D84C738432BFE6A",
+          "name": "WolfsBuildingPack"
+        },
+        {
+          "modId": "5F04F5A0383C44B1",
+          "name": "Fallujah Map ByHeine"
+        }
+      ]
+    },
+    {
+      "preset": "FtTharen_BTC_S7",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_Training_FtTharen"
+      ],
+      "terrain": [
+        {
+          "modId": "672143CCBB93E2DA",
+          "name": "Fort Tharen"
+        }
+      ],
+      "omit": [
+        "5D1880C4AD410C14",
+        "64CEC8E005828E5D",
+        "69156B5B321244C9",
+        "690F67E53E6EDB09",
+        "6A3D55267E150DC7",
+        "6A2F4BAC4D08F9F4"
+      ]
+    },
+    {
+      "preset": "Glenwood",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Glenwood"
+      ],
+      "terrain": [
+        {
+          "modId": "66330AEF351F0EEE",
+          "name": "Glenwood"
+        }
+      ]
+    },
+    {
+      "preset": "Gogland",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Gogland"
+      ],
+      "terrain": [
+        {
+          "modId": "623EEDF242F6265E",
+          "name": "Gogland"
+        }
+      ]
+    },
+    {
+      "preset": "GulfCoastIslands",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_GulfCoastIslands"
+      ],
+      "terrain": [
+        {
+          "modId": "5E1735DB431EE29B",
+          "name": "Gulfcoast Buildings"
+        },
+        {
+          "modId": "5DB95DA85FDC5120",
+          "name": "Gulfcoast Islands"
+        }
+      ]
+    },
+    {
+      "preset": "Hamland",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Hamland"
+      ],
+      "terrain": [
+        {
+          "modId": "5F0D245931200FD1",
+          "name": "Railway Generator"
+        },
+        {
+          "modId": "5D84C738432BFE6A",
+          "name": "WolfsBuildingPack"
+        },
+        {
+          "modId": "64490BCD737CA192",
+          "name": "Hamland"
+        }
+      ]
+    },
+    {
+      "preset": "Kunar",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Kunar"
+      ],
+      "terrain": [
+        {
+          "modId": "60B524F7A5AE96A8",
+          "name": "ArmaTerrainCore"
+        },
+        {
+          "modId": "5C9691EA7FD7A79F",
+          "name": "KunarProvince"
+        }
+      ]
+    },
+    {
+      "preset": "Mussalo",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Mussalo"
+      ],
+      "terrain": [
+        {
+          "modId": "59CF333B3A309D6E",
+          "name": "Mussalo"
+        }
+      ]
+    },
+    {
+      "preset": "Novka",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Novka"
+      ],
+      "terrain": [
+        {
+          "modId": "6550CDE61DD51E14",
+          "name": "Novka"
+        }
+      ]
+    },
+    {
+      "preset": "Ruha",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Ruha"
+      ],
+      "terrain": [
+        {
+          "modId": "653CB36244ADBE0F",
+          "name": "Ruha"
+        }
+      ]
+    },
+    {
+      "preset": "Serhiivka",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Serhiivka"
+      ],
+      "terrain": [
+        {
+          "modId": "61557578724DBE60",
+          "name": "WCS_Serhiivka"
+        }
+      ]
+    },
+    {
+      "preset": "Takistan",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Takistan"
+      ],
+      "terrain": [
+        {
+          "modId": "61F0D506562D9BC9",
+          "name": "Outside Terrain Core"
+        },
+        {
+          "modId": "60B524F7A5AE96A8",
+          "name": "ArmaTerrainCore"
+        },
+        {
+          "modId": "615EEBD9BDFEEE9B",
+          "name": "Takistan"
+        }
+      ]
+    },
+    {
+      "preset": "Woodbury",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Woodbury"
+      ],
+      "terrain": [
+        {
+          "modId": "60CC1A8665DEB4F3",
+          "name": "Woodbury"
+        }
+      ]
+    },
+    {
+      "preset": "Worthy_Islands",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_WorthyIslands"
+      ],
+      "terrain": [
+        {
+          "modId": "596CB4A0AE84C08E",
+          "name": "Worthy Islands"
+        }
+      ]
+    },
+    {
+      "preset": "Zimnitritia",
+      "stack": "sandbox",
+      "scenarios": [
+        "7Cav_SB_Zimnitrita"
+      ],
+      "terrain": [
+        {
+          "modId": "5F0D245931200FD1",
+          "name": "Railway Generator"
+        },
+        {
+          "modId": "5D84C738432BFE6A",
+          "name": "WolfsBuildingPack"
+        },
+        {
+          "modId": "597697D81A1EA202",
+          "name": "Zimnitrita"
+        }
+      ]
+    },
+    {
+      "preset": "COE2_Anizay",
+      "stack": "coe2",
+      "scenarios": [
+        "7Cav_COE2_Anizay"
+      ],
+      "omit": [
+        "6A78FC3A4047FF07"
+      ],
+      "terrain": [
+        {
+          "modId": "6266DCA9193C705E",
+          "name": "Anizay"
+        },
+        {
+          "modId": "9A2332D1C75FD8BB",
+          "name": "7Cav PubMaps Anizay"
+        }
+      ]
+    },
+    {
+      "preset": "COE2_Everon",
+      "stack": "coe2",
+      "scenarios": [
+        "7Cav_COE2_Everon"
+      ],
+      "terrain": []
+    },
+    {
+      "preset": "COE2_Kolguyev",
+      "stack": "coe2",
+      "scenarios": [
+        "7Cav_COE2_Kolguyev"
+      ],
+      "terrain": []
+    },
+    {
+      "preset": "COE2_Kunar",
+      "stack": "coe2",
+      "scenarios": [
+        "7Cav_COE2_Kunar"
+      ],
+      "omit": [
+        "6A78FC3A4047FF07"
+      ],
+      "terrain": [
+        {
+          "modId": "60B524F7A5AE96A8",
+          "name": "ArmaTerrainCore"
+        },
+        {
+          "modId": "5C9691EA7FD7A79F",
+          "name": "KunarProvince"
+        },
+        {
+          "modId": "282E3902638E5736",
+          "name": "7Cav PubMaps Kunar"
+        }
+      ]
+    },
+    {
+      "preset": "7Cav_CE_mods",
+      "stack": "conflict_escalation",
+      "scenarios": [
+        "7Cav_CentralEveronRandomScoring",
+        "7Cav_CentralEveronRandomScoring_Centerline",
+        "7Cav_CHEStPhilippe",
+        "7Cav_FullEveronBase"
+      ],
+      "terrain": []
+    }
+  ]
+}

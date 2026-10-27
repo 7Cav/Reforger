@@ -3,42 +3,42 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
  m_aPlayerLoadouts {
   SCR_PlayerArsenalLoadout "{664AFC675DC68D7E}" {
    m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
-   m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+   m_sLoadoutResource "{2E6A7178AF4D045F}Prefabs/Characters/Cav_Factions/Charlie/Charlie_Rifleman.et"
    m_sAffiliatedFaction "Misfit"
   }
   SCR_PlayerArsenalLoadout "{664AFC675DC68D0A}" {
    m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
-   m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+   m_sLoadoutResource "{BAE60D8B790F1DDF}Prefabs/Characters/Cav_Factions/Alpha/Alpha_Pilot.et"
    m_sAffiliatedFaction "Archangel"
   }
   SCR_PlayerArsenalLoadout "{664AFC675DC68D08}" {
    m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
-   m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+   m_sLoadoutResource "{29C9C7591C683955}Prefabs/Characters/Cav_Factions/Bravo/Bravo_Rifleman.et"
    m_sAffiliatedFaction "Helios"
   }
   SCR_PlayerArsenalLoadout "{664AFC675DC68D15}" {
    m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
-   m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+   m_sLoadoutResource "{29C9C7591C683955}Prefabs/Characters/Cav_Factions/Bravo/Bravo_Rifleman.et"
    m_sAffiliatedFaction "Viking"
   }
   SCR_PlayerArsenalLoadout "{664AFC675DC68D12}" {
    m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
-   m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+   m_sLoadoutResource "{29C9C7591C683955}Prefabs/Characters/Cav_Factions/Bravo/Bravo_Rifleman.et"
    m_sAffiliatedFaction "Pioneer"
   }
   SCR_PlayerArsenalLoadout "{664AFC675DC68D10}" {
    m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
-   m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+   m_sLoadoutResource "{2E6A7178AF4D045F}Prefabs/Characters/Cav_Factions/Charlie/Charlie_Rifleman.et"
    m_sAffiliatedFaction "Bandit"
   }
   SCR_PlayerArsenalLoadout "{6921415A8AFB9A45}" {
    m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
-   m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+   m_sLoadoutResource "{2E6A7178AF4D045F}Prefabs/Characters/Cav_Factions/Charlie/Charlie_Rifleman.et"
    m_sAffiliatedFaction "Gunslinger"
   }
   SCR_PlayerArsenalLoadout "{6921415AEF1249A7}" {
    m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
-   m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+   m_sLoadoutResource "{2E6A7178AF4D045F}Prefabs/Characters/Cav_Factions/Charlie/Charlie_Rifleman.et"
    m_sAffiliatedFaction "Command"
   }
   SCR_PlayerArsenalLoadout "{6921415ADABCC40D}" {
