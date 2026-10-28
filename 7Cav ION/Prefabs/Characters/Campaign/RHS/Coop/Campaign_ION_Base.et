@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{BE7CA93E188A5B58}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Base.et" {
+ ID "520EC961A090BBD5"
+ components {
+  FactionAffiliationComponent "{520EC961FB0A2E90}" {
+   "faction affiliation" "RHS_ION"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_ION"
+   }
+  }
+ }
+}
