@@ -4,252 +4,288 @@
       "description": "7Cav Game Master sandbox servers (7Cav Maps scenarios)",
       "core": [
         {
-          "modId": "59673B6FBB95459F",
-          "name": "BetterTracers 2.0"
+          "name": "ACE Captives Dev",
+          "modId": "65AD7C249E4ECDFB"
         },
         {
-          "modId": "59651354B2904BA6",
-          "name": "BetterHitsEffects 3.3"
+          "name": "ACE Core Dev",
+          "modId": "65AD7D0D9941A380"
         },
         {
-          "modId": "5F268647F8A1A1F4",
-          "name": "CRX Enfusion A.I."
+          "name": "NGSW",
+          "modId": "62021EB6163A2698"
         },
         {
-          "modId": "6A16AC294F079592",
-          "name": "DCO_Extensions"
+          "name": "M157",
+          "modId": "6A1F5DAE1CDCECE2"
         },
         {
-          "modId": "5B0D1E4380971EBD",
-          "name": "COALITION Squad Interface"
+          "name": "Attachment Framework Core",
+          "modId": "687CD82F6E41D627"
         },
         {
-          "modId": "6647107B7ED20990",
-          "name": "506IRRU - Custom Name Tags"
+          "name": "Attachment Framework",
+          "modId": "645F08FA9E7CDEDE"
         },
         {
-          "modId": "672B0395726428B6",
-          "name": "506th IRRU - Enhanced Radio"
+          "name": "AT-4",
+          "modId": "64E37695015F8AFA"
         },
         {
-          "modId": "5AAAC70D754245DD",
-          "name": "Server Admin Tools"
+          "name": "M4 MAAWS",
+          "modId": "61C2509A023211FE"
         },
         {
-          "modId": "656AC01634459D8D",
-          "name": "Map Drawing"
+          "name": "Laser Rangefinder",
+          "modId": "620E426C34BE0D17"
         },
         {
-          "modId": "612F512CD4CB21D5",
-          "name": "WCS_Earplugs"
+          "name": "H-47 Chinook",
+          "modId": "61957C5C6FB7A773"
         },
         {
-          "modId": "60612C225328522E",
-          "name": "No Weapon Drop Unconscious"
+          "name": "AUS Core",
+          "modId": "6276E6E3CC97A22B"
         },
         {
-          "modId": "666947D8218E3B3F",
-          "name": "GM Trenches"
+          "name": "WCS_Armaments",
+          "modId": "629B2BA37EFFD577"
         },
         {
-          "modId": "646B350F36C6D3E4",
-          "name": "Breachable Doors"
+          "name": "MFD Framework",
+          "modId": "64EE818E08AFCF94"
         },
         {
-          "modId": "5F2944B7474F043F",
-          "name": "Disable Game Master Budgets"
+          "name": "AHC Fuel Systems",
+          "modId": "66DF6C37335B0554"
         },
         {
-          "modId": "648297C0F03CE43A",
-          "name": "ModularVoiceRange"
+          "name": "M240H",
+          "modId": "6A1A34CAC30229CF"
         },
         {
-          "modId": "5994AD5A9F33BE57",
-          "name": "Game Master FX"
+          "name": "Sikorsky H60 Project",
+          "modId": "60ED3CC6E7E40221"
         },
         {
-          "modId": "5964E0B3BB7410CE",
-          "name": "Game Master Enhanced"
+          "name": "WCS_AH-6M",
+          "modId": "6273146ADFE8241D"
         },
         {
-          "modId": "62F364B35E9B51B0",
-          "name": "Wirecutters 2"
+          "name": "AKI_Core",
+          "modId": "62CCD69DD17E4F2F"
         },
         {
-          "modId": "65620718493785CB",
-          "name": "Gentex HGU by Tonnie"
+          "name": "WCS_JLTV",
+          "modId": "5C721177A220B42F"
         },
         {
-          "modId": "61C2509A023211FE",
-          "name": "M4 MAAWS"
+          "name": "WCS_SpaceCore",
+          "modId": "5E389BB9F58B79A6"
         },
         {
-          "modId": "620E426C34BE0D17",
-          "name": "Laser Rangefinder"
+          "name": "HMMWV Variants",
+          "modId": "69F415A5B15EC350"
         },
         {
-          "modId": "65AD7D1E9EEAFA53",
-          "name": "ACE Explosives Dev"
+          "name": "TraceVehCore",
+          "modId": "632F64CB7D65D1FC"
         },
         {
-          "modId": "65AD7BCC9F6B3B4E",
-          "name": "ACE Chopping Dev"
+          "name": "Middle East Insurgents",
+          "modId": "64CEC8E005828E5D"
         },
         {
-          "modId": "65AD7C379CBD394D",
-          "name": "ACE Carrying Dev"
+          "name": "Server Admin Tools",
+          "modId": "5AAAC70D754245DD"
         },
         {
-          "modId": "65AD7C139EB4C1A1",
-          "name": "ACE Backblast Dev"
+          "name": "Game Master Enhanced",
+          "modId": "5964E0B3BB7410CE"
         },
         {
-          "modId": "65AD7D4F994EA327",
-          "name": "ACE Medical Circulation Dev"
+          "name": "Game Master FX",
+          "modId": "5994AD5A9F33BE57"
         },
         {
-          "modId": "6586079789278413",
-          "name": "ACE Medical Core Dev"
+          "name": "Disable Game Master Budgets",
+          "modId": "5F2944B7474F043F"
         },
         {
-          "modId": "65AD7C249E4ECDFB",
-          "name": "ACE Captives Dev"
+          "name": "ACE Medical Circulation Dev",
+          "modId": "65AD7D4F994EA327"
         },
         {
-          "modId": "65AD7D0D9941A380",
-          "name": "ACE Core Dev"
+          "name": "ACE Medical Core Dev",
+          "modId": "6586079789278413"
         },
         {
-          "modId": "65AD7CE59E8DB349",
-          "name": "ACE Trenches Dev"
+          "name": "Wirecutters 2",
+          "modId": "62F364B35E9B51B0"
         },
         {
-          "modId": "65B343F799FB521B",
-          "name": "ACE Medical Hitzones Dev"
+          "name": "506IRRU - Custom Name Tags",
+          "modId": "6647107B7ED20990"
         },
         {
-          "modId": "64E37695015F8AFA",
-          "name": "AT-4"
+          "name": "COALITION Squad Interface",
+          "modId": "5B0D1E4380971EBD"
         },
         {
-          "modId": "6276E6E3CC97A22B",
-          "name": "AUS_CORE"
+          "name": "No Weapon Drop Unconscious",
+          "modId": "60612C225328522E"
         },
         {
-          "modId": "64EE818E08AFCF94",
-          "name": "MFD Framework"
+          "name": "WCS_Earplugs",
+          "modId": "612F512CD4CB21D5"
         },
         {
-          "modId": "632F64CB7D65D1FC",
-          "name": "TraceVehCore"
+          "name": "Map Drawing",
+          "modId": "656AC01634459D8D"
         },
         {
-          "modId": "6303360DA719E832",
-          "name": "WCS_AH-64D"
+          "name": "DCO_Extensions",
+          "modId": "6A16AC294F079592"
         },
         {
-          "modId": "62CCD69DD17E4F2F",
-          "name": "AKI CORE"
+          "name": "CRX Enfusion AI",
+          "modId": "5F268647F8A1A1F4"
         },
         {
-          "modId": "64610AFB74AA9842",
-          "name": "WCS_Core"
+          "name": "M224A1",
+          "modId": "69C6E7E5C3006233"
         },
         {
-          "modId": "629B2BA37EFFD577",
-          "name": "WCS_Armaments"
+          "name": "NGSW Optics Addon",
+          "modId": "61FE76120DC51DC3"
         },
         {
-          "modId": "61BA4EB5C886D396",
-          "name": "WCS_VehicleLock"
+          "name": "Static Line Parachutes",
+          "modId": "6A2F4BAC4D08F9F4"
         },
         {
-          "modId": "69F415A5B15EC350",
-          "name": "Hmmwv Variants"
+          "name": "NV-System",
+          "modId": "64722DADC53CB75E"
         },
         {
-          "modId": "61E42AE6714A3CC2",
-          "name": "WCS_Armbands"
+          "name": "BFS FRIES COMPAT UH60 H47",
+          "modId": "6A3D55267E150DC7"
         },
         {
-          "modId": "5E389BB9F58B79A6",
-          "name": "WCS_SpaceCore"
+          "name": "BFS - FRIES Reforged",
+          "modId": "690F67E53E6EDB09"
         },
         {
-          "modId": "615A80027C5C9170",
-          "name": "WCS_Vehicles"
+          "name": "Physics Rope",
+          "modId": "69156B5B321244C9"
         },
         {
-          "modId": "61957C5C6FB7A773",
-          "name": "H-47 Chinook"
+          "name": "NGSW - GRS Vests",
+          "modId": "66DE13C126AC707A"
         },
         {
-          "modId": "6326F0C7E748AB8A",
-          "name": "WCS_AH-64D_Upgrade"
+          "name": "GRS - Modular Vests & Rigs",
+          "modId": "651834C8D77BF86B"
         },
         {
-          "modId": "6273146ADFE8241D",
-          "name": "WCS_AH6M"
+          "name": "GRS - Patches",
+          "modId": "657B064AE0E231DF"
         },
         {
-          "modId": "60ED3CC6E7E40221",
-          "name": "Sikorsky MH60 DAP Project"
+          "name": "GRS - Essentials",
+          "modId": "6515672F96701110"
         },
         {
-          "modId": "6146FAED5AAD7C55",
-          "name": "WCS_Helicopters"
+          "name": "GRS - Dev Framework",
+          "modId": "65DACC64CE785B6C"
         },
         {
-          "modId": "5E524E4FEECCA92B",
-          "name": "WCS_BMP-1"
+          "name": "GRS - Apparel",
+          "modId": "65157D09F042428A"
         },
         {
-          "modId": "5B383D4CB27E0D54",
-          "name": "WCS_BMP-3"
+          "name": "GRS - Patches",
+          "modId": "657B064AE0E231DF"
         },
         {
-          "modId": "62021EB6163A2698",
-          "name": "NGSW"
+          "name": "GRS - Belts & Bags & Droplegs",
+          "modId": "65183608D6DA5728"
         },
         {
-          "modId": "61FE76120DC51DC3",
-          "name": "NGSW Optics Addon"
+          "name": "GRS - Helmets",
+          "modId": "6AD404D05B345688"
         },
         {
-          "modId": "687CD82F6E41D627",
-          "name": "Attachment Framework-Core"
+          "name": "GRS NVGs",
+          "modId": "6A2A460F6FE4B59A"
         },
         {
-          "modId": "645F08FA9E7CDEDE",
-          "name": "Attachment Framework"
+          "name": "GRS NVGs - NV Systems Compat",
+          "modId": "6A3510077625B741"
         },
         {
-          "modId": "69C6E7E5C3006233",
-          "name": "M224A1 - Handheld 60mm Mortar"
+          "name": "Pronto OPFOR",
+          "modId": "689C062A3E97FF91"
         },
         {
-          "modId": "606B100247F5C709",
-          "name": "Bacon Loadout Editor"
+          "name": "Pronto Hub",
+          "modId": "631A9C6C92283C44"
         },
         {
-          "modId": "64CEC8E005828E5D",
-          "name": "Middle East Insurgents"
+          "name": "506IRRU - Enhanced Radio",
+          "modId": "672B0395726428B6"
         },
         {
-          "modId": "69156B5B321244C9",
-          "name": "Physics Rope"
+          "name": "GM Trenches",
+          "modId": "666947D8218E3B3F"
         },
         {
-          "modId": "690F67E53E6EDB09",
-          "name": "F.R.I.E.S Reforged"
+          "name": "Breachable Doors",
+          "modId": "646B350F36C6D3E4"
         },
         {
-          "modId": "6A3D55267E150DC7",
-          "name": "BFS F.R.I.E.S Compat -UH60 H47"
+          "name": "ModularVoiceRange",
+          "modId": "648297C0F03CE43A"
         },
         {
-          "modId": "6A2F4BAC4D08F9F4",
-          "name": "Static Line Parachutes"
+          "name": "ACE Explosives Dev",
+          "modId": "65AD7D1E9EEAFA53"
+        },
+        {
+          "name": "ACE Chopping Dev",
+          "modId": "65AD7BCC9F6B3B4E"
+        },
+        {
+          "name": "ACE Carrying Dev",
+          "modId": "65AD7C379CBD394D"
+        },
+        {
+          "name": "ACE Backblast Dev",
+          "modId": "65AD7C139EB4C1A1"
+        },
+        {
+          "name": "ACE Trenches Dev",
+          "modId": "65AD7CE59E8DB349"
+        },
+        {
+          "name": "ACE Medical Hitzones Dev",
+          "modId": "65B343F799FB521B"
+        },
+        {
+          "name": "WCS_BMP-1",
+          "modId": "5E524E4FEECCA92B"
+        },
+        {
+          "name": "WCS_BMP-3",
+          "modId": "5B383D4CB27E0D54"
+        },
+        {
+          "name": "WCS_Helicopters",
+          "modId": "6146FAED5AAD7C55"
+        },
+        {
+          "name": "Bacon Loadout Editor",
+          "modId": "606B100247F5C709"
         },
         {
           "modId": "6620DEADBEDA583D",
@@ -275,152 +311,304 @@
       "description": "7Cav TACR public COE2 servers (7Cav PubMaps scenarios); the live TACR server config of 25 October 2026 plus Enhanced Radio",
       "core": [
         {
-          "modId": "6647107B7ED20990",
-          "name": "506IRRU - Custom Name Tags"
+          "name": "CPO Frontline PVE",
+          "modId": "61F3A9C24D7B80E5"
         },
         {
-          "modId": "672B0395726428B6",
-          "name": "506th IRRU - Enhanced Radio"
+          "name": "COE2 Persistent Ops PVE",
+          "modId": "6A0A9031594BEFB0"
         },
         {
-          "modId": "62CCD69DD17E4F2F",
-          "name": "AKI_Core"
+          "name": "COE2",
+          "modId": "60926835F4A7B0CA"
         },
         {
-          "modId": "5B0D1E4380971EBD",
-          "name": "COALITION Squad Interface"
+          "name": "Kex Scenario Core",
+          "modId": "5ED61DC0AFE17E8E"
         },
         {
-          "modId": "60612C225328522E",
-          "name": "No Weapon Drop Unconscious"
+          "name": "ACE Captives Dev",
+          "modId": "65AD7C249E4ECDFB"
         },
         {
-          "modId": "5AAAC70D754245DD",
-          "name": "Server Admin Tools"
+          "name": "ACE Core Dev",
+          "modId": "65AD7D0D9941A380"
         },
         {
-          "modId": "6273146ADFE8241D",
-          "name": "WCS_AH-6M"
+          "name": "NGSW",
+          "modId": "62021EB6163A2698"
         },
         {
-          "modId": "629B2BA37EFFD577",
-          "name": "WCS_Armaments"
+          "name": "M157",
+          "modId": "6A1F5DAE1CDCECE2"
         },
         {
-          "modId": "61E42AE6714A3CC2",
-          "name": "WCS_Armbands"
+          "name": "Attachment Framework Core",
+          "modId": "687CD82F6E41D627"
         },
         {
-          "modId": "64610AFB74AA9842",
-          "name": "WCS_Core"
+          "name": "Attachment Framework",
+          "modId": "645F08FA9E7CDEDE"
         },
         {
-          "modId": "612F512CD4CB21D5",
-          "name": "WCS_Earplugs"
+          "name": "AT-4",
+          "modId": "64E37695015F8AFA"
         },
         {
-          "modId": "6146FAED5AAD7C55",
-          "name": "WCS_Helicopters"
+          "name": "M4 MAAWS",
+          "modId": "61C2509A023211FE"
         },
         {
-          "modId": "614D1A3874A23AD9",
-          "name": "WCS_Interface"
+          "name": "Laser Rangefinder",
+          "modId": "620E426C34BE0D17"
         },
         {
-          "modId": "606B100247F5C709",
-          "name": "Bacon Loadout Editor"
+          "name": "H-47 Chinook",
+          "modId": "61957C5C6FB7A773"
         },
         {
-          "modId": "61BA4EB5C886D396",
-          "name": "WCS_VehicleLock"
+          "name": "AUS Core",
+          "modId": "6276E6E3CC97A22B"
         },
         {
-          "modId": "615A80027C5C9170",
-          "name": "WCS_Vehicles"
+          "name": "WCS_Armaments",
+          "modId": "629B2BA37EFFD577"
         },
         {
-          "modId": "5E389BB9F58B79A6",
-          "name": "WCS_SpaceCore"
+          "name": "MFD Framework",
+          "modId": "64EE818E08AFCF94"
         },
         {
-          "modId": "5C721177A220B42F",
-          "name": "WCS_JLTV"
+          "name": "AHC Fuel Systems",
+          "modId": "66DF6C37335B0554"
         },
         {
-          "modId": "62F364B35E9B51B0",
-          "name": "Wirecutters 2"
+          "name": "M240H",
+          "modId": "6A1A34CAC30229CF"
         },
         {
-          "modId": "5F268647F8A1A1F4",
-          "name": "CRX Enfusion A.I."
+          "name": "Sikorsky H60 Project",
+          "modId": "60ED3CC6E7E40221"
         },
         {
-          "modId": "6A16AC294F079592",
-          "name": "DCO_Extensions"
+          "name": "WCS_AH-6M",
+          "modId": "6273146ADFE8241D"
         },
         {
-          "modId": "5F2944B7474F043F",
-          "name": "Disable Game Master Budgets"
+          "name": "AKI_Core",
+          "modId": "62CCD69DD17E4F2F"
         },
         {
-          "modId": "5964E0B3BB7410CE",
-          "name": "Game Master Enhanced"
+          "name": "WCS_JLTV",
+          "modId": "5C721177A220B42F"
         },
         {
-          "modId": "5994AD5A9F33BE57",
-          "name": "Game Master FX"
+          "name": "WCS_SpaceCore",
+          "modId": "5E389BB9F58B79A6"
         },
         {
-          "modId": "65AD7D0D9941A380",
-          "name": "ACE Core Dev"
+          "name": "HMMWV Variants",
+          "modId": "69F415A5B15EC350"
         },
         {
-          "modId": "65AD7C249E4ECDFB",
-          "name": "ACE Captives Dev"
+          "name": "TraceVehCore",
+          "modId": "632F64CB7D65D1FC"
         },
         {
-          "modId": "65AD7C379CBD394D",
-          "name": "ACE Carrying Dev"
+          "name": "Middle East Insurgents",
+          "modId": "64CEC8E005828E5D"
         },
         {
-          "modId": "6586079789278413",
-          "name": "ACE Medical Core Dev"
+          "name": "Server Admin Tools",
+          "modId": "5AAAC70D754245DD"
         },
         {
-          "modId": "65AD7D4F994EA327",
-          "name": "ACE Medical Circulation Dev"
+          "name": "Game Master Enhanced",
+          "modId": "5964E0B3BB7410CE"
         },
         {
-          "modId": "65AD7CE59E8DB349",
-          "name": "ACE Trenches Dev"
+          "name": "Game Master FX",
+          "modId": "5994AD5A9F33BE57"
         },
         {
-          "modId": "64E37695015F8AFA",
-          "name": "AT-4"
+          "name": "Disable Game Master Budgets",
+          "modId": "5F2944B7474F043F"
         },
         {
-          "modId": "69C6E7E5C3006233",
-          "name": "M224A1 - Handheld 60mm Mortar"
+          "name": "ACE Medical Circulation Dev",
+          "modId": "65AD7D4F994EA327"
         },
         {
-          "modId": "5ED61DC0AFE17E8E",
-          "name": "Kex Scenario Core"
+          "name": "ACE Medical Core Dev",
+          "modId": "6586079789278413"
         },
         {
-          "modId": "60926835F4A7B0CA",
-          "name": "COE2"
+          "name": "Wirecutters 2",
+          "modId": "62F364B35E9B51B0"
         },
         {
-          "modId": "6A0A9031594BEFB0",
-          "name": "COE2 Persistent Ops PvE"
+          "name": "506IRRU - Custom Name Tags",
+          "modId": "6647107B7ED20990"
         },
         {
-          "modId": "61F3A9C24D7B80E5",
-          "name": "CPO Frontline PvE"
+          "name": "COALITION Squad Interface",
+          "modId": "5B0D1E4380971EBD"
         },
         {
-          "modId": "6A2F4BAC4D08F9F4",
-          "name": "Static Line Parachutes"
+          "name": "No Weapon Drop Unconscious",
+          "modId": "60612C225328522E"
+        },
+        {
+          "name": "WCS_Earplugs",
+          "modId": "612F512CD4CB21D5"
+        },
+        {
+          "name": "Map Drawing",
+          "modId": "656AC01634459D8D"
+        },
+        {
+          "name": "DCO_Extensions",
+          "modId": "6A16AC294F079592"
+        },
+        {
+          "name": "CRX Enfusion AI",
+          "modId": "5F268647F8A1A1F4"
+        },
+        {
+          "name": "M224A1",
+          "modId": "69C6E7E5C3006233"
+        },
+        {
+          "name": "NGSW Optics Addon",
+          "modId": "61FE76120DC51DC3"
+        },
+        {
+          "name": "Static Line Parachutes",
+          "modId": "6A2F4BAC4D08F9F4"
+        },
+        {
+          "name": "NV-System",
+          "modId": "64722DADC53CB75E"
+        },
+        {
+          "name": "BFS FRIES COMPAT UH60 H47",
+          "modId": "6A3D55267E150DC7"
+        },
+        {
+          "name": "BFS - FRIES Reforged",
+          "modId": "690F67E53E6EDB09"
+        },
+        {
+          "name": "Physics Rope",
+          "modId": "69156B5B321244C9"
+        },
+        {
+          "name": "NGSW - GRS Vests",
+          "modId": "66DE13C126AC707A"
+        },
+        {
+          "name": "GRS - Modular Vests & Rigs",
+          "modId": "651834C8D77BF86B"
+        },
+        {
+          "name": "GRS - Patches",
+          "modId": "657B064AE0E231DF"
+        },
+        {
+          "name": "GRS - Essentials",
+          "modId": "6515672F96701110"
+        },
+        {
+          "name": "GRS - Dev Framework",
+          "modId": "65DACC64CE785B6C"
+        },
+        {
+          "name": "GRS - Apparel",
+          "modId": "65157D09F042428A"
+        },
+        {
+          "name": "GRS - Patches",
+          "modId": "657B064AE0E231DF"
+        },
+        {
+          "name": "GRS - Belts & Bags & Droplegs",
+          "modId": "65183608D6DA5728"
+        },
+        {
+          "name": "GRS - Helmets",
+          "modId": "6AD404D05B345688"
+        },
+        {
+          "name": "GRS NVGs",
+          "modId": "6A2A460F6FE4B59A"
+        },
+        {
+          "name": "GRS NVGs - NV Systems Compat",
+          "modId": "6A3510077625B741"
+        },
+        {
+          "name": "Pronto OPFOR",
+          "modId": "689C062A3E97FF91"
+        },
+        {
+          "name": "Pronto Hub",
+          "modId": "631A9C6C92283C44"
+        },
+        {
+          "name": "506IRRU - Enhanced Radio",
+          "modId": "672B0395726428B6"
+        },
+        {
+          "name": "GM Trenches",
+          "modId": "666947D8218E3B3F"
+        },
+        {
+          "name": "Breachable Doors",
+          "modId": "646B350F36C6D3E4"
+        },
+        {
+          "name": "ModularVoiceRange",
+          "modId": "648297C0F03CE43A"
+        },
+        {
+          "name": "ACE Explosives Dev",
+          "modId": "65AD7D1E9EEAFA53"
+        },
+        {
+          "name": "ACE Chopping Dev",
+          "modId": "65AD7BCC9F6B3B4E"
+        },
+        {
+          "name": "ACE Carrying Dev",
+          "modId": "65AD7C379CBD394D"
+        },
+        {
+          "name": "ACE Backblast Dev",
+          "modId": "65AD7C139EB4C1A1"
+        },
+        {
+          "name": "ACE Trenches Dev",
+          "modId": "65AD7CE59E8DB349"
+        },
+        {
+          "name": "ACE Medical Hitzones Dev",
+          "modId": "65B343F799FB521B"
+        },
+        {
+          "name": "WCS_BMP-1",
+          "modId": "5E524E4FEECCA92B"
+        },
+        {
+          "name": "WCS_BMP-3",
+          "modId": "5B383D4CB27E0D54"
+        },
+        {
+          "name": "WCS_Helicopters",
+          "modId": "6146FAED5AAD7C55"
+        },
+        {
+          "name": "Bacon Loadout Editor",
+          "modId": "606B100247F5C709"
         }
       ],
       "last": [
